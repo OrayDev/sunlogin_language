@@ -1,0 +1,3146 @@
+<orayui version="1.0">
+  <!-- 语言 -->
+  <language>
+    <!-- 简体中文 -->
+    <language name="zh_CN" id="2052" value="chs" >
+      <item id="tips" value="提醒" />
+      <item id="title" value="向日葵远程控制" />
+      <item id="application_name" value="向日葵远程控制" />
+      <item id="green_title" value="向日葵远程控制-绿色版" />
+      <item id="set_sunlogin" value="设置" />
+      <item id="close" value="关闭" />
+      <item id="minimize" value="最小化" />
+      <item id="menu" value="菜单" />
+      <item id="remote_assistance" value="远程协助" />
+      <item id="device_list" value="设备列表" />
+      <item id="found_fun" value="发现好玩" />
+      <item id="mobile_screen" value="手机投屏" />
+      <item id="no_login" value="未登录" />
+      <item id="login" value="登录" />
+      <item id="register" value="注册" />
+      <item id="free" value="免费版" />
+      <item id="game" value="游戏版" />
+      <item id="elite" value="精英版" />
+      <item id="premium" value="旗舰版" />
+      <item id="industry" value="行业版" />
+      <item id="introduction" value="入门版" />
+      <item id="host_count" value="主机数：" />
+      <item id="upgrade_renew" value="升级/续费" />
+      <item id="fastcode_desc" value="输入伙伴的识别码，控制伙伴" />
+      <item id="fastcode_connect" value="远程协助" />
+      <item id="fastcode_edit_desc" value="识别码" />
+      <item id="vcode_edit_desc" value="验证码（可不填）" />
+      <item id="fastcode_connect_desc" value="允许控制本机，发送识别码给伙伴" />
+      <item id="local_fastcode" value="本机识别码: " />
+      <item id="local_identifying_code_visit" value="本机验证码: " />
+      <item id="refresh_identify_code" value="刷新验证码" />
+      <item id="identify_edit_tip" value="自定义验证码" />
+      <item id="identify_hide" value="隐藏验证码" />
+      <item id="identify_show" value="显示验证码" />
+      <item id="dlg_edit_vcode_entry_four_nums" value="4-8位字符" />
+      <item id="maindlg_link_service_succeed" value="连接服务器成功" />
+      <item id="maindlg_link_service_ongoing" value="正在连接服务器" />
+      <item id="maindlg_loginfailed_msg" value="登录失败:%d秒后重登" />
+      <item id="maindlg_loginfailed" value="登录失败" />
+      <item id="maindlg_service_error" value="与服务断开，等待重连" />
+      <item id="maindlg_closing" value="正在退出..." />
+      <item id="maindlg_connected" value="正在被远控中" />
+      <item id="maindlg_send_chat" value="发起聊天" />
+      <item id="maindlg_control_name" value="来自 %s (%s)" />
+      <item id="remote_control" value="远程桌面" />
+      <item id="remote_file" value="远程文件" />
+      <item id="remote_camera" value="远程摄像头" />
+      <item id="remote_cmd" value="CMD" />
+      <item id="remote_ssh" value="SSH" />
+      <item id="maindlg_control_time" value="已被远控%d分钟" />
+      <item id="maindlg_new_version" value="新版本" />
+      <item id="maindlg_expires_text">
+        <![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><y h="2"/><f f="yahei.12" c="color.main.old">&#160;服务将于%s到期，请及时&#160;</f><y h="-1"/><f id="54321" f="yahei.underline.12" e="true" cursor="hand" c="color6">续费</f>]]>
+      </item>
+      <item id="maindlg_expires_text_normal" value=" 服务将于%s到期，请及时 续费" />
+      <item id="no_remote_input" value="禁止远程输入" />
+      <item id="allow_remote_input" value="允许远程输入" />
+      <item id="being_controlled" value="正在被远控中" />
+      <item id="multifuction_blcakscreen_virual" value="虚拟机不支持" />
+      <item id="multifuction_blcakscreen_virual_text" value="虚拟机中不支持黑屏驱动" />
+      <item id="cannot_enable" value="此设备暂不支持远程开机" />
+
+      <!-- 菜单 -->
+      <item id="open_main" value="打开主界面" />
+      <item id="micro_live" value="桌面演示" />
+      <item id="view_log" value="日志" />
+      <item id="help" value="帮助" />
+      <item id="question" value="社区交流" />
+      <item id="online_upgrade" value="在线升级" />
+      <item id="about_sunlogin" value="关于" />
+      <item id="lock_sunlogin" value="锁定" />
+      <item id="reminder" value="消息通知" />
+      <item id="user_feedback" value="用户反馈" />
+      <item id="check_new_version" value="检查新版本" />
+      <item id="sunlongin_main_site" value="官网" />
+      <item id="wechat_service" value="微信客服" />
+      <item id="advice_feebback" value="意见反馈" />
+      <item id="invite_newer" value="邀请小伙伴使用" />
+      <item id="message_notice" value="消息通知" />
+      <item id="contact_us" value="联系我们" />
+      <item id="binded_account" value="已绑定 %s " />
+      <item id="change_bind" value="切换帐号" />
+      <item id="setting_control.change" value="切换绑定" />
+      <item id="bind" value="绑定" />
+      <item id="quick_code" value="注销登录" />
+      <item id="logout" value="注销登录" />
+      <item id="lock" value="锁定" />
+      <item id="login" value="绑定" />
+      <item id="quit" value="退出"/>
+      <item id="online" value="上线" />
+      <item id="offline" value="离线" />
+      <item id="unlock_sunlogin" value="解锁向日葵" />
+      <item id="copy" value="复制" />
+      <item id="ping" value="Ping" />
+      <item id="chat" value="聊天" />
+      <item id="chat_tip" value="需要对方支持聊天" />
+      <item id="paste" value="粘贴" />
+      <item id="select_all" value="全选" />
+      <item id="run_as_service" value="向日葵正在以服务方式运行" />
+      <item id="logout_menu" value="注销" />
+      <item id="maindlg_green_tip1" value="安装正式版，可使用手机投屏" />
+      <item id="maindlg_green_tip2" value="安装正式版，还能控制安卓手机" />
+      <item id="maindlg_green_tip3" value="安装正式版，发现向日葵更多玩法" />
+
+      <!-- login界面 -->
+      <item id="login_account" value="帐号登录" />
+      <item id="register_account" value="帐号注册" />
+      <item id="phone_number" value="手机号码（作为登录帐号）" />
+      <item id="phone_number_1" value="手机号码" />
+      <item id="register_sn" value="短信验证码" />
+      <item id="get_sn" value="获取验证码" />
+      <item id="jump_sn" value="跳过验证" />
+      <item id="register_pwd" value="密码" />
+      <item id="agree_and_register" value="同意以下协议并注册" />
+      <item id="account_binding" value="登录已有帐号" />
+      <item id="service_agreement" value="《向日葵服务协议》" />
+      <item id="other_register" value="其他注册方式" />
+      <item id="account" value="帐号" />
+      <item id="register_mail" value="邮箱" />
+      <item id="error_account" value="此帐号已被使用" />
+      <item id="error_register_sn" value="验证码错误" />
+      <item id="error_register_mail" value="邮箱格式错误" />
+      <item id="error_register_chat" value="短信发送失败" />
+      <item id="error_phone_number" value="手机号不正确" />
+      <item id="error_chat_limit" value="验证码发送超过限制" />
+      <item id="error_chat_quick" value="短信发送频率过快" />
+      <item id="error_register_pwd_null" value="密码不能为空" />
+      <item id="error_register_pwd_width" value="密码长度不合法(6-16)" />
+      <item id="error_sn_null" value="验证码不能为空" />
+      <item id="error_phone_null" value="手机号码不能为空" />
+      <item id="error_phone" value="手机号码格式错误" />
+      <item id="error_mail_null" value="邮箱不能为空" />
+      <item id="error_mail" value="邮箱格式不正确" />
+      <item id="error_check_account" value="帐号5-16位，字母与数字或-的组合" />
+      <item id="error_account_null" value="帐号不能为空" />
+      <item id="second_retry" value="秒后重试" />
+      <item id="login_register_warn_phone_1004" value="缺少参数" />
+      <item id="login_register_warn_phone_1005" value="无效的验证串" />
+      <item id="login_register_warn_phone_1003" value="帐号已被使用" />
+      <item id="login_register_phone_registed" value="此手机已被注册" />
+      <item id="login_register_phone_not_exist" value="此手机号不存在" />
+      <item id="login_register_warn_phone_1006" value="非法的帐号格式" />
+      <item id="login_register_warn_phone_1007" value="帐号长度不合法(5-16)" />
+      <item id="login_register_warn_phone_1008" value="帐号5-16位，字母与数字或-的组合" />
+      <item id="login_register_warn_phone_1009" value="密码长度不合法(6-16)" />
+      <item id="login_register_warn_phone_1010" value="密码与帐号不能一样" />
+      <item id="login_register_warn_phone_1011" value="email地址不合法" />
+      <item id="login_register_warn_phone_1012" value="无效的短信验证码" />
+      <item id="login_register_warn_phone_1013" value="手机号格式不对" />
+      <item id="login_register_warn_phone_1014" value="验证码不正确" />
+      <item id="login_register_warn_phone_1214" value="注册失败" />
+      <item id="login_register_warn_phone_6000" value="图片验证码无效" />
+      <item id="login_register_warn_phone_6001" value="短信发送超过限制" />
+      <item id="login_register_warn_phone_6002" value="短信发送频率过快" />
+      <item id="login_register_warn_phone_6003" value="短信发送失败" />
+      <item id="login_register_warn_phone_6004" value="手机号不正确" />
+      <item id="add_host_limit_desc01" value="你当前是免费级，免费级最多可添加100台主机。" />
+      <item id="add_host_limit_desc02"><![CDATA[<f f="yahei.12">请在%s前删除超额主机或</f><f id="50014" f="yahei.underline.12" cursor="hand" c="color6" e="true">(升级服务)</f><f f="yahei.12">按需购买主机数不受限</f>]]></item>
+      <item id="add_host_limit_desc03"><![CDATA[<f f="yahei.14" c="color.red">逾期未处理，系统将自动清空所有主机</f>]]></item>
+      <item id="auto_login" value="自动登录" />
+      <item id="login" value="登录" />
+      <item id="forget_pwd" value="忘记密码" />
+      <item id="register_" value="注册帐号" />
+      <item id="please_enter_account" value="帐号" />
+      <item id="please_enter_pwd" value="密码" />
+      <item id="please_enter_other_account" value="请输入对方帐号" />
+      <item id="account_pwd_empty" value="帐号或密码不能为空，请重新输入" />
+      <item id="bind_now" value="立即绑定" />
+      <item id="bind_after" value="暂不绑定" />
+      <item id="login_success" value="登录成功" />
+      <item id="bind_text1" value="绑定后，本机进入设备列表统一管理（占用主机数）" />
+      <item id="bind_text2" value="暂不绑定，仍可通过识别码远协本机" />
+      <item id="bind_help" value="更多帮助" />
+      <item id="bind_host_one"><![CDATA[<f f="yahei.14" c="color5">消耗1主机（</f><f f="yahei.14" c="color.black" >还剩%s个</f><f f="yahei.14" c="color5">）</f>]]></item>
+      <item id="bind_host_null"><![CDATA[<f f="yahei.14" c="color5">主机数已用完&#160;</f><f id="56789" f="yahei.underline.14" cursor="hand" c="color6" e="true" >升级</f>]]></item>
+      <item id="bind_host_one_free"><![CDATA[<f f="yahei.14" c="color5">消耗1个主机</f>]]></item>
+      <item id="bind_host_binded"><![CDATA[<f f="yahei.14" c="color5">不消耗主机</f>]]></item>
+      <item id="bind_no_control" value="本机不需要被远控" />
+      <item id="bind_show_text"><![CDATA[<f f="yahei.16" c="RGB(41,43,51)">如本机需被远程控制，建议</f><f f="yahei.16" c="color.main.old" >绑定</f><f f="yahei.16" c="color.main" >到帐号下</f>]]></item>
+      <item id="login_register" value="登录 / 注册" />
+      <item id="login_ing" value="登录中..." />
+      
+      <item id="lock_device_title" value="锁定设备列表" />
+      <item id="lock_device_text_1" value="确定锁定设备列表" />
+      <item id="lock_device_text_2" value="锁定后，需输入帐号名密码才能进入" />
+      <item id="lock_device_ok" value="确定锁定" />
+
+      <item id="unlock_device" value="解锁" />
+      <item id="unlock_device_list" value="解锁设备列表" />
+
+      <item id="menu_bind_account" value="绑定帐号" />
+      <item id="menu_unbind_account" value="解绑帐号" />
+      <item id="menu_open_autorun" value="开启开机启动" />
+      <item id="menu_close_autorun" value="关闭开机启动" />
+      <item id="menu_device_detail" value="设备详情" />
+      <item id="menu_share_host" value="主机共享" />
+      <item id="menu_delete_host" value="删除主机" />
+      <item id="menu_manager" value="主机管理" />
+      <item id="menu_ip_set" value="IP设置" />
+      <item id="menu_present_stick" value="转赠开机棒" />
+      <item id="menu_delete_stick" value="删除开机棒" />
+
+      <item id="check_stick_title" value="检测开机设备" />
+      <item id="check_stick_now" value="正在检测开机设备..." />
+      <item id="check_stick_buy" value="购买开机设备" />
+      <item id="check_stick_sure" value="本机已绑开机棒：%s" />
+      <item id="check_stick_text" value="购买开机设备，实现远程开机" />
+      <item id="check_stick_none"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;未检测到开机设备</f>]]></item>
+      
+      <item id="check_uu_title" value="检测UU辅助" />
+      <item id="check_uu_now" value="正在检测UU辅助..." />
+      <item id="check_uu_buy" value="购买UU" />
+      <item id="check_uu_sure" value="本机已插上UU辅助" />
+      <item id="check_uu_text" value="购买UU，实现电脑安全区域可控" />
+      <item id="check_uu_none"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;未检测到UU辅助</f>]]></item>
+
+      <item id="check_boot_ok" value="确认" />
+      <item id="check_boot_close" value="关闭" />
+
+      <item id="error_password_security" value="密码不满足密码策略的要求。检查最小密码长度、密码复杂性和密码历史的要求。" />
+      
+      <item id="login_warn_1" value="帐号或密码错误" />
+      <item id="login_warn_2" value="服务器连接失败" />
+      <item id="login_warn_4" value="刷新主机列表失败" />
+      <item id="login_warn_5" value="未知错误" />
+      <item id="login_warn_6" value="客户端版本过低" />
+      <item id="login_warn_1028" value="限制用户登录" />
+      <item id="login_warn_1217"><![CDATA[<f f="yahei.14" c="color.red">你的主机数过多限制登录，</f><f id="1217" f="yahei.underline.14" cursor="hand" c="color6" e="true" >推荐使用企业版</f>]]></item>
+
+      <!-- 设备列表 -->
+      <item id="init" value="开" />
+      <item id="startup_device" value="开机设备" />
+      <item id="add_devcie" value="添加设备" />
+      <item id="local_host" value="本机" />
+      <item id="my_host" value="我的主机" />
+      <item id="device_info" value="设备详情"/>
+      <item id="cur_device" value="当前设备"/>     
+      <item id="power_off" value="关机" />
+      <item id="reboot" value="重启" />
+      <item id="expand_fucntion" value="拓展功能" />
+      <item id="remote_log" value="远程日志" />
+      <item id="kui_domain" value="葵域名访问" />
+      <item id="cloud_monitor" value="云监控" />
+      <item id="screen_wall" value="了解屏幕墙" />
+      <item id="device_detail" value="设备详情" />
+      <item id="host_name" value="主机名" />
+      <item id="remark" value="备注" />
+      <item id="fast_code" value="识别码" />
+      <item id="device_info_tip" value="主机绑定帐号，方便一键远控"/>
+      <item id="host_bind_account" value="主机绑定帐号" />
+      <item id="power_on_launch" value="开机自启动" />
+      <item id="match_bar" value="搭配开机棒" />
+      <item id="match_uu" value="搭配UU辅助" />
+      <item id="dev_bind" value="绑定" />
+      <item id="dev_enable" value="开启" />
+      <item id="dev_check" value="检测" />
+      <item id="dev_binded" value="已绑定" />
+      <item id="dev_unbind" value="解绑" />
+      <item id="dev_close" value="关闭" />
+      <item id="dev_enabled" value="已开启" />
+      <item id="dev_checked" value="已连接" />
+      <item id="desktop_ctrl" value="桌面控制" />
+      <item id="desktop_view" value="桌面观看" />
+      <item id="camera" value="摄像头" />
+      <item id="ssh" value="SSH" />
+      <item id="remote_file" value="远程文件" />
+      <item id="remote_manager" value="远程管理" />
+      <item id="add_device_guide" value="添加设备引导"/>
+      <item id="inital_d" value="添"/>
+      <item id="loading" value="正在加载" />
+      <item id="on_loading" value="正在加载..." />
+      <item id="tip" value="Tip:大量主机管理，推荐使用企业版" />
+      <item id="no_remark" value="还没备注" />
+      <item id="add_device1" value="添加设备到帐号下，方便远控管理" />
+      <item id="add_device2" value="1 在被控电脑下载并安装向日葵X" />
+      <item id="add_device3" value="2 安装后主机绑定当前帐号即添加" />
+      <item id="copy_link" value="复制下载链接" />
+      <item id="finish" value="完成" />
+      <item id="device_empty1" value="WiFi开启一台主机" />
+      <item id="learn_more" value="了解详情" />
+      <item id="boot_socket" value="开机插座" />
+      <item id="device_empty2" value="关机后可彻底关闭电源" />
+      <item id="device_empty3" value="可开启局域网内所有主机" />
+      <item id="version" value="版本" />
+      <item id="upgrade_local" value="升级局域网版" />
+      <item id="SN" value="SN码" />
+      <item id="MAC_address" value="MAC地址" />
+      <item id="host_manager" value="主机管理" />
+      <item id="IP_setting" value="IP设置" />
+      <item id="present_boot_bar" value="转赠开机棒" />
+      <item id="present" value="转赠" />
+      <item id="boot_bar" value="开机棒" />
+      <item id="delete_host" value="删除主机" />
+      <item id="share_host" value="共享主机"/>
+      <item id="host_name" value="主机名" />
+      <item id="last_lg_IP" value="最后登陆IP" />
+      <item id="last_lg_time" value="最后登陆时间" />
+      <item id="compute_name" value="计算机名" />
+      <item id="sys_version" value="系统版本" />
+      <item id="CPU" value="处理器" />
+      <item id="mother_board" value="主板" />
+      <item id="memory" value="内存" />
+      <item id="main_disk" value="主硬盘" />
+      <item id="graph_card" value="显卡" />
+      <item id="net_card" value="网卡" />
+      <item id="multifuction_wakeup_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;未检测到开机设备</f><f id="500" e="true" cursor="hand" c="color6">&#160;重新检测</f>]]></item>
+      <item id="multifuction_wakeup_nobind_2"><![CDATA[<f id="501" cursor="hand" c="color6" e="true" >购买向日葵开机棒，</f><f id="yahei.14">实现远程开机</f>]]></item>
+      <item id="uu_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;未检测到UU</f><f id="512" e="true" cursor="hand" c="color6">&#160;重新检测</f>]]></item>
+      <item id="uu_nobind_2"><![CDATA[<f id="513" cursor="hand" c="color6" e="true" >购买向日葵UU</f><f id="yahei.14">,实现电脑安全区域可控</f>]]></item>
+      <item id="change_custom_login_type" value="切换到访问密码登录" />
+      <item id="change_account_login_type" value="切换到系统帐户登录" />
+      <item id="Connect to the server failed!" value="连接服务器失败！" />
+      <item id="ControlID verification failed!" value="ControlID验证失败！" />
+      <item id="Cookie verification failed!" value="Cookie验证失败！" />
+      <item id="Bad request!" value="错误的请求！" />
+      <item id="Host is not online!" value="主机不在线！" />
+      <item id="Unknown remote host!" value="未知的主机！" />
+      <item id="Server Error!" value="服务器错误！" />
+      <item id="Request timed out!" value="请求超时！" />
+      <item id="User name or password is incorrect!" value="用户名或密码不正确！" />
+      <item id="password_error" value="访问密码错误" />
+      <item id="std::exception" value="异常错误" />
+      <item id="Check the status of the remote control failed" value="查询主机状态失败" />
+      <item id="Check the login period failed" value="检查登录周期失败" />
+      <item id="Check the login type failed" value="查询登录方式错误" />
+      <item id="Password can not be empty" value="密码不能为空" />
+      <item id="Create instance failed" value="创建实例失败" />
+      <item id="Login the host failed" value="登录主机失败" />
+      <item id="Remote control module has been closed" value="远程模块已关闭" />
+      <item id="Login failed with the way" value="登录方式错误" />
+      <item id="The remote host did not response" value="远程主机没有回应" />
+      <item id="Check the harass status failed" value="查询防骚扰失败" />
+      <item id="Rejected the connection request" value="对方拒绝连接请求" />
+      <item id="Verify strings can not be empty" value="验证字段不能为空" />
+      <item id="Access denied,you can't access to the host in the following" value="访问拒绝" />
+      <item id="Wrong answer to anti-harassment" value="错误的答案" />
+      <item id="Check the anti-harassment answer failed" value="查询防骚扰答案失败" />
+      <item id="input empty" value="输入不能为空" />
+      <item id="input wrong" value="输入错误" />
+      <item id="vertify failed" value="验证失败" />
+      <item id="pwd wrong" value="密码错误" />
+      <item id="query empty" value="查询为空" />
+      <item id="CONNECT_SOCKET_URLS_HPP connect_socket" value="连接失败" />
+      <item id="auth(2) failed" value="验证失败" />
+      <item id="auth(3) failed" value="验证失败" />
+      <item id="rpc_digest not correct" value="rpc 不正确" />
+      <item id="change fast_code failed" value="切换识别码失败" />
+      <item id="db query not found key" value="数据库查询失败" />
+      <item id="Unknown error!" value="未知错误！" />
+      <item id="restart_desc"><![CDATA[<f id="yahei.14">确定要重启？</f>]]> /></item> 
+      <item id="shutdown_desc"><![CDATA[<f id="yahei.14">确定要关机？</f>]]> /></item>
+      <item id="delete_tip"><![CDATA[<f id="yahei.14">确定删除该主机？</f>]]> /></item>
+      <item id="delete_bar"><![CDATA[<f id="yahei.14">确定删除开机棒？</f>]]> /></item>
+      <item id="ok" value="确定" />
+      <item id="cancel" value="取消" />
+      <item id="fresh" value="刷新" />
+      <item id="cmd" value="CMD" />
+      <item id="host_bind_desc" value="主机绑定帐号" />
+      <item id="sending_boot_command" value="正在发送开机指令..." />
+      <item id="remote_wakeup_cmd_send" value="开机指令已送达" />
+      <item id="please_wait_host_online" value="主机上线约2分钟，请稍后..." />
+      <item id="This host is not bound or wakeup service has expired"><![CDATA[<f>开机服务已到期或授权不可用</f>]]> /></item>
+      <item id="Wake-up data does not exist"><![CDATA[<f>唤醒数据不存在</f>]]> /></item>
+      <item id="Wake up failed"><![CDATA[<f>开机失败</f>]]> /></item>
+      <item id="Wake-up password can not be empty!"><![CDATA[<f>开机密码不能为空!</f>]]> /></item>
+      <item id="Wake-up password wrong!"><![CDATA[<f>开机密码错误!</f>]]> /></item>
+      <item id="buy_wakeup_desc" value="你需要支持开机的设备" />
+      <item id="buy_wakeup" value="购买开机设备" />
+      <item id="please_input_remote_start_pwd" value="请输入开机密码" />
+      <item id="confirm" value="确认" />
+      <item id="lan_ver" value="局域网版" />
+      <item id="person_ver" value="独享版" />
+      <item id="null_fastcode"><![CDATA[<f f=yahei.18 c=color_edit>--- --- --- ---</f>]]> /></item>
+
+      <item id="user_no_empty" value="用户名不能为空" />
+      <item id="password_no_empty" value="密码不能为空" />
+      <item id="mobile_login_authentication" value="手机登录验证" />
+      <item id="enter_host_system_account_name" value="请输入主机系统帐户名" />
+      <item id="change_custom_login_type" value="切换到访问密码登录" />
+      <item id="change_account_login_type" value="切换到系统帐户登录" />
+      <item id="custom_login_desc" value="输入访问密码，验证后即可远控" />
+      <item id="windwos_account_login_desc" value="输入Windows帐户名和密码，验证后即可远控" />
+      <item id="linux_account_login_desc" value="输入Linux帐户名和密码，验证后即可远控" />
+      
+      <!-- 添加设备 -->
+      <item id="add_pc_device" value="添加电脑设备" />
+      <item id="add_pc_text1" value="1 在被控端电脑下载" />
+      <item id="add_pc_text2" value="并安装向日葵" />
+      <item id="add_pc_text3" value="复制链接" />
+      <item id="add_pc_text4" value="2 安装后主机绑定当前帐号" />
+      <item id="add_pc_text5" value="即添加完成" />
+
+      <item id="add_android_device" value="添加安卓设备" />
+      <item id="add_android_text1" value="1 在需被控端安卓上" />
+      <item id="add_android_text2" value="扫码下载安卓客户端" />
+      <item id="add_android_text3" value="2 安装后登录当前帐号" />
+      <item id="add_android_text4" value="即添加完成" />
+      
+      
+      <item id="boot_bar_sn" value="开机棒SN码" />
+      <item id="add_immediately" value="立即添加" />
+      <item id="device_name" value="设备名称" />
+      <item id="add_boot_bar" value="添加开机棒" />
+      <item id="add_boot_bar_text1" value="SN码可在开机棒包装盒上查看" />
+      <item id="add_boot_bar_text2" value="我的开机棒" />
+      <item id="sn_empty"><![CDATA[<f id="yahei.14"> sn码不能为空</f>]]></item>
+      <item id="dev_name_empty"><![CDATA[<f id="yahei.14">设备名称不能为空</f>]]></item>
+      <item id="add_stick_success"><![CDATA[<f id="yahei.14"> 添加开机棒成功</f>]]></item>
+      <item id="add_stick_failed" value= "添加开机棒失败" />
+      <item id="add_stick_not_exsit" value="SN码不存在" />
+      <item id="add_stick_binded" value="开机棒已被绑定" />
+      <item id="new_guide1"><![CDATA[<f f="yahei.14">在此界面通过主机</f><f f="yahei.14" c="color.organe">识别码，</f><f f="yahei.14">可完成</f>]]></item>
+      <item id="new_guide2" value="临时远控其他电脑" />
+      <item id="new_guide3" value="或被其他电脑远控" />
+      <item id="new_guide4"><![CDATA[<f f="yahei.14">登录之后，可以通过</f><f f="yahei.14" c="color.organe">“设备列表”</f><f f="yahei.14">管理你所有主机啦！如你有超过10台主机，建议下载“企业版”使用喔！</f>]]></item>
+      <item id="skip" value="知道了" />
+      <item id="account_not_match"><![CDATA[<f f="yahei.14">输入帐号不一致</f>]]></item>
+      <item id="account_empty"><![CDATA[<f f="yahei.14">帐号不能为空</f>]]></item>
+      <item id="persent_successed"><![CDATA[<f f="yahei.14">转赠开机棒成功</f>]]></item>
+      <item id="persent_failed"><![CDATA[<f f="yahei.14">转赠开机棒失败</f>]]></item>
+
+      <item id="delete_stick_title" value="删除开机棒"/>
+      <item id="delete_stick" value="确定删除开机棒？"/>
+      <item id="delete_stick_failed"><![CDATA[<f f="yahei.14">删除开机棒失败</f>]]></item>
+
+      <item id="give_stick" value="转赠后无法主动回收开机棒，请谨慎确认帐号"/>
+      <item id="input_receiver" value="请输入接受者帐号" />
+      <item id="input_receiver_again" value="请再次确认接受者帐号" />
+      <item id="give_immediately" value="立即转增" />
+
+      <item id="opened_now" value="立即开通" />
+      <item id="no_support_feature"><![CDATA[<f id="yahei.14">该主机不支持此功能</f>]]> /></item>
+      <item id="bug_tip1" value="%s元/年，升级入门版"/>
+      <item id="bug_tip2" value="%s元/年，升级精英版"/>
+      <item id="bug_tip3" value="%s元试用1月（当前主机）"/>
+      <item id="camera_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">开通摄像头 </f><f f="yahei.16" c="color.organe">（入门版专享功能）</f>]]></item>
+      <item id="camera_bug_tip2" value="远程保卫你的家，支持多路查看哦！"/>
+      <item id="file_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">开通远程文件 </f><f f="yahei.16" c="color.organe">（入门版专享功能）</f>]]></item>
+      <item id="file_bug_tip2" value="出门在外文件忘带，远程取，so easy"/>
+      <item id="cmd_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">开通CMD </f><f f="yahei.16" c="color.organe">（精英版专享功能）</f>]]></item>
+      <item id="cmd_bug_tip2" value="一键到达，便捷使用历史命令与常用命令"/>
+      <item id="ssh_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">开通SSH </f><f f="yahei.16" c="color.organe">（精英版专享功能）</f>]]></item>
+      <item id="ssh_bug_tip2" value="一键到达，便捷使用历史命令与常用命令"/>
+      <item id="remote_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">开通远程管理 </f><f f="yahei.16" c="color.organe">（精英版专享功能）</f>]]></item>
+      <item id="remote_bug_tip2" value="远程保卫你的家，支持多路查看哦！"/>
+
+      <!--host登录dlg-->
+      <item id="remote_title" value="向日葵" />
+      <item id="mobile_login_authentication" value="手机登录验证" />
+      <item id="custom_login_desc" value="输入访问密码，验证后即可远控" />
+      <item id="enter_host_system_account_name" value="请输入主机系统帐户名" />
+      <item id="host_remind_tip_on" value="%s %s 上线啦！" />
+      <item id="host_remind_tip_off" value="%s %s 下线啦！" />
+
+      <!-- Notify对话框 -->
+      <item id="sunlogin_session" value="向日葵-远程会话" />
+      <item id="from" value="正在" />
+      <item id="remote_control_computer" value="远程连接此电脑" />
+      <item id="open_video_already" value="已开启屏幕录像" />
+      <item id="nottip" value="不再提醒" />
+      <item id="maindlg_free_level" value="免费级" />
+
+      <!--消息服务提醒-->
+      <item id="pay_level"><![CDATA[ <f f="yahei.16" >你的%s服务将于</f><f f="yahei.16" c="color.red" >%d</f><f f="yahei.16" >天后到期，</f>]]></item>
+      <item id="renew_pay"><![CDATA[<f f="yahei.16" >请及时续费喔！</f>]]></item>
+      <item id="remind1"><![CDATA[ <f f="yahei.16" >小主，我还能远程监控摄像头,你知道嘛？</f>]]></item>
+      <item id="remind2"><![CDATA[ <f f="yahei.16" >摄像头实时监控，</f>]]></item>
+      <item id="remind_text2"><![CDATA[ <f f="yahei.16" >用手机、平板也能看家！</f>]]></item>
+      <item id="remind3"><![CDATA[ <f f="yahei.16" >千里之外监控摄像头，</f>]]></item>
+      <item id="remind_text3"><![CDATA[ <f f="yahei.16" >防盗防贼防小偷，妥妥的！</f>]]></item>
+      <item id="remind4"><![CDATA[ <f f="yahei.16" >旅游出差，随时了解家里情况！</f>]]></item>
+      <item id="remind_text4"><![CDATA[ <f f="yahei.16" >随时查看摄像头。</f>]]></item>
+      <item id="remind5"><![CDATA[ <f f="yahei.16" >远程一键CMD，简单，快捷！</f>]]></item>
+      <item id="remind6"><![CDATA[ <f f="yahei.16" >远程主机系统诊断，进程查看，</f>]]></item>
+      <item id="remind_text6"><![CDATA[ <f f="yahei.16" >尽在向日葵！</f>]]></item>
+      <item id="renew_now" value="立即续费" />
+      <item id="update_now" value="升级并拥有" />
+
+      <!--消息群发-->
+      <item id="group_news_title" value="来自主控端%s的消息" />
+
+      <!-- 关于 -->
+      <item id="about_text" value="向日葵远程控制（%s）" />
+      <item id="about_companyright" value="上海贝锐 版权所有" />
+      <item id="about_copyright" value="Copyright(©) 2009-2019 Oray. All Rights Reserved" />
+
+      <!--用户反馈-->
+      <item id="feedback_guid" value="请输入内容，点击发送" />
+      <item id="feedback_send" value="发送" />
+      <item id="feedback_title" value="给向日葵提建议" />
+      <item id="feedback_mode1" value="1. 遇到的问题:" />
+      <item id="feedback_mode2" value="2. 我的系统详细资料(设备操作系统等):" />
+      <item id="feedback_mode3" value="3. 我的联系方式:" />
+      <item id="feedback_hint" value="提示" />
+      <item id="feedback_text_too_less"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;再详细点，让我们更了解您遇到的问题</f> ]]></item>
+      <item id="feedback_on_sending" value="正在发送..." />
+      <item id="feedback_succeed_msg"><![CDATA[<i name="skin/success.png" width="14" height="14" ></i><f id="yahei.14">&#160;反馈成功，谢谢您的反馈，么么哒！</f>]]></item>
+      <item id="feedback_failed_msg"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;反馈不成功，再发一次哟～</f>]]></item>
+      <item id="feedback_btn_yes" value="确定" />
+      <item id="feedback_btn_resend" value="重新发送" />
+      <item id="dlg_feedback_context" value="建议内容" />
+      <item id="dlg_feedback_contact" value="手机号码、QQ或邮箱" />
+
+      <!-- 安装界面-->
+      <item id="install_menu_path" value="向日葵" />
+      <item id="install_link_name" value="向日葵" />
+      <item id="install_link_name_enterprise" value="向日葵企业版" />
+      <item id="install_company_name" value="上海贝锐信息科技股份有限公司" />
+      <item id="install_link_uninstall_name" value="卸载向日葵" />
+      <item id="install_install" value="同意用户协议并安装" />
+      <item id="install_useragreement" value="用户协议" />
+      <item id="install_custominstall" value="自定义安装" />
+      <item id="install_browse" value="浏览" />
+      <item id="install_createlink" value="创建快捷方式" />
+      <item id="install_add_quick_launch" value="添加到快速启动栏" />
+      <item id="install_label_start_install" value="开始安装" />
+      <item id="install_label_check_installed" value="检查已安装的版本" />
+      <item id="install_label_have_new_installed" value="已安装更新的版本" />
+      <item id="intalll_label_start" value="安装准备" />
+      <item id="install_label_uninstall_old" value="卸载旧版本" />
+      <item id="install_label_uninstall_old_failed" value="卸载旧版本失败，请手动卸载" />
+      <item id="install_label_copy_files" value="拷贝文件" />
+      <item id="install_label_write_reg" value="写注册表信息" />
+      <item id="install_label_create_link" value="创建快捷方式" />
+      <item id="install_label_install_service" value="安装服务" />
+      <item id="install_label_release_resource" value="释放资源" />
+      <item id="install_label_install_drive" value="安装驱动" />
+      <item id="install_label_create_menu" value="创建开始菜单图标" />
+      <item id="install_label_setting_autorun" value="设置开机启动" />
+      <item id="install_label_finish" value="安装完成" />
+      <item id="setpath" value="设置安装路径" />
+      <item id="install_title" value="向日葵客户端" />
+      <item id="install_no_this_drive" value="没有可用盘符 %s" />
+      <item id="install_path_format_error" value="路径格式错误" />
+      <item id="install_edit_ok_path"><![CDATA[ <f id="yahei.14" c="color.main"  >请更改为正确格式路径安装</f> ]]></item>
+      <item id="install_path_label" value="安装路径：" />
+      <item id="install_enjoy_it" value="让你尽情享受远程控制的快感" />
+      <item id="installdlg.install.failed" value="安装失败。" />
+      <item id="installdlg.copyfile.failed" value="复制文件失败，可能是因为安全软件拦截，请关闭安全软件重试。" />
+      <item id="install_now" value="立即安装向日葵" />
+      <item id="install_green" value="免安装，以绿色版运行" />
+      <item id="install_agree"><![CDATA[ <f id="yahei.12" c="color24">安装表示您同意</f><f id="1025" e="true" f="yahei.12" cursor="hand" c="color6">向日葵用户许可协议</f> ]]></item>
+      <item id="install_path" value="安装位置：" />
+      <item id="install_change" value="更改" />
+      <item id="install_welcome" value="欢 迎 使 用 向 日 葵" />
+      <item id="install_enter" value="立即进入" />
+      <item id="multifuction_have_oldversion" value="将卸载当前版本%s，是否继续？" />
+      <item id="multifuction_have_same_version" value="已安装相同版本向日葵,是否愿意继续安装？" />
+      <item id="multifuction_have_new_version" value="已经安装更新版本的向日葵！" />
+      <item id="multifuction_have_oldversion_title" value="向日葵安装" />
+
+      <!--卸载界面-->
+      <item id="uninstall_before_title" value="感谢您的使用，确定要卸载吗？" />
+      <item id="uninstall_going_title" value="主人我舍不得你..." />
+      <item id="uninstall_after_title" value="我会用更好的自己，与你在某天重逢" />
+      <item id="uninstall_uninstall" value="立即卸载" />
+      <item id="uninstall_no" value="暂不卸载" />
+      <item id="uninstall_bye" value="再见" />
+      <item id="uninstall_feedback" value="意见反馈" />
+      <item id="uninstall_start_uninstall" value="开始卸载" />
+      <item id="uninstall_stopuninstall_service" value="停止并卸载服务" />
+      <item id="uninstall_delete_reginfo" value="删除注册表信息" />
+      <item id="uninstall_delete_link" value="删除快捷方式" />
+      <item id="uninstall_delete_device" value="卸载驱动" />
+      <item id="uninstall_delete_start_menu" value="删除开始菜单" />
+      <item id="uninstall_delete_self" value="删除自己" />
+      <item id="uninstall_temp4delete_self" value="删除安装目录" />
+      <item id="uninstall_finish_uninstall" value="卸载完成" />
+      <item id="uninstall_title" value="向日葵客户端" />
+      <item id="uninstall_close_msg" value="检查到向日葵客户端或后台服务正在进行，卸载无法继续。请单击“是”强制关闭该程序。或者单击“否”退出卸载" />
+      <item id="uninstall_one_text" value="卸载后您的电脑将失去远程控制功能" />
+      <item id="feed_back_edit_mask" value="请告诉我需要改善的地方，感谢一直以来的支持！" />
+      <item id="clear_user_info" value="清除用户数据" />
+      <item id="clear_user_info_desc" value="清除本地用户数据（清除后下次安装将重新配置）"/>
+      <item id="uninstall_text" value="感 谢 您 一 直 以 来 的 支 持" />
+
+      <!--更新界面-->
+      <item id="update_getting_info" value="升级信息获取中，再等我几秒钟..." />
+      <item id="update_updatenow" value="立即更新" />
+      <item id="update_cancel" value ="暂不更新" />
+      <item id="update_stop_warn_this_version" value="此版本不再提示" />
+      <item id="update_no_new_version" value="当前已是最新版本：" />
+      <item id="update_main_name" value="向日葵远程控制" />
+      <item id="update_this_version" value="（当前为" />
+      <item id="update_cur_version" value="当前为：" />
+      <item id="update_find_newversion" value="发现最新版本：" />
+      <item id="update_on_updating" value="向日葵升级中" />
+      <item id="update_install_failed" value="安装失败" />
+      <item id="update_prompt" value="提示" />
+      <item id="update_downloading" value="正在更新" />
+      <item id="update_download_failed" value="更新失败" />
+      <item id="update_runinstall_failed" value="运行失败" />
+      <item id="update_title" value="向日葵远程控制更新" />
+      <item id="update_message" value="已运行向日葵，这是新版本，是否更新？" />
+
+      <!--退出窗口-->
+      <item id="quit_title" value="退出向日葵" />
+      <item id="quit_ask" value="确定要退出向日葵客户端？" />
+      <item id="quit_result" value="确定退出后，将无法远程控制此计算机" />
+      <item id="quit_ok" value="确定" />
+      <item id="quit_cancel" value="取消" />
+
+      <!--注销窗口-->
+      <item id="logout_title" value="注销" />
+      <item id="logout_ask" value="确定要注销？" />
+      <item id="logout_result" value="注销会解绑当前主机！" />
+
+      <!--多功能Box窗口-->
+      <item id="multifuction_title" value="多功能" />
+      <item id="multifuction_ask_install"><![CDATA[ <f id="yahei.bold.14"  >常用向日葵，请</f><f id="yahei.bold.14" c="color.main"  >安装向日葵正式版</f>]]></item>
+      <item id="multifuction_install_benefit" value="享受更多功能，更快捷的远控！" />
+      <item id="multifuction_ok" value="确定" />
+      <item id="multifuction_canel" value="取消" />
+      <item id="multifuction_quit_now" value="立即退出" />
+      <item id="multifuction_install_now" value="安装正式版" />
+      <item id="multifuction_install_and_use" value="安装正式版使用" />
+
+      <!-- 设置窗体 -->
+      <item id="system_setting" value="系统设置" />
+      <item id="basic_setting" value="常规设置" />
+      <item id="safe_setting" value="安全设置" />
+      <item id="domain_setting" value="域名访问" />
+      <item id="network_setting" value="网络设置" />
+      <item id="advance_setting" value="高级设置" />
+      <item id="control_setting" value="远控本机设置" />
+      <item id="verify_access_password" value="访问密码验证" />
+      <item id="verify_window_account" value="本机的系统帐户密码" />
+      <item id="verify_window_account_no_password" value="当前的Windows帐号没有密码" />
+      <item id="anti-harassment" value="防骚扰" />
+      <item id="set_wakeup_password" value="远程开机密码" />
+      <item id="client_lock" value="隐私设置" />
+      <item id="ip_filter" value="IP地址过滤" />
+      <item id="set_access_time_period" value="访问时段设置" />
+      <item id="setting_setting" value="设置" />
+      <item id="editVCode_setting" value="修改验证码" />
+
+      <!-- 基本设置详细UI -->
+      <item id="hostname_and_desc" value="主机名/备注" />
+      <item id="enter_hostname" value="请输入主机名" />
+      <item id="enter_hostdesc" value="请输入备注" />
+      <item id="base_setting_sunlogincode" value="葵码：" />
+      <item id="base_setting_account_owner" value="所属帐号：" />
+      <item id="independent_domain_name_access" value="独立域名访问" />
+      <item id="accessed_host_by_link" value="把链接发给伙伴，通过浏览器打开可直接访问本机" />
+      <item id="start_independent_domain_name_access" value="开启域名访问" />
+      <item id="accessed_link" value="访问链接：" />
+      <item id="base_setting_module_open" value="VPN模块" />
+      <item id="open_vpn" value="开启向日葵VPN" />
+      <item id="base_setting_remote_wakeup" value="远程开机" />
+      <item id="base_setting_open" value="打开所在文件夹" />
+      <item id="sunlogin_code" value="帐号绑定" />
+      <item id="no_login_account" value="未绑定帐号" />
+      <item id="language_selection" value="语言选择" />
+      <item id="launch_login_quit" value="启动登录：" />
+      <item id="launch_login" value="登录" />
+      <item id="autorun_setting" value="开机时自动启动软件" />
+      <item id="run_as_service_setting" value="仅以服务方式运行，不显示任务栏图标" />
+      <item id="show_notification_message" value="显示远程登录消息通知气泡" />
+      <item id="no_operation_of_control" value="分钟后，无操作自动断开远程连接" />
+      <item id="desktop_model" value="桌面模式：" />
+      <item id="update_model" value="软件更新：" />
+      <item id="rule_mode_auto" value="自动匹配最佳模式" />
+      <item id="rule_mode_h264" value="娱乐模式" />
+      <item id="rule_mode_zip" value="均衡模式" />
+      <item id="rule_mode_high" value="高清模式" />
+      <item id="rule_mode_quick" value="极速模式" />
+      <item id="update_mode_slient" value="自动更新" />
+      <item id="update_mode_reminder" value="提醒我更新" />
+      <item id="save_log" value="日志保存：" />
+      <item id="save_log_path" value="默认把日志文件保存到此文件夹中" />
+      <item id="screen_record" value="录像截屏：" />
+      <item id="open_screen_record" value="开启屏幕录像" />
+      <item id="save_screen_record_path" value="每次远程控制桌面操作将保存在以下文件夹中" />
+      <item id="convert_video_format" value="转换录像格式" />
+      <item id="browse_repo" value="浏览" />
+      <item id="setting_basic_open" value="打开" />
+      <item id="file_distribution" value="文件分发" />
+      <item id="save_file_path" value="分发的文件默认保存到此文件夹中" />
+      <item id="share_url_tip_1" value="你的安全级别太低，不能开启域名访问功能。" />
+      <item id="share_url_tip_4" value="请先开启访问密码。" />
+      <item id="share_url_tip_2" value="为保障本机安全，未开启密码验证，不能使用域名访问功能。" />
+      <item id="share_url_tip_3" value="继续将关闭独立域名访问。" />
+      <item id="continue" value="继续" />
+      <item id="display_language" value="显示语言：" />
+      <item id="language_cn" value="简体中文" />
+      <item id="language_cn_tw" value="繁體中文" />
+      <item id="language_en" value="English" />
+      <item id="refresh_fastcodepwd" value="验证码刷新" />
+      <item id="refresh_never" value="从不刷新" />
+      <item id="refresh_everyday" value="每日刷新" />
+      <item id="refresh_after_control" value="每次远控后刷新" />
+      <item id="setting_file_no_exist"><![CDATA[<f f="yahei.14" c="color5">未选取文件夹</f>]]></item>
+
+      <item id="msg_remind" value="服务消息提醒（服务到期提醒、优惠活动通知）" />
+      <item id="msg_remind_more" value="服务到期提醒、优惠活动通知" />
+      <item id="open_remind" value="提醒：" />
+      <item id="msg_remind_onoff" value="主机上下线提醒" />
+      <item id="msg_remind_control" value="本机被远控时提醒" />
+
+      <item id="setting_sound" value="声音：" />
+      <item id="setting_close_sound" value="关闭消息提示声音" />
+
+      <item id="setting_bk_title" value="背景主题：" />
+      <item id="setting_bk_white" value="明亮主题" />
+      <item id="setting_bk_black" value="暗黑主题" />
+      <item id="save_log_title" value="日志保存" />
+      <item id="save_record_title" value="录像截屏" />
+
+      <item id="setting_lock" value="锁定：" />
+      <item id="setting_lock_text" value="软件锁定设置" />
+      <item id="setting_lock_pwd" value="输入密码" />
+      <item id="setting_lock_twice" value="确认密码" />
+      <item id="setting_lock_twice_error" value="两次密码不一致" />
+      <item id="setting_lock_twice_error_null" value="密码不能为空" />
+      <item id="setting_lock_save" value="保存" />
+
+      <item id="setting_control_record" value="远程控制的录像和截屏文件将保存在此" />
+      <item id="setting_control_log" value="远程控制的日志文件将保存在此" />
+
+      <item id="control_setting_bind" value="绑定帐号：" />
+      <item id="control_setting_bind_binded" value="已绑定" />
+      <item id="control_setting_bind_nobind" value="未绑定" />
+      <item id="control_setting_bind_bind_host" value="绑定本机" />
+      <item id="control_setting_bind_cancel" value="解绑" />
+
+      <item id="control_setting_pwd" value="访问密码：" />
+      <item id="control_setting_pwd_desc" value="用于从控制端帐号下设备列表，远控本设备时" />
+      <item id="control_setting_pwd_no" value="无需访问密码" />
+      <item id="control_setting_pwd_set" value="设置访问密码" />
+      <item id="control_setting_pwd_host" value="本机系统帐号密码" />
+      <item id="control_setting_pwd_access" value="独立访问密码" />
+      <item id="control_setting_access_modify" value="修改" />
+      
+
+      <item id="control_setting_vcode" value="验证码刷新：" />
+      <item id="control_setting_vcode_no_rule" value="不自动刷新" />
+      <item id="control_setting_vcode_every_day" value="每日刷新" />
+      <item id="control_setting_vcode_after_control" value="每次远控后刷新" />
+      <item id="control_setting_vcode_self" value="自定义验证码" />
+
+      <item id="control_setting_desktop" value="桌面模式：" />
+
+      <item id="control_setting_open" value="开机密码：" />
+      <item id="control_setting_open_pwd" value="启用开机密码" />
+
+      <item id="control_setting_black" value="黑屏模式：" />
+      <item id="control_setting_black_text" value="启用黑屏（远控本机时防止别人看到你在做什么）" />
+      <item id="control_setting_black_virual" value="虚拟机不支持" />
+      <item id="control_setting_black_virual_text" value="虚拟机中不支持黑屏驱动" />
+      
+      <item id="control_setting_print" value="远程打印：" />
+      <item id="control_setting_print_text" value="启用远程打印" />
+      <item id="control_setting_print_open" value="开启远程打印需安装驱动" />
+      <item id="control_setting_print_open_text" value="允许本机的文件在远程主机连接的打印设备上打印" />
+      <item id="control_setting_print_install" value="确认安装" />
+      <item id="control_setting_print_close" value="关闭远程打印将卸载驱动" />
+      <item id="control_setting_print_close_text" value="卸载后将无法使用远程打印功能" />
+      <item id="control_setting_print_uninstall" value="确认卸载" />
+
+      <item id="control_setting_cloud" value="桌面云监控：" />
+      <item id="control_setting_cloud_text" value="开启云监控（设备在线时的录像将保存在云端）" />
+      <item id="desktop_cloud_desc" value="设备在线时的录像将保存于云端" />
+      <item id="desktop_cloud_close" value="关闭云监控" />
+      <item id="desktop_cloud_close_msg1" value="关闭后需到网站上重新开启云监控" />
+      <item id="desktop_cloud_close_msg2" value="请确认是否关闭?" />
+      <item id="desktop_cloud_close_ok" value="确认" />
+      <item id="cloud_manage">
+        <![CDATA[
+        <f> 未开启桌面云监控（如需开启云监控请登录</f><f id="sunlogin_manage" e="true" f="yahei.underline.14" cursor="hand" c="color6" >向日葵管理</f><f>）</f>
+      ]]>
+      </item>
+
+      <item id="control_setting_file" value="文件分发：" />
+      <item id="control_setting_file_text" value="分发的文件将保存在此" />
+
+      <item id="control_setting_anti" value="防骚扰：" />
+      <item id="control_setting_anti_add" value="添加" />
+      <error id="ip_path_null_error" value="请输入IP地址." />
+      <error id="ip_path_error" value="IP地址输入有误请重新输入." />
+      <error id="ip_path_compar" value="该IP地址已经存在." />
+      <error id="control_setting_anti_forbid_time" value="禁止以下时段访问" />
+      <error id="time_error_info" value="起始时间不能大于结束时间." />
+      <error id="time_exist" value="该时间段已经存在." />
+      <error id="time_empty" value="输入间隔时间不能为空." />
+
+      <item id="basic_setting_text_1" value="启动登录" />
+      <item id="basic_setting_text_2" value="提醒" />
+      <item id="basic_setting_text_3" value="声音" />
+      <item id="basic_setting_text_4" value="背景主题" />
+      <item id="basic_setting_text_5" value="锁定" />
+      <item id="basic_setting_text_6" value="显示语言" />
+      <item id="basic_setting_text_7" value="软件更新" />
+      <item id="basic_setting_text_8" value="录像截屏" />
+      <item id="basic_setting_text_9" value="日志保存" />
+
+      <item id="control_setting_text_1" value="绑定帐号" />
+      <item id="control_setting_text_2" value="访问密码" />
+      <item id="control_setting_text_3" value="验证码刷新" />
+      <item id="control_setting_text_4" value="桌面模式" />
+      <item id="control_setting_text_5" value="开机密码" />
+      <item id="control_setting_text_6" value="黑屏模式" />
+      <item id="control_setting_text_7" value="桌面云监控" />
+      <item id="control_setting_text_8" value="文件分发" />
+      <item id="control_setting_text_9" value="防骚扰" />
+      <item id="control_setting_text_10" value="远程打印" />
+
+      <item id="network_setting_text" value="代理设置" />
+      <item id="network_setting_error" value="系统的IP或端口为空" />
+
+
+      <!-- 安全详细UI -->
+      <item id="access_password" value="远程访问验证" />
+      <item id="use_access_password" value="远程访问验证（至少启用其中一个，否则将无法访问）" />
+      <item id="enable_access_password" value="独立访问密码" />
+      <item id="been_set" value="已设置" />
+      <item id="no_set" value="未设置" />
+      <item id="change_password" value="修改密码" />
+      <item id="enter_ip" value="请输入IP地址" />
+      <item id="open_ip_filter" value="远程访问IP地址过滤" />
+      <item id="allow_access_during_the_following_ip" value="仅允许以下IP地址访问" />
+      <item id="prevent_access_during_the_following_ip" value="仅阻止以下IP地址访问" />
+      <item id="forbid_access_during_the_period" value="远程访问时段过滤" />
+      <item id="hour" value="时" />
+      <item id="minute" value="分" />
+      <item id="no_remote_wakeup_password" value="无需远程开机密码" />
+      <item id="need_remote_wakeup_password" value="启用远程开机密码" />
+      <item id="use_password_to_unlock" value="客户端锁定（防止别人修改你的向日葵设置）" />
+      <item id="use_account_password_to_unlock" value="使用帐号密码解锁" />
+      <item id="remote_access_using_windows_account" value="远程访问时，使用系统帐号登录" />
+      <item id="allow_lan_discovery" value="允许被局域网发现" />
+      <item id="accept_quick_access_control_request" value="接受识别码访问" />
+      <item id="accept" value="接受" />
+      <item id="refuse" value="拒绝" />
+      <item id="answer_question" value="需正确回答问题" />
+      <item id="harass_question1" value="我的手机号码" />
+      <item id="harass_question2" value="我的车牌号码" />
+      <item id="harass_question3" value="我的EMail邮箱" />
+      <item id="harass_question4" value="我的电话号码" />
+      <item id="harass_question5" value="我的公司名称" />
+      <item id="harass_question6" value="我的家庭地址" />
+      <item id="reject" value="不接受" />
+      <item id="enter_answer" value="请输入答案" />
+      <item id="set_custom_password" value="请设置访问密码" />
+
+      <!-- 网络连接 -->
+      <item id="setting_net_netconnect" value="网络连接" />
+      <item id="proxy_setting" value="代理设置：" />
+      <item id="enable_proxy" value="启用代理" />
+      <item id="type" value="类型：" />
+      <item id="ip" value="地址：" />
+      <item id="port" value="端口：" />
+      <item id="domain" value="域：" />
+      <item id="user" value="用户名：" />
+      <item id="password:" value="密码：" />
+      <item id="socks5" value="SOCKS5" />
+      <item id="socks4" value="SOCKS4" />
+      <item id="sunlogin_enterprise_setting_no_proxy" value="不使用代理" />
+      <item id="sunlogin_enterprise_setting_auto_proxy" value="自动检测代理(使用系统配置的proxy)" />
+      <item id="sunlogin_enterprise_setting_set_proxy" value="手动设置代理" />
+      <item id="sunlogin_enterprise_setting_proxy_pwd" value="注：系统代理无帐号密码则不填" />
+      <item id="proxy_test" value="测试" />
+
+      <!-- 域名访问 -->
+      <item id="domain_content" value="开通域名访问，通过浏览器直接远控本机" />
+      <item id="bind_domain" value="绑定葵域名，给你的电脑一个专属地址" />
+      <item id="is_open" value="已开启" />
+      <item id="not_open" value="未开启" />
+      <item id="retry_domain" value="地址获取失败,重新获取" />
+
+      <!--安装黑屏驱动窗口-->
+      <item id="installblackscreen_title" value="黑屏模式" />
+      <item id="installblackscreen_cancel" value="取消" />
+      <item id="installblackscreen_retry" value="重试" />
+      <item id="installblackscreen_quit" value="退出" />
+      <item id="installblackscreen_ongoing" value="正在安装黑屏驱动" />
+      <item id="installblackscreen_failed" value="安装黑屏驱动失败" />
+      <item id="installblackscreen_err" value="无显示器无法安装黑屏驱动" />
+      <item id="installblackscreen_tip"><![CDATA[<f id="yahei.14" c="color4" >绿色版无法启用黑屏</f>]]></item>
+      <item id="installblackscreen_install" value="继续安装" />
+      <item id="installblackscreen_not_install" value="暂不开启" />
+      <item id="installblackscreen_ask"><![CDATA[<f id="yahei.14" c="color.white" >开启黑屏模式需安装显示驱动</f>]]></item>
+      <item id="installblackscreen_result_1"><![CDATA[<f id="yahei.14" c="color8" >此驱动将导致部分笔记本电脑无法使用屏</f>]]></item>
+      <item id="installblackscreen_result_2"><![CDATA[<f id="yahei.14" c="color8" >幕亮度调节功能</f><blank></blank><f id="50007" id="yahei.underline.14" cursor="hand" c="color6" >了解详情</f>]]></item>
+
+      <!--安装打印驱动窗口-->
+      <item id="installprint_title" value="远程打印模式" />
+      <item id="installprint_cancel" value="取消" />
+      <item id="installprint_retry" value="重试" />
+      <item id="installprint_quit" value="退出" />
+      <item id="installprint_ongoing" value="正在安装远程打印驱动" />
+      <item id="installprint_failed" value="安装远程打印驱动失败" />
+      <item id="installprint_ongoing_uninstall" value="正在卸载远程打印驱动" />
+      <item id="installprint_failed_uninstall" value="卸载远程打印驱动失败" />
+      <item id="installprint_err" value="无显示器无法安装远程打印驱动" />
+      <item id="installprint_tip" value="绿色版无法启用远程打印" />
+      <item id="installprint_install" value="继续安装" />
+      <item id="installprint_not_install" value="暂不开启" />
+
+      <!--远程桌面工具栏-->
+      <item id="tool_title" value="远程桌面工具栏" />
+      
+      <!-- 绿色版基本设置 -->
+      <item id="green_basic_set_setting" value="常规设置" />
+      <item id="green_basic_set_start_login" value="启动、登录" />
+      <item id="green_basic_set_is_start_up" value="开机时自动启动向日葵" />
+
+      <!--remote assistance -->
+      <item id="fast_code_have_no_this_host"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;此主机不存在或不在线</f>]]></item>
+      <item id="fast_code_other_reject"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;对方未接受您的请求！</f>]]></item>
+      <item id="Identify_error"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;验证码错误，请重新输入</f>]]></item>
+      <item id="fast_code_invalid_parameter"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;参数错误</f>]]></item>
+      <item id="fast_code_permission_denied"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;无权限访问</f>]]></item>
+      <item id="fast_code_auth_failed"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;验证码错误，请重新输入</f>]]></item>
+      <item id="fast_code_Rejected"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;对方拒绝了你的请求</f>]]></item>
+      <item id="fast_code_not_response"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;对方无应答，可能不在电脑旁</f>]]></item>
+      <item id="connectsrv_fail"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;网络连接失败，无法连接到服务器</f>]]></item>
+      <item id="fast_code_identifycode_oraykvm_desc"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;对方主机为控控设备</f>]]></item>
+      <item id="fast_code_identifycode_android_desc"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;对方主机为安卓系统</f>]]></item>
+      <item id="fast_code_input_custom_password_desc"><![CDATA[</i><f id="yahei.14">请输入访问密码作为验证码</f>]]></item>
+      <item id="getting_load_type" value="信息获取中..." />
+      <item id="connecting" value="正在连接..." />
+      <item id="disconnect" value="断开连接" />
+      <item id="connect_stop" value="连接已断开" />
+      <item id="connect_retry" value="意外断开，正在重连..." />
+      <item id="connect_failed" value="重连失败，请重新发起远控" />
+      <item id="disconnect_request" value="断开请求连接" />
+      <item id="retry" value="重试" />
+      <item id="fast_code_send_request_ok" value="已发送请求，等待对方接受（%d s）" />
+      <item id="dont_fastcode"><![CDATA[<f id="yahei.14">不允许控制本机，请输入其他电脑的识别码吧！</f>]]></item>
+      <item id="loading_remote_desktop" value="正在进入远程桌面..." />
+      <item id="accept_title" value="远程协助请求" />
+      <item id="bind_title" value="主机绑定" />
+      <item id="accept_msg"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;正在请求远程协助你的桌面</f>]]></item>
+      <item id="accpet_bind_msg" value="正在请求绑定你的主机..." />
+      <item id="accpet_bind_result" value="绑定后对方可直接从主机列表控制本机" />
+      <item id="accpet_accept" value="接受" />
+      <item id="accpet_reject" value="拒绝" />
+      <item id="unknown_name" value="佚名" />
+      <item id="clear_history" value="清空所有记录" />
+      <item id="delete" value="删除" />
+      <item id="multifuction_ask_disconnect_this_session"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14"  >&#160;是否要断开连接？</f>]]></item>
+      <item id="getting_load_update" value="亲，努力加载中，请耐心等待喔" />
+      <item id="screen" value="屏幕" />
+      <!-- moblie screen -->
+      <item id="mobile_phone_screen" value="手机投屏" />
+      <item id="scan_code_screen" value="扫码投屏" />
+      <item id="download_mobile_phone"><![CDATA[<f>打开</f><f id="download_mobile_phone" e="true" f="yahei.12" cursor="hand" c="color.main.old" >控制端APP</f><f>（需8.0以上版本）</f>]]></item>
+      <item id="enable_scan_code_screen" value="在[我的]界面左上角打开扫一扫" />
+      <item id="dlg_download_mobile_phone" value="扫码下载控制端" />
+      <item id="dlg_download_mobile_phone_download_address"><![CDATA[<f>扫码下载控制端APP</f>]]></item>
+      <item id="dlg_download_mobile_phone_scan_code_download" value="或应用市场搜索[向日葵远程控制]" />
+
+      <!-- 系统错误信息 -->
+      <error id="error:ok" value=""/>
+      <error id="error:unknown_error" value="未知错误"/>
+      <error id="error:auth_failed" value="帐号或密码错误"/>
+      <error id="error:connect_failed" value="网络连接失败，无法连接到服务器"/>
+      <error id="error:forced_offline" value="葵码已在其它地方登录"/>
+      <error id="error:connect_service_failed" value="shell连接服务失败"/>
+      <error id="error:service_busy" value="服务器忙"/>
+      <error id="error:error_mac" value="错误的mac地址"/>
+      <error id="error:error_fastcode" value="错误的快速访问码"/>
+      <error id="error:error_data" value="错误的数据包格式"/>
+      <error id="error:server_return_failed" value="服务器返回告诉失败"/>
+      <error id="error:param_error" value="参数错误"/>
+      <error id="error:param_lack" value="缺少参数"/>
+      <error id="error:host_not_exist" value="主机不存在或已经被删除"/>
+      <error id="error:account_pwd_empty" value="帐号密码不能为空，请重新输入！"/>
+      <error id="error:sunlogin_code_empty" value="葵码不能为空，请重新输入！"/>
+      <error id="error:invalid_sunlogincode" value="无效的葵码"/>
+      <error id="error:host_outof_limit" value="主机数量超出了限制"/>
+      <error id="error:lic_not_exist" value="授权不存在"/>
+      <error id="error:lic_not_belong_user" value="授权不属于当前请求用户"/>
+      <error id="error:lic_bindby_otheruser" value="(创建主机)授权已被其他主机绑定"/>
+      <error id="error:not_host_op_jurisdiction" value="当前用户没有操作主机的权限"/>
+      <error id="error:host_not_exist2" value="主机不存在"/>
+      <error id="error:wakeup_lic_expired" value="开机授权已过期"/>
+      <error id="error:not_bind_wakeup" value="没有绑定开机棒"/>
+      <error id="error:get_wakeup_info_failed" value="开机棒信息获取失败"/>
+      <error id="error:wakeup_faile" value="开机失败"/>
+      <error id="error:wakeup_psw_empty" value="需要开机密码（密码参数为空）"/>
+      <error id="error:wake_psw_error" value="开机密错误"/>
+      <error id="error:version_denied" value="该版本已经停止使用，请更新到新版本"/>
+      <error id="error:version_low" value="你当前的版本过低，请更新到新版本"/>
+      <error id="error:invalid_lic" value="授权无效或已过期，请重新登录"/>
+      <error id="error:listen_failed" value="监听本地端口失败"/>
+      <error id="error:package_not_exist" value="安装包不存在"/>
+      <error id="error:package_expired_or_not_exist" value="定制服务已过期或已被删除"/>
+      <error id="error:package_host_outof_limit" value="超出帐号的可用主机数"/>
+      <error id="error:package_create_host_failed" value="创建主机失败"/>
+      <error id="error:package_permission_denied" value="输入的帐号没有权限"/>
+      <error id="error:connect_count_limit" value="您的远程通道数已占满，请等待其它断开后再试" />
+      <error id="connect_error"><![CDATA[<f id="yahei.14">连接服务器失败，请重试！</f>]]></error>
+      <error id="connect_success"><![CDATA[<f id="yahei.14">连接成功！</f>]]></error>
+      <error id="save_error"><![CDATA[<f id="yahei.14">保存失败！</f>]]></error>
+
+      <!-- UU -->
+      <item id="uu_assist" value="向日葵UU" />
+      <item id="uu_title" value="向日葵UU" />
+      <item id="uu_other_account_text1" value="UU辅助和游戏版更般配哦" />
+      <item id="uu_other_account_text2" value="升级游戏版，体验更畅快的远控之旅" />
+      <item id="uu_upgrade" value="升级" />
+      <item id="uu_cancel" value="取消" />
+      <item id="uu_ok" value="确定" />
+      <item id="uu_tip" value="向日葵UU" />
+      <item id="uu_tip_error_text" value="建议重新连接USB接口或重启电脑" />
+      <item id="uu_open_success"><![CDATA[<i name="skin/icon_successful.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;已检测到向日葵UU</f>]]></item>
+      <item id="uu_open_text"><![CDATA[<f id="yahei.14" name="mytest_msg" >通过UU远控时即可突破&quot;此区域无法远控&quot;限制</f>]]></item>
+      <item id="uu_update_check" value="检测更新" />
+      <item id="uu_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;未检测到UU</f><f id="512" e=true cursor="hand" c="color6">&#160;重新检测</f>]]></item>
+      <item id="uu_nobind_2"><![CDATA[<f id="513" cursor="hand" c="color6" e=true >购买向日葵UU</f><f id="yahei.14">,实现电脑安全区域可控</f>]]></item>
+      <item id="uu_open_error"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;UU接入电脑异常</f>]]></item>
+
+      <item id="uu_upgrade_text" value="UU可以升级啦!" />
+      <item id="uu_upgrade_content" value="新增:" />
+      <item id="uu_upgrade_download"><![CDATA[<f id="yahei.16" c="color5">下载升级文件中...< /f>]]></item>
+      <item id="uu_upgrade_download_failed"> <![CDATA[<f id="yahei.16" c="color.red">UU下载失败< /f>]]></item>
+      <item id="uu_upgradeing">
+        <![CDATA[<f id="yahei.16" c="color5">UU升级中...< /f>]]>
+      </item>
+      <item id="uu_upgrade_warning" value="请勿拔取固件,拔取后将终止升级" />
+      <item id="uu_upgrade_again" value="重新升级" />
+      <item id="uu_upgrade_success"> <![CDATA[<f id="yahei.16" c="color5">UU升级成功< /f>]]></item>
+      <item id="uu_upgrade_failed"> <![CDATA[<f id="yahei.16" c="color.red">UU升级失败< /f>]]></item>
+      <item id="uu_upgrade_done" value="完成" />
+
+      <item id="uu_control_tip"><![CDATA[<f id="yahei.14">已开启UU辅助< /f>]]></item>
+      <item id="uu_control_remove_text1"><![CDATA[<f id="yahei.14">UU已移除电脑，将使用默认远程模式继续远控</f>]]></item>
+      <item id="uu_control_remove_text2"><![CDATA[<f id="yahei.14">可能出现&#160;此区域无法远控&#160;问题< /f>]]></item>
+
+      <item id="uu_control_error"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;UU异常，可能出现&#160;此区域无法远控&#160;问题</f>]]></item>
+      <item id="uu_control_error_text1"><![CDATA[<f id="yahei.12" c="color6">建议重启电脑< /f>]]></item>
+      <item id="uu_control_error_text2"><![CDATA[<f id="yahei.14">继续远控将使用默认远程模式< /f>]]></item>
+
+      <item id="uu_check_no" value="检测完毕，未检测到UU" />
+      <item id="uu_hard_in" value="请检测硬件是否已安装" />
+      <item id="logoning" value="正在登录..." />
+      <item id="host_name_empty" value="主机名不能为空" />
+      <item id="please_input_unlock_pwd" value="请输入密码解锁" />
+      <item id="unlock_now" value="立即解锁" />
+      <item id="login_now" value="立即登录" />
+      <item id="lock_desc"><![CDATA[<i name="skin/warning.png" x="1" y="2" width="14" height="14" ></i><f id="yahei.14">需要登录帐号，才能锁定软件< /f>]]></item>
+      <item id="device_type" value="类型" />
+      
+      <!-- 开机插座 -->
+      <item id="menu_bind_host" value="绑定主机" />
+      <item id="menu_ele_control" value="电量统计" />
+      <item id="menu_use_log" value="使用日志" />
+      <item id="menu_delete_socket" value="删除开机插座" />
+      <item id="smart_plug_offline_tip" value="开机插座离线" />
+      <item id="smart_plug_offline_desc1"><![CDATA[<f f="yahei.14">开机插座（%s）已离线</f>]]></item>
+      <item id="smart_plug_offline_desc2"><![CDATA[<f f="yahei.14">请检测插座是否已连接电源及网络是否异常</f>]]></item>
+      <item id="check_help" value="排查帮助" />
+    </language>
+
+    <!-- 繁體中文 -->
+    <language name="zh_TW" id="1028" value="chs_tw" >
+      <item id="tips" value="提醒" />
+      <item id="title" value="向日葵遠程控制" />
+      <item id="application_name" value="向日葵遠程控制" />
+      <item id="green_title" value="向日葵遠程控制-綠色版" />
+      <item id="set_sunlogin" value="設置" />
+      <item id="close" value="關閉" />
+      <item id="minimize" value="最小化" />
+      <item id="menu" value="菜單" />
+      <item id="remote_assistance" value="遠程協助" />
+      <item id="device_list" value="設備列表" />
+      <item id="found_fun" value="發現好玩" />
+      <item id="mobile_screen" value="手機投屏" />
+      <item id="no_login" value="未登錄" />
+      <item id="login" value="登錄" />
+      <item id="register" value="註冊" />
+      <item id="free" value="免費版" />
+      <item id="game" value="遊戲版" />
+      <item id="elite" value="精英版" />
+      <item id="premium" value="旗艦版" />
+      <item id="industry" value="行業版" />
+      <item id="introduction" value="入門版" />
+      <item id="host_count" value="主機數：" />
+      <item id="upgrade_renew" value="升級/續費" />
+      <item id="fastcode_desc" value="輸入夥伴的識別碼，控制夥伴" />
+      <item id="fastcode_connect" value="遠程協助" />
+      <item id="fastcode_edit_desc" value="識別碼" />
+      <item id="vcode_edit_desc" value="驗證碼（可不填）" />
+      <item id="fastcode_connect_desc" value="允許控制本機，發送識別碼給夥伴" />
+      <item id="local_fastcode" value="本機識別碼: " />
+      <item id="local_identifying_code_visit" value="本機驗證碼: " />
+      <item id="refresh_identify_code" value="刷新驗證碼" />
+      <item id="identify_edit_tip" value="自定義驗證碼" />
+      <item id="identify_hide" value="隱藏驗證碼" />
+      <item id="identify_show" value="顯示驗證碼" />
+      <item id="dlg_edit_vcode_entry_four_nums" value="4-8位字元" />
+      <item id="maindlg_link_service_succeed" value="連接伺服器成功" />
+      <item id="maindlg_link_service_ongoing" value="正在連接伺服器" />
+      <item id="maindlg_loginfailed_msg" value="登錄失敗:%d秒後重登" />
+      <item id="maindlg_loginfailed" value="登錄失敗" />
+      <item id="maindlg_service_error" value="與服務斷開，等待重連" />
+      <item id="maindlg_closing" value="正在退出..." />
+      <item id="maindlg_connected" value="正在被遠控中" />
+      <item id="maindlg_send_chat" value="發起聊天" />
+      <item id="maindlg_control_name" value="來自 %s (%s)" />
+      <item id="remote_control" value="遠程桌面" />
+      <item id="remote_file" value="遠程檔" />
+      <item id="remote_camera" value="遠程攝像頭" />
+      <item id="remote_cmd" value="CMD" />
+      <item id="remote_ssh" value="SSH" />
+      <item id="maindlg_control_time" value="已被遠控%d分鐘" />
+      <item id="maindlg_new_version" value="新版本" />
+      <item id="maindlg_expires_text">
+        <![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><y h="2"/><f f="yahei.12" c="color.main.old">&#160;服務將於%s到期，請及時&#160;</f><y h="-1"/><f id="54321" f="yahei.underline.12" e="true" cursor="hand" c="color6">續費</f>]]>
+      </item>
+      <item id="maindlg_expires_text_normal" value=" 服務將於%s到期，請及時 續費" />
+      <item id="no_remote_input" value="禁止遠程輸入" />
+      <item id="allow_remote_input" value="允許遠程輸入" />
+      <item id="being_controlled" value="正在被遠控中" />
+      <item id="multifuction_blcakscreen_virual" value="虛擬機不支持" />
+      <item id="multifuction_blcakscreen_virual_text" value="虛擬機中不支持黑屏驅動" />
+
+      <!-- 菜單 -->
+      <item id="open_main" value="打開主介面" />
+      <item id="micro_live" value="桌面演示" />
+      <item id="view_log" value="日誌" />
+      <item id="help" value="幫助" />
+      <item id="question" value="社區交流" />
+      <item id="online_upgrade" value="線上升級" />
+      <item id="about_sunlogin" value="關於" />
+      <item id="lock_sunlogin" value="鎖定" />
+      <item id="reminder" value="消息通知" />
+      <item id="user_feedback" value="用戶回饋" />
+      <item id="check_new_version" value="檢查新版本" />
+      <item id="sunlongin_main_site" value="官網" />
+      <item id="wechat_service" value="微信客服" />
+      <item id="advice_feebback" value="意見回饋" />
+      <item id="invite_newer" value="邀請小夥伴使用" />
+      <item id="message_notice" value="消息通知" />
+      <item id="contact_us" value="聯繫我們" />
+      <item id="binded_account" value="已綁定 %s " />
+      <item id="change_bind" value="切換帳號" />
+      <item id="setting_control.change" value="切換綁定" />
+      <item id="bind" value="綁定" />
+      <item id="quick_code" value="註銷登錄" />
+      <item id="logout" value="註銷登錄" />
+      <item id="lock" value="鎖定" />
+      <item id="login" value="綁定" />
+      <item id="quit" value="退出"/>
+      <item id="online" value="上線" />
+      <item id="offline" value="離線" />
+      <item id="unlock_sunlogin" value="解鎖向日葵" />
+      <item id="copy" value="複製" />
+      <item id="ping" value="Ping" />
+      <item id="chat" value="聊天" />
+      <item id="chat_tip" value="需要對方支持聊天" />
+      <item id="paste" value="粘貼" />
+      <item id="select_all" value="全選" />
+      <item id="run_as_service" value="向日葵正在以服務方式運行" />
+      <item id="logout_menu" value="註銷" />
+      <item id="maindlg_green_tip1" value="安裝正式版，可使用手機投屏" />
+      <item id="maindlg_green_tip2" value="安裝正式版，還能控制安卓手機" />
+      <item id="maindlg_green_tip3" value="安裝正式版，發現向日葵更多玩法" />
+
+      <!-- login介面 -->
+      <item id="login_account" value="帳號登錄" />
+      <item id="register_account" value="帳號註冊" />
+      <item id="phone_number" value="手機號碼（作為登錄帳號）" />
+      <item id="phone_number_1" value="手機號碼" />
+      <item id="register_sn" value="短信驗證碼" />
+      <item id="get_sn" value="獲取驗證碼" />
+      <item id="jump_sn" value="跳過驗證" />
+      <item id="register_pwd" value="密碼" />
+      <item id="agree_and_register" value="同意以下協議並註冊" />
+      <item id="account_binding" value="登錄已有帳號" />
+      <item id="service_agreement" value="《向日葵服務協議》" />
+      <item id="other_register" value="其他註冊方式" />
+      <item id="account" value="帳號" />
+      <item id="register_mail" value="郵箱" />
+      <item id="error_account" value="此帳號已被使用" />
+      <item id="error_register_sn" value="驗證碼錯誤" />
+      <item id="error_register_mail" value="郵箱格式錯誤" />
+      <item id="error_register_chat" value="短信發送失敗" />
+      <item id="error_phone_number" value="手機號不正確" />
+      <item id="error_chat_limit" value="驗證碼發送超過限制" />
+      <item id="error_chat_quick" value="短信發送頻率過快" />
+      <item id="error_register_pwd_null" value="密碼不能為空" />
+      <item id="error_register_pwd_width" value="密碼長度不合法(6-16)" />
+      <item id="error_sn_null" value="驗證碼不能為空" />
+      <item id="error_phone_null" value="手機號碼不能為空" />
+      <item id="error_phone" value="手機號碼格式錯誤" />
+      <item id="error_mail_null" value="郵箱不能為空" />
+      <item id="error_mail" value="郵箱格式不正確" />
+      <item id="error_check_account" value="帳號5-16位，字母與數字或-的組合" />
+      <item id="error_account_null" value="帳號不能為空" />
+      <item id="second_retry" value="秒後重試" />
+      <item id="login_register_warn_phone_1004" value="缺少參數" />
+      <item id="login_register_warn_phone_1005" value="無效的驗證串" />
+      <item id="login_register_warn_phone_1003" value="帳號已被使用" />
+      <item id="login_register_phone_registed" value="此手機已被註冊" />
+      <item id="login_register_phone_not_exist" value="此手機號不存在" />
+      <item id="login_register_warn_phone_1006" value="非法的帳號格式" />
+      <item id="login_register_warn_phone_1007" value="帳號長度不合法(5-16)" />
+      <item id="login_register_warn_phone_1008" value="帳號5-16位，字母與數字或-的組合" />
+      <item id="login_register_warn_phone_1009" value="密碼長度不合法(6-16)" />
+      <item id="login_register_warn_phone_1010" value="密碼與帳號不能一樣" />
+      <item id="login_register_warn_phone_1011" value="email地址不合法" />
+      <item id="login_register_warn_phone_1012" value="無效的短信驗證碼" />
+      <item id="login_register_warn_phone_1013" value="手機號格式不對" />
+      <item id="login_register_warn_phone_1014" value="驗證碼不正確" />
+      <item id="login_register_warn_phone_1214" value="註冊失敗" />
+      <item id="login_register_warn_phone_6000" value="圖片驗證碼無效" />
+      <item id="login_register_warn_phone_6001" value="短信發送超過限制" />
+      <item id="login_register_warn_phone_6002" value="短信發送頻率過快" />
+      <item id="login_register_warn_phone_6003" value="短信發送失敗" />
+      <item id="login_register_warn_phone_6004" value="手機號不正確" />
+      <item id="add_host_limit_desc01" value="你當前是免費級，免費級最多可添加100臺主機。" />
+      <item id="add_host_limit_desc02"><![CDATA[<f f="yahei.12">請在%s前刪除超額主機或</f><f id="50014" f="yahei.underline.12" cursor="hand" c="color6" e="true">(升級服務)</f><f f="yahei.12">按需購買主機數不受限</f>]]></item>
+      <item id="add_host_limit_desc03"><![CDATA[<f f="yahei.14" c="color.red">逾期未處理，系統將自動清空所有主機</f>]]></item>
+      <item id="auto_login" value="自動登錄" />
+      <item id="login" value="登錄" />
+      <item id="forget_pwd" value="忘記密碼" />
+      <item id="register_" value="註冊帳號" />
+      <item id="please_enter_account" value="帳號" />
+      <item id="please_enter_pwd" value="密碼" />
+      <item id="please_enter_other_account" value="請輸入對方帳號" />
+      <item id="account_pwd_empty" value="帳號或密碼不能為空，請重新輸入" />
+      <item id="bind_now" value="立即綁定" />
+      <item id="bind_after" value="暫不綁定" />
+      <item id="login_success" value="登錄成功" />
+      <item id="bind_text1" value="綁定後，本機進入設備列表統一管理（佔用主機數）" />
+      <item id="bind_text2" value="暫不綁定，仍可通過識別碼遠協本機" />
+      <item id="bind_help" value="更多幫助" />
+      <item id="bind_host_one"><![CDATA[<f f="yahei.14" c="color5">消耗1主機（</f><f f="yahei.14" c="color.black" >還剩%s個</f><f f="yahei.14" c="color5">）</f>]]></item>
+      <item id="bind_host_null"><![CDATA[<f f="yahei.14" c="color5">主機數已用完&#160;</f><f id="56789" f="yahei.underline.14" cursor="hand" c="color6" e="true" >升級</f>]]></item>
+      <item id="bind_host_one_free"><![CDATA[<f f="yahei.14" c="color5">消耗1個主機</f>]]></item>
+      <item id="bind_host_binded"><![CDATA[<f f="yahei.14" c="color5">不消耗主機</f>]]></item>
+      <item id="bind_no_control" value="本機不需要被遠控" />
+      <item id="bind_show_text"><![CDATA[<f f="yahei.16" c="RGB(41,43,51)">如本機需被遠程控制，建議</f><f f="yahei.16" c="color.main.old" >綁定</f><f f="yahei.16" c="color.main" >到帳號下</f>]]></item>
+      <item id="login_register" value="登錄 / 註冊" />
+      <item id="login_ing" value="登錄中..." />
+
+      <item id="lock_device_title" value="鎖定設備列表" />
+      <item id="lock_device_text_1" value="確定鎖定設備列表" />
+      <item id="lock_device_text_2" value="鎖定後，需輸入帳號名密碼才能進入" />
+      <item id="lock_device_ok" value="確定鎖定" />
+
+      <item id="unlock_device" value="解鎖" />
+      <item id="unlock_device_list" value="解鎖設備列表" />
+
+      <item id="menu_bind_account" value="綁定帳號" />
+      <item id="menu_unbind_account" value="解綁帳號" />
+      <item id="menu_open_autorun" value="開啟開機啟動" />
+      <item id="menu_close_autorun" value="關閉開機啟動" />
+      <item id="menu_device_detail" value="設備詳情" />
+      <item id="menu_share_host" value="主機共用" />
+      <item id="menu_delete_host" value="刪除主機" />
+      <item id="menu_manager" value="主機管理" />
+      <item id="menu_ip_set" value="IP設置" />
+      <item id="menu_present_stick" value="轉贈開機棒" />
+      <item id="menu_delete_stick" value="刪除開機棒" />
+
+      <item id="check_stick_title" value="檢測開機設備" />
+      <item id="check_stick_now" value="正在檢測開機設備..." />
+      <item id="check_stick_buy" value="購買開機設備" />
+      <item id="check_stick_sure" value="本機已綁定開機棒（%s）" />
+      <item id="check_stick_text" value="購買開機設備，實現遠程開機" />
+      <item id="check_stick_none"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;未檢測到開機設備</f>]]></item>
+
+      <item id="check_uu_title" value="檢測UU輔助" />
+      <item id="check_uu_now" value="正在檢測UU輔助..." />
+      <item id="check_uu_buy" value="購買UU" />
+      <item id="check_uu_sure" value="本機已插上UU輔助" />
+      <item id="check_uu_text" value="購買UU，實現電腦安全區域可控" />
+      <item id="check_uu_none"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;未檢測到UU輔助</f>]]></item>
+
+      <item id="check_boot_ok" value="確認" />
+      <item id="check_boot_close" value="關閉" />
+
+      <item id="error_password_security" value="密碼不滿足密碼策略的要求。檢查最小密碼長度、密碼複雜性和密碼歷史的要求。" />
+
+      <item id="login_warn_1" value="帳號或密碼錯誤" />
+      <item id="login_warn_2" value="伺服器連接失敗" />
+      <item id="login_warn_4" value="刷新主機列表失敗" />
+      <item id="login_warn_5" value="未知錯誤" />
+      <item id="login_warn_6" value="客戶端版本過低" />
+      <item id="login_warn_1028" value="限制用戶登錄" />
+      <item id="login_warn_1217"><![CDATA[<f f="yahei.14" c="color.red">你的主機數過多限制登錄，</f><f id="1217" f="yahei.underline.14" cursor="hand" c="color6" e="true" >推薦使用企業版</f>]]></item>
+
+      <!-- 設備列表 -->
+      <item id="init" value="開" />
+      <item id="startup_device" value="開機設備" />
+      <item id="add_devcie" value="添加設備" />
+      <item id="local_host" value="本機" />
+      <item id="my_host" value="我的主機" />
+      <item id="device_info" value="設備詳情"/>
+      <item id="cur_device" value="當前設備"/>     
+      <item id="power_off" value="關機" />
+      <item id="reboot" value="重啟" />
+      <item id="expand_fucntion" value="拓展功能" />
+      <item id="remote_log" value="遠程日誌" />
+      <item id="kui_domain" value="葵功能變數名稱訪問" />
+      <item id="cloud_monitor" value="雲監控" />
+      <item id="screen_wall" value="螢幕牆" />
+      <item id="device_detail" value="設備詳情" />
+      <item id="host_name" value="主機名" />
+      <item id="remark" value="備註" />
+      <item id="fast_code" value="識別碼" />
+      <item id="device_info_tip" value="主機綁定帳號，方便一鍵遠控"/>
+      <item id="host_bind_account" value="主機綁定帳號" />
+      <item id="power_on_launch" value="開機自啟動" />
+      <item id="match_bar" value="搭配開機棒" />
+      <item id="match_uu" value="搭配UU輔助" />
+      <item id="dev_bind" value="綁定" />
+      <item id="dev_enable" value="開啟" />
+      <item id="dev_check" value="檢測" />
+      <item id="dev_binded" value="已綁定" />
+      <item id="dev_unbind" value="解綁" />
+      <item id="dev_close" value="關閉" />
+      <item id="dev_enabled" value="已開啟" />
+      <item id="dev_checked" value="已連接" />
+      <item id="desktop_ctrl" value="桌面控制" />
+      <item id="desktop_view" value="桌面觀看" />
+      <item id="camera" value="攝像頭" />
+      <item id="ssh" value="SSH" />
+      <item id="remote_file" value="遠程檔" />
+      <item id="remote_manager" value="遠程管理" />
+      <item id="add_device_guide" value="添加設備引導"/>
+      <item id="inital_d" value="添"/>
+      <item id="loading" value="正在加載" />
+      <item id="on_loading" value="正在加載..." />
+      <item id="tip" value="Tip:大量主機管理，推薦使用企業版" />
+      <item id="no_remark" value="還沒備註" />
+      <item id="add_device1" value="添加設備到帳號下，方便遠控管理" />
+      <item id="add_device2" value="1 在被控電腦下載並安裝向日葵X" />
+      <item id="add_device3" value="2 安裝後主機綁定當前帳號即添加" />
+      <item id="copy_link" value="複製下載鏈接" />
+      <item id="finish" value="完成" />
+      <item id="device_empty1" value="WiFi開啟一臺主機" />
+      <item id="learn_more" value="瞭解詳情" />
+      <item id="boot_socket" value="開機插座" />
+      <item id="device_empty2" value="關機後可徹底關閉電源" />
+      <item id="device_empty3" value="可開啟局域網內所有主機" />
+      <item id="version" value="版本" />
+      <item id="upgrade_local" value="升級局域網版" />
+      <item id="SN" value="SN碼" />
+      <item id="MAC_address" value="MAC地址" />
+      <item id="host_manager" value="主機管理" />
+      <item id="IP_setting" value="IP設置" />
+      <item id="present_boot_bar" value="轉贈開機棒" />
+      <item id="present" value="轉贈" />
+      <item id="boot_bar" value="開機棒" />
+      <item id="delete_host" value="刪除主機" />
+      <item id="share_host" value="共用主機"/>
+      <item id="host_name" value="主機名" />
+      <item id="last_lg_IP" value="最後登陸IP" />
+      <item id="last_lg_time" value="最後登陸時間" />
+      <item id="compute_name" value="電腦名" />
+      <item id="sys_version" value="系統版本" />
+      <item id="CPU" value="處理器" />
+      <item id="mother_board" value="主板" />
+      <item id="memory" value="記憶體" />
+      <item id="main_disk" value="主硬碟" />
+      <item id="graph_card" value="顯卡" />
+      <item id="net_card" value="網卡" />
+      <item id="multifuction_wakeup_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;未檢測到開機設備</f><f id="500" e="true" cursor="hand" c="color6">&#160;重新檢測</f>]]></item>
+      <item id="multifuction_wakeup_nobind_2"><![CDATA[<f id="501" cursor="hand" c="color6" e="true" >購買向日葵開機棒，</f><f id="yahei.14">實現遠程開機</f>]]></item>
+      <item id="uu_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;未檢測到UU</f><f id="512" e="true" cursor="hand" c="color6">&#160;重新檢測</f>]]></item>
+      <item id="uu_nobind_2"><![CDATA[<f id="513" cursor="hand" c="color6" e="true" >購買向日葵UU</f><f id="yahei.14">,實現電腦安全區域可控</f>]]></item>
+      <item id="change_custom_login_type" value="切換到訪問密碼登錄" />
+      <item id="change_account_login_type" value="切換到系統帳戶登錄" />
+      <item id="Connect to the server failed!" value="連接伺服器失敗！" />
+      <item id="ControlID verification failed!" value="ControlID驗證失敗！" />
+      <item id="Cookie verification failed!" value="Cookie驗證失敗！" />
+      <item id="Bad request!" value="錯誤的請求！" />
+      <item id="Host is not online!" value="主機不線上！" />
+      <item id="Unknown remote host!" value="未知的主機！" />
+      <item id="Server Error!" value="伺服器錯誤！" />
+      <item id="Request timed out!" value="請求超時！" />
+      <item id="User name or password is incorrect!" value="用戶名或密碼不正確！" />
+      <item id="password_error" value="訪問密碼錯誤" />
+      <item id="std::exception" value="異常錯誤" />
+      <item id="Check the status of the remote control failed" value="查詢主機狀態失敗" />
+      <item id="Check the login period failed" value="檢查登錄週期失敗" />
+      <item id="Check the login type failed" value="查詢登錄方式錯誤" />
+      <item id="Password can not be empty" value="密碼不能為空" />
+      <item id="Create instance failed" value="創建實例失敗" />
+      <item id="Login the host failed" value="登錄主機失敗" />
+      <item id="Remote control module has been closed" value="遠程模組已關閉" />
+      <item id="Login failed with the way" value="登錄方式錯誤" />
+      <item id="The remote host did not response" value="遠程主機沒有回應" />
+      <item id="Check the harass status failed" value="查詢防騷擾失敗" />
+      <item id="Rejected the connection request" value="對方拒絕連接請求" />
+      <item id="Verify strings can not be empty" value="驗證字段不能為空" />
+      <item id="Access denied,you can't access to the host in the following" value="訪問拒絕" />
+      <item id="Wrong answer to anti-harassment" value="錯誤的答案" />
+      <item id="Check the anti-harassment answer failed" value="查詢防騷擾答案失敗" />
+      <item id="input empty" value="輸入不能為空" />
+      <item id="input wrong" value="輸入錯誤" />
+      <item id="vertify failed" value="驗證失敗" />
+      <item id="pwd wrong" value="密碼錯誤" />
+      <item id="query empty" value="查詢為空" />
+      <item id="CONNECT_SOCKET_URLS_HPP connect_socket" value="連接失敗" />
+      <item id="auth(2) failed" value="驗證失敗" />
+      <item id="auth(3) failed" value="驗證失敗" />
+      <item id="rpc_digest not correct" value="rpc 不正確" />
+      <item id="change fast_code failed" value="切換識別碼失敗" />
+      <item id="db query not found key" value="資料庫查詢失敗" />
+      <item id="Unknown error!" value="未知錯誤！" />
+      <item id="restart_desc"><![CDATA[<f id="yahei.14">確定要重啟？</f>]]> /></item> 
+      <item id="shutdown_desc"><![CDATA[<f id="yahei.14">確定要關機？</f>]]> /></item>
+      <item id="delete_tip"><![CDATA[<f id="yahei.14">確定刪除該主機？</f>]]> /></item>
+      <item id="delete_bar"><![CDATA[<f id="yahei.14">确定删除开机棒？</f>]]> /></item>
+      <item id="ok" value="確定" />
+      <item id="cancel" value="取消" />
+      <item id="fresh" value="刷新" />
+      <item id="cmd" value="CMD" />
+      <item id="host_bind_desc" value="主機綁定帳號" />
+      <item id="sending_boot_command" value="正在發送開機指令..." />
+      <item id="remote_wakeup_cmd_send" value="開機指令已送達" />
+      <item id="please_wait_host_online" value="主機上線約2分鐘，請稍後..." />
+      <item id="This host is not bound or wakeup service has expired"><![CDATA[<f>開機服務已到期或授權不可用</f>]]> /></item>
+      <item id="Wake-up data does not exist"><![CDATA[<f>喚醒數據不存在</f>]]> /></item>
+      <item id="Wake up failed"><![CDATA[<f>開機失敗</f>]]> /></item>
+      <item id="Wake-up password can not be empty!"><![CDATA[<f>開機密碼不能為空!</f>]]> /></item>
+      <item id="Wake-up password wrong!"><![CDATA[<f>開機密碼錯誤!</f>]]> /></item>
+      <item id="buy_wakeup_desc" value="你需要支持開機的設備" />
+      <item id="buy_wakeup" value="購買開機設備" />
+      <item id="please_input_remote_start_pwd" value="請輸入開機密碼" />
+      <item id="confirm" value="確認" />
+      <item id="lan_ver" value="局域網版" />
+      <item id="person_ver" value="獨享版" />
+      <item id="null_fastcode"><![CDATA[<f f=yahei.18 c=color_edit>--- --- --- ---</f>]]> /></item>
+
+      <!-- 添加設備 -->
+      <item id="add_pc_device" value="添加電腦設備" />
+      <item id="add_pc_text1" value="1 在被控端電腦下載" />
+      <item id="add_pc_text2" value="並安裝向日葵" />
+      <item id="add_pc_text3" value="複製鏈接" />
+      <item id="add_pc_text4" value="2 安裝後主機綁定當前帳號" />
+      <item id="add_pc_text5" value="即添加完成" />
+
+      <item id="add_android_device" value="添加安卓設備" />
+      <item id="add_android_text1" value="1 在需被控端安卓上" />
+      <item id="add_android_text2" value="掃碼下載安卓客戶端" />
+      <item id="add_android_text3" value="2 安裝後登錄當前帳號" />
+      <item id="add_android_text4" value="即添加完成" />
+
+      <item id="add_boot_bar" value="添加開機棒" />
+      <item id="add_boot_bar_text1" value="SN碼可在開機棒包裝盒上查看" />
+      <item id="add_boot_bar_text2" value="我的開機棒" />
+      <item id="sn_empty"><![CDATA[<f id="yahei.14"> sn碼不能為空</f>]]></item>
+      <item id="dev_name_empty"><![CDATA[<f id="yahei.14">設備名稱不能為空</f>]]></item>
+      <item id="add_stick_success"><![CDATA[<f id="yahei.14"> 添加開機棒成功</f>]]></item>
+      <item id="add_stick_failed" value="添加開機棒失敗"/>
+      <item id="add_stick_not_exsit" value="SN碼不存在" />
+      <item id="add_stick_binded" value="開機棒已被綁定" />
+      <item id="new_guide1"><![CDATA[<f f="yahei.14">在此介面通過主機</f><f f="yahei.14" c="color.organe">識別碼，</f><f f="yahei.14">可完成</f>]]></item>
+      <item id="new_guide2" value="臨時遠控其他電腦" />
+      <item id="new_guide3" value="或被其他電腦遠控" />
+      <item id="new_guide4"><![CDATA[<f f="yahei.14">登錄之後，可以通過</f><f f="yahei.14" c="color.organe">“設備列表”</f><f f="yahei.14">管理你所有主機啦！如你有超過10臺主機，建議下載“企業版”使用喔！</f>]]></item>
+      <item id="skip" value="知道了" />
+      <item id="account_not_match"><![CDATA[<f f="yahei.14">輸入帳號不一致</f>]]></item>
+      <item id="account_empty"><![CDATA[<f f="yahei.14">帳號不能為空</f>]]></item>
+      <item id="persent_successed"><![CDATA[<f f="yahei.14">轉贈開機棒成功</f>]]></item>
+      <item id="persent_failed"><![CDATA[<f f="yahei.14">轉贈開機棒失敗</f>]]></item>
+      <item id="delete_stick_title" value="刪除開機棒"/>
+      <item id="delete_stick" value="確定刪除開機棒？"/>
+      <item id="delete_stick_failed"><![CDATA[<f f="yahei.14">除開機棒失敗</f>]]></item>
+
+      <item id="give_stick" value="轉贈後無法主動回收開機棒，請謹慎確認帳號"/>
+      <item id="input_receiver" value="請輸入接受者帳號" />
+      <item id="input_receiver_again" value="請再次確認接受者帳號" />
+      <item id="give_immediately" value="立即轉增" />
+
+      <item id="opened_now" value="立即開通" />
+      <item id="no_support_feature"><![CDATA[<f id="yahei.14">該主機不支持此功能</f>]]> /></item>
+      <item id="bug_tip1" value="%s元/年，升級入門版"/>
+      <item id="bug_tip2" value="%s元/年，升級精英版"/>
+      <item id="bug_tip3" value="%s元試用1月（當前主機）"/>
+      <item id="camera_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">開通攝像頭 </f><f f="yahei.16" c="color.organe">（入門版專享功能）</f>]]></item>
+      <item id="camera_bug_tip2" value="遠程保衛你的家，支持多路查看哦！"/>
+      <item id="file_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">開通遠程檔 </f><f f="yahei.16" c="color.organe">（入門版專享功能）</f>]]></item>
+      <item id="file_bug_tip2" value="出門在外檔忘帶，遠程取，so easy"/>
+      <item id="cmd_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">開通CMD </f><f f="yahei.16" c="color.organe">（精英版專享功能）</f>]]></item>
+      <item id="cmd_bug_tip2" value="一鍵到達，便捷使用歷史命令與常用命令"/>
+      <item id="ssh_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">開通SSH </f><f f="yahei.16" c="color.organe">（精英版專享功能）</f>]]></item>
+      <item id="ssh_bug_tip2" value="一鍵到達，便捷使用歷史命令與常用命令"/>
+      <item id="remote_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">開通遠程管理 </f><f f="yahei.16" c="color.organe">（精英版專享功能）</f>]]></item>
+      <item id="remote_bug_tip2" value="主機進程管理與診斷，遠程運維就是要簡單！"/>
+
+      <!--host登錄dlg-->
+      <item id="remote_title" value="向日葵" />
+      <item id="mobile_login_authentication" value="手機登錄驗證" />
+      <item id="windwos_account_login_desc" value="輸入Windows帳戶名和密碼，驗證後即可遠控" />
+      <item id="linux_account_login_desc" value="輸入Linux帳戶名和密碼，驗證後即可遠控" />
+      <item id="custom_login_desc" value="輸入訪問密碼，驗證後即可遠控" />
+      <item id="enter_host_system_account_name" value="請輸入主機系統帳戶名" />
+      <item id="host_remind_tip_on" value="%s %s 上線啦！" />
+      <item id="host_remind_tip_off" value="%s %s 下線啦！" />
+
+      <!-- Notify對話框 -->
+      <item id="sunlogin_session" value="向日葵-遠程會話" />
+      <item id="from" value="正在" />
+      <item id="remote_control_computer" value="遠程連接此電腦" />
+      <item id="open_video_already" value="已開啟螢幕錄影" />
+      <item id="nottip" value="不再提醒" />
+      <item id="maindlg_free_level" value="免費級" />
+
+      <!--消息服務提醒-->
+      <item id="pay_level"><![CDATA[ <f f="yahei.16" >你的%s服務將於</f><f f="yahei.16" c="color.red" >%d</f><f f="yahei.16" >天後到期，</f>]]></item>
+      <item id="renew_pay"><![CDATA[<f f="yahei.16" >請及時續費喔！</f>]]></item>
+      <item id="remind1"><![CDATA[ <f f="yahei.16" >小主，我還能遠程監控攝像頭,你知道嘛？</f>]]></item>
+      <item id="remind2"><![CDATA[ <f f="yahei.16" >攝像頭即時監控，</f>]]></item>
+      <item id="remind_text2"><![CDATA[ <f f="yahei.16" >用手機、平板也能看家！</f>]]></item>
+      <item id="remind3"><![CDATA[ <f f="yahei.16" >千裏之外監控攝像頭，</f>]]></item>
+      <item id="remind_text3"><![CDATA[ <f f="yahei.16" >防盜防賊防小偷，妥妥的！</f>]]></item>
+      <item id="remind4"><![CDATA[ <f f="yahei.16" >旅遊出差，隨時瞭解家裏情況！</f>]]></item>
+      <item id="remind_text4"><![CDATA[ <f f="yahei.16" >隨時查看攝像頭。</f>]]></item>
+      <item id="remind5"><![CDATA[ <f f="yahei.16" >遠程一鍵CMD，簡單，快捷！</f>]]></item>
+      <item id="remind6"><![CDATA[ <f f="yahei.16" >遠程主機系統診斷，進程查看，</f>]]></item>
+      <item id="remind_text6"><![CDATA[ <f f="yahei.16" >盡在向日葵！</f>]]></item>
+      <item id="renew_now" value="立即續費" />
+      <item id="update_now" value="升級並擁有" />
+
+      <!--消息群發-->
+      <item id="group_news_title" value="來自主控端%s的消息" />
+
+      <!-- 關於 -->
+      <item id="about_text" value="向日葵遠程控制（%s）" />
+      <item id="about_companyright" value="上海貝銳 版權所有" />
+      <item id="about_copyright" value="Copyright(©) 2009-2019 Oray. All Rights Reserved" />
+
+      <!--用戶回饋-->
+      <item id="feedback_guid" value="請輸入內容，點擊發送" />
+      <item id="feedback_send" value="發送" />
+      <item id="feedback_title" value="給向日葵提建議" />
+      <item id="feedback_mode1" value="1. 遇到的問題:" />
+      <item id="feedback_mode2" value="2. 我的系統詳細資料(設備操作系統等):" />
+      <item id="feedback_mode3" value="3. 我的聯繫方式:" />
+      <item id="feedback_hint" value="提示" />
+      <item id="feedback_text_too_less"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;再詳細點，讓我們更瞭解您遇到的問題</f> ]]></item>
+      <item id="feedback_on_sending" value="正在發送..." />
+      <item id="feedback_succeed_msg"><![CDATA[<i name="skin/success.png" width="14" height="14" ></i><f id="yahei.14">&#160;回饋成功，謝謝您的回饋，麼麼噠！</f>]]></item>
+      <item id="feedback_failed_msg"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;回饋不成功，再發一次喲～</f>]]></item>
+      <item id="feedback_btn_yes" value="確定" />
+      <item id="feedback_btn_resend" value="重新發送" />
+      <item id="dlg_feedback_context" value="建議內容" />
+      <item id="dlg_feedback_contact" value="手機號碼、QQ或郵箱" />
+
+      <!-- 安裝介面-->
+      <item id="install_menu_path" value="向日葵" />
+      <item id="install_link_name" value="向日葵" />
+      <item id="install_link_name_enterprise" value="向日葵企業版" />
+      <item id="install_company_name" value="上海貝銳資訊科技股份有限公司" />
+      <item id="install_link_uninstall_name" value="卸載向日葵" />
+      <item id="install_install" value="同意用戶協議並安裝" />
+      <item id="install_useragreement" value="用戶協議" />
+      <item id="install_custominstall" value="自定義安裝" />
+      <item id="install_browse" value="流覽" />
+      <item id="install_createlink" value="創建快捷方式" />
+      <item id="install_add_quick_launch" value="添加到快速啟動欄" />
+      <item id="install_label_start_install" value="開始安裝" />
+      <item id="install_label_check_installed" value="檢查已安裝的版本" />
+      <item id="install_label_have_new_installed" value="已安裝更新的版本" />
+      <item id="intalll_label_start" value="安裝準備" />
+      <item id="install_label_uninstall_old" value="卸載舊版本" />
+      <item id="install_label_uninstall_old_failed" value="卸載舊版本失敗，請手動卸載" />
+      <item id="install_label_copy_files" value="拷貝檔" />
+      <item id="install_label_write_reg" value="寫註冊表資訊" />
+      <item id="install_label_create_link" value="創建快捷方式" />
+      <item id="install_label_install_service" value="安裝服務" />
+      <item id="install_label_release_resource" value="釋放資源" />
+      <item id="install_label_install_drive" value="安裝驅動" />
+      <item id="install_label_create_menu" value="創建開始菜單圖示" />
+      <item id="install_label_setting_autorun" value="設置開機啟動" />
+      <item id="install_label_finish" value="安裝完成" />
+      <item id="setpath" value="設置安裝路徑" />
+      <item id="install_title" value="向日葵客戶端" />
+      <item id="install_no_this_drive" value="沒有可用盤符 %s" />
+      <item id="install_path_format_error" value="路徑格式錯誤" />
+      <item id="install_edit_ok_path"><![CDATA[ <f id="yahei.14" c="color.main"  >請更改為正確格式路徑安裝</f> ]]></item>
+      <item id="install_path_label" value="安裝路徑：" />
+      <item id="install_enjoy_it" value="讓你盡情享受遠程控制的快感" />
+      <item id="installdlg.install.failed" value="安裝失敗。" />
+      <item id="installdlg.copyfile.failed" value="複製檔失敗，可能是因為安全軟體攔截，請關閉安全軟體重試。" />
+      <item id="install_now" value="立即安裝向日葵" />
+      <item id="install_green" value="免安裝，以綠色版運行" />
+      <item id="install_agree"><![CDATA[ <f id="yahei.12" c="color24">安裝表示您同意</f><f id="1025" e="true" f="yahei.12" cursor="hand" c="color6">向日葵用戶許可協議</f> ]]></item>
+      <item id="install_path" value="安裝位置：" />
+      <item id="install_change" value="更改" />
+      <item id="install_welcome" value="歡 迎 使 用 向 日 葵" />
+      <item id="install_enter" value="立即進入" />
+      <item id="multifuction_have_oldversion" value="將卸載當前版本%s，是否繼續？" />
+      <item id="multifuction_have_same_version" value="已安裝相同版本向日葵,是否願意繼續安裝？" />
+      <item id="multifuction_have_new_version" value="已經安裝更新版本的向日葵！" />
+      <item id="multifuction_have_oldversion_title" value="向日葵安裝" />
+
+      <!--卸載介面-->
+      <item id="uninstall_before_title" value="感謝您的使用，確定要卸載嗎？" />
+      <item id="uninstall_going_title" value="主人我捨不得你..." />
+      <item id="uninstall_after_title" value="我會用更好的自己，與你在某天重逢" />
+      <item id="uninstall_uninstall" value="立即卸載" />
+      <item id="uninstall_no" value="暫不卸載" />
+      <item id="uninstall_bye" value="再見" />
+      <item id="uninstall_feedback" value="意見回饋" />
+      <item id="uninstall_start_uninstall" value="開始卸載" />
+      <item id="uninstall_stopuninstall_service" value="停止並卸載服務" />
+      <item id="uninstall_delete_reginfo" value="刪除註冊表資訊" />
+      <item id="uninstall_delete_link" value="刪除快捷方式" />
+      <item id="uninstall_delete_device" value="卸載驅動" />
+      <item id="uninstall_delete_start_menu" value="刪除開始菜單" />
+      <item id="uninstall_delete_self" value="刪除自己" />
+      <item id="uninstall_temp4delete_self" value="刪除安裝目錄" />
+      <item id="uninstall_finish_uninstall" value="卸載完成" />
+      <item id="uninstall_title" value="向日葵客戶端" />
+      <item id="uninstall_close_msg" value="檢查到向日葵客戶端或後臺服務正在進行，卸載無法繼續。請單擊“是”強制關閉該程式。或者單擊“否”退出卸載" />
+      <item id="uninstall_one_text" value="卸載後您的電腦將失去遠程控制功能" />
+      <item id="feed_back_edit_mask" value="請告訴我需要改善的地方，感謝一直以來的支持！" />
+      <item id="clear_user_info" value="清除用戶數據" />
+      <item id="clear_user_info_desc" value="清除本地用戶數據（清除後下次安裝將重新配置）"/>
+      <item id="uninstall_text" value="感 謝 您 一 直 以 來 的 支 持" />
+
+      <!--更新介面-->
+      <item id="update_getting_info" value="升級資訊獲取中，再等我幾秒鐘..." />
+      <item id="update_updatenow" value="立即更新" />
+      <item id="update_cancel" value ="暫不更新" />
+      <item id="update_stop_warn_this_version" value="此版本不再提示" />
+      <item id="update_no_new_version" value="當前已是最新版本：" />
+      <item id="update_main_name" value="向日葵遠程控制" />
+      <item id="update_this_version" value="（當前為" />
+      <item id="update_cur_version" value="當前為：" />
+      <item id="update_find_newversion" value="發現最新版本：" />
+      <item id="update_on_updating" value="向日葵升級中" />
+      <item id="update_install_failed" value="安裝失敗" />
+      <item id="update_prompt" value="提示" />
+      <item id="update_downloading" value="正在更新" />
+      <item id="update_download_failed" value="更新失敗" />
+      <item id="update_runinstall_failed" value="運行失敗" />
+      <item id="update_title" value="向日葵遠程控制更新" />
+      <item id="update_message" value="已運行向日葵，這是新版本，是否更新？" />
+
+      <!--退出窗口-->
+      <item id="quit_title" value="退出向日葵" />
+      <item id="quit_ask" value="確定要退出向日葵客戶端？" />
+      <item id="quit_result" value="確定退出後，將無法遠程控制此電腦" />
+      <item id="quit_ok" value="確定" />
+      <item id="quit_cancel" value="取消" />
+
+      <!--注销窗口-->
+      <item id="logout_title" value="註銷" />
+      <item id="logout_ask" value="确定要註銷？" />
+      <item id="logout_result" value="註銷会解綁當前主機！" />
+
+      <!--多功能Box窗口-->
+      <item id="multifuction_title" value="多功能" />
+      <item id="multifuction_ask_install"><![CDATA[ <f id="yahei.bold.14"  >常用向日葵，請</f><f id="yahei.bold.14" c="color.main"  >安裝向日葵正式版</f>]]></item>
+      <item id="multifuction_install_benefit" value="享受更多功能，更快捷的遠控！" />
+      <item id="multifuction_ok" value="確定" />
+      <item id="multifuction_canel" value="取消" />
+      <item id="multifuction_quit_now" value="立即退出" />
+      <item id="multifuction_install_now" value="安裝正式版" />
+      <item id="multifuction_install_and_use" value="安裝正式版使用" />
+
+      <!-- 設置窗體 -->
+      <item id="system_setting" value="系統設置" />
+      <item id="basic_setting" value="常規設置" />
+      <item id="safe_setting" value="安全設置" />
+      <item id="domain_setting" value="功能變數名稱訪問" />
+      <item id="network_setting" value="網路設置" />
+      <item id="advance_setting" value="高級設置" />
+      <item id="control_setting" value="遠控本機設置" />
+      <item id="verify_access_password" value="訪問密碼驗證" />
+      <item id="verify_window_account" value="本機的系統帳戶密碼" />
+      <item id="verify_window_account_no_password" value="當前的Windows帳號沒有密碼" />
+      <item id="anti-harassment" value="防騷擾" />
+      <item id="set_wakeup_password" value="遠程開機密碼" />
+      <item id="client_lock" value="隱私設置" />
+      <item id="ip_filter" value="IP地址過濾" />
+      <item id="set_access_time_period" value="訪問時段設置" />
+      <item id="setting_setting" value="設置" />
+      <item id="editVCode_setting" value="修改驗證碼" />
+
+      <!-- 基本設置詳細UI -->
+      <item id="hostname_and_desc" value="主機名/備註" />
+      <item id="enter_hostname" value="請輸入主機名" />
+      <item id="enter_hostdesc" value="請輸入備註" />
+      <item id="base_setting_sunlogincode" value="葵碼：" />
+      <item id="base_setting_account_owner" value="所屬帳號：" />
+      <item id="independent_domain_name_access" value="獨立功能變數名稱訪問" />
+      <item id="accessed_host_by_link" value="把鏈接發給夥伴，通過流覽器打開可直接訪問本機" />
+      <item id="start_independent_domain_name_access" value="開啟功能變數名稱訪問" />
+      <item id="accessed_link" value="訪問鏈接：" />
+      <item id="base_setting_module_open" value="VPN模組" />
+      <item id="open_vpn" value="開啟向日葵VPN" />
+      <item id="base_setting_remote_wakeup" value="遠程開機" />
+      <item id="base_setting_open" value="打開所在檔夾" />
+      <item id="sunlogin_code" value="帳號綁定" />
+      <item id="no_login_account" value="未綁定帳號" />
+      <item id="language_selection" value="語言選擇" />
+      <item id="launch_login_quit" value="啟動登錄：" />
+      <item id="launch_login" value="登錄" />
+      <item id="autorun_setting" value="開機時自動啟動軟體" />
+      <item id="run_as_service_setting" value="僅以服務方式運行，不顯示任務欄圖示" />
+      <item id="show_notification_message" value="顯示遠程登錄消息通知氣泡" />
+      <item id="no_operation_of_control" value="分鐘後，無操作自動斷開遠程連接" />
+      <item id="desktop_model" value="桌面模式：" />
+      <item id="update_model" value="軟體更新：" />
+      <item id="rule_mode_auto" value="自動匹配最佳模式" />
+      <item id="rule_mode_h264" value="娛樂模式" />
+      <item id="rule_mode_zip" value="工作模式" />
+      <item id="update_mode_slient" value="自動更新" />
+      <item id="update_mode_reminder" value="提醒我更新" />
+      <item id="save_log" value="日誌保存：" />
+      <item id="save_log_path" value="默認把日誌檔保存到此檔夾中" />
+      <item id="screen_record" value="錄影截屏：" />
+      <item id="open_screen_record" value="開啟螢幕錄影" />
+      <item id="save_screen_record_path" value="每次遠程控制桌面操作將保存在以下檔夾中" />
+      <item id="convert_video_format" value="轉換錄影格式" />
+      <item id="browse_repo" value="流覽" />
+      <item id="setting_basic_open" value="打開" />
+      <item id="file_distribution" value="檔分發" />
+      <item id="save_file_path" value="分發的檔默認保存到此檔夾中" />
+      <item id="share_url_tip_1" value="你的安全級別太低，不能開啟功能變數名稱訪問功能。" />
+      <item id="share_url_tip_4" value="請先開啟訪問密碼。" />
+      <item id="share_url_tip_2" value="為保障本機安全，未開啟密碼驗證，不能使用功能變數名稱訪問功能。" />
+      <item id="share_url_tip_3" value="繼續將關閉獨立功能變數名稱訪問。" />
+      <item id="continue" value="繼續" />
+      <item id="display_language" value="顯示語言：" />
+      <item id="language_cn" value="简体中文" />
+      <item id="language_cn_tw" value="繁體中文" />
+      <item id="language_en" value="English" />
+      <item id="refresh_fastcodepwd" value="驗證碼刷新" />
+      <item id="refresh_never" value="從不刷新" />
+      <item id="refresh_everyday" value="每日刷新" />
+      <item id="refresh_after_control" value="每次遠控後刷新" />
+      <item id="setting_file_no_exist"><![CDATA[<f f="yahei.14" c="color5">未選取檔夾</f>]]></item>
+
+      <item id="msg_remind" value="服務消息提醒（服務到期提醒、優惠活動通知）" />
+      <item id="msg_remind_more" value="服務到期提醒、優惠活動通知" />
+      <item id="open_remind" value="提醒：" />
+      <item id="msg_remind_onoff" value="主機上下線提醒" />
+      <item id="msg_remind_control" value="本機被遠控時提醒" />
+
+      <item id="setting_sound" value="聲音：" />
+      <item id="setting_close_sound" value="關閉消息提示聲音" />
+
+      <item id="setting_bk_title" value="背景主題：" />
+      <item id="setting_bk_white" value="明亮主題" />
+      <item id="setting_bk_black" value="暗黑主題" />
+      <item id="save_log_title" value="日誌保存" />
+      <item id="save_record_title" value="錄影截屏" />
+
+      <item id="setting_lock" value="鎖定：" />
+      <item id="setting_lock_text" value="軟體鎖定設置" />
+      <item id="setting_lock_pwd" value="輸入密碼" />
+      <item id="setting_lock_twice" value="確認密碼" />
+      <item id="setting_lock_twice_error" value="兩次密碼不一致" />
+      <item id="setting_lock_twice_error_null" value="密碼不能為空" />
+      <item id="setting_lock_save" value="保存" />
+
+      <item id="setting_control_record" value="遠程控制的錄影和截屏檔將保存在此" />
+      <item id="setting_control_log" value="遠程控制的日誌檔將保存在此" />
+
+      <item id="control_setting_bind" value="綁定帳號：" />
+      <item id="control_setting_bind_binded" value="已綁定" />
+      <item id="control_setting_bind_nobind" value="未綁定" />
+      <item id="control_setting_bind_bind_host" value="綁定本機" />
+      <item id="control_setting_bind_cancel" value="解綁" />
+
+      <item id="control_setting_pwd" value="訪問密碼：" />
+      <item id="control_setting_pwd_desc" value="用於從控制端帳號下設備列表，遠控本設備時" />
+      <item id="control_setting_pwd_no" value="無需訪問密碼" />
+      <item id="control_setting_pwd_set" value="設置訪問密碼" />
+      <item id="control_setting_pwd_host" value="本機系統帳號密碼" />
+      <item id="control_setting_pwd_access" value="獨立訪問密碼" />
+      <item id="control_setting_access_modify" value="修改" />
+
+      <item id="control_setting_vcode" value="驗證碼刷新：" />
+      <item id="control_setting_vcode_no_rule" value="不自動刷新" />
+      <item id="control_setting_vcode_every_day" value="每日刷新" />
+      <item id="control_setting_vcode_after_control" value="每次遠控後刷新" />
+      <item id="control_setting_vcode_self" value="自定義驗證碼" />
+
+      <item id="control_setting_desktop" value="桌面模式：" />
+
+      <item id="control_setting_open" value="開機密碼：" />
+      <item id="control_setting_open_pwd" value="啟用開機密碼" />
+
+      <item id="control_setting_black" value="黑屏模式：" />
+      <item id="control_setting_black_text" value="啟用黑屏（遠控本機時防止別人看到你在做什麼）" />
+      <item id="control_setting_black_virual" value="虛擬機不支持" />
+      <item id="control_setting_black_virual_text" value="虛擬機中不支持黑屏驅動" />
+      
+      <item id="control_setting_print" value="遠程列印：" />
+      <item id="control_setting_print_text" value="啟用遠程列印" />
+      <item id="control_setting_print_open" value="開啟遠程列印需安裝驅動" />
+      <item id="control_setting_print_open_text" value="允許本機的檔在遠程主機連接的列印設備上列印" />
+      <item id="control_setting_print_install" value="確認安裝" />
+      <item id="control_setting_print_close" value="關閉遠程列印將卸載驅動" />
+      <item id="control_setting_print_close_text" value="卸載後將無法使用遠程列印功能" />
+      <item id="control_setting_print_uninstall" value="確認卸載" />
+
+      <item id="control_setting_cloud" value="桌面雲監控：" />
+      <item id="control_setting_cloud_text" value="開啟雲監控（設備線上時的錄影將保存在雲端）" />
+      <item id="desktop_cloud_desc" value="設備線上時的錄影將保存於雲端" />
+      <item id="desktop_cloud_close" value="關閉雲監控" />
+      <item id="desktop_cloud_close_msg1" value="關閉後需到網站上重新開啟雲監控" />
+      <item id="desktop_cloud_close_msg2" value="請確認是否關閉?" />
+      <item id="desktop_cloud_close_ok" value="確認" />
+      <item id="cloud_manage">
+        <![CDATA[
+        <f> 未開啟桌面雲監控（如需開啟雲監控請登錄</f><f id="sunlogin_manage" e="true" f="yahei.underline.14" cursor="hand" c="color6" >向日葵管理</f><f>）</f>
+      ]]>
+      </item>
+
+      <item id="control_setting_file" value="檔分發：" />
+      <item id="control_setting_file_text" value="分發的檔將保存在此" />
+
+      <item id="control_setting_anti" value="防騷擾：" />
+      <item id="control_setting_anti_add" value="添加" />
+      <error id="ip_path_null_error" value="請輸入IP地址." />
+      <error id="ip_path_error" value="IP地址輸入有誤請重新輸入." />
+      <error id="ip_path_compar" value="該IP地址已經存在." />
+      <error id="control_setting_anti_forbid_time" value="禁止以下時段訪問" />
+      <error id="time_error_info" value="起始時間不能大於結束時間." />
+      <error id="time_exist" value="該時間段已經存在." />
+      <error id="time_empty" value="輸入間隔時間不能為空." />
+
+      <item id="basic_setting_text_1" value="啟動登錄" />
+      <item id="basic_setting_text_2" value="提醒" />
+      <item id="basic_setting_text_3" value="聲音" />
+      <item id="basic_setting_text_4" value="背景主題" />
+      <item id="basic_setting_text_5" value="鎖定" />
+      <item id="basic_setting_text_6" value="顯示語言" />
+      <item id="basic_setting_text_7" value="軟體更新" />
+      <item id="basic_setting_text_8" value="錄影截屏" />
+      <item id="basic_setting_text_9" value="日誌保存" />
+
+      <item id="control_setting_text_1" value="綁定帳號" />
+      <item id="control_setting_text_2" value="訪問密碼" />
+      <item id="control_setting_text_3" value="驗證碼刷新" />
+      <item id="control_setting_text_4" value="桌面模式" />
+      <item id="control_setting_text_5" value="開機密碼" />
+      <item id="control_setting_text_6" value="黑屏模式" />
+      <item id="control_setting_text_7" value="桌面雲監控" />
+      <item id="control_setting_text_8" value="檔分發" />
+      <item id="control_setting_text_9" value="防騷擾" />
+      <item id="control_setting_text_10" value="遠程列印" />
+      <item id="network_setting_text" value="代理設置" />
+      <item id="network_setting_error" value="系統的IP或端口為空" />
+
+      <!-- 安全詳細UI -->
+      <item id="access_password" value="遠程訪問驗證" />
+      <item id="use_access_password" value="遠程訪問驗證（至少啟用其中一個，否則將無法訪問）" />
+      <item id="enable_access_password" value="獨立訪問密碼" />
+      <item id="been_set" value="已設置" />
+      <item id="no_set" value="未設置" />
+      <item id="change_password" value="修改密碼" />
+      <item id="enter_ip" value="請輸入IP地址" />
+      <item id="open_ip_filter" value="遠程訪問IP地址過濾" />
+      <item id="allow_access_during_the_following_ip" value="僅允許以下IP地址訪問" />
+      <item id="prevent_access_during_the_following_ip" value="僅阻止以下IP地址訪問" />
+      <item id="forbid_access_during_the_period" value="遠程訪問時段過濾" />
+      <item id="hour" value="時" />
+      <item id="minute" value="分" />
+      <item id="no_remote_wakeup_password" value="無需遠程開機密碼" />
+      <item id="need_remote_wakeup_password" value="啟用遠程開機密碼" />
+      <item id="use_password_to_unlock" value="客戶端鎖定（防止別人修改你的向日葵設置）" />
+      <item id="use_account_password_to_unlock" value="使用帳號密碼解鎖" />
+      <item id="remote_access_using_windows_account" value="遠程訪問時，使用系統帳號登錄" />
+      <item id="allow_lan_discovery" value="允許被局域網發現" />
+      <item id="accept_quick_access_control_request" value="接受識別碼訪問" />
+      <item id="accept" value="接受" />
+      <item id="refuse" value="拒絕" />
+      <item id="answer_question" value="需正確回答問題" />
+      <item id="harass_question1" value="我的手機號碼" />
+      <item id="harass_question2" value="我的車牌號碼" />
+      <item id="harass_question3" value="我的EMail郵箱" />
+      <item id="harass_question4" value="我的電話號碼" />
+      <item id="harass_question5" value="我的公司名稱" />
+      <item id="harass_question6" value="我的家庭地址" />
+      <item id="reject" value="不接受" />
+      <item id="enter_answer" value="請輸入答案" />
+      <item id="set_custom_password" value="請設置訪問密碼" />
+
+      <!-- 網路連接 -->
+      <item id="setting_net_netconnect" value="網路連接" />
+      <item id="proxy_setting" value="代理設置：" />
+      <item id="enable_proxy" value="啟用代理" />
+      <item id="type" value="類型：" />
+      <item id="ip" value="地址：" />
+      <item id="port" value="端口：" />
+      <item id="domain" value="域：" />
+      <item id="user" value="用戶名：" />
+      <item id="password:" value="密碼：" />
+      <item id="socks5" value="SOCKS5" />
+      <item id="socks4" value="SOCKS4" />
+      <item id="sunlogin_enterprise_setting_no_proxy" value="不使用代理" />
+      <item id="sunlogin_enterprise_setting_auto_proxy" value="自動檢測代理(使用系統配置的proxy)" />
+      <item id="sunlogin_enterprise_setting_set_proxy" value="手動設置代理" />
+      <item id="sunlogin_enterprise_setting_proxy_pwd" value="注：系統代理無帳號密碼則不填" />
+      <item id="proxy_test" value="測試" />
+
+      <!-- 功能變數名稱訪問 -->
+      <item id="domain_content" value="開通功能變數名稱訪問，通過流覽器直接遠控本機" />
+      <item id="bind_domain" value="綁定葵功能變數名稱，給你的電腦一個專屬地址" />
+      <item id="is_open" value="已開啟" />
+      <item id="not_open" value="未開啟" />
+      <item id="retry_domain" value="地址獲取失敗,重新獲取" />
+
+      <!--安裝黑屏驅動窗口-->
+      <item id="installblackscreen_title" value="黑屏模式" />
+      <item id="installblackscreen_cancel" value="取消" />
+      <item id="installblackscreen_retry" value="重試" />
+      <item id="installblackscreen_quit" value="退出" />
+      <item id="installblackscreen_ongoing" value="正在安裝黑屏驅動" />
+      <item id="installblackscreen_failed" value="安裝黑屏驅動失敗" />
+      <item id="installblackscreen_err" value="無顯示器無法安裝黑屏驅動" />
+      <item id="installblackscreen_tip"><![CDATA[<f id="yahei.14" c="color4" >綠色版無法啟用黑屏</f>]]></item>
+      <item id="installblackscreen_install" value="繼續安裝" />
+      <item id="installblackscreen_not_install" value="暫不開啟" />
+      <item id="installblackscreen_ask"><![CDATA[<f id="yahei.14" c="color.white" >開啟黑屏模式需安裝顯示驅動</f>]]></item>
+      <item id="installblackscreen_result_1"><![CDATA[<f id="yahei.14" c="color8" >此驅動將導致部分筆記本電腦無法使用屏</f>]]></item>
+      <item id="installblackscreen_result_2"><![CDATA[<f id="yahei.14" c="color8" >幕亮度調節功能</f><blank></blank><f id="50007" id="yahei.underline.14" cursor="hand" c="color6" >瞭解詳情</f>]]></item>
+
+      <!--安裝列印驅動窗口-->
+      <item id="installprint_title" value="遠程列印模式" />
+      <item id="installprint_cancel" value="取消" />
+      <item id="installprint_retry" value="重試" />
+      <item id="installprint_quit" value="退出" />
+      <item id="installprint_ongoing" value="正在安裝遠程列印驅動" />
+      <item id="installprint_failed" value="安裝遠程列印驅動失敗" />
+      <item id="installprint_ongoing_uninstall" value="正在卸載遠程列印驅動" />
+      <item id="installprint_failed_uninstall" value="卸載遠程列印驅動失敗" />
+      <item id="installprint_err" value="無顯示器無法安裝遠程列印驅動" />
+      <item id="installprint_tip" value="綠色版無法啟用遠程列印" />
+      <item id="installprint_install" value="繼續安裝" />
+      <item id="installprint_not_install" value="暫不開啟" />
+
+      <!--遠程桌面工具欄-->
+      <item id="tool_title" value="遠程桌面工具欄" />
+      
+      <!-- 綠色版基本設置 -->
+      <item id="green_basic_set_setting" value="常規設置" />
+      <item id="green_basic_set_start_login" value="啟動、登錄" />
+      <item id="green_basic_set_is_start_up" value="開機時自動啟動向日葵" />
+
+      <!--remote assistance -->
+      <item id="fast_code_have_no_this_host"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;此主機不存在或不線上</f>]]></item>
+      <item id="fast_code_other_reject"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;對方未接受您的請求！</f>]]></item>
+      <item id="Identify_error"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;驗證碼錯誤，請重新輸入</f>]]></item>
+      <item id="fast_code_invalid_parameter"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;參數錯誤</f>]]></item>
+      <item id="fast_code_permission_denied"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;無權限訪問</f>]]></item>
+      <item id="fast_code_auth_failed"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;驗證碼錯誤，請重新輸入</f>]]></item>
+      <item id="fast_code_Rejected"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;對方拒絕了你的請求</f>]]></item>
+      <item id="fast_code_not_response"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;對方無應答，可能不在電腦旁</f>]]></item>
+      <item id="connectsrv_fail"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;網路連接失敗，無法連接到伺服器</f>]]></item>
+      <item id="fast_code_identifycode_oraykvm_desc"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;對方主機為控控設備</f>]]></item>
+      <item id="fast_code_identifycode_android_desc"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;對方主機為安卓系統</f>]]></item>
+      <item id="fast_code_input_custom_password_desc"><![CDATA[</i><f id="yahei.14">請輸入訪問密碼作為驗證碼</f>]]></item>
+      <item id="getting_load_type" value="資訊獲取中..." />
+      <item id="connecting" value="正在連接..." />
+      <item id="disconnect" value="斷開連接" />
+      <item id="connect_stop" value="連接已斷開" />
+      <item id="connect_retry" value="意外斷開，正在重連..." />
+      <item id="connect_failed" value="重連失敗，請重新發起遠控" />
+      <item id="disconnect_request" value="斷開請求連接" />
+      <item id="retry" value="重試" />
+      <item id="fast_code_send_request_ok" value="已發送請求，等待對方接受（%d s）" />
+      <item id="dont_fastcode"><![CDATA[<f id="yahei.14">不允許控制本機，請輸入其他電腦的識別碼吧！</f>]]></item>
+      <item id="loading_remote_desktop" value="正在進入遠程桌面..." />
+      <item id="accept_title" value="遠程協助請求" />
+      <item id="bind_title" value="主機綁定" />
+      <item id="accept_msg"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;正在請求遠程協助你的桌面</f>]]></item>
+      <item id="accpet_bind_msg" value="正在請求綁定你的主機..." />
+      <item id="accpet_bind_result" value="綁定後對方可直接從主機列表控制本機" />
+      <item id="accpet_accept" value="接受" />
+      <item id="accpet_reject" value="拒絕" />
+      <item id="unknown_name" value="佚名" />
+      <item id="clear_history" value="清空所有記錄" />
+      <item id="delete" value="刪除" />
+      <item id="multifuction_ask_disconnect_this_session"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14"  >&#160;是否要斷開連接？</f>]]></item>
+      <item id="getting_load_update" value="親，努力加載中，請耐心等待喔" />
+      <item id="screen" value="螢幕" />
+      <!-- moblie screen -->
+      <item id="mobile_phone_screen" value="手機投屏" />
+      <item id="scan_code_screen" value="掃碼投屏" />
+      <item id="download_mobile_phone"><![CDATA[<f>打開</f><f id="download_mobile_phone" e="true" f="yahei.12" cursor="hand" c="color.main.old" >控制端APP</f><f>（需8.0以上版本）</f>]]></item>
+      <item id="enable_scan_code_screen" value="在[我的]介面左上角打開掃一掃" />
+      <item id="dlg_download_mobile_phone" value="掃碼下載控制端" />
+      <item id="dlg_download_mobile_phone_download_address"><![CDATA[<f>掃碼下載控制端APP</f>]]></item>
+      <item id="dlg_download_mobile_phone_scan_code_download" value="或應用市場搜索[向日葵遠程控制]" />
+
+      <!-- 系統錯誤資訊 -->
+      <error id="error:ok" value=""/>
+      <error id="error:unknown_error" value="未知錯誤"/>
+      <error id="error:auth_failed" value="帳號或密碼錯誤"/>
+      <error id="error:connect_failed" value="網路連接失敗，無法連接到伺服器"/>
+      <error id="error:forced_offline" value="葵碼已在其他地方登錄"/>
+      <error id="error:connect_service_failed" value="shell連接服務失敗"/>
+      <error id="error:service_busy" value="伺服器忙"/>
+      <error id="error:error_mac" value="錯誤的mac地址"/>
+      <error id="error:error_fastcode" value="錯誤的快速訪問碼"/>
+      <error id="error:error_data" value="錯誤的數據包格式"/>
+      <error id="error:server_return_failed" value="伺服器返回告訴失敗"/>
+      <error id="error:param_error" value="參數錯誤"/>
+      <error id="error:param_lack" value="缺少參數"/>
+      <error id="error:host_not_exist" value="主機不存在或已經被刪除"/>
+      <error id="error:account_pwd_empty" value="帳號密碼不能為空，請重新輸入！"/>
+      <error id="error:sunlogin_code_empty" value="葵碼不能為空，請重新輸入！"/>
+      <error id="error:invalid_sunlogincode" value="無效的葵碼"/>
+      <error id="error:host_outof_limit" value="主機數量超出了限制"/>
+      <error id="error:lic_not_exist" value="授權不存在"/>
+      <error id="error:lic_not_belong_user" value="授權不屬於當前請求用戶"/>
+      <error id="error:lic_bindby_otheruser" value="(創建主機)授權已被其他主機綁定"/>
+      <error id="error:not_host_op_jurisdiction" value="當前用戶沒有操作主機的許可權"/>
+      <error id="error:host_not_exist2" value="主機不存在"/>
+      <error id="error:wakeup_lic_expired" value="開機授權已過期"/>
+      <error id="error:not_bind_wakeup" value="沒有綁定開機棒"/>
+      <error id="error:get_wakeup_info_failed" value="開機棒資訊獲取失敗"/>
+      <error id="error:wakeup_faile" value="開機失敗"/>
+      <error id="error:wakeup_psw_empty" value="需要開機密碼（密碼參數為空）"/>
+      <error id="error:wake_psw_error" value="開機密錯誤"/>
+      <error id="error:version_denied" value="該版本已經停止使用，請更新到新版本"/>
+      <error id="error:version_low" value="你當前的版本過低，請更新到新版本"/>
+      <error id="error:invalid_lic" value="授權無效或已過期，請重新登錄"/>
+      <error id="error:listen_failed" value="監聽本地端口失敗"/>
+      <error id="error:package_not_exist" value="安裝包不存在"/>
+      <error id="error:package_expired_or_not_exist" value="定制服務已過期或已被刪除"/>
+      <error id="error:package_host_outof_limit" value="超出帳號的可用主機數"/>
+      <error id="error:package_create_host_failed" value="創建主機失敗"/>
+      <error id="error:package_permission_denied" value="輸入的帳號沒有許可權"/>
+      <error id="error:connect_count_limit" value="您的遠程通道數已占滿，請等待其他斷開後再試" />
+      <error id="connect_error"><![CDATA[<f id="yahei.14">連接伺服器失敗，請重試！</f>]]></error>
+      <error id="connect_success"><![CDATA[<f id="yahei.14">連接成功！</f>]]></error>
+      <error id="save_error"><![CDATA[<f id="yahei.14">保存失敗！</f>]]></error>
+
+      <item id="uu_assist" value="向日葵UU" />
+      <item id="uu_title" value="向日葵UU" />
+      <item id="uu_other_account_text1" value="UU輔助和遊戲版更般配哦" />
+      <item id="uu_other_account_text2" value="升級遊戲版，體驗更暢快的遠控之旅" />
+      <item id="uu_upgrade" value="升級" />
+      <item id="uu_cancel" value="取消" />
+      <item id="uu_ok" value="確定" />
+      <item id="uu_tip" value="向日葵UU" />
+      <item id="uu_tip_error_text" value="建議重新連接USB介面或重啟電腦" />
+      <item id="uu_open_success"><![CDATA[<i name="skin/icon_successful.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;已檢測到向日葵UU</f>]]></item>
+      <item id="uu_open_text"><![CDATA[<f id="yahei.14" name="mytest_msg" >通過UU遠控時即可突破&quot;此區域無法遠控&quot;限制</f>]]></item>
+      <item id="uu_update_check" value="檢測更新" />
+      <item id="uu_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;未檢測到UU</f><f id="512" e=true cursor="hand" c="color6">&#160;重新檢測</f>]]></item>
+      <item id="uu_nobind_2"><![CDATA[<f id="513" cursor="hand" c="color6" e=true >購買向日葵UU</f><f id="yahei.14">,實現電腦安全區域可控</f>]]></item>
+      <item id="uu_open_error"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;UU接入電腦異常</f>]]></item>
+
+      <item id="uu_upgrade_text" value="UU可以升級啦!" />
+      <item id="uu_upgrade_content" value="新增:" />
+      <item id="uu_upgrade_download"><![CDATA[<f id="yahei.16" c="color5">下載升級檔中...< /f>]]></item>
+      <item id="uu_upgrade_download_failed"> <![CDATA[<f id="yahei.16" c="color.red">UU下載失敗< /f>]]></item>
+      <item id="uu_upgradeing">
+        <![CDATA[<f id="yahei.16" c="color5">UU升級中...< /f>]]>
+      </item>
+      <item id="uu_upgrade_warning" value="請勿拔取固件,拔取後將終止升級" />
+      <item id="uu_upgrade_again" value="重新升級" />
+      <item id="uu_upgrade_success"> <![CDATA[<f id="yahei.16" c="color5">UU升級成功< /f>]]></item>
+      <item id="uu_upgrade_failed"> <![CDATA[<f id="yahei.16" c="color.red">UU升級失敗< /f>]]></item>
+      <item id="uu_upgrade_done" value="完成" />
+
+      <item id="uu_control_tip"><![CDATA[<f id="yahei.14">已開啟UU輔助< /f>]]></item>
+      <item id="uu_control_remove_text1"><![CDATA[<f id="yahei.14">UU已移除電腦，將使用默認遠程模式繼續遠控</f>]]></item>
+      <item id="uu_control_remove_text2"><![CDATA[<f id="yahei.14">可能出現&#160;此區域無法遠控&#160;問題< /f>]]></item>
+
+      <item id="uu_control_error"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;UU異常，可能出現&#160;此區域無法遠控&#160;問題</f>]]></item>
+      <item id="uu_control_error_text1"><![CDATA[<f id="yahei.12" c="color6">建議重啟電腦< /f>]]></item>
+      <item id="uu_control_error_text2"><![CDATA[<f id="yahei.14">繼續遠控將使用默認遠程模式< /f>]]></item>
+
+      <item id="uu_check_no" value="檢測完畢，未檢測到UU" />
+      <item id="uu_hard_in" value="請檢測硬體是否已安裝" />
+      <item id="logoning" value="正在登陆..." />
+      <item id="cannot_enable" value="此設備暫不支持遠程開機" />
+      <item id="host_name_empty" value="主機名不能為空" />
+      <item id="please_input_unlock_pwd" value="請輸入密碼解鎖" />
+      <item id="unlock_now" value="立即解鎖" />
+      <item id="login_now" value="立即登錄" />
+      <item id="lock_desc"><![CDATA[<i name="skin/warning.png" x="1" y="2" width="14" height="14" ></i><f id="yahei.14">需要登錄帳號，才能鎖定軟件< /f>]]></item>
+      <item id="device_type" value="類型" />
+
+      <!-- 开机插座 -->
+      <item id="menu_bind_host" value="綁定主機" />
+      <item id="menu_ele_control" value="電量統計" />
+      <item id="menu_use_log" value="使用日誌" />
+      <item id="menu_delete_socket" value="刪除開機插座" />
+      <item id="smart_plug_offline_tip" value="開機插座離線" />
+      <item id="smart_plug_offline_desc1"><![CDATA[<f f="yahei.14">開機插座（%s）已離線</f>]]></item>
+      <item id="smart_plug_offline_desc2"><![CDATA[<f f="yahei.14">請檢測插座是否已連接電源及網絡是否異常</f>]]></item>
+      <item id="check_help" value="排查幫助" />
+    </language>
+    
+    <!-- English -->
+    <language name="en" id="1033" value="eng" >
+      <item id="tips" value="Tip" />
+      <item id="title" value="Sunlogin Remote Control" />
+      <item id="application_name" value="Sunlogin Remote Control" />
+      <item id="green_title" value="Sunlogin Remote Control-Green" />
+      <item id="set_sunlogin" value="Setting" />
+      <item id="close" value="Close" />
+      <item id="minimize" value="Minimize" />
+      <item id="menu" value="Menu" />
+      <item id="remote_assistance" value="Remote assist" />
+      <item id="device_list" value="Devices" />
+      <item id="found_fun" value="Discover" />
+      <item id="mobile_screen" value="Screencast" />
+      <item id="no_login" value="no login" />
+      <item id="login" value="login" />
+      <item id="register" value="register" />
+      <item id="free" value="Free" />
+      <item id="game" value="Game" />
+      <item id="elite" value="Elite" />
+      <item id="premium" value="Premium" />
+      <item id="industry" value="Industry" />
+      <item id="introduction" value="Introduction" />
+      <item id="host_count" value="Hosts: " />
+      <item id="upgrade_renew" value="Upgrade/Renew" />
+      <item id="fastcode_desc" value="Enter remote host ID to control" />
+      <item id="fastcode_connect" value="Connect" />
+      <item id="fastcode_edit_desc" value="Host ID" />
+      <item id="vcode_edit_desc" value="Security code (or not)" />
+      <item id="fastcode_connect_desc" value="Invite remote control by giving host ID" />
+      <item id="local_fastcode" value="Local host ID:" />
+      <item id="local_identifying_code_visit" value="Security code:" />
+      <item id="refresh_identify_code" value="Refresh" />
+      <item id="identify_edit_tip" value="Customize" />
+      <item id="identify_hide" value="Hide Code" />
+      <item id="identify_show" value="Show Code" />
+      <item id="dlg_edit_vcode_entry_four_nums" value="4-8 characters" />
+      <item id="maindlg_link_service_succeed" value="Connected" />
+      <item id="maindlg_link_service_ongoing" value="Connecting" />
+      <item id="maindlg_loginfailed_msg" value="Next retry %d s" />
+      <item id="maindlg_loginfailed" value="Login failed" />
+      <item id="maindlg_service_error" value="Disconnect with server, reconnecting" />
+      <item id="maindlg_closing" value="Exiting..." />
+      <item id="maindlg_connected" value="being controlled" />
+      <item id="maindlg_send_chat" value="Chat" />
+      <item id="maindlg_control_name" value="From %s (%s)" />
+      <item id="remote_control" value="Desktop" />
+      <item id="remote_file" value="File" />
+      <item id="remote_camera" value="Camera" />
+      <item id="remote_cmd" value="CMD" />
+      <item id="remote_ssh" value="SSH" />
+      <item id="maindlg_control_time" value="Be controlled %d minutes" />
+      <item id="maindlg_new_version" value="New" />
+      <item id="maindlg_expires_text">
+        <![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><y h="2"/><f f="yahei.12" c="color.main.old">&#160;The service will be expired in %s, Please&#160;</f><y h="-1"/><f id="54321" e="true" f="yahei.underline.12" cursor="hand" c="color6">renew</f>]]>
+      </item>
+      <item id="maindlg_expires_text_normal" value="The service will be expired in %s, Please renew" />
+      <item id="no_remote_input" value="No remote input" />
+      <item id="allow_remote_input" value="Allow remote input" />
+      <item id="being_controlled" value="being connected" />
+      <item id="multifuction_blcakscreen_virual" value="VM dont support" />
+      <item id="multifuction_blcakscreen_virual_text" value="Virtual Machine don't support black screen driver" />
+
+      <!-- 菜单 -->
+      <item id="open_main" value="Open" />
+      <item id="micro_live" value="Live presentation" />
+      <item id="view_log" value="Logs" />
+      <item id="help" value="Help" />
+      <item id="question" value="Forum" />
+      <item id="online_upgrade" value="Update" />
+      <item id="about_sunlogin" value="About" />
+      <item id="lock_sunlogin" value="Lock" />
+      <item id="reminder" value="Message notification" />
+      <item id="user_feedback" value="Suggestion" />
+      <item id="check_new_version" value="Update" />
+      <item id="sunlongin_main_site" value="Sunlogin website" />
+      <item id="wechat_service" value="Customer service" />
+      <item id="advice_feebback" value="Advice" />
+      <item id="invite_newer" value="Invite friends to join us" />
+      <item id="message_notice" value="Message notification" />
+      <item id="contact_us" value="Contact us" />
+      <item id="binded_account" value="Account: %s " />
+      <item id="change_bind" value="Switch account" />
+      <item id="setting_control.change" value="Change" />
+      <item id="bind" value="bind" />
+      <item id="quick_code" value="Logout" />
+      <item id="logout" value="Logout" />
+      <item id="lock" value="Lock" />
+      <item id="login" value="Login" />
+      <item id="quit" value="Exit"/>
+      <item id="online" value="Online" />
+      <item id="offline" value="Offline" />
+      <item id="unlock_sunlogin" value="Unlock" />
+      <item id="copy" value="Copy" />
+      <item id="ping" value="Ping" />
+      <item id="chat" value="Chat" />
+      <item id="chat_tip" value="Chat with remote" />
+      <item id="paste" value="Paste" />
+      <item id="select_all" value="Select All" />
+      <item id="run_as_service" value="Running as service" />
+      <item id="logout_menu" value="Logout" />
+      <item id="maindlg_green_tip1" value="Install official to screen" />    
+      <item id="maindlg_green_tip2" value="Install official to control Android " />
+      <item id="maindlg_green_tip3" value="Install official to find more" /> 
+
+      <!-- login界面 -->
+      <item id="login_account" value="Login" />
+      <item id="register_account" value="Register" />
+      <item id="phone_number" value="Phone number (as a login account)" />
+      <item id="phone_number_1" value="Phone number" />
+      <item id="register_sn" value="SMS verification code" />
+      <item id="get_sn" value="Get a code" />
+      <item id="jump_sn" value="Skip verification" />
+      <item id="register_pwd" value="Password" />
+      <item id="agree_and_register" value="Create an account" />
+      <item id="account_binding" value="Login" />
+      <item id="service_agreement" value="Service agreement" />
+      <item id="other_register" value="Switch" />
+      <item id="account" value="Account" />
+      <item id="register_mail" value="Email" />
+      <item id="error_account" value="Mobile number has been registered" />
+      <item id="error_register_sn" value="Invalid SMS verification code" />
+      <item id="error_register_mail" value="Email format error" />
+      <item id="error_register_chat" value="SMS failure" />
+      <item id="error_phone_number" value="Mobile number does not exist." />
+      <item id="error_chat_limit" value="SMS send more than limit" />
+      <item id="error_chat_quick" value="Short message sending frequency is too short" />
+      <item id="error_register_pwd_null" value="Password can not be empty" />
+      <item id="error_register_pwd_width" value="Password length is not legal (6-16)" />
+      <item id="error_sn_null" value="Verification code cannot be empty" />
+      <item id="error_phone_null" value="Mobile number can not be empty" />
+      <item id="error_phone" value="Mobile number format error" />
+      <item id="error_mail_null" value="Email can not be empty" />
+      <item id="error_mail" value="Email format error" />
+      <item id="error_check_account" value="Account name length is not legal (5-16)" />
+      <item id="error_account_null" value="Account can not be empty" />
+      <item id="second_retry" value="s retry" />
+      <item id="login_register_warn_phone_1004" value="Missing parameters" />
+      <item id="login_register_warn_phone_1005" value="Invalid authentication string" />
+      <item id="login_register_warn_phone_1003" value="Account has been used" />
+      <item id="login_register_warn_phone_1006" value="Invalid account name format" />
+      <item id="login_register_warn_phone_1007" value="Account name length is not legal (5-16)" />
+      <item id="login_register_warn_phone_1008" value="Prohibit the use of account names" />
+      <item id="login_register_warn_phone_1009" value="Password length is not legal (6-16)" />
+      <item id="login_register_warn_phone_1010" value="Password and account name can not be the same" />
+      <item id="login_register_warn_phone_1011" value="Email address is not valid" />
+      <item id="login_register_warn_phone_1012" value="Invalid SMS verification code" />
+      <item id="login_register_warn_phone_1013" value="Phone number type incorrect" />
+      <item id="login_register_warn_phone_1014" value="Verification code incorrect" />
+      <item id="login_register_warn_phone_1214" value="Account creation failed" />
+      <item id="login_register_warn_phone_6000" value="Image authentication code is not valid" />
+      <item id="login_register_warn_phone_6001" value="SMS send limit exceeded" />
+      <item id="login_register_warn_phone_6002" value="SMS send frequency exceeded" />
+      <item id="login_register_warn_phone_6003" value="SMS failure" />
+      <item id="login_register_warn_phone_6004" value="Phone number is not correct" />
+      <item id="add_host_limit_desc01" value="You are using free service, which allows up to 100 hosts." />
+      <item id="add_host_limit_desc02"><![CDATA[<f f="yahei.12">Remove exceeded hosts before %s or</f><f id="50014" f="yahei.underline.12" cursor="hand" c="color6" e="true">(Upgrade service)</f><f f="yahei.12">to buy the number</f>]]></item>
+      <item id="add_host_limit_desc03"><![CDATA[<f f="yahei.14" c="color.red">Overdue, the system will automatically empty all hosts</f>]]></item>
+      <item id="auto_login" value="AutoLogin" />
+      <item id="login" value="Login" />
+      <item id="forget_pwd" value="I forget" />
+      <item id="please_enter_account" value="Account" />
+      <item id="please_enter_pwd" value="Password" />
+      <item id="please_enter_other_account" value="Enter account" />
+      <item id="register_" value="Register" />
+      <item id="account_pwd_empty" value="Account or password can't be empty" />
+      <item id="bind_now" value="Bind now" />
+      <item id="bind_after" value="Not bind" />
+      <item id="login_success" value="Login successful" />
+      <item id="bind_text1" value="After binding local host account," />
+      <item id="bind_text2" value="you can control from anywhere." />
+      <item id="bind_help" value="More Help" />
+      <item id="bind_host_one"><![CDATA[<f f="yahei.14" c="color5">消耗1主机（</f><f f="yahei.14" c="color.black" >还剩%s个</f><f f="yahei.14" c="color5">）</f>]]></item>
+      <item id="bind_host_null"><![CDATA[<f f="yahei.14" c="color5">主机数已用完&#160;</f><f id="56789" f="yahei.underline.14" cursor="hand" c="color6" e="true" >升级</f>]]></item>
+      <item id="bind_host_one_free"><![CDATA[<f f="yahei.14" c="color5">消耗1个主机</f>]]></item>
+      <item id="bind_host_binded"><![CDATA[<f f="yahei.14" c="color5">不消耗主机</f>]]></item>
+      <item id="bind_no_control" value="本机不需要被远控" />
+      <item id="bind_show_text"><![CDATA[<f f="yahei.16" c="RGB(41,43,51)">如本机需被远程控制，建议</f><f f="yahei.16" c="color.main.old" >绑定</f><f f="yahei.16" c="color.main" >到帐号下</f>]]></item>
+      <item id="login_register" value="登录 / 注册" />
+      <item id="login_ing" value="登录中..." />
+      
+      <item id="lock_device_title" value="锁定设备列表" />
+      <item id="lock_device_text_1" value="确定锁定设备列表" />
+      <item id="lock_device_text_2" value="锁定后，需输入帐号名密码才能进入" />
+      <item id="lock_device_ok" value="确定锁定" />
+
+      <item id="unlock_device" value="解锁" />
+      <item id="unlock_device_list" value="解锁设备列表" />
+
+      <item id="menu_bind_account" value="绑定帐号" />
+      <item id="menu_unbind_account" value="解绑帐号" />
+      <item id="menu_open_autorun" value="开启开机启动" />
+      <item id="menu_close_autorun" value="关闭开机启动" />
+      <item id="menu_device_detail" value="设备详情" />
+      <item id="menu_share_host" value="主机共享" />
+      <item id="menu_delete_host" value="删除主机" />
+      <item id="menu_manager" value="主机管理" />
+      <item id="menu_ip_set" value="IP设置" />
+      <item id="menu_present_stick" value="转赠开机棒" />
+      <item id="menu_delete_stick" value="删除开机棒" />
+      
+      <item id="check_stick_title" value="检测开机设备" />
+      <item id="check_stick_now" value="正在检测开机设备..." />
+      <item id="check_stick_buy" value="购买开机设备" />
+      <item id="check_stick_sure" value="本机已绑定开机棒（%s）" />
+      <item id="check_stick_text" value="购买开机设备，实现远程开机" />
+      <item id="check_stick_none"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;未检测到开机设备</f>]]></item>
+
+      <item id="check_uu_title" value="检测UU辅助" />
+      <item id="check_uu_now" value="正在检测UU辅助..." />
+      <item id="check_uu_buy" value="购买UU" />
+      <item id="check_uu_sure" value="本机已插上UU辅助" />
+      <item id="check_uu_text" value="购买UU，实现电脑安全区域可控" />
+      <item id="check_uu_none"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;未检测到UU辅助</f>]]></item>
+
+      <item id="check_boot_ok" value="确认" />
+      <item id="check_boot_close" value="关闭" />
+
+      <item id="error_password_security" value="密码不满足密码策略的要求。检查最小密码长度、密码复杂性和密码历史的要求。" />
+
+      <item id="login_warn_1" value="Incorrect account or password" />
+      <item id="login_warn_2" value="Connect server failed" />
+      <item id="login_warn_4" value="Fail to refresh host list" />
+      <item id="login_warn_5" value="Unknown error" />
+      <item id="login_warn_6" value="The client version is too low" />
+      <item id="login_warn_1028" value="Restrict login" />
+      <item id="login_warn_1217"><![CDATA[<f f="yahei.14" c="color.red">Too many hosts,</f><f id="1217" f="yahei.underline.14" cursor="hand" c="color6" e="true" >use Enterprise Version</f>]]></item>
+      
+      <!-- 设备列表 -->
+      <item id="init" value="W" />
+      <item id="startup_device" value="Wakeup device" />
+      <item id="add_devcie" value="Add device" />
+      <item id="local_host" value="Local" />
+      <item id="my_host" value="My hosts" />
+      <item id="device_info" value="Device details"/>
+      <item id="cur_device" value="Current device"/>
+      <item id="power_off" value="Shutdown" />
+      <item id="reboot" value="Restart" />
+      <item id="expand_fucntion" value="Extra functions" />
+      <item id="remote_log" value="Remote logs" />
+      <item id="kui_domain" value="Sunlogin domain access" />
+      <item id="cloud_monitor" value="Cloud monitor" />
+      <item id="screen_wall" value="Screen wall" />
+      <item id="device_detail" value="Device details" />
+      <item id="host_name" value="Host name" />
+      <item id="remark" value="Remarks" />
+      <item id="fast_code" value="Host ID" />
+      <item id="device_info_tip" value="Bind account to remote"/>
+      <item id="host_bind_account" value="Bind Account" />
+      <item id="power_on_launch" value="Self-starting" />
+      <item id="match_bar" value="With stick" />
+      <item id="match_uu" value="With UU" />
+      <item id="dev_bind" value="Bind" />
+      <item id="dev_enable" value="Open" />
+      <item id="dev_check" value="Click" />
+      <item id="dev_binded" value="Bound" />
+      <item id="dev_unbind" value="Unbound" />
+      <item id="dev_close" value="Close" />
+      <item id="dev_enabled" value="Opened" />
+      <item id="dev_checked" value="Connected" />
+      <item id="desktop_ctrl" value="Control" />
+      <item id="desktop_view" value="View" />
+      <item id="camera" value="Camera" />
+      <item id="ssh" value="SSH" />
+      <item id="remote_file" value="Files" />
+      <item id="remote_manager" value="Manage" />
+      <item id="add_device_guide" value="Guide of adding device"/>
+      <item id="inital_d" value="G"/>
+      <item id="loading" value="Loading" />
+      <item id="on_loading" value="Loading..." />
+      <item id="tip" value="Tip: Find more on Enterprise edition" />
+      <item id="no_remark" value="Not remarked" />
+      <item id="add_device1" value="Easier to manage after adding hosts to your account" />
+      <item id="add_device2" value="1 Install SunloginX on computer to be controlled" />
+      <item id="add_device3" value="2 After installation, bind the host to current account" />
+      <item id="copy_link" value="Copy download link" />
+      <item id="finish" value="Finish" />
+      <item id="device_empty1" value="Wakeup host via WiFi" />
+      <item id="learn_more" value="More details" />
+      <item id="boot_socket" value="PLUG" />
+      <item id="device_empty2" value="Power could be cut off after shutdown" />
+      <item id="device_empty3" value="Can open all hosts in the LAN" />
+      <item id="version" value="Version" />
+      <item id="upgrade_local" value="Upgrade LAN version" />
+      <item id="SN" value="SN code" />
+      <item id="MAC_address" value="MAC" />
+      <item id="host_manager" value="Manage host" />
+      <item id="IP_setting" value="IP setting" />
+      <item id="present" value="Transfer" />
+      <item id="present_boot_bar" value="Transfer Wakeup bar" />
+      <item id="boot_bar" value="Wakeup bar" />
+      <item id="delete_host" value="Delete host" />
+      <item id="share_host" value="Share host"/>
+      <item id="host_name" value="Host name" />
+      <item id="last_lg_IP" value="Last login IP" />
+      <item id="last_lg_time" value="Last login time" />
+      <item id="compute_name" value="Computer name" />
+      <item id="sys_version" value="System version" />
+      <item id="CPU" value="CPU" />
+      <item id="mother_board" value="Motherboard" />
+      <item id="memory" value="Memory" />
+      <item id="main_disk" value="Primary hard drive" />
+      <item id="graph_card" value="Video card" />
+      <item id="net_card" value="NIC" />
+      <item id="multifuction_wakeup_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;No wakeup device found</f><f id="500" e="true" cursor="hand" c="color6">&#160;Search again</f>]]></item>
+      <item id="multifuction_wakeup_nobind_2"><![CDATA[<f id="501" cursor="hand" c="color6" e="true" >Click to buy,</f><f id="yahei.14">and make sunlogin wakeup works</f>]]></item>
+      <item id="uu_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160; No UU found</f><f id="512" e="true" cursor="hand" c="color6">&#160;Search again</f>]]></item>
+      <item id="uu_nobind_2"><![CDATA[<f id="513" cursor="hand" c="color6" e="true" >Click to buy</f><f id="yahei.14">,and let everywhere under your control</f>]]></item>
+      <item id="change_custom_login_type" value="Switch to access password" />
+      <item id="change_account_login_type" value="Switch to system account" />
+      <item id="Connect to the server failed!" value="Connect server failed!" />
+      <item id="ControlID verification failed!" value="Fail to verify by Control ID!" />
+      <item id="Cookie verification failed!" value="Fail to verify by cookie!" />
+      <item id="Bad request!" value="Incorrect request!" />
+      <item id="Host is not online!" value="Offline host!" />
+      <item id="Unknown remote host!" value="Unknown host!" />
+      <item id="Server Error!" value="Server error!" />
+      <item id="Request timed out!" value="Request timed out!" />
+      <item id="User name or password is incorrect!" value=" Incorrect account or password!" />
+      <item id="password_error" value="Password error!" />
+      <item id="std::exception" value=" Exception error" />
+      <item id="Check the status of the remote control failed" value="Fail to check the host status" />
+      <item id="Check the login period failed" value="Fail to check the login period" />
+      <item id="Check the login type failed" value="Fail to check the login method" />
+      <item id="Password can not be empty" value="Password cannot be empty" />
+      <item id="Create instance failed" value="Fail to create instance" />
+      <item id="Login the host failed" value="Login failed" />
+      <item id="Remote control module has been closed" value="Remote control module has been closed" />
+      <item id="Login failed with the way" value="Incorrect Login method" />
+      <item id="The remote host did not response" value="No response from remote host" />
+      <item id="Check the harass status failed" value="Checking anti-harassment failed" />
+      <item id="Rejected the connection request" value="Request rejected" />
+      <item id="Verify strings can not be empty" value="Verify strings cannot be empty" />
+      <item id="Access denied,you can't access to the host in the following" value="Visit rejected" />
+      <item id="Wrong answer to anti-harassment" value="Wrong answer" />
+      <item id="Check the anti-harassment answer failed" value="Checking anti-harassment answer failed" />
+      <item id="input empty" value="Please enter" />
+      <item id="input wrong" value="Incorrect input" />
+      <item id="vertify failed" value="Verification failed" />
+      <item id="pwd wrong" value="Incorrect password" />
+      <item id="query empty" value="Query empty" />
+      <item id="CONNECT_SOCKET_URLS_HPP connect_socket" value="Connecting failed" />
+      <item id="auth(2) failed" value="Verification failed" />
+      <item id="auth(3) failed" value="Verification failed" />
+      <item id="rpc_digest not correct" value="Incorrect rpc" />
+      <item id="change fast_code failed" value="Fail to change Host ID" />
+      <item id="db query not found key" value="DB query failed" />
+      <item id="Unknown error!" value="Error unknown!" />
+      <item id="restart_desc"><![CDATA[<f id="yahei.14">Are you sure to restart?</f>]]> /></item>
+      <item id="shutdown_desc"><![CDATA[<f id="yahei.14">Are you sure to power off?</f>]]> /></item>
+      <item id="delete_tip"><![CDATA[<f id="yahei.14">Are you sure to delete host?</f>]]> /></item>
+      <item id="delete_bar"><![CDATA[<f id="yahei.14">Are you sure to delete stick？</f>]]> /></item>
+      <item id="ok" value="Ok" />
+      <item id="fresh" value="refresh" />
+      <item id="cancel" value="NO" />
+      <item id="cmd" value="CMD" />
+      <item id="host_bind_desc" value="Bind Account" />
+      <item id="sending_boot_command" value="Sending wakeup command..." />
+      <item id="remote_wakeup_cmd_send" value="Wakeup command sent" />
+      <item id="please_wait_host_online" value="Host will online in two minites, please wait..." />
+      <item id="This host is not bound or wakeup service has expired"><![CDATA[<f>Invalid host binding or service has expired</f>]]> /></item>
+      <item id="Wake-up data does not exist"><![CDATA[<f>Wake-up data does not exist</f>]]> /></item>
+      <item id="Wake up failed"><![CDATA[<f>Wake up failed</f>]]> /></item>
+      <item id="Wake-up password can not be empty!"><![CDATA[<f>Password can not be empty!</f>]]> /></item>
+      <item id="Wake-up password wrong!"><![CDATA[<f>Incorrect password</f>]]> /></item>
+      <item id="buy_wakeup_desc" value="Buy a booting device" />
+      <item id="buy_wakeup" value="Purchase" />
+      <item id="please_input_remote_start_pwd" value="Please enter the wakeup password" />
+      <item id="confirm" value="OK" />
+      <item id="lan_ver" value="LAN" />
+      <item id="person_ver" value="Standalone" />
+      <item id="null_fastcode"><![CDATA[<f f=yahei.18 c=color_edit>--- --- --- ---</f>]]> /></item>
+
+      <item id="user_no_empty" value="Account cannot be empty " />
+      <item id="password_no_empty" value="Password cannot be empty" />
+      <item id="linux_account_login_desc" value="Enter Linux system account and password" />
+      
+      <!-- 添加设备 -->
+      <item id="boot_bar_sn" value="SN code" />
+      <item id="add_immediately" value="Add now" />
+      <item id="device_name" value="Name" />
+      <item id="add_pc_device" value="Computer" />
+      <item id="add_pc_text1" value="1 Download Sunlogin" />
+      <item id="add_pc_text2" value="and install" />
+      <item id="add_pc_text3" value="Download" />
+      <item id="add_pc_text4" value="2 Bind host to current account" />
+      <item id="add_pc_text5" value="Finish" />
+
+      <item id="add_android_device" value="Android" />
+      <item id="add_android_text1" value="1 Scan to download" />
+      <item id="add_android_text2" value="android client" />
+      <item id="add_android_text3" value="2 log in after installation" />
+      <item id="add_android_text4" value="Finish" />
+
+      <item id="give_stick" value="Stick can not get back once transferred"/>
+      <item id="input_receiver" value="Please enter in receiver's account" />  
+      <item id="input_receiver_again" value="Plese re-enter in receiver's account" /> 
+      <item id="give_immediately" value="Transfer" />
+
+      
+
+      <item id="add_boot_bar" value="Stick" />
+      <item id="add_boot_bar_text1" value="Check SN on stick box" />
+      <item id="add_boot_bar_text2" value="My stick" />
+      <item id="sn_empty"><![CDATA[<f f="yahei.14">SN cannot be empty</f>]]></item>
+      <item id="dev_name_empty"><![CDATA[<f f="yahei.14">Name cannot be empty</f>]]></item>
+      <item id="add_stick_success"><![CDATA[<f f="yahei.14"> Successful</f>]]></item> 
+      <item id="add_stick_failed" value="Failed" />
+      <item id="add_stick_not_exsit" value="SN code not exist" />
+      <item id="add_stick_binded" value="Wakeup bar has been binded" />
+      <item id="new_guide1"><![CDATA[<f f="yahei.14">Here,</f><f f="yahei.14" c="color.organe">via host ID,</f><f f="yahei.14">you can</f>]]></item>
+      <item id="new_guide2" value="Temporarily remote control other computers" />
+      <item id="new_guide3" value="or be controlled" />
+      <item id="new_guide4"><![CDATA[<f f="yahei.14">For more than 10 computers, please use Enterprise edition.</f>]]></item>
+      <item id="skip" value="I know" />
+      <item id="account_not_match"><![CDATA[<f f="yahei.14">Account mismatch</f>]]></item>
+      <item id="account_empty"><![CDATA[<f f="yahei.14">Account cannot be empty</f>]]></item>
+      <item id="persent_successed"><![CDATA[<f f="yahei.14">Successful</f>]]></item>
+      <item id="persent_failed"><![CDATA[<f f="yahei.14">Failed</f>]]></item>
+      <item id="delete_stick_title" value="Delete wakeup device"/>
+      <item id="delete_stick" value="Are you sure to delete wakeup device?"/>
+      <item id="delete_stick_failed"><![CDATA[<f f="yahei.14"> Delete wakeup device failed</f>]]></item>
+
+      <item id="opened_now" value="Open now" />
+      <item id="no_support_feature"><![CDATA[<f id="yahei.14">This host does not support this feature</f>]]> /></item>
+      <item id="bug_tip1" value="%s rmb/y, upgrade to entry edition"/>
+      <item id="bug_tip2" value="%s rmb/y, upgrade to elite edition"/>
+      <item id="bug_tip3" value="%s rmb, try for one month"/>
+      <item id="camera_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">Open Camera </f><f f="yahei.16" c="color.organe">(Pro. exclusive function)</f>]]></item>
+      <item id="camera_bug_tip2" value="Remotely defend your home.Support multiple view!"/>
+      <item id="file_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">Open Files </f><f f="yahei.16" c="color.organe">(Pro. exclusive function)</f>]]></item>
+      <item id="file_bug_tip2" value="When the file forgotten in office, remote take!"/>
+      <item id="cmd_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">Open CMD </f><f f="yahei.16" c="color.organe">(Biz. exclusive function)</f>]]></item>
+      <item id="cmd_bug_tip2" value="You can easily use this feature with historical and commonly commands"/>
+      <item id="ssh_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">Open SSH </f><f f="yahei.16" c="color.organe">(Biz. exclusive function)</f>]]></item>
+      <item id="ssh_bug_tip2" value="You can connect to the Linux host quickly,just 5sec"/>
+      <item id="remote_bug_tip1"><![CDATA[<f f="yahei.16" c="text_color_gray">Open management </f><f f="yahei.16" c="color.organe">(Biz. exclusive function)</f>]]></item>
+      <item id="remote_bug_tip2" value="Remote manage and diagnose host processes!"/>
+      <!--host登录dlg-->
+      <item id="remote_title" value="Sunlogin X" />
+      <item id="mobile_login_authentication" value="Mobile-login" />
+      <item id="windwos_account_login_desc" value="Enter Windows system account and password" />
+      <item id="custom_login_desc" value="Enter access password" />
+      <item id="enter_host_system_account_name" value="Please enter host system account" />
+      <item id="host_remind_tip_on" value="%s %s Online!" />
+      <item id="host_remind_tip_off" value="%s %s Offline!" />
+
+      <!-- 关于 -->
+      <item id="about_text" value="Sunlogin Remote Control(%s)" />
+      <item id="about_companyright" value="Shanghai Best Oray Information Technology Co., Ltd." />
+      <item id="about_copyright" value="Copyright(©) 2009-2019 Oray. All Rights Reserved" />
+
+      <!--用户反馈-->
+      <item id="feedback_guid" value="Input and click send" />
+      <item id="feedback_send" value="Send" />
+      <item id="feedback_title" value="Suggestion to Sunlogin" />
+      <item id="feedback_mode1" value="Suggesion" />
+      <item id="feedback_mode2" value="My system details (equipment operating system, etc.):" />
+      <item id="feedback_mode3" value="My contact info:" />
+      <item id="feedback_hint" value="Tips" />
+      <item id="feedback_text_too_less"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;Please be more specific!</f> ]]></item>
+      <item id="feedback_on_sending" value="Sending..." />
+      <item id="feedback_succeed_msg"><![CDATA[<i name="skin/success.png" width="14" height="14" ></i><f id="yahei.14">Send successful,thank you！</f>]]></item>
+      <item id="feedback_failed_msg"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">Send failed, please try again～</f>]]></item>
+      <item id="feedback_btn_yes" value="OK" />
+      <item id="feedback_btn_resend" value="Retry" />
+      <item id="dlg_feedback_context" value="Suggesion" />
+      <item id="dlg_feedback_contact" value="Phone number,QQ or E-mail" />
+
+      <!-- Notify对话框 -->
+      <item id="sunlogin_session" value="Sunlogin Session" />
+      <item id="from" value="Remote controlling" />
+      <item id="remote_control_computer" value="Remote controlling this PC" />
+      <item id="open_video_already" value="Screen Recorder enabled" />
+      <item id="nottip" value="Not remind" />
+
+      <!--消息服务提醒-->
+      <item id="pay_level"><![CDATA[ <f f="yahei.16" >%s service will be expired in </f><f f="yahei.16" c="color.red" >%d</f><f f="yahei.16" >days,</f>]]></item>
+      <item id="renew_pay"><![CDATA[<f f="yahei.16" >Please renew!</f>]]></item>
+      <item id="remind1"><![CDATA[ <f f="yahei.16" >Do you know? I can watch camera remotely.</f>]]></item>
+      <item id="remind2"><![CDATA[ <f f="yahei.16" >Camera real-time monitoring;</f>]]></item>
+      <item id="remind_text2"><![CDATA[ <f f="yahei.16" >Housekeeping through pad and phone!</f>]]></item>
+      <item id="remind3"><![CDATA[ <f f="yahei.16" >Camera real-time monitoring;</f>]]></item>
+      <item id="remind_text3"><![CDATA[ <f f="yahei.16" >Housekeeping through pad and phone!</f>]]></item>
+      <item id="remind4"><![CDATA[ <f f="yahei.16" >Camera real-time monitoring; </f>]]></item>
+      <item id="remind_text4"><![CDATA[ <f f="yahei.16" >Housekeeping through pad and phone!</f>]]></item>
+      <item id="remind5"><![CDATA[ <f f="yahei.16" >Just one click into CMD, simple and fast.</f>]]></item>
+      <item id="remind6"><![CDATA[ <f f="yahei.16" >Remote diagnose and view processes</f>]]></item>
+      <item id="remind_text6"><![CDATA[ <f f="yahei.16" >of PC with Sunlogin!</f>]]></item>
+      
+      <item id="renew_now" value="Renew now" />
+      <item id="update_now" value="Update now" />
+      <item id="maindlg_free_level" value="Free" />
+
+      <!--消息群发-->
+      <item id="group_news_title" value="From the main control terminal of the %s message" />
+
+      <!-- 安装界面-->
+      <item id="install_menu_path" value="Sunlogin" />
+      <item id="install_link_name" value="SunloginClient" />
+      <item id="install_link_name_enterprise" value="SunloginEnterprise" />
+      <item id="install_company_name" value="Shanghai Best Oray Information Technology Co., Ltd." />
+      <item id="install_link_uninstall_name" value="Uninstall SunloginClient" />
+      <item id="install_install" value="Accept terms and install" />
+      <item id="install_useragreement" value="User terms" />
+      <item id="install_custominstall" value="Customized installation" />
+      <item id="install_browse" value="Browse" />
+      <item id="install_createlink" value="Create shortcut" />
+      <item id="install_add_quick_launch" value="Add to launch bar" />
+      <item id="install_label_start_install" value="Install now" />
+      <item id="install_label_check_installed" value="Check installed version" />
+      <item id="install_label_have_new_installed" value="Latest version is installed" />
+      <item id="intalll_label_start" value="Installation preparation" />
+      <item id="install_label_uninstall_old" value="Uninstall the old version" />
+      <item id="install_label_uninstall_old_failed" value="Uninstall older version failed, please do it manually" />
+      <item id="install_label_copy_files" value="Copy files" />
+      <item id="install_label_write_reg" value="Overwrite windows registry" />
+      <item id="install_label_create_link" value="Create shortcut" />
+      <item id="install_label_install_service" value="Install service" />
+      <item id="install_label_release_resource" value="Free memory" />
+      <item id="install_label_install_drive" value="Install driver" />
+      <item id="install_label_create_menu" value="Create start shortcut" />
+      <item id="install_label_setting_autorun" value="Startup setting" />
+      <item id="install_label_finish" value="Install complete" />
+      <item id="setpath" value="Set installation path" />
+      <item id="install_title" value="Sunlogin Client" />
+      <item id="install_no_this_drive" value="No drive space available %s" />
+      <item id="install_path_format_error" value="Path type error" />
+      <item id="install_edit_ok_path"><![CDATA[<f id="yahei.14" c="color.main"  >Please install with correct type of installation path</f>]]></item>
+      <item id="install_path_label" value="Installation path:" />
+      <item id="install_enjoy_it" value="Enjoy rapid remote control" />
+      <item id="installdlg.install.failed" value="Install failed." />
+      <item id="installdlg.copyfile.failed" value="Failed to copy files because of your protection software blocked the operation, please allow it manually then retry." />
+      <item id="install_now" value="Install now" />
+      <item id="install_green" value="Run only" />
+      <item id="install_agree"><![CDATA[ <f id="yahei.12" c="color24">Proceed with installation implies that you agree with&#160;</f><f id="1025" e="true" f="yahei.12" cursor="hand" c="color6">Sunlogin Agreement</f> ]]></item>
+      <item id="install_path" value="Installation path: " />
+      <item id="install_change" value="Change" />
+      <item id="install_welcome" value="Welcome to use Sunlogin!" />
+      <item id="install_enter" value="Enter now" />
+      <item id="multifuction_have_oldversion" value="Version %s detected, sure to uninstall?" />
+      <item id="multifuction_have_same_version" value="Same version installed, sure to continue?" />
+      <item id="multifuction_have_new_version" value="Latest version already installed!" />
+      <item id="multifuction_have_oldversion_title" value="Install Sunlogin" />
+
+
+      <!--卸载界面-->
+      <item id="uninstall_before_title" value="Thank you for your use, are you want to uninstall it?" />
+      <item id="uninstall_going_title" value="Friend I can't bear you..." />
+      <item id="uninstall_after_title" value="Meet you again someday with a better me" />
+      <item id="uninstall_uninstall" value="Uninstall now" />
+      <item id="uninstall_no" value="NO" />
+      <item id="uninstall_bye" value="Goodbye" />
+      <item id="uninstall_feedback" value="Suggestion" />
+      <item id="uninstall_start_uninstall" value="Starting to uninstall" />
+      <item id="uninstall_stopuninstall_service" value="Stopping and uninstalling service" />
+      <item id="uninstall_delete_reginfo" value="Deleting regedit" />
+      <item id="uninstall_delete_link" value="Deleting shortcut" />
+      <item id="uninstall_delete_device" value="Uninstall the driver" />
+      <item id="uninstall_delete_start_menu" value="Delete start menu" />
+      <item id="uninstall_delete_self" value="Deleting current program" />
+      <item id="uninstall_temp4delete_self" value="Deleting intallation path" />
+      <item id="uninstall_finish_uninstall" value="Uninstall completed" />
+      <item id="uninstall_title" value="Sunlogin Client" />
+      <item id="uninstall_close_msg" value="Detect Sunlogin or background service is running, uninstall failed.Pleade click “Yes” to force close program. Or click “No“  to cancel uninstallation" />
+      <item id="uninstall_one_text" value="You will lost the remote function" />
+      <item id="feed_back_edit_mask" value="Please tell what we need to improve!" />
+      <item id="clear_user_info" value="Clear userdata" />
+      <item id="clear_user_info_desc" value="Clear all data"/>
+      <item id="uninstall_text" value="Thank you for your support" />
+
+      <!--更新界面-->
+      <item id="update_getting_info" value="Upgrade info receiving, please wait..." />
+      <item id="update_updatenow" value="Update now" />
+      <item id="update_cancel" value ="Not now" />
+      <item id="update_stop_warn_this_version" value="Do not notice this version" />
+      <item id="update_no_new_version" value="No updated version found: " />
+      <item id="update_main_name" value="Sunlogin Remote" />
+      <item id="update_this_version" value="(Current version" />
+      <item id="update_cur_version" value="Current version:" />
+      <item id="update_find_newversion" value="Updated version found:" />
+      <item id="update_on_updating" value="Updating" />
+      <item id="update_install_failed" value="Installation failed" />
+      <item id="update_prompt" value="Tips" />
+      <item id="update_downloading" value="Downloading" />
+      <item id="update_download_failed" value="Download failed" />
+      <item id="update_runinstall_failed" value="Running failed" />
+      <item id="update_title" value="Sunlogin Remote Update" />
+      <item id="update_message" value="A Sunlogin instance is running, replace it with this newer version?" />
+
+      <!--退出窗口-->
+      <item id="quit_title" value="Exit sunlogin" />
+      <item id="quit_ask" value="Are you sure to exit?" />
+      <item id="quit_result" value="After exit, remote control will be disabled" />
+      <item id="quit_ok" value="OK" />
+      <item id="quit_cancel" value="Cancel" />
+
+      <!--注销窗口-->
+      <item id="logout_title" value="Unregister" />
+      <item id="logout_ask" value="Are you sure to unregister?" />
+      <item id="logout_result" value="Unregister will unbind the current host!" />
+
+      <!--多功能Box窗口-->
+      <item id="multifuction_title" value="Multifunction" />
+      <item id="multifuction_ask_install"><![CDATA[<f id="yahei.bold.14"  >Frequent users,please</f><f id="yahei.bold.14" c="color.main"  >install full version</f>]]></item>
+      <item id="multifuction_install_benefit" value="Enjoy more features and smarter remore control." />
+      <item id="multifuction_ok" value="OK" />
+      <item id="multifuction_canel" value="Cancel" />
+      <item id="multifuction_quit_now" value="Quit now" />
+      <item id="multifuction_install_now" value="Install official" />
+      <item id="multifuction_install_and_use" value="Install officical" />
+
+      <!-- 设置窗体 -->
+      <item id="system_setting" value="Setting" />
+      <item id="basic_setting" value="General" />
+      <item id="safe_setting" value="Security" />
+      <item id="domain_setting" value="Web" />
+      <item id="network_setting" value="Network" />
+      <item id="advance_setting" value="Advanced" />
+      <item id="control_setting" value="Local host control" />
+      <item id="verify_access_password" value="Access Code" />
+      <item id="verify_window_account" value="System account password" />
+      <item id="verify_window_account_no_password" value="Active Windows account have no pwd" />
+      <item id="anti-harassment" value="Anti spam" />
+      <item id="set_wakeup_password" value="Wakeup password" />
+      <item id="client_lock" value="Privacy setting" />
+      <item id="ip_filter" value="IP filtering" />
+      <item id="set_access_time_period" value="Access time" />
+      <item id="setting_setting" value="Setting" />
+      <item id="editVCode_setting" value="change VCode" />
+
+      <!-- 基本设置详细UI -->
+      <item id="hostname_and_desc" value="Host name / description" />
+      <item id="base_setting_sunlogincode" value="Code:" />
+      <item id="base_setting_account_owner" value="Account:" />
+      <item id="independent_domain_name_access" value="Independent domain visit" />
+      <item id="accessed_host_by_link" value="Remote current device through this link" />
+      <item id="start_independent_domain_name_access" value="Enable" />
+      <item id="accessed_link" value="Host link:" />
+      <item id="base_setting_module_open" value="VPN module" />
+      <item id="open_vpn" value="Enable VPN" />
+      <item id="base_setting_remote_wakeup" value="Remote wakeup" />
+      <item id="base_setting_open" value="Open folder" />
+      <item id="sunlogin_code" value="Unattended Access" />
+      <item id="no_login_account" value="logged out" />
+      <item id="language_selection" value="Language" />
+      <item id="launch_login_quit" value="Start &amp; Login: " />
+      <item id="launch_login" value="Login" />
+      <item id="autorun_setting" value="Start Sunlogin with Windows" />
+      <item id="run_as_service_setting" value="Run as service, no tray icon" />
+      <item id="show_notification_message" value="Show remote control notification" />
+      <item id="no_operation_of_control" value="minutes idle before auto disconnect" />
+      <item id="desktop_model" value="Desktop: " />
+      <item id="update_model" value="Upgrade: " />
+      <item id="rule_mode_auto" value="Auto mode" />
+      <item id="rule_mode_h264" value="Entertainment" />
+      <item id="update_mode_slient" value="Automatically" />
+      <item id="update_mode_reminder" value="Notify to upgrade" />
+      <item id="display_language" value="Language: " />
+      <item id="language_cn" value="简体中文" />
+      <item id="language_cn_tw" value="繁體中文" />
+      <item id="language_en" value="English" />
+      <item id="rule_mode_zip" value="Office" />
+      <item id="save_log" value="Save log: " />
+      <item id="save_log_path" value="Save log to: " />
+      <item id="screen_record" value="Screen Video: " />
+      <item id="open_screen_record" value="Enable Screen Recorder" />
+      <item id="save_screen_record_path" value="Save screen video to: " />
+      <item id="convert_video_format" value="Transfer format" />
+      <item id="browse_repo" value="Browse" />
+      <item id="setting_basic_open" value="Open" />
+      <item id="file_distribution" value="File distribution" />
+      <item id="save_file_path" value="The files distributed by default save this folder" />
+      <item id="share_url_tip_1" value="Your security level is too low to open domain access." />
+      <item id="share_url_tip_4" value="Please open the access password or Windows account password." />
+      <item id="share_url_tip_2" value="To protect the native security,you can not use the domain visit without a password." />
+      <item id="share_url_tip_3" value="Continue to close independent domain visit." />
+      <item id="continue" value="Continue" />
+      <item id="choose_video_path" value="Please choose the default save directory." />
+      <item id="choose_log_path" value="Please choose the log save directory." />
+      <item id="msg_remind" value="system message comes in" />
+      <item id="msg_remind_more" value="Subscription expiration or promotion notifications" />
+      <item id="open_remind" value="Notify when: " />
+      <item id="msg_remind_onoff" value="host status changes" />
+      <item id="msg_remind_control" value="host been controlled" />
+
+      <item id="setting_sound" value="Sound: " />
+      <item id="setting_close_sound" value="Close sound" />
+
+      <item id="setting_bk_title" value="Background: " />
+      <item id="setting_bk_white" value="Bright" />
+      <item id="setting_bk_black" value="Dark" />
+
+      <item id="setting_lock" value="Lock: " />
+      <item id="setting_lock_text" value="Lock settings" />
+      <item id="setting_lock_pwd" value="Enter password" />
+      <item id="setting_lock_twice" value="Confirm password" />
+      <item id="setting_lock_twice_error" value="Passwords mismatch" />
+      <item id="setting_lock_twice_error_null" value="Password cannot be empty" />
+      <item id="setting_lock_save" value="OK" />
+
+      <item id="setting_control_record" value="Video and screenshot files will be saved on this path" />
+      <item id="setting_control_log" value="Log files will be saved on this path" />
+
+      <item id="control_setting_bind" value="Bind Account: " />
+      <item id="control_setting_bind_binded" value="Bound" />
+      <item id="control_setting_bind_nobind" value="Unbound" />
+      <item id="control_setting_bind_bind_host" value="Bind local host" />
+      <item id="control_setting_bind_cancel" value="Unbound" />
+
+      <item id="control_setting_pwd" value="Access: " />
+      <item id="control_setting_pwd_desc" value="For remote verification" />
+      <item id="control_setting_pwd_no" value="Visit without password" />
+      <item id="control_setting_pwd_set" value="Set access password" />
+      <item id="control_setting_pwd_host" value="Local host system password" />
+      <item id="control_setting_pwd_access" value="Access password" />
+      <item id="control_setting_access_modify" value="Modify" />
+
+      <item id="control_setting_vcode" value="Refresh code: " />
+      <item id="control_setting_vcode_no_rule" value="Not automatically refreshed" />
+      <item id="control_setting_vcode_every_day" value="Refresh every day" />
+      <item id="control_setting_vcode_after_control" value="Refresh after each remote control" />
+      <item id="control_setting_vcode_self" value="Customize verification code" />
+
+      <item id="control_setting_desktop" value="Desktop mode: " />
+
+      <item id="control_setting_open" value="Password: " />
+      <item id="control_setting_open_pwd" value="Open" />
+
+      <item id="control_setting_black" value="Black sreen: " />
+      <item id="control_setting_black_text" value="Open (Operation is not visible)" />
+      <item id="control_setting_black_virual" value="VM do not support" />
+      <item id="control_setting_black_virual_text" value="VM do not support black screen driver" />
+
+      <item id="control_setting_print" value="Print: " />
+      <item id="control_setting_print_text" value="Enable remote printing" />
+      <item id="control_setting_print_open" value="Driver installation needed before remote printing" />
+      <item id="control_setting_print_open_text" value="Print remote files to local printer" />
+      <item id="control_setting_print_install" value="Install" />
+      <item id="control_setting_print_close_text" value="And you will not be able to use it" />
+      <item id="control_setting_print_uninstall" value="uninstall" />
+      
+      <item id="control_setting_cloud" value="Cloud monitor: " />
+      <item id="control_setting_cloud_text" value="Enable(Video will be saved in the cloud)" />
+      <item id="desktop_cloud_desc" value="Video saved in the cloud" />
+      <item id="cloud_manage">
+        <![CDATA[
+        <f>Disabled (To enable,please login</f><f id="sunlogin_manage" e="true" f="yahei.underline.14" cursor="hand" c="color6" >Sunlogin manager</f><f>)</f>
+      ]]>
+      </item>
+      <item id="desktop_cloud_close" value="Close cloud monitor" />
+      <item id="desktop_cloud_close_msg1" value="Need to re-enable once disabled" />
+      <item id="desktop_cloud_close_msg2" value="are you sure to close?" />
+      <item id="desktop_cloud_close_ok" value="Ok" />
+
+      <item id="control_setting_file" value="File distribution: " />
+      <item id="control_setting_file_text" value="Files distributed would be saved on this path" />
+
+      <item id="control_setting_anti" value="Anti spam: " />
+      <item id="control_setting_anti_add" value="Add" />
+      <error id="ip_path_null_error" value="Please enter IP." />
+      <error id="ip_path_error" value="Incorrect IP." />
+      <error id="ip_path_compar" value="IP already exists." />
+      <error id="control_setting_anti_forbid_time" value="Block following periods" />
+      <error id="time_error_info" value="Start time can not be earlier than ending time." />
+      <error id="time_exist" value="Period already exists." />
+      <error id="time_empty" value="Period cannot be empty." />
+
+      <item id="basic_setting_text_1" value="Start &amp; Login" />
+      <item id="basic_setting_text_2" value="Notification" />
+      <item id="basic_setting_text_3" value="Voice" />
+      <item id="basic_setting_text_4" value="Background" />
+      <item id="basic_setting_text_5" value="Lock" />
+      <item id="basic_setting_text_6" value="Language" />
+      <item id="basic_setting_text_7" value="Upgrade" />
+      <item id="basic_setting_text_8" value="Screenshot" />
+      <item id="basic_setting_text_9" value="Save log" />
+
+      <item id="control_setting_text_1" value="Bind Account" />
+      <item id="control_setting_text_2" value="Access" />
+      <item id="control_setting_text_3" value="Security code" />
+      <item id="control_setting_text_4" value="Desktop mode " />
+      <item id="control_setting_text_5" value="Wakeup" />
+      <item id="control_setting_text_6" value="Black sreen" />
+      <item id="control_setting_text_7" value="Cloud monitor" />
+      <item id="control_setting_text_8" value="File distribution" />
+      <item id="control_setting_text_9" value="Anti spam" />
+      <item id="control_setting_text_10" value="Print" />
+
+      <item id="network_setting_text" value="Proxy settings" />
+      <item id="network_setting_error" value="Syetem IP or port is NULL!" />
+
+      <!-- 安全详细UI -->
+      <item id="access_password" value="Remote control" />
+      <item id="use_access_password" value="Remote control authentication (at least one enabled)" />
+      <item id="enable_access_password" value="Access password" />
+      <item id="been_set" value="Saved" />
+      <item id="no_set" value="Not set" />
+      <item id="change_password" value="Change" />
+      <item id="enter_ip" value="Enter IP(Support wildcard *)" />
+      <item id="open_ip_filter" value="Remote control IP filter" />
+      <item id="allow_access_during_the_following_ip" value="Allow the following IP" />
+      <item id="prevent_access_during_the_following_ip" value="Block the following IP" />
+      <item id="forbid_access_during_the_period" value="Remote control time filter" />
+      <item id="hour" value="h" />
+      <item id="minute" value="m" />
+      <item id="no_remote_wakeup_password" value="No remote wakeup password" />
+      <item id="need_remote_wakeup_password" value="Enable" />
+      <item id="use_password_to_unlock" value="Always lock sunlogin UI" />
+      <item id="use_account_password_to_unlock" value="Use account password to unlock" />
+      <item id="remote_access_using_windows_account" value="Use Windows account to login" />
+      <item id="allow_lan_discovery" value="Allow LAN discovery" />
+      <item id="accept_quick_access_control_request" value="Accept remote host ID" />
+      <item id="accept" value="Accept" />
+      <item id="refuse" value="Refuse" />
+      <item id="answer_question" value="Require answer question" />
+      <item id="harass_question1" value="Mobile number" />
+      <item id="harass_question2" value="License plate number" />
+      <item id="harass_question3" value="Email address" />
+      <item id="harass_question4" value="Phone number" />
+      <item id="harass_question5" value="Company name" />
+      <item id="harass_question6" value="Home address" />
+      <item id="reject" value="Refuse" />
+      <item id="enter_answer" value="Please enter answer" />
+      <item id="set_custom_password" value="Please enter access code" />
+      <item id="refresh_fastcodepwd" value="Refresh code" />
+      <item id="refresh_never" value="Never refresh" />
+      <item id="refresh_everyday" value="Refresh every day" />
+      <item id="refresh_after_control" value="Refresh after each remote control" />
+      <item id="setting_file_no_exist"><![CDATA[<f f="yahei.14" c="color5">The folder path does not select</f>]]></item>
+
+      <!-- 网络连接 -->
+      <item id="setting_net_netconnect" value="Network" />
+      <item id="proxy_setting" value="Proxy settings: " />
+      <item id="enable_proxy" value="Enable" />
+      <item id="type" value="Type: " />
+      <item id="ip" value="IP: " />
+      <item id="port" value="Port: " />
+      <item id="domain" value="Domain: " />
+      <item id="user" value="User: " />
+      <item id="password:" value="Pwd: " />
+      <item id="socks5" value="SOCKS5" />
+      <item id="socks4" value="SOCKS4" />
+      <item id="auto_network" value="Auto adjust the network" />
+      <item id="NIC_settings" value="NIC" />
+      <item id="sunlogin_enterprise_setting_no_proxy" value="Not proxy" />
+      <item id="sunlogin_enterprise_setting_auto_proxy" value="Auto detect proxy (using system configuration)" />
+      <item id="sunlogin_enterprise_setting_set_proxy" value="Manual proxy configuration" />
+      <item id="sunlogin_enterprise_setting_proxy_pwd" value="Note: Proxy password can be empty" />
+      <item id="proxy_test" value="Test" />
+
+      <!-- 域名访问 -->
+      <item id="domain_content" value="Enable web access to control your PC through browser" />
+      <item id="bind_domain" value="Bind a Sunlogin Domain to access directly" />
+      <item id="is_open" value="Enabled" />
+      <item id="not_open" value="Disabled" />
+      <item id="retry_domain" value="Get the link failed, try again" />
+
+      <!--安装黑屏驱动窗口-->
+      <item id="installblackscreen_title" value="Black Screen" />
+      <item id="installblackscreen_cancel" value="Cancel" />
+      <item id="installblackscreen_retry" value="Retry" />
+      <item id="installblackscreen_quit" value="Quit" />
+      <item id="installblackscreen_ongoing" value="Installing Black Screen driver" />
+      <item id="installblackscreen_failed" value="Install Black Screen driver failed" />
+      <item id="installblackscreen_err" value="No display, can not install driver" />
+      <item id="installblackscreen_tip"><![CDATA[<f id="yahei.14" c="color4" >QuickSupport does not support the black screen</f>]]></item>
+      <item id="installblackscreen_install" value="Continue" />
+      <item id="installblackscreen_not_install" value="Disable" />
+      <item id="installblackscreen_ask"><![CDATA[<f id="yahei.14" c="color.white" >Display driver is required for blank screen</f>]]></item>
+      <item id="installblackscreen_result_1"><![CDATA[<f id="yahei.14" c="color8" >Driver may cause screen brightness not</f>]]></item>
+      <item id="installblackscreen_result_2"><![CDATA[<f id="yahei.14" c="color8" >adjustable failure for certian laptops</f><blank></blank><f id="50007" id="yahei.underline.14" cursor="hand" c="color6" >Know more</f>]]></item>
+
+      <!--安装打印驱动窗口-->
+      <item id="installprint_title" value="Remote Print" />
+      <item id="installprint_cancel" value="Cancel" />
+      <item id="installprint_retry" value="Retry" />
+      <item id="installprint_quit" value="Quit" />
+      <item id="installprint_ongoing" value="Installing Remote Print driver" />
+      <item id="installprint_failed" value="Install Remote Print driver failed" />
+      <item id="installprint_ongoing_uninstall" value="Uninstalling Remote Print driver" />
+      <item id="installprint_failed_uninstall" value="Uninstall Remote Print driver failed" />
+      <item id="installprint_err" value="No display, can not install driver" />
+      <item id="installprint_tip" value="QuickSupport does not support the remote print" />
+      <item id="installprint_install" value="Continue" />
+      <item id="installprint_not_install" value="Disable" />
+      
+      <!--remote assistance -->
+      <item id="fast_code_have_no_this_host"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;Host not exist or offline</f>]]></item>
+      <item id="fast_code_other_reject"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;Your request has been rejected!</f>]]></item>
+      <item id="Identify_error"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;Incorrect verification code</f>]]></item>
+      <item id="fast_code_invalid_parameter"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160;Incorrect parameter</f>]]></item>
+      <item id="fast_code_permission_denied"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;No access to visit</f>]]></item>
+      <item id="fast_code_auth_failed"><![CDATA[<i name="skin/error_icon.png" width="14" height="14" ></i><f id="yahei.14">&#160; Incorrect verification code</f>]]></item>
+      <item id="fast_code_Rejected"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;Your request has been rejected</f>]]></item>
+      <item id="fast_code_not_response"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;The remote host did not response</f>]]></item>
+      <item id="connectsrv_fail"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;Fail to connect</f>]]></item>
+      <item id="fast_code_identifycode_oraykvm_desc"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;Remote host is KK</f>]]></item>
+      <item id="fast_code_identifycode_android_desc"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;Remote host is android</f>]]></item>
+      <item id="fast_code_input_custom_password_desc"><![CDATA[</i><f id="yahei.14">Please enter access password</f>]]></item>
+      <item id="getting_load_type" value="Getting login info..." />
+      <item id="connecting" value="Connecting..." />
+      <item id="disconnect" value="Disconnect" />
+      <item id="connect_stop" value="Disconnect" />
+      <item id="connect_retry" value="Unexpected disconnection, reconnecting..." />
+      <item id="connect_failed" value="Reconnect failed, re-initiate remote control" />
+      <item id="disconnect_request" value="Disconnect request" />
+      <item id="retry" value="Retry" />
+      <item id="fast_code_send_request_ok" value="Waiting for response（%d s）" />
+      <item id="dont_fastcode"><![CDATA[<f id="yahei.14">Code invalid, please check and retry!</f>]]></item>
+      <item id="loading_remote_desktop" value="Loading..." />
+      <item id="accept_title" value="Remote assist request" />
+      <item id="bind_title" value="Host bind" />
+      <item id="accept_msg"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14">&#160;Requesting for controlling your desktop</f>]]></item>
+      <item id="accpet_bind_msg" value="Requesting for binding your host..." />
+      <item id="accpet_bind_result" value="Direct remote control to local host is allowed after binding" />
+      <item id="accpet_accept" value="Accept" />
+      <item id="accpet_reject" value="Refuse" />
+      <item id="unknown_name" value="Unknown" />
+      <item id="clear_history" value="Clear all records" />
+      <item id="delete" value="Delete" />
+      <item id="multifuction_ask_disconnect_this_session"><![CDATA[<i name="skin/warning.png" width="14" height="14" ></i><f id="yahei.14"  >&#160;Whether to disconnect?</f>]]></item>
+      <item id="getting_load_update" value="Loading, please wait..." />
+      <item id="screen" value="Screen" />
+      <!-- moblie screen -->
+      <item id="mobile_phone_screen" value="Screen" />
+      <item id="scan_code_screen" value="Scan to screencast" />
+      <item id="download_mobile_phone"><![CDATA[<f>Open</f><f id="download_mobile_phone" e="true" f="yahei.12" cursor="hand" c="color.main.old" >&#160;sunlogin APP </f><f> (8.0 and above)</f>]]></item>
+      <item id="enable_scan_code_screen" value="Open scan in [My account] on top left" />
+      <item id="dlg_download_mobile_phone" value="Scan to download Sunlogin" />
+      <item id="dlg_download_mobile_phone_download_address"><![CDATA[<f>Scan to download Sunlogin APP</f>]]></item>
+      <item id="dlg_download_mobile_phone_scan_code_download" value="or searching &quot;Sunlogin&quot; in app store" />
+
+      <!--远程桌面工具栏-->
+      <item id="tool_title" value="Remote Desktop toolbar" />
+      
+      <!-- 绿色版基本设置 -->
+      <item id="green_basic_set_setting" value="General" />
+      <item id="green_basic_set_start_login" value="Start,login" />
+      <item id="green_basic_set_is_start_up" value="Run after windows start" />
+
+      <item id="uu_open_success"><![CDATA[<i name="skin/icon_successful.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;Found Sunlogin UU!</f>]]></item>
+      <item id="uu_open_text"><![CDATA[<f id="yahei.14" name="mytest_msg" >UU can break the limits for remote control input.</f>]]></item>
+      
+      <!-- 系统错误信息 -->
+      <error id="error:ok" value=""/>
+      <error id="error:unknown" value="Unknowed error"/>
+      <error id="error:auth_failed" value="Incorrect username or password"/>
+      <error id="error:connect_failed" value="Connect server failed"/>
+      <error id="error:forced_offline" value="Sunlogin code have been logged in another place"/>
+      <error id="error:connect_service_failed" value="Shell server connection failed"/>
+      <error id="error:service_busy" value="Server busy"/>
+      <error id="error:error_mac" value="Incorrect mac address"/>
+      <error id="error:error_fastcode" value="Incorrect Quick Code"/>
+      <error id="error:error_data" value="Incorrect data format"/>
+      <error id="error:server_return_failed" value="Return to server failed"/>
+      <error id="error:param_error" value="Parameter error"/>
+      <error id="error:param_lack" value="Missing Parameters"/>
+      <error id="error:host_not_exist" value="Host not exist or has been deleted"/>
+      <error id="error:account_pwd_empty" value="Account or password cannot be empty"/>
+      <error id="error:sunlogin_code_empty" value="Sunlogin Code cannot be empty"/>
+      <error id="error:invalid_sunlogincode" value="Incorrect Sunlogin Code"/>
+      <error id="error:host_outof_limit" value="Account host limits reached"/>
+      <error id="error:lic_not_exist" value="Authorization not existed"/>
+      <error id="error:lic_not_belong_user" value="Authorization not belong to current user"/>
+      <error id="error:lic_bindby_otheruser" value="(Adding host)Authorization is bound to other device"/>
+      <error id="error:not_host_op_jurisdiction" value="Current user is not authorized for host control"/>
+      <error id="error:host_not_exist2" value="Host not exist"/>
+      <error id="error:wakeup_lic_expired" value="Service expired"/>
+      <error id="error:not_bind_wakeup" value="No bound wakeup stick"/>
+      <error id="error:get_wakeup_info_failed" value="Receive info for wakeup stick failed"/>
+      <error id="error:wakeup_faile" value="Wakeup failed"/>
+      <error id="error:wakeup_psw_empty" value="Wakeup password cannot be empty"/>
+      <error id="error:wake_psw_error" value="Incorrect wakeup password"/>
+      <error id="error:version_denied" value="Current version is disabled, please update"/>
+      <error id="error:version_low" value="Current version is too old"/>
+      <error id="error:invalid_lic" value="Authorization invalid or expired, please re-login"/>
+      <error id="error:listen_failed" value="Port listen failed"/>
+      <error id="error:package_not_exist" value="Package does not exist"/>
+      <error id="error:package_expired_or_not_exist" value="Customized service expired or deleted"/>
+      <error id="error:package_host_outof_limit" value="Host has run out"/>
+      <error id="error:package_create_host_failed" value="Create host failed"/>
+      <error id="error:package_permission_denied" value="Permission denied"/>
+      <error id="error:connect_count_limit" value="Your session channels have been occupied, please retry after others disconnect." />
+      <error id="connect_error"><![CDATA[<f id="yahei.14">Connect failed!</f>]]></error>
+      <error id="connect_success"><![CDATA[<f id="yahei.14">Connect successful!</f>]]></error>
+      <error id="save_error"><![CDATA[<f id="yahei.14">Save failed！</f>]]></error>
+
+      <!-- UU -->
+      <item id="uu_assist" value="SL UU" />
+      <item id="uu_title" value="Sunlogin UU" />
+      <item id="uu_other_account_text1" value="UUGame Level works excellent while accompanied with UU." />
+      <item id="uu_other_account_text2" value="Upgrade to the Game Level will give you a smoother remoting trip" />
+      <item id="uu_upgrade" value="Upgrade" />
+      <item id="uu_cancel" value="Cancel" />
+      <item id="uu_ok" value="OK" />
+      <item id="uu_tip" value="Sunlogin UU" />
+      <item id="uu_tip_error_text" value="Please try to reconnect the USB or restart the computer" />
+      <item id="uu_open_success"><![CDATA[<i name="skin/icon_successful.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;Found Sunlogin UU!</f>]]></item>
+      <item id="uu_open_text"><![CDATA[<f id="yahei.14" name="mytest_msg" >UU can break the limits for remote control input.</f>]]></item>
+      <item id="uu_update_check" value="Check Update" />
+      <item id="uu_nobind_1"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14">&#160;UU has lost</f><f id="512" e=true cursor="hand" c="color6">&#160;search again</f>]]></item>
+      <item id="uu_nobind_2"><![CDATA[<f id="513" cursor="hand" c="color6" e=true >Buy a UU</f><f id="yahei.14">&#160;and let everywhere under your control</f>]]></item>
+      <item id="uu_open_error"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >&#160;UU Connection exception</f>]]></item>
+
+      <item id="uu_upgrade_text" value="UU is ready to upgrade!" />
+      <item id="uu_upgrade_content" value="Added:" />
+      <item id="uu_upgrade_download"><![CDATA[<f id="yahei.16" c="color5">downloading files...< /f>]]></item>
+      <item id="uu_upgrade_download_failed"><![CDATA[<f id="yahei.16" c="color.red">download failed< /f>]]></item>
+      <item id="uu_upgradeing">
+        <![CDATA[<f id="yahei.16" c="color5">UU is updating...< /f>]]>
+      </item>
+      <item id="uu_upgrade_warning" value=" Don't take out the UU before upgrade is completed!" />
+      <item id="uu_upgrade_again" value="Try again" />
+      <item id="uu_upgrade_success"> <![CDATA[<f id="yahei.16" c="color5">Upgrade complete< /f>]]></item>
+      <item id="uu_upgrade_failed"> <![CDATA[<f id="yahei.16" c="color.red">Upgrade failed< /f>]]></item>
+      <item id="uu_upgrade_done" value="Done" />
+
+      <item id="uu_control_tip"><![CDATA[<f id="yahei.14">UU is running< /f>]]></item>
+      <item id="uu_control_remove_text1"><![CDATA[<f id="yahei.14">UU has been removed!< /f>]]></item>
+      <item id="uu_control_remove_text2"><![CDATA[<f id="yahei.14">It might lead to 'this area CANNOT be remoted' </f>]]></item>
+
+      <item id="uu_control_error"><![CDATA[<i name="skin/icon_warning.png" top="3" width="18" height="18" ></i><f id="yahei.14" name="mytest_msg" >An error might lead to 'this area CANNOT be remoted '</f>]]></item>
+      <item id="uu_control_error_text1"><![CDATA[<f id="yahei.14" c="color6">Try to restart the computer< /f>]]></item>
+      <item id="uu_control_error_text2"><![CDATA[<f id="yahei.14">Use default mode for continue control< /f>]]></item>
+
+      <item id="uu_check_no" value="No UU device found" />
+      <item id="uu_hard_in" value="Please check device connection" />
+      <item id="logoning" value="Logoning..." />
+      <item id="cannot_enable" value="Does not support wakeup." />
+      <item id="host_name_empty" value="Host name can't be empty" />
+      <item id="please_input_unlock_pwd" value="Please enter your password to unlock" />
+      <item id="unlock_now" value="Unlock now" />
+      <item id="login_now" value="Logon now" />
+      <item id="lock_desc"><![CDATA[<i name="skin/warning.png" x="1" y="2" width="14" height="14" ></i><f id="yahei.14">Need to log in to lock the software< /f>]]></item>
+      <item id="device_type" value="Type" />
+      <!-- 开机插座 -->
+      <item id="menu_bind_host" value="Binding host" />
+      <item id="menu_ele_control" value="Electricity statistics" />
+      <item id="menu_use_log" value="Use log" />
+      <item id="menu_delete_socket" value="Remove boot socket" />
+      <item id="smart_plug_offline_tip" value="Smart plug offline" />
+      <item id="smart_plug_offline_desc1"><![CDATA[<f f="yahei.14">Smart plug（%s）Offline</f>]]></item>
+      <item id="smart_plug_offline_desc2"><![CDATA[<f f="yahei.14">Please check if the outlet is connected to the power supply and the network is abnormal.</f>]]></item>
+      <item id="check_help" value="Troubleshooting help" />
+    </language>
+  </language>
+</orayui>

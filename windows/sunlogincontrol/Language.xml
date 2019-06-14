@@ -1,0 +1,1774 @@
+<orayui version="1.0">
+  <!-- 语言 -->
+  <language>
+    <!-- 简体中文 -->
+    <language name="简体中文" id="2052" value="chs" >
+      <!--general-->
+      <item id="close" value="关闭" />
+      <item id="connection_stopped" value="连接停止" />
+      <item id="connection_lost" value="网络异常，失去连接！" />
+      <item id="reconnection_now" value="正在尝试重新连接，请稍后..." />
+      <item id="connection_close" value="请关闭窗口重新发起远控！" />
+      <item id="reconnection_failed" value="重连失败！" />
+      <item id="fast_code_disconnect" value="连接已断开!" />
+      <item id="count_down_text1" value="亲，将在" />
+      <item id="count_down_text2" value="秒后进入远控，耐心等待喔"/>
+      <item id="count_down_text" value="亲，努力加载中，请耐心等待喔" />
+      <item id="speed_up" value="我要提速" />
+      <item id="remote_title" value="向日葵控制端" />
+      <item id="account_login" value="&lt;i name=&quot;skin/login_account.png&quot; /&gt; &lt;x w=&quot;10&quot; /&gt; &lt;f name=&quot;yh18&quot; color=&quot;color.white&quot; &gt;帐号登录&lt;/f&gt;" />
+      <item id="account_register" value="&lt;i name=&quot;skin/login_register.png&quot; /&gt; &lt;x w=&quot;10&quot; /&gt; &lt;f name=&quot;yh18&quot; color=&quot;color.white&quot; &gt;帐号注册&lt;/f&gt;" />
+      <item id="please_enter_account" value="请输入帐号名" />
+      <item id="please_enter_pwd" value="请输入密码" />
+      <item id="please_enter_other_account" value="请输入对方帐号" />
+      <item id="auto_login" value="自动登录" />
+      <item id="login" value="登录" />
+      <item id="forget_pwd" value="忘记密码？" />
+      <item id="register_account" value="注册帐号" />
+      <item id="setting" value="设置" />
+      <item id="login_warn_1" value="帐号或密码错误" />
+      <item id="login_warn_2" value="服务器连接失败" />
+      <item id="login_warn_4" value="刷新主机列表失败" />
+      <item id="login_warn_5" value="未知错误" />
+      <item id="login_warn_6" value="客户端版本过低" />
+      <item id="login_warn_1028" value="限制用户登录" />
+      <item id="account_pwd_empty" value="帐号或密码不能为空，请重新输入" />
+      <item id="phone_as_account" value="手机号码（作为登录帐号）" />
+      <item id="message_captcha" value="短信验证码" />
+      <item id="pwd" value="密码" />
+      <item id="agree_protocol_and_register" value="同意以下协议并注册" />
+      <item id="protocol" value="《向日葵服务协议》" />
+      <item id="login_account" value="登录已有帐号" />
+      <item id="other_way_registered" value="其他注册方式" />
+      <item id="register_warn_phone_empty" value="手机号码不能为空" />
+      <item id="register_warn_phone_no_match" value="手机号格式错误" />
+      <item id="register_warn_get_captcha_failed" value="获取验证码失败" />
+      <item id="register_warn_1003" value="帐号已被使用" />
+      <item id="register_warn_1005" value="无效的验证串" />
+      <item id="register_warn_1006" value="非法的帐号格式" />
+      <item id="register_warn_1007" value="帐号长度不合法(5-16)" />
+      <item id="register_warn_1008" value="帐号5-16位，字母与数字或-的组合" />
+      <item id="register_warn_1009" value="密码长度不合法(6-16)" />
+      <item id="register_warn_1010" value="密码与帐号不能一样" />
+      <item id="register_warn_1011" value="email地址不合法" />
+      <item id="register_warn_1012" value="无效的短信验证码" />
+      <item id="register_warn_1013" value="手机号格式不对" />
+      <item id="register_warn_1014" value="验证码不正确" />
+      <item id="register_warn_1214" value="注册失败" />
+      <item id="register_warn_6000" value="图片验证码无效" />
+      <item id="register_warn_6001" value="短信发送超过限制" />
+      <item id="register_warn_6002" value="短信发送频率过快" />
+      <item id="register_warn_6003" value="短信发送失败" />
+      <item id="register_warn_6004" value="手机号不正确" />
+      <item id="register_phone_registered" value="此手机号码已被注册" />
+      <item id="register_account_registered" value="此帐号已被注册" />
+      <item id="register_phone_not_exist" value="此手机号不存在" />
+      <item id="register_warn_account_no_match" value="帐号5-16位，字母与数字或-的组合" />
+      <item id="register_warn_captcha_empty" value="验证码不能为空" />
+      <item id="register_warn_pwd_empty" value="密码不能为空" />
+      <item id="get_chptcha" value="获取验证码" />
+      <item id="jump_chptcha" value="跳过验证码" />
+      <item id="register_warn_pwd_no_match" value="密码长度不合法（6-16）" />
+      <item id="register_warn_email_no_match" value="邮箱格式错误" />
+      <item id="account" value="帐号" />
+      <item id="register_warn_account_empty" value="帐号不能为空" />
+      <item id="register_warn_email_empty" value="邮箱不能为空" />
+      <item id="phone" value="手机号码" />
+      <item id="email" value="邮箱" />
+      <item id="retry_after" value="%d秒后重试" />
+      <item id="search_text" value="搜索主机名、备注、识别码访问" />
+      <item id="host_count" value="主机数：" />
+      <item id="upgrade_renew" value="升级/续费" />
+      <item id="remote_desktop" value="桌面控制" />
+      <item id="remote_view" value="桌面观看" />
+      <item id="remote_camera" value="摄像头" />
+      <item id="remote_file" value="远程文件" />
+      <item id="remote_cmd" value="CMD" />
+      <item id="remote_ssh" value="SSH" />
+      <item id="remote_manager" value="远程管理" />
+      <item id="cannot_boot" value="你需要支持远程开机的设备" />
+      <item id="cannot_enable" value="此设备暂不支持远程开机" />
+      <item id="buy_boot" value="购买开机棒" />
+      <item id="sending_boot_command" value="正在发送开机指令..." />
+      <item id="boot_command_sended" value="开机指令已送达" />
+      <item id="booting_countdown" value="主机上线大约需要2分钟，请耐心等待..." />
+      <item id="This host is not bound or wakeup service has expired" value="开机服务已到期或授权不可用" />
+      <item id="Wake-up data does not exist" value="唤醒数据不存在" />
+      <item id="Wake up failed" value="开机失败" />
+      <item id="Wake-up password can not be empty!" value="开机密码不能为空!" />
+      <item id="Wake-up password wrong!" value="开机密码错误!" />
+      <item id="edit_screen_wall" value="编辑屏幕墙" />
+      <item id="add_desktop_shortcut" value="添加桌面快捷" />
+      <item id="quit" value="退出" />
+      <item id="change_child_user" value="更换子帐号" />
+      <item id="add_host" value="添加主机" />
+      <item id="add_stick" value="添加开机棒" />
+      <item id="add_screen" value="添加屏幕墙" />
+      <item id="host_share" value="主机共享" />
+      <item id="mark_as" value="标记为" />
+      <item id="add_to_screen" value="添加到屏幕墙" />
+      <item id="add_quick" value="添加桌面快捷" />
+      <item id="delete_host" value="删除主机" />
+      <item id="host_info" value="主机属性" />
+      <item id="device_info" value="设备详情" />
+      <item id="host_manager" value="主机管理" />
+      <item id="ip_setting" value="IP设置" />
+      <item id="phddns" value="花生壳DDNS" />
+      <item id="delete_host_desc1" value="确定要删除主机：" />
+      <item id="delete_host_desc2" value="？" />
+      <item id="pwd_input_edit_mask_text" value="输入帐号的密码解锁" />
+      <item id="unlook_now" value="立即解锁" />
+      <item id="passwd_can_not_empty" value="密码不能为空！" />
+      <item id="passwd_error" value="密码错误，请重新输入！ " />
+      <item id="show_main_dlg" value="打开主界面" />
+      <item id="unlock" value="解锁" />
+      <item id="renew_now" value="立即续费" />
+      <item id="expiredate_desc1" value="你的" />
+      <item id="expiredate_desc2" value="服务" />
+      <item id="expiredate_desc3" value="将过期" />
+      <item id="restart_desc" value="确定要重启？" />
+      <item id="shutdown_desc" value="确定要关机？" />
+      <item id="quit_desc" value="确定要退出向日葵控制端吗？" />
+      <item id="online_tip" value="上线啦！" />
+      <item id="offline_tip" value="下线啦！" />
+      <item id="intelligent_hardware" value="智能硬件" />
+      <item id="all_hosts" value="所有主机" />
+      <item id="lan_stick" value="局域网版" />
+      <item id="share_stick" value="独享版" />
+      <item id="add" value="添加" />
+      <item id="device_list" value="设备列表" />
+      <item id="screen_wall" value="屏幕墙" />
+      <item id="advanced_app" value="高级应用" />
+      <item id="new_version_tip" value="检测到最新版本%s，点击更新" />
+      <item id="minimize" value="最小化" />
+      <item id="maximize" value="最大化" />
+      <item id="restore" value="还原" />
+      <item id="show_account_info" value="显示帐号信息" />
+      <item id="hide_account_info" value="隐藏帐号信息" />
+      <item id="host_list_empty_text" value="列表下还没有主机，赶快去添加吧~" />
+      <item id="please_install_client_text" value="1、请在被控端的电脑上安装向日葵客户端" />
+      <item id="download_url"><![CDATA[ <f f=yh12 c=color19 >下载地址：</f><f id=123 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >d.sunlogin.com</f>]]></item>
+      <item id="use_the_same_account_text" value="2、用同一帐号登录即可！" />
+      <item id="fastcode_without_login_text" value="懒癌发作？不登录也可使用识别码远控" />
+      <item id="change_state" value="切换状态" />
+      <item id="refresh_device_list" value="刷新设备列表" />
+      <item id="refreshing_device_list" value="正在刷新设备列表" />
+      <item id="using_net_agent_text" value="当前正使用代理上网" />
+      <item id="drag_tip_text" value="拖动这里，调整左侧列表显示内容"/>
+        
+      <!--fast code-->
+      <item id="fast_code_have_identify"><![CDATA[ <f f=yh12 c=color19 >我有验证码：</f><f id=121 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >点击输入</f> ]]></item>
+      <item id="version_desc" value="若对方为客户端8.0以下版本，请输入访问密码" />
+      <item id="fast_code_Android" value="客户端为Android系统，请输入访问密码(作为验证码)" />
+      <item id="getting_load_type" value="登录信息获取中，请稍等..." />
+      <item id="loading_verification" value="验证中，请稍等..." />
+      <item id="input_access_password" value="请输入验证码" />
+      <item id="input_visit_password" value="请输入访问密码" />
+      <item id="identify" value="验证" />
+      <item id="identifying" value="验证中..." />
+      <item id="fast_code_send_request_ok" value="已发送请求，等待对方接受（%d s）" />
+      <item id="fast_code_other_reject" value="对方未接受您的请求！" />
+      <item id="fast_code_have_no_this_host" value="此主机不存在或不在线" />
+      <item id="Identify_error" value="验证码错误，请重新输入" />
+      <item id="fast_code_invalid_parameter" value="参数错误" />
+      <item id="fast_code_permission_denied" value="无权限访问，可能是被控端设置了不允许快速访问" />
+      <item id="fast_code_auth_failed" value="验证码错误，请重新输入" />
+      <item id="fast_code_Rejected" value="对方拒绝了请求" />
+      <item id="fast_code_not_response" value="对方无响应" />
+      <item id="fast_code_have_no_identify"><![CDATA[ <f f=yh12 c=color19 >无验证码：</f><f id=122 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >点此发送请求</f> ]]></item>
+      <item id="mobile_phone_screen" value="手机投屏" />
+      
+      <!--host login-->
+      <item id="please_enter_custom_pwd" value="请输入访问密码" />
+      <item id="logining" value="登录中..." />
+      <item id="host_login" value="主机登录" />
+      <item id="user_no_empty" value="用户名不能为空" />
+      <item id="password_no_empty" value="密码不能为空" />
+      <item id="mobile_login_authentication" value="手机登录验证" />
+      <item id="enter_host_system_account_name" value="请输入主机系统帐户名" />
+      <item id="change_custom_login_type" value="切换到访问密码登录" />
+      <item id="change_account_login_type" value="切换到系统帐户登录" />
+      <item id="custom_login_desc" value="输入访问密码，验证后即可远控" />
+      <item id="windwos_account_login_desc" value="输入Windows帐户名和密码，验证后即可远控" />
+      <item id="linux_account_login_desc" value="输入Linux帐户名和密码，验证后即可远控" />
+      <item id="change_login_type" value="切换登录方式" />
+      <item id="Connect to the server failed!" value="连接服务器失败！" />
+      <item id="ControlID verification failed!" value="ControlID验证失败！" />
+      <item id="Cookie verification failed!" value="Cookie验证失败！" />
+      <item id="Bad request!" value="错误的请求！" />
+      <item id="Host is not online!" value="主机不在线！" />
+      <item id="Unknown remote host!" value="未知的主机！" />
+      <item id="Server Error!" value="服务器错误！" />
+      <item id="Request timed out!" value="请求超时！" />
+      <item id="User name or password is incorrect!" value="用户名或密码不正确！" />
+      <item id="std::exception" value="异常错误" />
+      <item id="Check the status of the remote control failed" value="查询主机状态失败" />
+      <item id="Check the login period failed" value="检查登录周期失败" />
+      <item id="Check the login type failed" value="查询登录方式错误" />
+      <item id="Password can not be empty" value="密码不能为空" />
+      <item id="Create instance failed" value="创建实例失败" />
+      <item id="Login the host failed" value="登录主机失败" />
+      <item id="Remote control module has been closed" value="远程模块已关闭" />
+      <item id="Login failed with the way" value="登录方式错误" />
+      <item id="The remote host did not response" value="远程主机没有回应" />
+      <item id="Check the harass status failed" value="查询防骚扰失败" />
+      <item id="Rejected the connection request" value="对方拒绝连接请求" />
+      <item id="Verify strings can not be empty" value="验证字段不能为空" />
+      <item id="Access denied,you can't access to the host in the following" value="访问拒绝" />
+      <item id="Wrong answer to anti-harassment" value="错误的答案" />
+      <item id="Check the anti-harassment answer failed" value="查询防骚扰答案失败" />
+      <item id="input empty" value="输入不能为空" />
+      <item id="input wrong" value="输入错误" />
+      <item id="vertify failed" value="验证失败" />
+      <item id="pwd wrong" value="密码错误" />
+      <item id="query empty" value="查询为空" />
+      <item id="CONNECT_SOCKET_URLS_HPP connect_socket" value="连接失败" />
+      <item id="auth(2) failed" value="验证失败" />
+      <item id="auth(3) failed" value="验证失败" />
+      <item id="rpc_digest not correct" value="rpc 不正确" />
+      <item id="change fast_code failed" value="切换识别码失败" />
+      <item id="db query not found key" value="数据库查询失败" />
+      <item id="Unknown error!" value="未知错误！" />
+      <item id="invalid_lic" value="授权无效或已过期，请重新登录" />
+      <item id="init_plugin_failed" value="插件初始化失败" />
+      <item id="access_denied" value="远程访问受限，可能是客户端设置了ip或者时段过滤" />
+      <!--开机棒属性-->
+      <item id="stick_attr" value="开机棒属性" />
+      <item id="lan_ver" value="局域网版" />
+      <item id="person_ver" value="独享版" />
+      <item id="mac_addr" value="Mac地址" />
+      <item id="service_type" value="服务类型" />
+      <item id="upgrade" value="升级" />
+      <item id="upgrade_service" value="升级服务"/>
+      <item id="renew" value="续费" />
+      <item id="service_expire_data" value="服务到期日" />
+      <item id="version_now" value="当前版本号" />
+      <item id="host_not_find" value="未发现主机" />
+      <item id="stick_auto_find_host" value="开机棒可自动发现局域网内在线的客户端主机" />
+      <item id="bind_device" value="绑定设备" />
+      <item id="unbind_mac_addr_host_failed" value="删除主机失败" />
+      <item id="stick_not_in_lan" value="开机棒不在当前局域网内，无法设置IP" />
+      <item id="stick_not_online" value="开机棒不在线，无法设置IP" />
+      <item id="stick_self_inspection" value="开机棒不在线自检流程" />
+      <item id="mode" value="方式" />
+      <item id="ip_addr" value="IP地址" />
+      <item id="subnet_mask" value="子网掩码" />
+      <item id="gateway" value="网关" />
+      <item id="dns" value="DNS" />
+      <item id="dhcp" value="DHCP" />
+      <item id="static_ip" value="静态IP" />
+      <item id="stick_set_ip_success" value="连接互联网成功！" />
+      <item id="stick_set_ip_failed" value="连接互联网失败！" />
+      <item id="can_not_use_ddns" value="开机棒不在线，无法启用花生壳DDNS" />
+      <item id="what_is_ddns" value="什么是花生壳DDNS？" />
+      <item id="start_ddns" value="启用DDNS" />
+      <item id="close_ddns" value="关闭DDNS" />
+      <item id="select_account" value="使用帐号" />
+      <item id="service_level" value="服务级别" />
+      <item id="online_state" value="在线状态" />
+      <item id="public_net_ip" value="公网IP" />
+      <item id="domain_list" value="域名列表" />
+      <item id="change_account" value="切换帐号" />
+      <item id="this_account" value="本帐号" />
+      <item id="other_account" value="其他帐号" />
+      <item id="online" value="在线" />
+      <item id="start" value="开机" />
+      <item id="bind_host_notify_text" value="提示：请将开机棒和授权主机连接在同一局域网中" />
+      <item id="bind_mac_addr_notify_text"><![CDATA[ <f f=yh12 c=RGB(255,0,0) >提示：若设备支持</f><f id=126 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >WOL远程唤醒</f><f f=yh12 c=RGB(255,0,0) >，将其连接到开机设备所在局域网并绑定</f> ]]></item>
+      <item id="bind_account_host" value="绑定本帐号下主机" />
+      <item id="bind_other_device" value="绑定其他设备" />
+      <item id="binded_max_bind" value="已授权/可授权：" />
+      <item id="bind_by_mac_addr" value="如果设备非本帐号下的主机，可通过MAC地址绑定" />
+      <item id="device_name" value="设备名称" />
+      <item id="device_mac_mask" value="输入设备的MAC地址" />
+      <item id="device_name_mask" value="给设备起个名称呗~" />
+      <item id="stick_offline_text" value="开机棒不在线，不能使用此功能" />
+      <item id="device_bind_error_one" value="MAC地址不能为空" />
+      <item id="device_bind_error_two" value="设备名称不能为空" />
+      <item id="mac_addr_bind_failed" value="MAC地址绑定失败" />
+      <item id="mac_addr_is_exsit" value="MAC地址已被绑定" />
+      <item id="mac_addr_not_right" value="MAC地址格式不正确" />
+      <item id="mac_addr_invalid" value="MAC地址无效" />
+      <item id="mac_addr_bind_success" value="MAC地址绑定成功" />
+      <item id="please_input_remote_start_pwd" value="请输入开机密码" />
+      <item id="saving" value="保存中..." />
+      <item id="save_success" value="保存成功" />
+      <item id="bind_host_fail" value="绑定主机失败，请稍后再试"/>
+      <item id="deleting" value="删除中..." />
+        
+      <!-- search -->
+      <item id="search_desc" value="输入伙伴的识别码，可发起远程协助哦~" />
+      <item id="search_history" value="历史搜索记录" />
+      <item id="clear" value="清空" />
+      <item id="search_result" value="搜索结果" />
+
+      <!-- recent -->
+      <item id="recent_access" value="最近访问" />
+      <item id="top_host" value="置顶主机" />
+      <item id="cancel_top" value="取消置顶" />
+      <item id="top_stick" value="置顶开机棒" />
+      <item id="recent_list_empty" value="您还没有远控过任何主机！" />
+      <item id="loading" value="正在加载..." />
+      <item id="remove_recent_host" value="从历史中移除" />
+      <item id="fastcode_recent_host" value="快速访问" />
+      <item id="fastcode_bind_account" value="绑定帐号" />
+      <item id="host_offline_or_not_exist" value="主机不在线或不存在" />
+      <item id="refresh_recent_list" value="刷新列表" />
+      <item id="refreshing_recent_list" value="正在刷新列表" />
+      <item id="refreshing_recent_list_1" value="正在刷新列表..." />
+      <item id="refreshing_recent_list_2" value="刷新完成" />
+      <item id="refreshing_recent_list_3" value="刷新失败" />
+        
+      <!-- host info -->
+      <item id="client_setting" value="客户端设置" />
+      <item id="host_log" value="主机日志" />
+      <item id="domain_access" value="域名访问" />
+      <item id="no_host_desc" value="主机还未备注" />
+      <item id="sunlogincode" value="葵码" />
+      <item id="fastcode" value="识别码" />
+      <item id="last_login_ip" value="最后登录IP" />
+      <item id="last_login_time" value="最后登录时间" />
+      <item id="computer_name" value="计算机名" />
+      <item id="system_version" value="系统版本" />
+      <item id="cpu" value="处理器" />
+      <item id="memory" value="内存" />
+      <item id="mac_address" value="MAC地址" />
+      <item id="edit" value="编辑" />
+      <item id="copy" value="复制" />
+      <item id="cut" value="剪切"/>
+      <item id="paste" value="粘贴"/>
+      <item id="select_all" value="全选"/>
+      <item id="open_check" value="开启" />
+      <item id="show_hardware_info" value="查看硬件信息" />
+      <item id="main_board_info" value="主板" />
+      <item id="main_disk_info" value="主硬盘" />
+      <item id="show_graphics_info" value="显卡" />
+      <item id="net_card_info" value="网卡" />
+      <!-- screen wall -->
+      <item id="offline" value="离线" />
+      <item id="screen_zoom" value="屏幕缩放：" />
+      <item id="refresh_rate" value="刷新频率：" />
+      <item id="no_screen_wall_host_desc" value="多台电脑的桌面同时监控，快添加主机到屏幕墙把！" />
+      <item id="no_screen_wall_desc" value="屏幕墙，多台电脑的桌面同时监控" />
+      <item id="remote_wakeup" value="远程开机" />
+      <item id="remove_host" value="移除主机" />
+      <!-- screen wall edit -->
+      <item id="delete_screen_wall_group_desc" value="确定要删除屏幕墙[" />
+      <item id="open_more_screen_wall" value="开通多个屏幕墙" />
+      <item id="add_screen_wall" value="添加屏幕墙" />
+      <item id="edit_screen_wall" value="编辑屏幕墙" />
+      <item id="screen_wall_name" value="屏幕墙名称：" />
+      <item id="please_input_screen_wall_name" value="请输入屏幕墙名称" />
+      <item id="my_screen_wall_name" value="我的屏幕墙" />
+      <item id="please_select_host" value="请选择主机" />
+      <item id="select_all" value="全部选择" />
+      <item id="selected_host" value="已选择主机" />
+      <item id="move_all" value="全部移除" />
+      <item id="search_host_or_desc" value="搜索主机名或备注" />
+      <item id="screen_wall_limit_cout_desc1" value="你已有 " />
+      <item id="screen_wall_limit_cout_desc2" value=" 个屏幕墙，无法再添加了哦！" />
+      <item id="screen_wall_host_limit_cout_desc1" value="屏幕墙中最多添加" />
+      <item id="screen_wall_host_limit_cout_desc2" value="台主机！" />
+      <item id="screen_wall_name_not_empty" value="屏幕墙名称不能为空！" />
+      <item id="screen_wall_name_not_be_same" value="屏幕墙名称不能重复！" />
+      <item id="screen_wall_no_exsit" value="屏幕墙不存在！" />
+      <item id="screen_wall_save_error" value="屏幕墙保存失败！" />
+      <item id="open_screen_wall_limit_desc" value="同时最多打开%d个屏幕墙" />
+      <!-- camera -->
+      <item id="camera" value="摄像头" />
+      <item id="switch_camera" value="切换" />
+      <item id="sound" value="声音" />
+      <item id="full_screen" value="全屏" />
+      <item id="no_camera_info" value="此摄像头没有分辨率信息" />
+      <item id="has_no_camera" value="远程主机没有摄像头." />
+      <item id="open_camera_failed" value="打开摄像头失败." />
+      <item id="switch_camera_text" value="切换摄像头"/>
+      <item id="rotate_screen" value="旋转屏幕"/>
+      <item id="screen_mirroring" value="画面镜像"/>
+      <item id="sharpness_standard" value="标清"/>
+      <item id="sharpness_high" value="高清"/>
+      <item id="sharpness_super" value="超清"/>
+      <item id="sharpness_setting" value="图像设置"/>
+      <item id="bright" value="亮度" />
+      <item id="contrast" value="对比度" />
+      <item id="changing" value=",正在切换中..." />
+      <item id="changed" value="已切换到" />
+      <item id="sharpness_mode" value="模式" />
+      <item id="reset_image" value="复位" />
+      <!-- file -->
+      <item id="remotefile" value="远程文件" />
+      <item id="local_host" value="本地主机" />
+      <item id="remote_host" value="远程主机" />
+      <item id="back_up" value="后退" />
+      <item id="forward" value="前进" />
+      <item id="refresh" value="刷新" />
+      <item id="dir_up" value="向上" />
+      <item id="create" value="新建" />
+      <item id="rename" value="重命名" />
+      <item id="delete" value="删除" />
+      <item id="select" value="选择" />
+      <item id="transfer" value="传输" />
+      <item id="name" value="名称" />
+      <item id="size" value="大小" />
+      <item id="modify_time" value="修改时间" />
+      <item id="type" value="类型" />
+      <item id="property" value="属性" />
+      <item id="selected_file_size" value="选中文件大小：" />
+      <item id="target" value="目标" />
+      <item id="cancel" value="取消" />
+      <item id="pause" value="暂停" />
+      <item id="speed" value="速度：" />
+      <item id="surplus" value="剩余：" />
+      <item id="time_consuming" value="耗时：" />
+      <item id="upload_finished" value="已上传：" />
+      <item id="download_finished" value="已下载：" />
+      <item id="upload_failed" value="上传失败：" />
+      <item id="download_failed" value="下载失败：" />
+      <item id="from" value="从" />
+      <item id="to" value="到" />
+      <item id="continue" value="继续" />
+      <item id="all" value="全部"/>
+      <item id="ok" value="确定"/>
+      <item id="selected" value="已选中" />
+      <item id="items" value="个项目" />
+      <item id="folder" value="文件夹" />
+      <item id="file" value="文件" />
+      <item id="rename_local_file" value="重命名本地文件：" />
+      <item id="rename_remote_file" value="重命名远程文件：" />
+      <item id="delete_local_file" value="删除本地文件：" />
+      <item id="delete_remote_file" value="删除远程文件：" />
+      <item id="create_local_folder" value="新建本地文件夹：" />
+      <item id="create_remote_folder" value="新建远程文件夹：" />
+      <item id="succeed" value=" 成功" />
+      <item id="failed" value=" 失败" />
+      <item id="remote_file_is_not_exist" value="远程文件或文件夹不存在" />
+      <item id="transfer_path_no_legal" value="文件传输路径不合法" />
+      <item id="path_no_legal" value="路径不合法" />
+      <item id="confirm_delete_file" value="确认文件删除" />
+      <item id="confirm_resume_file" value="续传确认" />
+      <item id="confirm_replace_file" value="确认文件替换" />
+      <item id="cancel_cur_trans_item" value="取消当前传输项" />
+      <item id="pause_cur_trans_item" value="暂停当前传输项" />
+      <item id="continue_cur_trans_item" value="继续当前传输项" />
+      <item id="remove_queue" value="清除队列" />
+      <item id="move" value="移动" />
+      <item id="move_up" value="上移" />
+      <item id="move_down" value="下移" />
+      <item id="move_top" value="移至顶部" />
+      <item id="move_bottom" value="移至底部" />
+      <item id="open" value="打开" />
+      <item id="select_all" value="全选" />
+      <item id="select_invert" value="反选" />
+      <item id="new_floder" value="新建文件夹" />
+      <item id="property_type" value="类型：" />
+      <item id="property_local" value="位置：" />
+      <item id="property_size" value="大小：" />
+      <item id="property_lastaccesstime" value="访问时间：" />
+      <item id="property_lastwritetime" value="修改时间：" />
+      <item id="property_creationtime" value="创建时间：" />
+      <item id="normal" value="常规" />
+      <item id="need_replace_file" value=" 文件已存在，是否替换？" />
+      <item id="need_breakpoint_continue" value=" 该文件上次没有传输完成，是否要续传？" />
+      <item id="allreplace" value="全部替换" />
+      <item id="skip" value="跳过" />
+      <item id="replace" value="替换" />
+      <item id="allresume" value="全部续传" />
+      <item id="resume" value="续传" />
+      <!-- cmd -->
+      <item id="cmd" value="CMD" />
+      <!-- ssh -->
+      <item id="ssh" value="SSH" />
+      <!-- desktop -->
+      <item id="desktop" value="桌面控制" />
+      <item id="choose_path" value="请选择默认保存的目录" />
+      <item id="save_path_title" value="录像、截屏存储路径" />
+      <item id="choose_path_desc" value="远程控制的录像和截屏文件将保存在以下文件夹中" />
+      <item id="browse" value="浏览" />
+      <item id="create_path_failed" value="创建路径失败" />
+      <item id="video_saved">
+        <![CDATA[
+        <f f=yh12 c=color.white >录像已保存成功&#160;&#160;&#160;</f><f id="open_save_record_file" e="true" f="yahei.underline.12" cursor="hand" c="color6" >打开保存文件夹</f>
+      ]]></item>
+      <item id="screenshot_success">
+        <![CDATA[
+        <f f=yh12 c=color.white >截屏已保存成功&#160;&#160;&#160;</f><f id="open_save_screen_file" e="true" f="yahei.underline.12" cursor="hand" c="color6" >打开保存文件夹</f>
+      ]]>
+      </item>
+      <item id="screen_rotation" value="正在旋转屏幕..." />
+      <item id="whiteboard_save_success">
+        <![CDATA[
+        <f f=yh12 c=color.white >白板已保存成功&#160;&#160;&#160;</f><f id="open_save_screen_file" e="true" f="yahei.underline.12" cursor="hand" c="color6" >打开保存文件夹</f>
+      ]]>
+      </item>
+      <item id="screen_original_size" value="屏幕原始比例" />
+      <item id="quality_priority" value="质量优先" />
+      <item id="speed_priority" value="速度优先" />
+      <item id="auto_matching" value="自动匹配" />
+      <item id="shortcut_key" value="快捷键" />
+      <item id="resolution" value="分辨率" />
+      <item id="vip_channel" value="专属转发通道" />
+      <item id="quality_selection" value="画质选择" />
+      <item id="screen_whiteboard" value="屏幕白板" />
+      <item id="open_whiteboard" value="开启白板" />
+      <item id="close_whiteboard" value="关闭白板" />
+      <item id="desktop_model" value="桌面模式" />
+      <item id="rule_mode_h264" value="娱乐模式" />
+      <item id="rule_mode_zip" value="工作模式" />
+      <item id="clipboard" value="同步剪贴板" />
+      <item id="lock_menu" value="锁定" />
+      <item id="logout_menu" value="注销" />
+      <item id="restart_menu" value="重启" />
+      <item id="shutdown_menu" value="关机" />
+      <item id="resourse_manager_menu" value="资源管理器" />
+      <item id="tast_manager_menu" value="任务管理器" />
+      <item id="computer_console_menu" value="计算机控制台" />
+      <item id="switch_user" value="切换会话" />
+      <item id="switch_screen" value="切换屏幕" />
+      <item id="screen" value="屏幕" />
+      <item id="sound" value="声音" />
+      <item id="forbid_mouse_key" value="禁止对方输入" />
+      <item id="allow_mouse_key" value="允许对方输入" />
+      <item id="more" value="更多" />
+      <item id="desktop_title" value="向日葵远控" />
+      <item id="shutdown_question" value="即将关闭远程计算机,请保存所有正在运行的工作." />
+      <item id="reboot_question" value="即将重启远程计算机,请保存所有正在运行的工作." />
+      <item id="logoff_question" value="即将注销远程计算机,请保存所有正在运行的工作." />
+      <item id="open_blackscreen" value="开启黑屏" />
+      <item id="close_blackscreen" value="关闭黑屏" />
+      <item id="open_sound" value="开启声音" />
+      <item id="close_sound" value="关闭声音" />
+      <item id="stop" value="停止" />
+      <item id="chat_tip" value="发起聊天" />
+      <item id="send" value="发送" />
+      <item id="sending" value="发送中..." />
+      <item id="record" value="录像" />
+      <item id="screenshot" value="截屏" />
+      <item id="tip" value="提示" />
+      <item id="connect_count_limit" value="您的远程通道数已占满，请等待其它断开后再试" />
+      <item id="connect_limit" value="您的远程通道数已占满" />
+      <item id="waitting" value="请稍等..." />
+      <item id="no_support_lock_input" value="需客户端为Windows 9.0及以上版本，才支持此功能" />
+      <item id="not_run_as_admin" value="对方是绿色版，无法支持此操作" />
+      <item id="screen_calibration" value="画面校准" />
+      <item id="color_setting" value="色彩设置" />
+      <item id="screen_calibration_desc"><![CDATA[ 可参考两个指针位置或观察画面边缘，通过按<方向键>进行调准 ]]>
+      </item>
+      <item id="close_screen_calibration" value="关闭校准" />
+      <item id="red" value="红" />
+      <item id="green" value="绿" />
+      <item id="blue" value="蓝" />
+      <item id="reset_color" value="色彩复位" />
+      <item id="no_usb_desc" value="USB接口连接设备异常，导致键盘和鼠标信号无法输出" />
+      <item id="close_screen_calibration_desc"><![CDATA[ 关闭校准后将无法通过<方向键>进行调准 ]]></item>
+      <item id="set_kvm_param_error" value="设置KVM参数失败" />
+      <item id="white_board_paint_brush" value="画刷工具" />
+      <item id="white_board_paint_rectangle" value="矩形工具" />
+      <item id="white_board_paint_oval" value="椭圆工具" />
+      <item id="white_board_paint_font" value="文字工具" />
+      <item id="white_board_paint_eraser" value="橡皮擦" />
+      <item id="white_board_paint_clear" value="清空白板" />
+      <item id="white_board_paint_save" value="保存白板图片" />
+      <item id="white_board_paint_close" value="关闭白板" />
+
+      <!--install-->
+      <item id="install_enjoy_it" value="让你尽情享受远程控制的快感" />
+      <item id="install_install" value="同意用户协议并安装" />
+      <item id="install_finished" value="安装完成" />
+      <item id="install_scan_and_download" value="扫码下载向日葵手机版" />
+      <item id="install_useragreement" value="用户协议" />
+      <item id="install_custominstall" value="自定义安装" />
+      <item id="install_path_label" value="安装路径：" />
+      <item id="install_browse" value="浏览" />
+      <item id="install_createlink" value="创建桌面图标" />
+      <item id="install_add_quick_launch" value="添加到快速启动栏" />
+      <item id="install_no_this_drive" value="没有可用盘符 %s" />
+      <item id="install_path_format_error" value="路径格式错误" />
+      <item id="install_menu_path" value="向日葵" />
+      <item id="install_link_name" value="向日葵控制端" />
+      <item id="install_link_old_name" value="向日葵主控端" />
+      <item id="install_link_uninstall_name" value="卸载向日葵控制端" />
+      <item id="install_link_uninstall_old_name" value="卸载向日葵主控端" />
+      <item id="install_company_name" value="上海贝锐信息科技股份有限公司" />
+      <item id="install_label_start_install" value="开始安装" />
+      <item id="install_label_finish_install" value="安装完成" />
+      <item id="install_label_check_installed" value="检查已安装的版本" />
+      <item id="install_label_have_new_installed" value="已安装更新的版本" />
+      <item id="install_label_uninstall_old" value="卸载旧版本" />
+      <item id="install_label_uninstall_old_failed" value="卸载旧版本失败，请手动卸载" />
+      <item id="install_label_copy_files" value="拷贝文件" />
+      <item id="install_label_write_reg" value="写注册表信息" />
+      <item id="install_label_create_link" value="创建快捷方式" />
+      <item id="install_title" value="向日葵控制端" />
+      <item id="multifuction_have_oldversion" value="将卸载当前版本%s，是否继续？" />
+      <item id="multifuction_have_same_version" value="已安装相同版本向日葵,是否愿意继续安装？" />
+      <item id="multifuction_have_new_version" value="已经安装更新版本的向日葵！" />
+      <item id="multifuction_have_oldversion_title" value="向日葵安装" />
+      <!--uninstall-->
+      <item id="uninstall_text" value="卸载后您的电脑将失去远程控制功能" />
+      <item id="uninstall_reason_more_text" value="尽力吐槽，下次我一定改！" />
+      <item id="clear_user_info" value="清除用户数据" />
+      <item id="clear_user_info_desc" value="将清除本地所有数据，下次安装将重新配置。" />
+      <item id="commit_and_uninstall_text" value="立即卸载" />
+      <item id="not_uninstall_text" value="取消" />
+      <item id="uninstall_see_you_later_text" value="我会用更好的自己，与你在某天重逢" />
+      <item id="uninstall_stop_exe" value="正在停止程序" />
+      <item id="uninstall_delete_file" value="正在删除文件" />
+      <item id="uninstall_delete_reginfo" value="删除注册表信息" />
+      <item id="uninstall_delete_link" value="删除快捷方式" />
+      <item id="uninstall_finish_uninstall" value="卸载完成" />
+      <!--update-->
+      <item id="now_version" value="当前版本%s" />
+      <item id="check_update_text" value="升级信息获取中，再等我几秒钟..." />
+      <item id="not_need_update" value="当前已是最新版本，棒棒哒！" />
+      <item id="new_version" value="发现更新版本%s" />
+      <item id="update_now" value="立即升级" />
+      <item id="update_complete_text" value="升级完成" />
+      <!--guide dialog-->
+      <item id="opened_now" value="立即开通" />
+      <item id="pro_exclusive" value="入门版" />
+      <item id="biz_exclusive" value="精英版" />
+      <item id="guide_camera_title" value="向日葵远程摄像头" />
+      <item id="account_login" value="&lt;i name=&quot;skin/login_account.png&quot; /&gt; &lt;x w=&quot;10&quot; /&gt; &lt;f name=&quot;yh18&quot; color=&quot;color.white&quot; &gt;帐号登录&lt;/f&gt;" />
+      <item id="guide_camera_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;开通摄像头&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;（入门版专享功能）&lt;/f&gt;" />
+      <item id="guide_camera_text_2" value="远程保卫你的家，支持多路查看哦！" />
+      <item id="guide_file_manager_title" value="向日葵远程文件" />
+      <item id="guide_file_manager_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;开通远程文件&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;（入门版专享功能）&lt;/f&gt;" />
+      <item id="guide_file_manager_text_2" value="出门在外文件忘带，远程取，so easy！" />
+      <item id="guide_cmd_title" value="向日葵CMD" />
+      <item id="guide_cmd_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;开通CMD&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;（精英版专享功能）&lt;/f&gt;" />
+      <item id="guide_cmd_text_2" value="一键到达，便捷使用历史命令与常用命令" />
+      <item id="guide_ssh_title" value="向日葵SSH" />
+      <item id="guide_ssh_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;开通SSH&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;（精英版专享功能）&lt;/f&gt;" />
+      <item id="guide_ssh_text_2" value="5秒即可SSH方式连接到Linux主机" />
+      <item id="guide_remote_manager_title" value="向日葵远程管理" />
+      <item id="guide_remote_manager_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;开通远程管理&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;（精英版专享功能）&lt;/f&gt;" />
+      <item id="guide_remote_manager_text_2" value="主机进程管理与诊断，远程运维就是要简单！" />
+      <item id="guide_screen_wall_title" value="开通多个屏幕墙" />
+      <item id="guide_screen_wall_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;开通多个屏幕墙&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;（精英版专享功能）&lt;/f&gt;" />
+      <item id="guide_screen_wall_text_2" value="支持同时创建多个屏幕墙，多屏监控体验更爽！" />
+      <item id="guide_monitor_screen_wall_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;同时监控多屏幕墙&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;（精英版专享功能）&lt;/f&gt;" />
+      <item id="guide_monitor_screen_wall_text_2" value="支持同时监控5个屏幕墙，多屏监控体验更爽！" />
+      <item id="guide_service_expired_title" value="服务到期" />
+      <item id="guide_service_expired_text" value="你的服务已到期，远控功能暂不能使用" />
+      <item id="guide_service_expired_text_1" value="请在%s前续费" />
+      <item id="guide_service_remind_title" value="提醒" />
+      <item id="guide_service_free_text_1" value="你的服务已降为免费级，请尽快于" />
+      <item id="guide_service_free_text_2" value="%s前完成购买续费，或保" />
+      <item id="guide_service_free_text_3" value="留主机数不多于%s台。" />
+      <item id="guide_service_free_text_4" value="逾期未处理系统将自动清空所有主机" />
+      <item id="guide_host_not_enough_text_1" value="当前主机数已用完，如需更多" />
+      <item id="guide_host_not_enough_text_2" value="1.升级服务，可按需购买主机数不受限" />
+      <item id="guide_host_not_enough_text_3"><![CDATA[<f f=yh12 c=color4>2.</f><f id=128 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >阳光小店</f><f f=yh12 c=color4 >、 </f><f id=129 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >我的福利</f><f f=yh12 c=color4 > 免费领取</f> ]]></item>
+      <item id="guide_dlg_upgrade" value="%d元/年 升级到%s" />
+      <item id="guide_dlg_probation" value="%d元 试用1月(仅当前主机)" />
+      <item id="mobile_remote_text_one" value="移动版控制端" />
+      <item id="mobile_remote_text_two" value="扫一扫下载iOS/Android控制端" />
+      <item id="more_download_url"><![CDATA[<f f=yh12 c=color.black >更多下载：</f><f id=127 e=true f=yh.underline.12 c=color6 cursor=hand hc=color.main dc=color.main >d.sunlogin.com</f> ]]></item>
+      
+      <!--卡顿-->
+      <item id="break_remind_text_1" value="如以后出现画面卡顿情况," />
+      <item id="break_remind_text_2" value="可在【更多】--【卡顿投诉】中进行反馈哦" />
+      <item id="know" value="知道了" />
+      <item id="break_reason" value="可能是以下原因造成画面卡顿延迟" />  、
+      <item id="break_reason_text_1" value="1.当前主机或远程主机任一方的网速缓慢" />
+      <item id="break_reason_text_2" value="2.运营商网络环境不稳定" />
+      <item id="break_reason_text_3" value="3.双方主机设备的硬件性能差或CPU使用率过高" />
+      <item id="know_more_text"><![CDATA[<f id=130 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >了解更多详情</f> ]]></item>
+      <item id="feedback_mask_text" value="如还不能解答你的疑问，请在此反馈" />
+      <item id="contact_mask_text" value="请留下手机号码或邮箱，以便更好的为你服务" />
+      <item id="feedback_now" value="立即反馈" />
+      <item id="break_down_appear" value="画面已静止了一段时间，是否出现卡顿？" />
+      <item id="complaint_now" value="我要投诉" />
+      <item id="break_down_complaint" value="卡顿投诉" />
+        
+      <!--setting-->
+      <item id="general_setting" value="常规设置" />
+      <item id="network_setting" value="网络设置" />
+      <item id="new_message" value="优惠活动" />
+      <item id="download_mobile" value="下载手机端" />
+      <item id="feedback" value="建议反馈" />
+      <item id="view_log" value="查看日志" />
+      <item id="about" value="关于" />
+      <!--常规设置-->
+      <item id="boot_and_login" value="启动、登录" />
+      <item id="auto_boot" value="开机时自动启动向日葵" />
+      <item id="host_online_notify" value="主机上下线提醒" />
+      <item id="bubble" value="气泡" />
+      <item id="sound" value="声音" />
+      <item id="host_image" value="主机头像" />
+      <item id="host_image_system_def" value="系统默认" />
+      <item id="host_image_cartoon" value="卡通风格" />
+      <item id="host_image_animal" value="动物风格" />
+      <item id="host_image_plant" value="植物风格" />
+      <item id="host_image_scenery" value="风景风格" />
+      <item id="host_image_crooked" value="歪脖子风格" />
+      <item id="remote_video_screenshots" value="远程录像、截屏" />
+      <item id="remote_video_screenshots_note" value="远程控制的录像和截屏文件将保存在此文件夹中" />
+      <item id="log_saved" value="日志保存" />
+      <item id="log_saved_note" value="默认把日志文件保存到此文件夹中" />
+      <item id="soft_update" value="软件更新" />
+      <item id="update_mode_slient" value="自动更新（将保留原设置）" />
+      <item id="update_mode_reminder" value="提醒我更新" />
+      <item id="update_mode_manual" value="不提醒更新" />
+      <!--网络设置-->
+      <item id="start_agent" value="启用代理" />
+      <item id="end_agent" value="取消代理" />
+      <item id="address" value="地址" />
+      <item id="port" value="端口" />
+      <item id="domain" value="域" />
+      <item id="username" value="用户名" />
+      <item id="test" value="测试" />
+      <item id="not_use_agent" value="不使用代理" />
+      <item id="system_proxy" value="使用系统配置的proxy" />
+      <item id="agent_setting" value ="代理设置" />
+      <item id="agent_test_success" value="成功连接到代理服务器！" />
+      <item id="agent_test_failed" value="连接代理服务器失败！" />
+      <item id="agent_notify_text" value="修改网络设置后，需重启软件才能生效" />
+      <!--下载手机端-->
+      <item id="download_mobile_text_one" value="扫码下载向日葵手机版" />
+      <item id="download_mobile_text_two" value="手机一秒变遥控，随时随地远程控制电脑" />
+      <!--建议反馈-->
+      <item id="feedback_text_one" value="有什么建议或想吐槽的，统统可以告诉我们" />
+      <item id="feedback_text_two" value="请留下你的宝贵意见和建议，我们将努力改进（不少于9个字）" />
+      <item id="feedback_text_three" value="请留下手机号或邮箱，以便更好的为你服务" />
+      <item id="feedback_error" value="再详细点，让我们更了解你遇到的问题" />
+      <item id="feedback_success" value="反馈成功，谢谢你的反馈，么么哒" />
+      <item id="feedback_failed" value="反馈失败" />
+      <!--关于-->
+      <item id="sunlogin_remote_version" value="向日葵控制端（%s）" />
+      <item id="check_new_version" value="检查更新" />
+      <item id="sunlogin_url" value="www.sunlogin.com" />
+      <item id="contact_service" value="联系客服" />
+      <item id="sunlogin_remote_copyright" value="上海贝锐 版权所有 Copyright (C) 2002-2019 Oray.All Rights Reserved" />
+      <!--添加主机-->
+      <item id="host_not_enough_text" value="主机数不够用，是否继续添加" />
+      <item id="fastcode_add" value="识别码添加" />
+      <item id="create_host" value="生成主机" />
+      <item id="batch_deploy" value="批量部署" />
+      <item id="fastcode_add_text"><![CDATA[<f f=yh14 c=color.black >被控电脑下载并安装向日葵客户端（</f><f id=124 e=true f=yh.underline.14 c=color6 hc=color.main dc=color.main >d.sunlogin.com</f><f f=yh14 c=color.black >）</f> ]]></item>
+      <item id="fastcode_add_edit_mask_text" value="输入伙伴的识别码" />
+      <item id="host_name" value="主机名" />
+      <item id="remark" value="备注" />
+      <item id="save" value="保存" />
+      <item id="batch_deploy_text" value="批量部署主机，免登录，免再次配置" />
+      <item id="deploy_now" value="立即部署" />
+      <item id="commercial_level_only" value="精英版专享" />
+      <item id="input_fastcode" value="输入伙伴的识别码" />
+      <item id="host_add_err_msg_one" value="识别码不能为空" />
+      <item id="host_add_err_msg_two" value="请输入9位的识别码" />
+      <item id="host_add_err_msg_three" value="主机不存在或不在线" />
+      <item id="host_add_err_msg_four" value="此主机已被其他帐号绑定" />
+      <item id="host_add_err_msg_five" value="此主机是绿色版，请使用安装版" />
+      <item id="host_add_err_msg_six" value="此主机版本太低，请升级到新版本" />
+      <item id="fastcode_add_success_text" value="已成功添加到主机列表" />
+      <item id="fastcode_add_refuse_text" value="对方拒绝了你的请求" />
+      <item id="fastcode_add_no_response_text" value="对方无应答" />
+      <item id="error:connect_failed" value="网络连接失败，无法连接到服务器"/>
+      <item id="view_host_list_text" value="查看主机" />
+      <item id="continue_add_text" value="继续添加" />
+      <item id="retry_add_text" value="重发" />
+      <item id="goback_add_view_text" value="返回添加界面" />
+      <item id="add_success_text" value="添加成功" />
+      <item id="create_host_add_richtext"><![CDATA[<f f=yh14 c=color.black >在被控端电脑上访问</f><f id=125 e=true f=yh.underline.14 c=color6 hc=color.main dc=color.main >d.sunlogin.com</f> ]]></item>
+      <item id="create_host_add_text" value="下载并安装向日葵客户端，使用葵码登录" />
+      <item id="sunlogin_code" value="葵码" />
+      <item id="finished" value="完成" />
+      <item id="create_host_name_empty" value="主机名不能为空" />
+      <item id="query_info" value="正在查询信息" />
+      <!--添加开机棒-->
+      <item id="stick_sn" value="开机棒SN码" />
+      <item id="stick_sn_mask" value="SN码可在开机棒包装盒上查看" />
+      <item id="stick_name_mask" value="给开机棒起个名称吧~" />
+      <item id="add_now" value="立即添加" />
+      <item id="view_device_list_text" value="查看开机棒" />
+      <item id="add_stick_error_msg_one" value="开机棒SN码不能为空" />
+      <item id="add_stick_error_msg_two" value="设备名称不能为空" />
+      <item id="add_stick_error_msg_three" value="SN码不存在或被绑定" />
+      <item id="remote_wakeup_cmd_send" value="开机指令已送达" />
+      <item id="please_wait_host_online" value="主机上线大约需要1-2分钟，请耐心等待" />
+      <item id="please_install_client_on_host" value="但并不能获取到主机在线状态，若你的设备是windows、Linux或Mac系统，建议安装向日葵客户端并登录本帐号" />
+
+      <item id="lable_manage" value="标签管理" />
+      <item id="computer_share" value="主机共享" />
+      <item id="batch_deployment" value="批量部署" />
+      <item id="file_distribution" value="文件分发" />
+      <item id="notice_send" value="消息群发" />
+      <item id="cloud_monitor" value="云监控" />
+      <item id="company_customized" value="企业定制" />
+
+      <item id="batch_deployment_view_text"><![CDATA[<f f=yh16 c=color3>开通批量部署</f><f f=yh16 c=color.main >（精英版专享功能）</f> ]]></item>
+      <item id="batch_deployment_view_text2" value="批量部署主机，免登录，免再次配置" />
+      <item id="batch_deployment_btn" value="立即开通" />
+      <item id="file_distribution_view_text"><![CDATA[<f f=yh16 c=color3>开通文件分发</f><f f=yh16 c=color.main >（旗舰级专享功能）</f> ]]></item>
+        <item id="file_distribution_view_text2" value="重要文件，轻松实现定时定量批量发布" />
+      <item id="file_distribution_btn" value="立即开通" />
+      <item id="notice_send_view_text"><![CDATA[<f f=yh16 c=color3>开通消息群发</f><f f=yh16 c=color.main >（旗舰级专享功能）</f> ]]></item>
+        <item id="notice_send_view_text2" value="消息通知，一键群发到指定主机，准时到达" />
+      <item id="notice_send_btn" value="立即开通" />
+      <item id="cloud_monitor_view_text1" value="开通云监控" />
+      <item id="cloud_monitor_view_text2" value="全天候无缝监控您的主机，随时查看屏幕录像" />
+      <item id="cloud_monitor_btn" value="立即开通" />
+      <item id="company_customized_view_text1" value="开通企业定制" />
+      <item id="company_customized_view_text2" value="可自定义logo、软件名称、界面皮肤和功能" />
+      <item id="company_customized_btn" value="了解详情" />
+
+      <item id="mobile_record_btn" value="录像" />
+      <item id="mobile_screen_shot_btn" value="截屏" />
+      <item id="mobile_menu_btn" value="菜单" />
+      <item id="mobile_home_btn" value="主页" />
+      <item id="mobile_return_btn" value="返回" />
+      <item id="mobile_resize_screen_btn" value="横竖屏" />
+      <item id="mobile_more_btn" value="更多" />
+
+      <item id="mobile_voice_raise" value="音量+" />
+      <item id="mobile_voice_less" value="音量-" />
+      <item id="mobile_screen_key" value="锁屏键" />
+      <item id="mobile_shutdown" value="关机" />
+      <item id="mobile_restart" value="重启" />
+
+      <item id="prompt" value="提示" />
+      <item id="prompt_shutdown_confim" value="确认关闭远程设备？" />
+      <item id="prompt_restart_confim" value="确认要重启远程设备？" />
+      <item id="prompt_restart_describe1" value="请确保已将向日葵设置自动启动" />
+      <item id="prompt_restart_describe2" value="否则将无法再继续远程此设备" />
+      <item id="prompt_shutdown" value="立即关机" />
+      <item id="prompt_comfirm" value="确认" />
+      <item id="prompt_cancel" value="取消" />
+
+      <item id="give_stick" value="转赠开机棒" />
+      <item id="give_stick_error_msg_one" value="接受者帐号不能为空" />
+      <item id="give_stick_error_msg_two" value="接受者服务代码不能为空" />
+      <item id="give_stick_error_msg_user_non_existent" value="帐号与服务代码不匹配" />
+      <item id="give_stick_error" value="转赠失败" />
+      <item id="cannot_give_stick_toself" value="接受者帐号不能为本帐号" />
+      <item id="no_right_to_operate_stick" value="无权操作开机棒" />
+      <item id="give_stick_msg_one" value="请输入接受者帐号" />
+      <item id="give_stick_msg_two" value="请输入接受者服务代码" />
+      <item id="give_stick_msg_three" value="转赠后，此开机棒原有的数据将清空，请谨慎操作" />
+      <item id="give_stick_msg_four" value="立即转赠" />
+      <item id="give_stick_succeed_msg" value="成功转赠开机棒" />
+      <item id="no_support_remote_camera" value="该共享主机不支持远程摄像头功能" />
+      <item id="no_support_remote_file" value="该共享主机不支持远程文件功能" />
+      <item id="no_support_remote_cmd" value="该共享主机不支持远程CMD功能" />
+      <item id="no_support_remote_ssh" value="该共享主机不支持远程SSH功能" />
+      <item id="no_support_remote_manager" value="该共享主机不支持远程管理功能" />
+      <item id="no_support_feature" value="该主机不支持此功能" />
+      <!--文件拖拉引导窗口-->
+      <item id="new_function" value="新增功能" />
+      <item id="guide_describe_text_one" value="鼠标拖拽，轻松传输文件" />
+      <item id="guide_describe_text_three" value="对方需为向日葵Windows客户端9.6及以上版本" />
+      <item id="drag_file_error_desc1" value="拖拽文件大于10MB或会出现桌面卡顿" />
+      <item id="drag_file_error_desc2" value="建议使用 [远程文件] 功能" />
+      <item id="drag_file_error_free_desc1" value="你可享用拖拽单个文件最大5MB" />
+      <item id="drag_file_error_free_desc2" value="拖拽更大文件，请升级服务" />
+      <item id="drag_file_error_toll_desc1" value="你可享用拖拽单个文件最大10MB" />
+      <item id="drag_file_error_toll_desc2" value="拖拽更大文件，建议使用 [远程文件] 功能" />
+      <item id="drag_file" value="拖拽文件" />
+      <!--专属转发通道-->
+      <item id="vip_channel" value="专属转发通道" />
+      <item id="vip_channel_desc" value="尊敬的VIP用户，当前为P2P链路链接" />
+      <item id="vip_channel_desc01" value="如感觉远控卡顿，可尝试使用专为你开通的专属转发通道" />
+      <item id="vip_channel_desc02" value="下次可在【更多】-【专属转发通道】中切换" />
+      <item id="use_now" value="尝试使用" />
+      <item id="now_change_p2p_channel" value="正在切换到P2P链路通道…" />
+      <item id="now_change_vip_channel" value="正在切换到专属转发通道…" />
+      <item id="p2p_channel_success" value="已切换到P2P链路通道" />
+      <item id="vip_channel_success" value="已切换到专属转发通道" />
+      <item id="add_immediately" value="立即添加"/>
+      <item id="question" value="为了方便下次远控，是否添加该主机？"/>
+      <item id="no_remind" value="不再提醒"/>
+      <item id="new_share" value="新建共享"/>
+      <item id="customized_immediate_use" value="立即使用"/>
+      <item id="customized_label_manager"> <![CDATA[<f f=yh16 c=color3>标签管理</f>]]></item>
+      <item id="customized_file_distribution"> <![CDATA[<f f=yh16 c=color3>文件分发</f>]]></item>
+      <item id="customized_batch_deployment"><![CDATA[<f f=yh16 c=color3>批量部署</f>]]></item>
+      <item id="customized_notice_send"><![CDATA[<f f=yh16 c=color3>消息群发</f>]]></item>
+      <item id="customized_clound_monitor" value="云监控" />
+      <item id="customized_company_customized" value="企业定制"/>
+      <item id="customized_search_text" value="搜索主机名、备注" />
+      <item id="customized_label_manager_description" value="给主机贴个标签，让管理更方便"/>
+    </language>
+
+    <!-- English -->
+    <language name="English" id="1033" value="eng" >
+      <!--general-->
+      <item id="close" value="Close" />
+      <item id="connection_stopped" value="Disconnected" />
+      <item id="connection_lost" value="Network exception!" />
+      <item id="reconnection_now" value="Try reconnecting..." />
+      <item id="connection_close" value="Close the window and retry!" />
+      <item id="reconnection_failed" value="Reconnection failure!" />
+      <item id="fast_code_disconnect" value="Connection disconnected!" />
+      <item id="count_down_text1" value="Loading, please wait" />
+      <item id="count_down_text2" value="s..."/>
+      <item id="count_down_text" value="Loading, please wait a moment..." />
+      <item id="speed_up" value="Speed up" />
+      <item id="remote_title" value="Sunlogin Remote" />
+      <item id="account_login" value="&lt;i name=&quot;skin/login_account.png&quot; /&gt; &lt;x w=&quot;10&quot; /&gt; &lt;f name=&quot;yh18&quot; color=&quot;color.white&quot; &gt;Account login&lt;/f&gt;" />
+      <item id="account_register" value="&lt;i name=&quot;skin/login_register.png&quot; /&gt; &lt;x w=&quot;10&quot; /&gt; &lt;f name=&quot;yh18&quot; color=&quot;color.white&quot; &gt;Account register&lt;/f&gt;" />
+      <item id="please_enter_account" value="Account" />
+      <item id="please_enter_pwd" value="Password" />
+      <item id="please_enter_other_account" value="Enter account" />
+      <item id="auto_login" value="Auto login" />
+      <item id="login" value="Login" />
+      <item id="forget_pwd" value="I forget" />
+      <item id="register_account" value="Register account" />
+      <item id="setting" value="Setting" />
+      <item id="login_warn_1" value="Incorrect account or password" />
+      <item id="login_warn_2" value="Connect server failed" />
+      <item id="login_warn_4" value="Fail to refresh host list" />
+      <item id="login_warn_5" value="Unknown error" />
+      <item id="login_warn_6" value="The client version is too low" />
+      <item id="login_warn_1028" value="Restrict login" />
+      <item id="account_pwd_empty" value="Account or password can't be empty" />
+      <item id="phone_as_account" value="Phone number (will be your account)" />
+      <item id="message_captcha" value="Verification code" />
+      <item id="pwd" value="Password" />
+      <item id="agree_protocol_and_register" value="Agree and register" />
+      <item id="protocol" value="Sunlogin Agreement" />
+      <item id="login_account" value="Back to login" />
+      <item id="other_way_registered" value="Switch" />
+      <item id="register_warn_phone_empty" value="Number cannot be empty" />
+      <item id="register_warn_phone_no_match" value="Incorrect number" />
+      <item id="register_warn_get_captcha_failed" value="Failed to receive code" />
+      <item id="register_warn_1003" value="The account is used" />
+      <item id="register_warn_1005" value="Invalid verification code" />
+      <item id="register_warn_1006" value="Illegal account format" />
+      <item id="register_warn_1007" value="Illegal account length(5-16)" />
+      <item id="register_warn_1008" value="Account length 5-16 with alphabet, number or &apos;-&apos;" />
+      <item id="register_warn_1009" value="Illegal password length(6-16)" />
+      <item id="register_warn_1010" value="Password different from account" />
+      <item id="register_warn_1011" value="Illegal email address" />
+      <item id="register_warn_1012" value="Invalid verification code" />
+      <item id="register_warn_1013" value="Incorrect mobile number format" />
+      <item id="register_warn_1014" value="Incorrect verification code" />
+      <item id="register_warn_1214" value="Register failed" />
+      <item id="register_warn_6000" value="Invalid picture verification code" />
+      <item id="register_warn_6001" value="Verification code exceeds daily limit" />
+      <item id="register_warn_6002" value="Too frequent of verification" />
+      <item id="register_warn_6003" value="Message send failed" />
+      <item id="register_warn_6004" value="Incorrect mobile number" />
+      <item id="register_phone_registered" value="Number already registered" />
+      <item id="register_account_registered" value="This account has been registered!" />
+      <item id="register_phone_not_exist" value="Non-existent number" />
+      <item id="register_warn_account_no_match" value="Account length 5-16 with alphabet, number or &apos;-&apos;" />
+      <item id="register_warn_captcha_empty" value="Verification code cannot be empty" />
+      <item id="register_warn_pwd_empty" value="Password cannot be empty" />
+      <item id="get_chptcha" value="Sent" />
+      <item id="jump_chptcha" value="Skip" />
+      <item id="register_warn_pwd_no_match" value="Illegal password length(6-16)" />
+      <item id="register_warn_email_no_match" value="Incorrect email address" />
+      <item id="account" value="Account" />
+      <item id="register_warn_account_empty" value="Account cannot be empty" />
+      <item id="register_warn_email_empty" value="Email cannot be empty" />
+      <item id="phone" value="Phone number" />
+      <item id="email" value="Email" />
+      <item id="retry_after" value="Retry after %d sec" />
+      <item id="search_text" value="Search host name, remark, host ID" />
+      <item id="host_count" value="Host count:" />
+      <item id="upgrade_renew" value="Upgrade/Renew" />
+      <item id="remote_desktop" value="Control" />
+      <item id="remote_view" value="View" />
+      <item id="remote_camera" value="Camera" />
+      <item id="remote_file" value="Files" />
+      <item id="remote_cmd" value="CMD" />
+      <item id="remote_ssh" value="SSH" />
+      <item id="remote_manager" value="Manage" />
+      <item id="cannot_boot" value="A device that supports remote wakeup is needed." />
+      <item id="cannot_enable" value="This device does not support remote wakeup." />
+      <item id="buy_boot" value="Purchase" />
+      <item id="sending_boot_command" value="Sending wakeup command..." />
+      <item id="boot_command_sended" value="Wakeup command sent" />
+      <item id="booting_countdown" value="Booting,please wait about two minutes" />
+      <item id="This host is not bound or wakeup service has expired" value="Invalid host binding or service has expired" />
+      <item id="Wake-up data does not exist" value="Wake-up data does not exist" />
+      <item id="Wake up failed" value="Wake up failed" />
+      <item id="Wake-up password can not be empty!" value="Password can not be empty!" />
+      <item id="Wake-up password wrong!" value="Incorrect password" />
+      <item id="edit_screen_wall" value="Edit" />
+      <item id="quit" value="Exit" />
+      <item id="change_child_user" value="Change child account" />
+      <item id="add_host" value="Add host" />
+      <item id="add_stick" value="Add wakeup device" />
+      <item id="add_screen" value="Add screen wall" />
+      <item id="host_share" value="Share host" />
+      <item id="mark_as" value="Mark as" />
+      <item id="add_to_screen" value="Add to screen wall" />
+      <item id="delete_host" value="Delete host" />
+      <item id="host_info" value="Host info" />
+      <item id="device_info" value="Device info" />
+      <item id="host_manager" value="Manage host" />
+      <item id="ip_setting" value="IP setting" />
+      <item id="phddns" value="DDNS" />
+      <item id="delete_host_desc1" value="Are you sure to delete host:" />
+      <item id="delete_host_desc2" value="?" />
+      <item id="pwd_input_edit_mask_text" value="Enter password to unlock" />
+      <item id="unlook_now" value="Unlock" />
+      <item id="passwd_can_not_empty" value="Password cannot be empty" />
+      <item id="passwd_error" value="Incorrect password" />
+      <item id="show_main_dlg" value="Main interface" />
+      <item id="unlock" value="Unlock" />
+      <item id="renew_now" value="Renew now" />
+      <item id="expiredate_desc1" value="Your " />
+      <item id="expiredate_desc2" value="service" />
+      <item id="expiredate_desc3" value="will expire soon" />
+      <item id="restart_desc" value="Are you sure to restart?" />
+      <item id="shutdown_desc" value="Are you sure to shutdown?" />
+      <item id="quit_desc" value="Are you sure to exit" />
+      <item id="online_tip" value="Online!" />
+      <item id="offline_tip" value="Offline!" />
+      <item id="intelligent_hardware" value="Smart Devices" />
+      <item id="all_hosts" value="All Hosts" />
+      <item id="lan_stick" value="LAN" />
+      <item id="share_stick" value="Standalone" />
+      <item id="add" value="Add" />
+      <item id="device_list" value="Device list" />
+      <item id="screen_wall" value="Screen wall" />
+      <item id="advanced_app" value="Advanced function" />
+      <item id="new_version_tip" value="New version %s found" />
+      <item id="minimize" value="Minimize" />
+      <item id="maximize" value="Maximize" />
+      <item id="restore" value="Restore " />
+      <item id="show_account_info" value="Show account info" />
+      <item id="hide_account_info" value="Hide account info" />
+      <item id="host_list_empty_text" value="No host now, go to add one~" />
+      <item id="please_install_client_text" value="1. Install Sunlogin Client on your computer" />
+      <item id="download_url"><![CDATA[<f f=yh12 c=color19 >Download with</f><f id=123 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >d.sunlogin.com</f> ]]></item>
+      <item id="use_the_same_account_text" value="2.Login with the same account" />
+      <item id="fastcode_without_login_text" value="You can use Host ID to remote without login." />
+      <item id="change_state" value="Change state" />
+      <item id="refresh_device_list" value="Refresh device list" />
+      <item id="refreshing_device_list" value="Refreshing device list…" />
+      <item id="using_net_agent_text" value="Current net by agent" />
+      <item id="drag_tip_text" value="Drag to adjust list"/>
+        
+      <!--fast code-->
+      <item id="fast_code_have_identify"><![CDATA[<f f=yh12 c=color19 >Verification code:</f><f id=121 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >enter</f> ]]></item>
+      <item id="version_desc" value="Please enter access password when client version 8.0 or lower " />
+      <item id="fast_code_Android" value="The remote client is an Android device, please input access password" />
+      <item id="getting_load_type" value="Getting login info…" />
+      <item id="loading_verification" value="Verifying …" />
+      <item id="input_access_password" value="Please enter verification code" />
+      <item id="input_visit_password" value="Enter access password" />
+      <item id="identify" value="Verify " />
+      <item id="identifying" value="Verifying…" />
+      <item id="fast_code_send_request_ok" value="Request sent,waiting for reply(%d s)" />
+      <item id="fast_code_other_reject" value="Your request has been rejected. " />
+      <item id="fast_code_have_no_this_host" value="Host is offline or does not exist" />
+      <item id="Identify_error" value="Incorrect verification code" />
+      <item id="fast_code_invalid_parameter" value="Incorrect parameter" />
+      <item id="fast_code_permission_denied" value="Not permitted, the remote computer has remote assistance disabled" />
+      <item id="fast_code_auth_failed" value="Incorrect verification code" />
+      <item id="fast_code_Rejected" value="Your request has been rejected.  " />
+      <item id="fast_code_not_response" value="No response " />
+      <item id="fast_code_have_no_identify"><![CDATA[<f f=yh12 c=color19 >No verification code:</f><f id=345 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >click to send request</f> ]]></item>
+      <item id="mobile_phone_screen" value="Screen mirroring" />
+      
+        <!--host login-->
+      <item id="please_enter_custom_pwd" value="Enter access password" />
+      <item id="logining" value="Logining..." />
+      <item id="host_login" value="Host login" />
+      <item id="user_no_empty" value="Account cannot be empty " />
+      <item id="password_no_empty" value="Password cannot be empty" />
+      <item id="mobile_login_authentication" value="Mobile-login" />
+      <item id="enter_host_system_account_name" value="Please enter the host system account " />
+      <item id="change_custom_login_type" value="Switch to access password" />
+      <item id="change_account_login_type" value="Switch to system account" />
+      <item id="custom_login_desc" value="Enter access password" />
+      <item id="windwos_account_login_desc" value="Enter Windows system account and password" />
+      <item id="linux_account_login_desc" value="Enter Linux system account and password" />
+      <item id="change_login_type" value="Switch " />
+      <item id="Connect to the server failed!" value="Connect server failed !" />
+      <item id="ControlID verification failed!" value="Fail to verify by ControlID " />
+      <item id="Cookie verification failed!" value="Fail to verify by cookie" />
+      <item id="Bad request!" value="Incorrect request" />
+      <item id="Host is not online!" value="Offline host" />
+      <item id="Unknown remote host!" value="Unknown host" />
+      <item id="Server Error!" value="Server error" />
+      <item id="Request timed out!" value="Request timed out" />
+      <item id="User name or password is incorrect!" value="Incorrect account or password" />
+      <item id="std::exception" value="Exception error" />
+      <item id="Check the status of the remote control failed" value="Fail to check the host status" />
+      <item id="Check the login period failed" value="Fail to check the login period" />
+      <item id="Check the login type failed" value="Fail to check the login method" />
+      <item id="Password can not be empty" value="Password cannot be empty" />
+      <item id="Create instance failed" value="Fail to create instance" />
+      <item id="Login the host failed" value="Login failed" />
+      <item id="Remote control module has been closed" value="Remote control module has been closed" />
+      <item id="Login failed with the way" value="Incorrect Login method" />
+      <item id="The remote host did not response" value="No response by the remote host" />
+      <item id="Check the harass status failed" value="Check the harass status failed" />
+      <item id="Rejected the connection request" value="Request was rejected " />
+      <item id="Verify strings can not be empty" value="Verify strings cannot be empty" />
+      <item id="Access denied,you can't access to the host in the following" value="Be rejected" />
+      <item id="Wrong answer to anti-harassment" value="Wrong answer" />
+      <item id="Check the anti-harassment answer failed" value="Fail to check the harassment answer"  />
+      <item id="input empty" value="Please enter " />
+      <item id="input wrong" value="Incorrect input" />
+      <item id="vertify failed" value="Verify failed" />
+      <item id="pwd wrong" value="Incorrect password" />
+      <item id="query empty" value="Query empty" />
+      <item id="CONNECT_SOCKET_URLS_HPP connect_socket" value="Connect failed" />
+      <item id="auth(2) failed" value="Verify failed" />
+      <item id="auth(3) failed" value="Verify failed " />
+      <item id="rpc_digest not correct" value="Incorrect rpc" />
+      <item id="change fast_code failed" value="Fail to change Host ID " />
+      <item id="db query not found key" value="DB query failed" />
+      <item id="Unknown error!" value="Unknown error!" />
+      <item id="invalid_lic" value="Authorization invalid or expired, please re-login"/>
+      <item id="init_plugin_failed" value="Plugin initialization failed" />
+      <item id="access_denied" value="Remote access is limited" />
+      <!--开机棒属性-->
+      <item id="stick_attr" value="Wakeup device" />
+      <item id="lan_ver" value="LAN" />
+      <item id="person_ver" value="Standalone" />
+      <item id="mac_addr" value="Mac" />
+      <item id="service_type" value="Service type" />
+      <item id="upgrade" value="Upgrade" />
+      <item id="upgrade_service" value="Upgrade service"/>
+      <item id="renew" value="Renew" />
+      <item id="service_expire_data" value="Service expired " />
+      <item id="version_now" value="Current version " />
+      <item id="host_not_find" value="No host found" />
+      <item id="stick_auto_find_host" value="Wake-up device can scan host with online in LAN automatically" />
+      <item id="bind_device" value="Bind Mac" />
+      <item id="unbind_mac_addr_host_failed" value="Delete host failed" />
+      <item id="stick_not_in_lan" value="Unable setting IP for wakeup device is not in the LAN" />
+      <item id="stick_not_online" value="Unable setting IP for wakeup device is offline" />
+      <item id="stick_self_inspection" value="Offline self inspection " /> 
+      <item id="mode" value="Mode" />
+      <item id="ip_addr" value="IP address" />
+      <item id="subnet_mask" value="Netmask" />
+      <item id="gateway" value="Gateway" />
+      <item id="dns" value="DNS" />
+      <item id="dhcp" value="DHCP" />
+      <item id="static_ip" value="Static" />
+      <item id="stick_set_ip_success" value="Connect succeeded" />
+      <item id="stick_set_ip_failed" value="Connect failed" />
+      <item id="can_not_use_ddns" value="Wakeup device offline and could not turn on DDNS " />
+      <item id="what_is_ddns" value="What’s DDNS?" />
+      <item id="start_ddns" value="Turn on DDNS" />
+      <item id="close_ddns" value="Turn off DDNS" />
+      <item id="select_account" value="Account" />
+      <item id="select_type_text" value="Type"/>
+      <item id="service_level" value="Service level" />
+      <item id="online_state" value="State" />
+      <item id="public_net_ip" value="Public IP" />
+      <item id="domain_list" value="Domain list" />
+      <item id="change_account" value="Switch account" />
+      <item id="this_account" value="Current account" />
+      <item id="other_account" value="Other account" />
+      <item id="online" value="Online" />
+      <item id="start" value="Wakeup" />
+      <item id="bind_host_notify_text" value="Tips:please ensure the wakeup device and host are in a same LAN. " />
+      <item id="bind_mac_addr_notify_text"><![CDATA[<f f=yh12 c=RGB(255,0,0) >Tip:If device support</f><f id=126 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >WOL wake up remotely</f><f f=yh12 c=RGB(255,0,0) >,please bind it in on LAN same to stick</f> ]]></item>
+            <item id="bind_account_host" value="Bind host" />
+      <item id="bind_other_device" value="Bind other device" />
+      <item id="binded_max_bind" value="used/all" />
+      <item id="bind_by_mac_addr" value="If the host is not in this account, it can be bound with MAC address" />
+      <item id="device_name" value="Device name" />
+      <item id="device_mac_mask" value="Device’s MAC address" />
+      <item id="device_name_mask" value="Device name" />
+      <item id="stick_offline_text" value="Offline device don’t support it " />
+      <item id="device_bind_error_one" value="MAC address can not be empty" />
+      <item id="device_bind_error_two" value="Device name can not be empty" />
+      <item id="mac_addr_bind_failed" value="Binding failed" />
+      <item id="mac_addr_is_exsit" value="MAC address has been bound" />
+      <item id="mac_addr_not_right" value="Incorrect format of MAC address" />
+      <item id="mac_addr_invalid" value="Invalid MAC address" />
+      <item id="mac_addr_bind_success" value="Binding succeeded" />
+      <item id="please_input_remote_start_pwd" value="Enter the wakeup password" />
+      <item id="saving" value="Saving…" />
+      <item id="save_success" value="Save succeeded" />
+      <item id="bind_host_fail" value="Fail to bind , please retry"/>
+
+      <!-- search -->
+      <item id="search_desc" value="Enter remote host ID and you would be able to remote it ~" />
+      <item id="search_history" value="Search history" />
+      <item id="clear" value="Clear" />
+      <item id="search_result" value="Search result" />
+
+      <!-- recent -->
+      <item id="recent_access" value="Recent" />
+      <item id="top_host" value="Pin" />
+      <item id="cancel_top" value="Unpin" />
+      <item id="top_stick" value="Pin" />
+      <item id="recent_list_empty" value="No recent devices!" />
+      <item id="loading" value="Loading..." />
+      <item id="remove_recent_host" value="Removed from recent" />
+      <item id="fastcode_recent_host" value="Remote" />
+      <item id="fastcode_bind_account" value="Bind" />
+      <item id="host_offline_or_not_exist" value="Computer is offline or not exist" />
+      <item id="refresh_recent_list" value="Refresh" />
+      <item id="refreshing_recent_list" value="Refreshing" />
+      <item id="refreshing_recent_list_1" value="Refreshing..." />
+      <item id="refreshing_recent_list_2" value="Refresh completed" />
+      <item id="refreshing_recent_list_3" value="Refresh failed" />
+        
+      <!-- host info -->
+      <item id="client_setting" value="Host setting" />
+      <item id="host_log" value="Host log" />
+      <item id="domain_access" value="Domain" />
+      <item id="no_host_desc" value="No remark host" />
+      <item id="sunlogincode" value="Sunlogin code" />
+      <item id="fastcode" value="Host ID" />
+      <item id="last_login_ip" value="Last login IP" />
+      <item id="last_login_time" value="Last login time " />
+      <item id="computer_name" value="Computer name" />
+      <item id="system_version" value="System version" />
+      <item id="cpu" value="CPU" />
+      <item id="memory" value="Memory" />
+      <item id="mac_address" value="MAC address" />
+      <item id="edit" value="Edit" />
+      <item id="copy" value="Copy" />
+      <item id="paste" value="Paste"/>
+      <item id="open_check" value="Open" />
+      <item id="show_hardware_info" value="View more" />
+      <item id="main_board_info" value="Mainboard" />
+      <item id="main_disk_info" value="Primary hard drive" />
+      <item id="show_graphics_info" value="Video card" />
+      <item id="net_card_info" value="NIC" />
+      <!-- screen wall -->
+      <item id="offline" value="Offline" />
+      <item id="screen_zoom" value="Zoom:" />
+      <item id="refresh_rate" value="Frequency:" />
+      <item id="no_screen_wall_host_desc" value="Screen wall, help yo monitor more computer at same time.Go to add host!" />
+      <item id="no_screen_wall_desc" value="Screen wall,help you monitor more computer at same time" />
+      <item id="remote_wakeup" value="Remote wakeup" />
+      <item id="remove_host" value="Remove host" />
+      <!-- screen wall edit -->
+      <item id="delete_screen_wall_group_desc" value="Are you sure to delete screen wall [" />
+      <item id="open_more_screen_wall" value="Open more screen wall " />
+      <item id="add_screen_wall" value="Add screen wall" />
+      <item id="edit_screen_wall" value="Edit screen wall" />
+      <item id="screen_wall_name" value="Screen wall name" />
+      <item id="please_input_screen_wall_name" value="Enter wall name" />
+      <item id="my_screen_wall_name" value="My screen wall" />
+      <item id="please_select_host" value="Select host" />
+      <item id="select_all" value="Select all" />
+      <item id="selected_host" value="Selected " />
+      <item id="move_all" value="Move all" />
+      <item id="search_host_or_desc" value="Search host or remark " />
+      <item id="screen_wall_limit_cout_desc1" value="You have " />
+      <item id="screen_wall_limit_cout_desc2" value=" screen wall now ,no more " />
+      <item id="screen_wall_host_limit_cout_desc1" value="  " />
+      <item id="screen_wall_host_limit_cout_desc2" value="host in screen wall at most " />
+      <item id="screen_wall_name_not_empty" value="Wall name can not be empty" />
+      <item id="screen_wall_name_not_be_same" value="The name already exists" />
+      <item id="screen_wall_no_exsit" value="Screen wall is not exist " />
+      <item id="screen_wall_save_error" value="Fail to save screen wall " />
+      <item id="open_screen_wall_limit_desc" value="Only %d screen walls can be opened simultaneously" />
+      <!-- camera -->
+      <item id="camera" value="Camera" />
+      <item id="switch_camera" value="Switch" />
+      <item id="sound" value="Sound" />
+      <item id="full_screen" value="Full screen" />
+      <item id="no_camera_info" value="This camera have no resolution info." />
+      <item id="has_no_camera" value="The remote host doesn't have a camera." />
+      <item id="open_camera_failed" value="Open camera failed." />
+      <item id="switch_camera_text" value="Switch camera"/>
+      <item id="rotate_screen" value="Rotate"/>
+      <item id="screen_mirroring" value="Mirror image"/>
+      <item id="sharpness_standard" value="Standard definition"/>
+      <item id="sharpness_high" value="High definition"/>
+      <item id="sharpness_super" value="Super definition"/>
+      <item id="sharpness_setting" value="Image setting"/>
+      <item id="bright" value="Brightness" />
+      <item id="contrast" value="Contrast" />
+      <item id="changing" value=",changing..." />
+      <item id="changed" value="Changed " />
+      <item id="sharpness_mode" value=" mode" />
+      <item id="reset_image" value="Reset" />
+      <!-- file -->
+      <item id="remotefile" value="Remote file" />
+      <item id="local_host" value="Local host" />
+      <item id="remote_host" value="Remote host" />
+      <item id="back_up" value="Back" />
+      <item id="forward" value="Advance" />
+      <item id="refresh" value="Refresh" />
+      <item id="dir_up" value="Up" />
+      <item id="create" value="Create" />
+      <item id="rename" value="Rename" />
+      <item id="delete" value="Delete" />
+      <item id="select" value="Select" />
+      <item id="transfer" value="Transfer" />
+      <item id="name" value="Name" />
+      <item id="size" value="Size" />
+      <item id="modify_time" value="Modification" />
+      <item id="type" value="Type" />
+      <item id="property" value="Info" />
+      <item id="selected_file_size" value="Selected file size:" />
+      <item id="target" value="Target" />
+      <item id="cancel" value="Cancel" />
+      <item id="pause" value="Pause" />
+      <item id="speed" value="Speed:" />
+      <item id="surplus" value="Remaining:" />
+      <item id="time_consuming" value="Time:" />
+      <item id="upload_finished" value="Finish uploading:" />
+      <item id="download_finished" value="Finish downloading:" />
+      <item id="upload_failed" value="Upload failed:" />
+      <item id="download_failed" value="Download failed:" />
+      <item id="from" value="from" />
+      <item id="to" value=" to " />
+      <item id="continue" value="Continue" />
+      <item id="all" value="All"/>
+      <item id="ok" value="Ok"/>
+      <item id="selected" value="Selected " />
+      <item id="items" value="items" />
+      <item id="folder" value="folder" />
+      <item id="file" value="file" />
+      <item id="rename_local_file" value="Rename local file: " />
+      <item id="rename_remote_file" value="Rename remote file: " />
+      <item id="delete_local_file" value="Delete local file: " />
+      <item id="delete_remote_file" value="Delete remote file: " />
+      <item id="create_local_folder" value="Create local folder: " />
+      <item id="create_remote_folder" value="Create remote folder: " />
+      <item id="succeed" value=" succeed" />
+      <item id="failed" value=" failed" />
+      <item id="remote_file_is_not_exist" value="Remote file or folder does not exist" />
+      <item id="transfer_path_no_legal" value="File transfer path is not valid" />
+      <item id="path_no_legal" value="Path is not valid" />
+      <item id="confirm_delete_file" value="File delete confirm" />
+      <item id="confirm_resume_file" value="Resume confirmed" />
+      <item id="confirm_replace_file" value="File replace confirm" />
+      <item id="cancel_cur_trans_item" value="Cancel" />
+      <item id="pause_cur_trans_item" value="Pause" />
+      <item id="continue_cur_trans_item" value="Resume" />
+      <item id="remove_queue" value="Delete all" />
+      <item id="move" value="Move" />
+      <item id="move_up" value="Move up" />
+      <item id="move_down" value="Move down" />
+      <item id="move_top" value="Move top" />
+      <item id="move_bottom" value="Move bottom" />
+      <item id="open" value="Open" />
+      <item id="select_all" value="Select all" />
+      <item id="select_invert" value="Inverse" />
+      <item id="new_floder" value="New Folder" />
+      <item id="property_type" value="Type:" />
+      <item id="property_local" value="Path:" />
+      <item id="property_size" value="Size:" />
+      <item id="property_lastaccesstime" value="Last access time:" />
+      <item id="property_lastwritetime" value="Last write time:" />
+      <item id="property_creationtime" value="Creation time" />
+      <item id="normal" value="Normal" />
+      <item id="need_replace_file" value="File exist, OK to replace ?" />
+      <item id="need_breakpoint_continue" value="Last transfer is not completed, resume ?" />
+      <item id="allreplace" value="All Replace" />
+      <item id="skip" value="Skip" />
+      <item id="replace" value="Replace" />
+      <item id="allresume" value="all resume" />
+      <item id="resume" value="resume" />
+      <!-- cmd -->
+      <item id="cmd" value="CMD" />
+      <!-- ssh -->
+      <item id="ssh" value="SSH" />
+      <!-- desktop -->
+      <item id="desktop" value="Remote desktop" />
+      <item id="choose_path" value="Please choose the default save directory." />
+      <item id="save_path_title" value="Screenshot and Video" />
+      <item id="choose_path_desc" value="Screenshot and Video are saving the following path" />
+      <item id="browse" value="Browse" />
+      <item id="create_path_failed" value="Path failed to create" />
+      <item id="video_saved">
+        <![CDATA[
+        <f f=yh12 c=color.white >Save success&#160;&#160;&#160;</f><f id="open_save_record_file" e="true" f="yahei.underline.12" cursor="hand" c="color6" >open path</f>
+      ]]>
+      </item>
+      <item id="screenshot_success">
+        <![CDATA[
+        <f f=yh12 c=color.white >Save success&#160;&#160;&#160;</f><f id="open_save_screen_file" e="true" f="yahei.underline.12" cursor="hand" c="color6" >open path</f>
+      ]]>
+      </item>
+      <item id="screen_rotation" value="Rotating the screen..." />
+      <item id="whiteboard_save_success"><![CDATA[
+        <f f=yh12 c=color.white >Save success&#160;&#160;&#160;</f><f id="open_save_screen_file" e="true" f="yahei.underline.12" cursor="hand" c="color6" >open path</f>
+      ]]>
+      </item>
+      <item id="screen_original_size" value="Original screen" />
+      <item id="quality_priority" value="Quality priority" />
+      <item id="speed_priority" value="Speed priority" />
+      <item id="auto_matching" value="Automatic matching" />
+      <item id="shortcut_key" value="Shortcut key" />
+      <item id="resolution" value="Resolution" />
+      <item id="vip_channel" value="Exclusive forward channel" />
+      <item id="quality_selection" value="Quality selection" />
+      <item id="screen_whiteboard" value="Screen whiteboard" />
+      <item id="open_whiteboard" value="Whiteboard" />
+      <item id="close_whiteboard" value="Whiteboard" />
+      <item id="desktop_model" value="Desktop mode" />
+      <item id="rule_mode_h264" value="Entertainment" />
+      <item id="rule_mode_zip" value="Office" />
+      <item id="clipboard" value="Clipboard synchronization" />
+      <item id="lock_menu" value="Lock" />
+      <item id="logout_menu" value="Logout" />
+      <item id="restart_menu" value="Restart" />
+      <item id="shutdown_menu" value="Shutdown" />
+      <item id="resourse_manager_menu" value="Explorer" />
+      <item id="tast_manager_menu" value="Task Manager" />
+      <item id="computer_console_menu" value="Console" />
+      <item id="switch_user" value="Switch session" />
+      <item id="switch_screen" value="Switch Scn" />
+      <item id="screen" value="Screen" />
+      <item id="sound" value="Sound" />
+      <item id="forbid_mouse_key" value="Disable input" />
+      <item id="allow_mouse_key" value="Enable input" />
+      <item id="more" value="More" />
+      <item id="desktop_title" value="Sunlogin remote control" />
+      <item id="shutdown_question" value="Shutting down remote devices, please save all the running programs" />
+      <item id="reboot_question" value="Restarting remote devices, please save all the running programs" />
+      <item id="logoff_question" value="Logging of remote devices, please save all the running programs" />
+      <item id="open_blackscreen" value="Open black" />
+      <item id="close_blackscreen" value="Close black" />
+      <item id="open_sound" value="Sound" />
+      <item id="close_sound" value="Sound" />
+      <item id="stop" value="Stop" />
+      <item id="chat_tip" value="Start chat" />
+      <item id="send" value="Send" />
+      <item id="sending" value="Sending..." />
+      <item id="record" value="Record" />
+      <item id="screenshot" value="Snapshot" />
+      <item id="tip" value="Tip" />
+      <item id="connect_count_limit" value="Your session channels have been occupied, please retry after others disconnect." />
+      <item id="connect_limit" value="Your session channels have been occupied" />
+      <item id="waitting" value="Please wait..." />
+      <item id="no_support_lock_input" value="The client Software needs 9.0 or above version for windows" />
+      <item id="not_run_as_admin" value="The other side is green,can not support this funtion" />
+      <item id="screen_calibration" value="Align" />
+      <item id="color_setting" value="Color" />
+      <item id="screen_calibration_desc"><![CDATA[ refer to the two pointer positions or observe the edge of the picture, align by pressing<direction> ]]></item>
+      <item id="close_screen_calibration" value="close calibration" />
+      <item id="red" value="red" />
+      <item id="green" value="green" />
+      <item id="blue" value="blue" />
+      <item id="reset_color" value="color reset" />
+      <item id="no_usb_desc" value="USB connet to device abnormally, causing failing to output the keyboard and mouse signal" />
+      <item id="close_screen_calibration_desc"><![CDATA[ <direction>will be useless after turn off the calibration ]]></item>
+      <item id="set_kvm_param_error" value="fail to set the KVM parameter " />
+      <item id="white_board_paint_brush" value="Brush tool" />
+      <item id="white_board_paint_rectangle" value="Rect tool" />
+      <item id="white_board_paint_oval" value="Oval tool" />
+      <item id="white_board_paint_font" value="Font tool" />
+      <item id="white_board_paint_eraser" value="Eraser" />
+      <item id="white_board_paint_clear" value="Clear" />
+      <item id="white_board_paint_save" value="Save image" />
+      <item id="white_board_paint_close" value="Close" />
+      <!--install-->
+      <item id="install_enjoy_it" value="Enjoy rapid remote control" />
+      <item id="install_install" value="Accept terms and install" />
+      <item id="install_finished" value="Install Finished" />
+      <item id="install_scan_and_download" value="scan and download the sunlogin mobile" />
+      <item id="install_useragreement" value="Sunlogin Agreement" />
+      <item id="install_custominstall" value="Customized installation" />
+      <item id="install_path_label" value="Installation path:" />
+      <item id="install_browse" value="Browse" />
+      <item id="install_createlink" value="Create shortcut" />
+      <item id="install_add_quick_launch" value="Add to launch bar" />
+      <item id="install_no_this_drive" value="No drive space available %s" />
+      <item id="install_path_format_error" value="Path type error" />
+      <item id="install_menu_path" value="Sunlogin" />
+      <item id="install_link_name" value="Sunlogin Remote" />
+      <item id="install_link_old_name" value="Sunlogin Main Control " />
+      <item id="install_link_uninstall_name" value="Uninstall Sunlogin Remote" />
+      <item id="install_link_uninstall_old_name" value="Uninstall Sunlogin Main Control" />
+      <item id="install_company_name" value="Shanghai Best Oray Information Technology Co., Ltd." />
+      <item id="install_label_start_install" value="Install now" />
+      <item id="install_label_check_installed" value="Check installed version" />
+      <item id="install_label_have_new_installed" value="Latest version already installed" />
+      <item id="install_label_uninstall_old" value="Uninstall the old version" />
+      <item id="install_label_copy_files" value="Copy files" />
+      <item id="install_label_write_reg" value="Overwrite regedit" />
+      <item id="install_label_create_link" value="Create shortcut" />
+      <item id="install_title" value="Sunlogin Remote" />
+      <item id="multifuction_have_oldversion" value="Older version %s detected, do want to uninstall it?" />
+      <item id="multifuction_have_same_version" value="Same version of Sunlogin already installed, do you want to continue?" />
+      <item id="multifuction_have_new_version" value="Latest version already installed!" />
+      <item id="multifuction_have_oldversion_title" value="Install Sunlogin" />
+      <item id="multifuction_have_same_version" value="Already have the same version,confirm to continue to install?" />
+      <item id="multifuction_have_new_version" value="Already install latest version" />
+      <item id="multifuction_have_oldversion_title" value="Install" />
+      <!--uninstall-->
+      <item id="uninstall_text" value="You will lost the remote function" />
+      <item id="uninstall_reason_more_text" value="please tell me my fault,I can be better!" />
+      <item id="clear_user_info" value="Clear userdata" />
+      <item id="clear_user_info_desc" value="Clear all local data, the next installation will be reconfigured" />
+      <item id="commit_and_uninstall_text" value="Uninstall now" />
+      <item id="not_uninstall_text" value="Cancel" />
+      <item id="uninstall_see_you_later_text" value="You will see a perfect me when next time we gather " />
+      <item id="uninstall_stop_exe" value="Stopping program" />
+      <item id="uninstall_delete_file" value="Deleting file" />
+      <item id="uninstall_delete_reginfo" value="Deleting register info " />
+      <item id="uninstall_delete_link" value="Deleting shortcut" />
+      <item id="uninstall_finish_uninstall" value="Finish uninstall" />
+      <!--update-->
+      <item id="now_version" value="Current version%s" />
+      <item id="check_update_text" value="Getting version info and wait a minute..." />
+      <item id="not_need_update" value="Current version is up to date!" />
+      <item id="new_version" value="Discover the new version%s" />
+      <item id="update_now" value="Updated now" />
+      <item id="update_complete_text" value="Finished update" />
+      <!--guide dialog-->
+      <item id="opened_now" value="Open now" />
+      <item id="pro_exclusive" value="Pro. exclusive" />
+      <item id="biz_exclusive" value="Biz. exclusive" />
+      <item id="guide_camera_title" value="Remote Camera" />
+      <item id="account_login" value="&lt;i name=&quot;skin/login_account.png&quot; /&gt; &lt;x w=&quot;10&quot; /&gt; &lt;f name=&quot;yh18&quot; color=&quot;color.white&quot; &gt;Login Account&lt;/f&gt;" />
+      <item id="guide_camera_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;Open Camera&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;(Pro. exclusive function)&lt;/f&gt;" />
+      <item id="guide_camera_text_2" value="Remotely defend your home.Support multiple view!" />
+      <item id="guide_file_manager_title" value="Remote Files" />
+      <item id="guide_file_manager_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;Open Files&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;(Pro. exclusive function)&lt;/f&gt;" />
+      <item id="guide_file_manager_text_2" value="When the file forgotten in office, remote take!" />
+      <item id="guide_cmd_title" value="CMD" />
+      <item id="guide_cmd_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;Open CMD&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;(Biz. exclusive function)&lt;/f&gt;" />
+      <item id="guide_cmd_text_2" value="You can easily use this feature with historical and commonly commands" />
+      <item id="guide_ssh_title" value="SSH" />
+      <item id="guide_ssh_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;Open SSH&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;(Biz. exclusive function)&lt;/f&gt;" />
+      <item id="guide_ssh_text_2" value="You can connect to the Linux host quickly,just 5sec" />
+      <item id="guide_remote_manager_title" value="Remote management" />
+      <item id="guide_remote_manager_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;Open management&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;(Biz. exclusive function)&lt;/f&gt;" />
+      <item id="guide_remote_manager_text_2" value="Remote manage and diagnose host processes!" />
+      <item id="guide_screen_wall_title" value="Open more screen wall" />
+      <item id="guide_screen_wall_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;Open more screen wall&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;(Biz. exclusive function)&lt;/f&gt;" />
+      <item id="guide_screen_wall_text_2" value="You will have multiple screen walls at the same time!" />
+      <item id="guide_monitor_screen_wall_text_1" value="&lt;f id=&quot;yh16&quot; c=&quot;color3&quot; &gt;Monitoring multiple screens at the same time&lt;/f&gt;&lt;f id=&quot;yh16&quot; c=&quot;color.main&quot; &gt;(Biz. exclusive function)&lt;/f&gt;" />
+      <item id="guide_monitor_screen_wall_text_2" value="You will have up to 5 screen walls simultaneously" />
+      <item id="guide_service_expired_title" value="Service expired" />
+      <item id="guide_service_expired_text" value="Your service is expired, remoting is suspended" />
+      <item id="guide_service_expired_text_1" value="Please renew before %s" />
+      <item id="guide_service_remind_title" value="Tip" />
+      <item id="guide_service_free_text_1" value="Your service has been reduced to free level" />
+      <item id="guide_service_free_text_2" value="before %s, please renew or keep" />
+      <item id="guide_service_free_text_3" value="no more than %s" />
+      <item id="guide_service_free_text_4" value="All your hosts will be removed after expire." />
+      <item id="guide_host_not_enough_text_1" value="You have reached the limit, for more" />
+      <item id="guide_host_not_enough_text_2" value="1.Upgrade, buy on demand" />
+      <item id="guide_host_not_enough_text_3"><![CDATA[ <f f=yh12 c=color4 >2.</f><f id=128 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >Store</f><f f=yh12 c=color4 >,</f><f id=129 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >Special offers</f><f f=yh12 c=color4 >free obtain</f> ]]></item>
+      <item id="guide_dlg_upgrade" value="%d yuan/year upgrade to %s" />
+      <item id="guide_dlg_probation" value="%d yuan, try out 1 months" />
+      
+      <item id="mobile_remote_text_one" value="Sunlogin Remote APP" />
+      <item id="mobile_remote_text_two" value="Scan download APP" />
+      <item id="more_download_url"><![CDATA[ <f f=yh12 c=color.black >or via: </f><f id=127 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >d.sunlogin.com</f> ]]></item>
+
+      <!--卡顿 暂时不需要-->
+      <item id="break_remind_text_1" value="如以后出现画面卡顿情况," />
+      <item id="break_remind_text_2" value="可在【更多】--【卡顿投诉】中进行反馈哦" />
+      <item id="know" value="知道了" />
+      <item id="break_reason" value="可能是以下原因造成画面卡顿延迟" />  、
+      <item id="break_reason_text_1" value="1.当前主机或远程主机任一方的网速缓慢" />
+      <item id="break_reason_text_2" value="2.运营商网络环境不稳定" />
+      <item id="break_reason_text_3" value="3.双方主机设备的硬件性能差或CPU使用率过高" />
+      <item id="know_more_text"><![CDATA[ <f id=130 e=true f=yh.underline.12 c=color6 hc=color.main dc=color.main >了解更多详情</f> ]]></item>
+      <item id="feedback_mask_text" value="如还不能解答你的疑问，请在此反馈" />
+      <item id="contact_mask_text" value="请留下手机号码或邮箱，以便更好的为你服务" />
+      <item id="feedback_now" value="立即反馈" />
+      <item id="break_down_appear" value="画面已静止了一段时间，是否出现卡顿？" />
+      <item id="complaint_now" value="我要投诉" />
+      <item id="break_down_complaint" value="卡顿投诉" />
+
+      <!--setting-->
+      <item id="general_setting" value="General settings" />
+      <item id="network_setting" value="Net settings" />
+      <item id="new_message" value="Special Offers" />
+      <item id="download_mobile" value="Download APP" />
+      <item id="feedback" value="Feedback" />
+      <item id="view_log" value="Host log" />
+      <item id="about" value="About" />
+      <!--Routine set-->
+      <item id="boot_and_login" value="Startup,Login" />
+      <item id="auto_boot" value="Auto start up at boot" />
+      <item id="host_online_notify" value="Host status notice" />
+      <item id="bubble" value="Bubbles" />
+      <item id="sound" value="Sounds" />
+      <item id="host_image" value="Icon" />
+      <item id="host_image_system_def" value="Default" />
+      <item id="host_image_cartoon" value="Cartoon" />
+      <item id="host_image_animal" value="Animals" />
+      <item id="host_image_plant" value="Plants" />
+      <item id="host_image_scenery" value="Scenery" />
+      <item id="host_image_crooked" value="Slant" />
+      <item id="remote_video_screenshots" value="Video/Screenshot" />
+      <item id="remote_video_screenshots_note" value="Video and screenshot files will be saved on this path" />
+      <item id="log_saved" value="Host log" />
+      <item id="log_saved_note" value="Log files will be saved on this path" />
+      <item id="soft_update" value="Update mode" />
+      <item id="update_mode_slient" value="Auto update" />
+      <item id="update_mode_reminder" value="Remind me to update" />
+      <item id="update_mode_manual" value="Don't remind me" />
+      <!--Network se-->
+      <item id="address" value="IP" />
+      <item id="port" value="Port" />
+      <item id="domain" value="Domain" />
+      <item id="username" value="User name" />
+      <item id="test" value="Test" />
+      <item id="not_use_agent" value="No proxy" />
+      <item id="system_proxy" value="Use system configuration proxy" />
+      <item id="agent_setting" value ="Proxy set" />
+      <item id="agent_test_success" value="Connect to the proxy server successfully!" />
+      <item id="agent_test_failed" value="Failed to Connect to the proxy server!" />
+      <!--Download APP-->
+      <item id="download_mobile_text_one" value="Scan and download sunlogin APP" />
+      <item id="download_mobile_text_two" value="Mobile remote control computer whenever and wherever" />
+      <!--Feedback-->
+      <item id="feedback_text_one" value="Describe your feedback here" />
+      <item id="feedback_text_two" value="Please write down the suggestion and we will improve it" />
+      <item id="feedback_text_three" value="Phone/mailbox" />
+      <item id="feedback_error" value="Describe it in more detail and let us know more about the problems" />
+      <item id="feedback_success" value="Thanks for your feedback" />
+      <item id="feedback_failed" value="Failed to feedback" />
+      <!--About-->
+      <item id="sunlogin_remote_version" value="Sunlogin Remote(%s) " />
+      <item id="check_new_version" value="Update" />
+      <item id="sunlogin_url" value="www.sunlogin.com" />
+      <item id="contact_service" value="Contact us" />
+      <item id="sunlogin_remote_copyright" value="Copyright © 2002-2019 Oray.All Rights Reserved" />
+      <!--Add host-->
+      <item id="host_not_enough_text" value="Your quota of computers is out, continue to add?" />
+      <item id="fastcode_add" value="Via Host ID" />
+      <item id="create_host" value="Batch add" />
+      <item id="batch_deploy" value="Mass deployment" />
+      <item id="fastcode_add_text"><![CDATA[ <f f=yh14 c=color.black >Download and install Sunlogin Client on computer(</f><f id=124 e=true f=yh.underline.14 c=color6 hc=color.main dc=color.main >d.sunlogin.com</f><f f=yh14 c=color.black >)</f> ]]></item>
+      <item id="fastcode_add_edit_mask_text" value="Enter the Host ID" />
+      <item id="host_name" value="Host name" />
+      <item id="remark" value="Remark" />
+      <item id="save" value="Save" />
+      <item id="batch_deploy_text" value="Mass deployment host,no need to login or configurate" />
+      <item id="deploy_now" value="Deploy now" />
+      <item id="commercial_level_only" value="Biz. exclusive function" />
+      <item id="input_fastcode" value="Enter the Host ID" />
+      <item id="host_add_err_msg_one" value="Host ID can not be empty" />
+      <item id="host_add_err_msg_two" value="Please enter a 9 digit Host ID" />
+      <item id="host_add_err_msg_three" value="Host is not exist or offline" />
+      <item id="host_add_err_msg_four" value="This host has been bound by another account" />
+      <item id="host_add_err_msg_five" value="This host is a green version. Please use the official version" />
+      <item id="host_add_err_msg_six" value="The host’s client version is too low. Please upgrade to the new version" />
+      <item id="fastcode_add_success_text" value="Add host successfully" />
+      <item id="fastcode_add_refuse_text" value="Your request has been rejected" />
+      <item id="fastcode_add_no_response_text" value="No response" />
+      <item id="error:connect_failed" value="Failed to connect to the network"/>
+      <item id="view_host_list_text" value="View host" />
+      <item id="continue_add_text" value="Continue to add" />
+      <item id="retry_add_text" value="Resend" />
+      <item id="goback_add_view_text" value="Back" />
+      <item id="add_success_text" value="Successful" />
+      <item id="create_host_add_richtext"><![CDATA[ <f f=yh14 c=color.black >Controlled computer access</f><f id=125 e=true f=yh.underline.14 c=color6 hc=color.main dc=color.main >d.sunlogin.com</f> ]]></item>
+        <item id="create_host_add_text" value="Downloads and installs the sunlogin client,and use sunlogin code to login" />
+      <item id="sunlogin_code" value="Sunlogin code" />
+      <item id="finished" value="Finished" />
+      <item id="create_host_name_empty" value="Host name can not be empty" />
+      <item id="query_info" value="Querying" />
+      <!--Add wake-up stick-->
+      <item id="stick_sn" value="SN" />
+      <item id="stick_sn_mask" value="You can check SN on stick box" />
+      <item id="stick_name_mask" value="Enter the name~" />
+      <item id="add_now" value="Add" />
+      <item id="view_device_list_text" value="View wakeup device" />
+      <item id="add_stick_error_msg_one" value="SN can not be empty" />
+      <item id="add_stick_error_msg_two" value="Name can not be empty" />
+      <item id="add_stick_error_msg_three" value="SN code is not exist or has been bound" />
+      <item id="remote_wakeup_cmd_send" value="Wakeup delivered" />
+      <item id="please_wait_host_online" value="Booting,please wait about two minutes" />
+      <item id="please_install_client_on_host" value="The host state cannot be reached. If your host is windows, Linux or Mac, it is recommended that you install the sunlogin client and login to this account" />
+
+      <item id="lable_manage" value="Tab Management" />
+      <item id="batch_deployment" value="Mass Deployment" />
+      <item id="file_distribution" value="File Distribute" />
+      <item id="notice_send" value="Msg Push" />
+      <item id="cloud_monitor" value="Cloud Monitor" />
+      <item id="company_customized" value="Customized" />
+
+      <item id="batch_deployment_view_text"><![CDATA[ <f f=yh16 c=color3 >Open Mass Deployment</f><f f=yh16 c=color.main >(Biz. exclusive function)</f> ]]></item>
+        <item id="batch_deployment_view_text2" value="Mass deployment host,no need to login or configurate" />
+      <item id="batch_deployment_btn" value="Open now" />
+      <item id="file_distribution_view_text"><![CDATA[ <f f=yh16 c=color3 >Open File Distribute</f><f f=yh16 c=color.main >(premium exclusive function)</f> ]]></item>
+        <item id="file_distribution_view_text2" value="Timed batch distribution of quantitative documents " />
+      <item id="file_distribution_btn" value="Open now" />
+      <item id="notice_send_view_text"><![CDATA[ <f f=yh16 c=color3 >Open Msg Push</f><f f=yh16 c=color.main >(premium exclusive function)</f> ]]></item>
+        <item id="notice_send_view_text2" value="Batch send messages to hosts " />
+      <item id="notice_send_btn" value="Open now" />
+      <item id="cloud_monitor_view_text1" value="Open Cloud Monitor" />
+      <item id="cloud_monitor_view_text2" value="Constantly monitor your host and you can check out the video  anytime" />
+      <item id="cloud_monitor_btn" value="Open now" />
+      <item id="company_customized_view_text1" value="Open Customized" />
+      <item id="company_customized_view_text2" value="You can custom logo, software name, interface, skin and function" />
+      <item id="company_customized_btn" value="Know more" />
+
+      <item id="mobile_record_btn" value="Video" />
+      <item id="mobile_screen_shot_btn" value=" Screenshot" />
+      <item id="mobile_menu_btn" value="Menu" />
+      <item id="mobile_home_btn" value="Home" />
+      <item id="mobile_return_btn" value="Back" />
+      <item id="mobile_resize_screen_btn" value="Screen rotation" />
+      <item id="mobile_more_btn" value="More" />
+
+      <item id="mobile_voice_raise" value="Volume+" />
+      <item id="mobile_voice_less" value="Volume-" />
+      <item id="mobile_screen_key" value="Lock screen key" />
+      <item id="mobile_shutdown" value="Shutdown" />
+      <item id="mobile_restart" value="Restart" />
+
+      <item id="prompt" value="Tip" />
+      <item id="prompt_shutdown_confim" value="Are you sure to shutdown?" />
+      <item id="prompt_restart_confim" value="Are you sure to restart?" />
+      <item id="prompt_restart_describe1" value="Make sure the client has been set start automatically" />
+      <item id="prompt_restart_describe2" value="Otherwise, you will not be able to continue remote this device" />
+      <item id="prompt_shutdown" value="Shutdown now" />
+      <item id="prompt_comfirm" value="Yes" />
+      <item id="prompt_cancel" value="NO" />
+
+      <item id="give_stick" value="Giveaway stick" />
+      <item id="give_stick_error_msg_one" value="Account can not be empty" />
+      <item id="give_stick_error_msg_two" value="Service id can not be empty" />
+      <item id="give_stick_error_msg_user_non_existent" value="Account or service id is incorrect" />
+      <item id="give_stick_error" value="Failed to give" />
+      <item id="cannot_give_stick_toself" value="Cannot be current account" />
+      <item id="no_right_to_operate_stick" value="No authorized to perform this operation" />
+      <item id="give_stick_msg_one" value="Enter receiver's account" />
+      <item id="give_stick_msg_two" value="Enter receiver's service code" />
+      <item id="give_stick_msg_three" value="Wake up service and data will be cleared after giving" />
+      <item id="give_stick_msg_four" value="Give now" />
+      <item id="give_stick_succeed_msg" value="Successfully" />
+      <item id="no_support_remote_camera" value="This host does not support Remote Camera" />
+      <item id="no_support_remote_file" value="This host does not support Remote File" />
+      <item id="no_support_remote_cmd" value="This host does not support Remote CMD" />
+      <item id="no_support_remote_ssh" value="This host does not support Remote SSH" />
+      <item id="no_support_remote_manager" value="This host does not support Remote Management" />
+      <item id="no_support_feature" value="This host does not support this feature" />
+      <!--文件拖拉引导窗口-->
+      <item id="new_function" value="New Feature" />
+      <item id="guide_describe_text_one" value="Drag &amp; and drag file transfer" />
+      <item id="guide_describe_text_three" value="The client version is too low, please upgrade to 9.6 or above" />
+      <item id="drag_file_error_desc1" value="Files larger than 10MB will affect your remote desktop experience" />
+      <item id="drag_file_error_desc2" value="We recommend you to use the [remote file] feature instead." />
+      <item id="drag_file_error_free_desc1" value="You can Drag and Drop a file of 5MB max" />
+      <item id="drag_file_error_free_desc2" value="To Drag and Drop larger files, your need upgrade the service" />
+      <item id="drag_file_error_toll_desc1" value="You can Drag and Drop a file of 10MB max" />
+      <item id="drag_file_error_toll_desc2" value="We recommend you to use the [remote file] feature to transfer lager files" />
+      <item id="drag_file" value="Drag and drop files" />
+      <!--专属转发通道-->
+      <item id="vip_channel" value="Forward channel" />
+      <item id="vip_channel_desc" value="Dear VIP customer, you are using P2P channel" />
+      <item id="vip_channel_desc01" value="If the remoting is slow, try to use the exclusive channel" />
+      <item id="vip_channel_desc02" value="You can find and switch to it in [more] - [exclusive channel]" />
+      <item id="use_now" value="Try now" />
+      <item id="now_change_p2p_channel" value="Switching to P2P channel... " />
+      <item id="now_change_vip_channel" value="Switching to the forwarding channel... " />
+      <item id="p2p_channel_success" value="Switched to P2P channel" />
+      <item id="vip_channel_success" value="Switched to VIP forwarding channel" />
+      <item id="add_immediately" value="立即添加"/>
+      <item id="add_host" value="添加主机"/>
+      <item id="question" value="为了方便下次远控，是否添加该主机？"/>
+      <item id="no_remind" value="不再提醒"/>
+      <item id="new_share" value="新建共享"/>
+      <item id="customized_immediate_use" value="立即使用"/>
+      <item id="customized_label_manager"> <![CDATA[<f f=yh16 c=color3>标签管理</f>]]></item>
+	    <item id="customized_file_distribution"> <![CDATA[<f f=yh16 c=color3>文件分发</f>]]></item>
+      <item id="customized_batch_deployment"><![CDATA[<f f=yh16 c=color3>批量部署</f>]]></item>
+      <item id="customized_notice_send"><![CDATA[<f f=yh16 c=color3>消息群发</f>]]></item>
+      <item id="customized_clound_monitor" value="云监控" />
+      <item id="customized_company_customized" value="企业定制"/>
+      <item id="customized_label_manager_description" value="给主机贴个标签，让管理更方便"/>
+    </language>
+  </language>
+</orayui>
+
+
