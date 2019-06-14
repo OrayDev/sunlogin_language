@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 公共資源, 在多處地方使用的文字資源 -->
+    <string name="account">帳號管理</string>
+    <string name="my_account">我的帳號</string>
+    <string name="sunlogin_app_name">向日葵遠程控制</string>
+    <string name="app_description">向日葵遠程控制</string>
+    <string name="login_success">登錄成功</string>
+    <string name="connect_server_failed">連接伺服器失敗!</string>
+    <string name="custome_logon_error">請輸入特定帳號</string>
+    <string name="CNTS_P2P">正在P2P連接</string>
+    <string name="CNTS_FORWARD">正在請求轉發</string>
+    <string name="CNTS_LOGIN">正在登錄遠程桌面</string>
+    <string name="CNTS_CONNECTED">準備顯示遠程桌面</string>
+    <string name="CNTS_DISCONNECTED">連接中斷</string>
+    <string name="CNTS_FIRSTFRAME">開始接收資料</string>
+    <string name="P2P_CONNECTED">p2p鏈接成功</string>
+    <string name="P2P_SHAKEHANDLE">P2P握手中</string>
+    <string name="FWD_CONNECTED">轉發鏈接成功</string>
+    <string name="FWD_SHAKEHANDLE">轉發握手中</string>
+    <string name="FWD_DISCONNECT">轉發斷開鏈接</string>
+    <string name="NET_CHECKING">正在檢查網絡連接</string>
+    <string name="Login_Hint_Account">請輸入帳號</string>
+    <string name="Login_Hint_Password">請輸入密碼</string>
+    <string name="Login_CB_Remember">記住密碼</string>
+    <string name="Login_BT_Login">登錄</string>
+    <string name="Cancel">取消</string>
+    <string name="Host">主機</string>
+    <string name="LAN_DISCOVERY_TITLE">局域網掃描</string>
+    <string name="Host_Name">主機名稱</string>
+    <string name="Host_Info">主機信息</string>
+    <string name="History">發現</string>
+    <string name="Setting">設置</string>
+    <string name="Close">關閉</string>
+    <string name="Return">返回</string>
+    <string name="Continue">繼續</string>
+    <string name="ContinueAndRemember">繼續,不再提醒</string>
+    <string name="Remember">不再提醒</string>
+    <string name="Login">登錄</string>
+    <string name="Operation1">切換遠程會話</string>
+    <string name="Operation2">顯示桌面</string>
+    <string name="Operation4">鎖定桌面</string>
+    <string name="Operation5">重啟計算機</string>
+    <string name="Operation6">關閉計算機</string>
+    <string name="VersionInfo2">版權所有: 上海貝銳信息科技股份有限公司</string>
+    <string name="VersionInfo3">版本%s</string>
+    <string name="VersionInfo4">http://url.oray.com/rIdYba</string>
+    <string name="Confirm">確認</string>
+    <string name="Save">保存</string>
+    <string name="Saveing">保存中...</string>
+    <string name="HostDetail">主機詳情</string>
+    <string name="KeyCode">葵碼</string>
+    <string name="DelHost">刪除主機</string>
+    <string name="ConfirmDelHost">是否刪除主機？</string>
+    <string name="ConfirmDelHost1">刪除主機%s後，此主機的付費服務將同時刪除，確定要刪除嗎？</string>
+    <string name="HostEdit">編輯</string>
+    <string name="Copy">複製</string>
+    <string name="SendEmail">發送Email</string>
+    <string name="SendSms">發短信</string>
+    <string name="CopySuccess">複製成功</string>
+    <string name="g_more">我的</string>
+    <string name="g_detail">詳情</string>
+    <string name="g_dialog_title">溫馨提示</string>
+    <string name="g_handling">正在處理中&#8230;</string>
+    <string name="g_delete">刪除</string>
+    <string name="accountlogon_network_noconnect">網絡未連接</string>
+    <string name="lan_scan_network_only_wifi">請在WIFI環境下使用此功能</string>
+    <string name="lan_network_has_change">網絡變化請刷新後重試</string>
+    <string name="fast_code_empty">請輸入識別碼</string>
+    <string name="fast_code_error">請輸入九位識別碼!</string>
+    <string name="account_login">登錄帳號</string>
+    <string name="skip_ad">跳過廣告</string>
+    <string name="other_ways">其他方式</string>
+    <string name="g_logining">登錄中...</string>
+    <string name="register_success">註冊成功 ！</string>
+    <string name="symbol_colon">:</string>
+    <string name="register_account">註冊帳號</string>
+    <string name="pay_camera_suc">購買成功!</string>
+    <string name="unknownCNTSstatus">未知連接狀態</string>
+    <string name="login_and_addhost">登錄並添加主機</string>
+    <string name="to_top">置頂</string>
+    <string name="cancel_to_top">取消置頂</string>
+    <string name="CNTS_P2P_START">開始p2p連接</string>
+    <string name="CNTS_FORWARD_START">開始轉發連接</string>
+    <string name="CNTS_LOGIN_START">開始登錄</string>
+    <string name="CNTS_CONNECTED_SUCCESS">連接成功</string>
+    <string name="CNTS_CONNECTED_FAILED">連接斷開</string>
+    <string name="fastcode">識別碼</string>
+    <string name="app_up_downloading">正在下載</string>
+    <string name="app_up_wait">請稍後...</string>
+    <string name="app_up_error">下載失敗</string>
+    <string name="download_error">下載失敗，請檢查網絡</string>
+
+    <!-- 添加設備 -->
+    <string name="Next">下一步</string>
+    <string name="AddHost">添加主機</string>
+    <string name="HostName">主機名</string>
+    <string name="Describe">備註(選填)</string>
+    <string name="Complete">完成</string>
+    <string name="AddHostMessage">添加成功</string>
+    <string name="InstallMessage">在被控的電腦上訪問d.sunlogin.com\n下載並安裝向日葵客戶端，使用以下葵碼登錄</string>
+    <string name="AddToastMsg">請輸入主機名</string>
+    <string name="hostadd_host_holder">我的主機</string>
+    <string name="NoEmail">郵件無法發送，請選擇其它方式</string>
+    <string name="hostadd_recognizecode">識別碼添加</string>
+    <string name="hostadd_normal">生成主機</string>
+    <string name="hostadd_lan">局域網添加</string>
+    <string name="host_info_title">主機信息</string>
+
+    <!-- 攝像頭詳情界面 -->
+    <string name="cameradetail_hardware_upgrade1">升級</string>
+
+    <string name="cameradetail_login_fail">登錄攝像頭失敗, 返回主機列表。</string>
+
+    <!-- 攝像頭播放界面 -->
+    <string name="ERROR_UNKNOWN_ERROR">未知錯誤</string>
+    <string name="ERROR_CONNECTION_FAILED">連接服務器失敗</string>
+    <string name="ERROR_CHECK_CONTROL_COOKIE_FAILED">驗證失敗</string>
+    <string name="ERROR_COOKIE_INVALID">Cookie驗證失敗</string>
+    <string name="ERROR_BAD_REQUEST">錯誤的請求</string>
+    <string name="ERROR_HOST_OFFLINE">遠程主機下線</string>
+    <string name="ERROR_UNKNOWN_REMOTE">未知遠程主機</string>
+    <string name="ERROR_SERVER_ERROR">服務器錯誤</string>
+    <string name="ERROR_REQUEST_TIMEOUT">請求超時</string>
+    <string name="ERROR_AUTH_FAILED">用戶名或密碼錯誤</string>
+
+    <!-- 添加攝像頭 -->
+    <string name="PwdNotEmpty">密碼不能爲空</string>
+
+    <!-- 標籤 -->
+
+    <!-- keyboard -->
+    <string name="Rollup">收起</string>
+    <string name="More">更多</string>
+    <string name="CONNECT_SERVER">正在連接服務器</string>
+    <string name="shutdown_sended">關機指令已發送</string>
+    <string name="restart_sended">重啓指令已發送</string>
+    <string name="CONNECT_REMOTE_DESKTOP">正在登錄被控端</string>
+    <string name="login_failed_error_name_pwd">用戶名或密碼錯誤!</string>
+    <string name="OperationInstruction">手勢操作指南</string>
+    <string name="ChooseRemoteSession">選擇遠程會話</string>
+    <string name="Console">控制臺</string>
+    <string name="Terminal">終端</string>
+    <string name="QUIT_SUNLOGIN_COTENT">是否確認退出向日葵?</string>
+    <string name="QUIT_REMOTE">結束遠程桌面</string>
+    <string name="QUIT_REMOTE_CONTENT">結束遠程桌面,將返回功能列表界面</string>
+    <string name="REBOOT_REMOTE">重啟計算機</string>
+    <string name="REBOOT_REMOTE_CONTENT">是否確認重啟計算機？ </string>
+    <string name="SHUTDOWN_REMOTE">關閉計算機</string>
+    <string name="SHUTDOWN_REMOTE_CONTENT">是否關閉計算機，關閉後將無法連接! </string>
+    <string name="RemoteConnectFail">遠程連接失敗</string>
+    <string name="RemoteConnectFail_Content">超時或網絡不通或遠程主機已關閉，請退出後再試。</string>
+    <string name="dlg_title">登錄失敗</string>
+    <string name="unknow_error">未知錯誤!</string>
+    <string name="turnon_password">開機密碼</string>
+    <string name="turnon_computer">開機</string>
+    <string name="wakeup_not_alive">主機不存在</string>
+    <string name="wakeup_failed">開機失敗</string>
+    <string name="wakeup_password_empty">開機密碼不能為空</string>
+    <string name="wakeup_password_error">開機密碼錯誤</string>
+    <string name="ServerError">服務器錯誤</string>
+    <string name="wakeup_timeout">開機超時</string>
+    <string name="ConnectWithoutWifiWarning">當前為非Wifi網路連接，使用該功能將消耗較多流量，是否繼續？</string>
+
+    <!-- Remote Camera -->
+    <string name="REMOTE_CAMERA_CONNECTING">正在連接遠端攝像頭</string>
+    <string name="REMOTE_CAMERA_CONNECTING_FAILED">連接遠端攝像頭失敗</string>
+    <string name="REMOTE_CAMERA_NO_CAMERA">沒有可用的攝像頭</string>
+    <string name="REMOTE_CAMERA_CNTS_P2P">正在P2P連接</string>
+    <string name="REMOTE_CAMERA_CNTS_FORWARD">正在請求轉發</string>
+    <string name="REMOTE_CAMERA_CNTS_LOGIN">正在登錄攝像頭</string>
+    <string name="REMOTE_CAMERA_CNTS_CONNECTED">攝像頭連接成功</string>
+    <string name="REMOTE_CAMERA_CNTS_DISCONNECTED">連接中斷</string>
+    <string name="REMOTE_CAMERA_CNTS_FIRSTFRAME">開始接收資料</string>
+    <string name="REMOTE_CAMERA_QUIT">結束攝像頭</string>
+    <string name="REMOTE_CAMERA_QUIT_DESCRIPTION">結束攝像頭,返回至功能列表界面。 </string>
+    <string name="account_add_regist">註冊新帳號</string>
+    <string name="Resolution">分辯率</string>
+    <string name="remote_desktop_optionbar_lockscreen">開啟旋轉</string>
+    <string name="remote_desktop_optionbar_unlockscreen">關閉旋轉</string>
+    <string name="remote_desktop_optionbar_closemouse">關閉虛擬鼠標</string>
+    <string name="remote_desktop_optionbar_openmouse">開啟虛擬鼠標</string>
+    <string name="remote_camera_switch">切換</string>
+    <string name="remote_camera_overturn">翻轉</string>
+    <string name="remote_camera_standard">標清</string>
+    <string name="remote_camera_high">高清</string>
+    <string name="remote_camera_ultra_high">超高清</string>
+    <string name="remote_camera_image_setting">圖像設置</string>
+    <string name="remote_camera_image_setting_version">僅限客戶端8.7以上版本支持</string>
+
+    <!-- Account Register -->
+    <string name="ACCOUNT_REGISTER_ACCOUNT">帳號</string>
+    <string name="ACCOUNT_REGISTER_EMAIL">郵箱</string>
+    <string name="ACCOUNT_LOGIN">主機登錄</string>
+    <string name="ACCOUNT_REGISTER_LINK">《向日葵服務協議》</string>
+    <string name="ACCOUNT_REGISTER_CREATE">同意協議並註冊</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1003">Oh no~ 該號碼已被註冊，換一個吧或使用其他方式註冊</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1004">缺少參數，請將信息填寫完整</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1005">接口驗證錯誤</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1006">帳號名格式錯誤，請嘗試其他名字</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1007">帳號名長度不正確，請嘗試其他名字</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1008">該帳號名禁止註冊，請嘗試其他名字</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1009">密碼長度不正確</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1010">密碼不能與帳號名相同</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1011">郵箱格式不正確</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1012">無效的短信驗證碼</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1013">帳號不正確</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1014">驗證碼不正確</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1214">註冊失敗</string>
+    <string name="ACCOUNT_REGISTER_SUCCESSFUL">註冊成功</string>
+    <string name="ACCOUNT_REGISTER_FAILED">註冊失敗</string>
+    <string name="ACCOUNT_REGISTER_NAME_LOCAL_VALIDATE_FAILED">帳號名為5~16位，不能爲純數字，只能是大小寫英文字母，數字或者\'-\'</string>
+    <string name="ACCOUNT_REGISTER_PASSWORD_LOCAL_VALIDATE_FAILED">密碼為6~16位任意字符，且不能與帳號名相同</string>
+    <string name="ACCOUNT_REGISTER_EMAIL_LOCAL_VALIDATE_FAILED">郵箱格式不正確，請輸入正確郵箱</string>
+    <string name="ACCOUNT_REGISTER_REGISTERING">正在註冊，請稍後</string>
+    <string name="ACCOUNT_REGISTER_REMIND_USER">不能註冊，請檢查註冊信息是否完整、正確</string>
+    <string name="host_turnon_buy_wakeup_card">您需要支持遠程開機的設備，是否現在獲取？</string>
+    <string name="oray_buy_turnoncard_url">http://url.oray.com/ZXdWrs</string>
+    <string name="account_name_can_not_be_empty">用戶名不能爲空</string>
+    <string name="Password_can_not_be_empty">密碼不能為空！</string>
+
+    <!-- Phone Register -->
+    <string name="email_regist">賬號註冊</string>
+    <string name="phone_regist">手機註冊</string>
+    <string name="phone">手機</string>
+    <string name="select_phone_view">切換手機驗證</string>
+    <string name="select_email_view">切換郵箱驗證</string>
+    <string name="phone_number">手機號碼（作爲登錄帳號）</string>
+    <string name="phone_captcha">手機驗證碼</string>
+    <string name="get_captcha">獲取驗證碼</string>
+    <string name="setting_password">密碼</string>
+    <string name="account_Exceed_limits">每個號碼每天最多可獲取5次，請明天再來或換個號碼 </string>
+    <string name="message_send_fast">短信發送頻率過短</string>
+    <string name="message_send_fail">短信發送失敗</string>
+    <string name="phone_number_is_wrong">手機號不正確</string>
+    <string name="message_send">短信驗證碼已發送</string>
+    <string name="phone_empty">請輸入手機號</string>
+    <string name="phone_error">手機號碼格式不正確</string>
+    <string name="empty_code">請輸入驗證碼</string>
+    <string name="email_empty">請輸入郵箱</string>
+
+    <!-- 主機列表 -->
+    <string name="UNCONTROLABLLE_ONLINE_HOST">遠程主機沒有開啟遠程控制模塊</string>
+    <string name="UNCONTROLABLLE_LOCAL_HOST">主機被控端8.0不支持局域網直連</string>
+    <string name="yesterday">昨天</string>
+    <!-- 主機登錄服務選擇界面 -->
+    <string name="hostloginservice_reboot_dialog_message">是否重啟遠程主機？</string>
+    <string name="hostloginservice_shutdown_dialog_message">是否關閉遠程主機？</string>
+    <string name="hostloginservice_shutdown">關機</string>
+    <string name="hostloginservice_reboot">重啟</string>
+    <string name="hostloginservice_remotecamera">遠程攝像頭</string>
+    <string name="hostloginservice_remotecamera_desc" formatted="false">本功能爲入門版專享功能(d%元/年)\n(請確保此主機有攝像頭)</string>
+    <string name="hostloginservice_remotefile">遠程文件</string>
+    <string name="hostloginservice_remotefile_desc" formatted="false">本功能爲入門版專享功能(d%元/年)</string>
+    <string name="hostloginservice_remoteCMD">CMD</string>
+    <string name="hostloginservice_remoteCMD_desc" formatted="false">本功能爲精英版專享功能(d%元/年)</string>
+    <string name="hostloginservice_remoteSSH">SSH</string>
+    <string name="hostloginservice_remoteSSH_desc" formatted="false">本功能爲精英版專享功能(d%元/年)</string>
+    <string name="hostloginservice_active">%s元試用1月(僅當前主機)</string>
+    <string name="hostloginservice_to_use">立即使用</string>
+    <string name="hostloginservice_suc">恭喜，可使用%s功能1個月</string>
+    <string name="hostloginservice_upgrade_pro">升級到入門版</string>
+    <string name="hostloginservice_upgrade_bus">升級到精英版</string>
+    <!-- 主機登錄界面 -->
+    <string name="hostlogining_into_free">親，努力加載中，請耐心等待喔</string>
+    <!-- 主機詳情界面相關資源 -->
+    <string name="hostdetail_resolution">分辨率</string>
+    <string name="AUTOMATICALLY_MATCHES_THE_BEST_RESOLUTION">適配當前手機分辨率</string>
+    <string name="KEEP_THE_ORIGINAL_RESOLUTION">保持原始分辨率</string>
+
+    <!-- 護照登錄界面相關資源 -->
+    <string name="accountlogin_forgetpassword">忘記密碼</string>
+    <string name="regist_account">沒有帳號?立即註冊</string>
+
+    <!-- 添加主機界面相關資源 -->
+    <string name="hostadd_message_send">請求已發送，等待對方接受</string>
+
+    <!-- 添加攝像頭界面相關資源 -->
+
+    <!-- 添加攝像頭-幫助界面相關資源 -->
+    <string name="cameraadd_help_iknow">我知道了</string>
+
+    <!-- 快速訪問碼界面 -->
+    <string name="fastcode_host_login">遠程協助</string>
+    <string name="fastcode_fastpwd_text">驗證碼(可不填,若不填則需要對方接受)</string>
+    <string name="fastcode_fastaccess_text">請輸入識別碼</string>
+    <string name="fastcode_sendrequest">發送請求</string>
+    <string name="fastcode_clearhistory">清除歷史</string>
+    <string name="fastcode_queryinghost">正在查詢主機</string>
+    <string name="fastcode_confirmclearhistory">確定要清除您的訪問碼歷史？</string>
+    <string name="fastcode_hostNoresponseOrRefuse">主機無響應或拒絕</string>
+    <string name="fastcode_hostloginfailed">驗證碼不正確</string>
+    <string name="fastcode_hostoffline">主機不在線或不存在</string>
+    <string name="fastcode_host_refuse_request">遠程主機拒絕連接請求</string>
+    <string name="fastcode_finging">查詢中</string>
+
+    <!-- 主機登錄 -->
+    <string name="customlogin_system_account_username">請輸入主機系統帳戶名</string>
+    <string name="customlogin_windows_password">請輸入密碼</string>
+    <string name="hostlogin_file_connecting">正在連接遠程文件</string>
+    <string name="hostlogin_remotefile_cnts_login">正在登錄遠程文件</string>
+    <string name="hostlogin_remotefile_cnts_connected">遠程文件連接成功</string>
+    <string name="hostlogin_fastpwd_text">請輸入訪問密碼</string>
+
+    <!-- tabmore 界面 -->
+    <string name="more_help_guesture">手勢操作指南</string>
+    <string name="more_recommend">硬件商城</string>
+    <string name="more_promotions">最新活動</string>
+
+    <!-- 主機列表排序 -->
+
+    <!-- tabhost 界面 -->
+    <string name="tabhost_fastcode">遠程協助</string>
+    <string name="tabhost_fastcode_message">通過識別碼遠控</string>
+
+    <!-- tabdiscovery 界面 -->
+    <string name="discovery_scan_host_message">掃描主機</string>
+    <string name="lan_discovery_message">掃描向日葵主機</string>
+    <string name="lan_discovery_empty">未發現主機</string>
+    <string name="lan_discovery_empty_message">請確保本機與客戶端在同一局域網內</string>
+
+    <!-- 無主機界面 -->
+    <string name="tabnohost_nohost">沒有主機怎麼辦</string>
+    <string name="tabnohost_installsunlogin">1.請在被控的設備上安裝[向日葵客戶端]</string>
+    <string name="tabhost_download_addr">下載地址:</string>
+    <string name="tabnohost_addhost">2.用同一帳號登錄即可</string>
+
+    <!-- 手勢指南界面 -->
+
+    <!-- 關于畫面 -->
+    <string name="about_url_show">www.sunlogin.com</string>
+
+    <!-- 精品推薦畫面, 推薦apk 的url -->
+
+    <!-- 更多功能增值功能 -->
+    <!-- 支付類型(選擇支付的類型)界面 -->
+
+    <!-- 主機服務選擇界面 -->
+
+    <!-- 遠程文件 -->
+    <string name="REMOTE_FILE_QUIT">結束遠程文件</string>
+    <string name="REMOTE_FILE_QUIT_DESCRIPTION">結束遠程文件,將返回功能列表界面</string>
+    <string name="confirm">確定</string>
+    <string name="remote_file_tabbar_remote_file_text">遠程文件</string>
+    <string name="remote_file_file_list_upload">上傳</string>
+    <string name="remote_file_upload_dialog_message">文件會上傳到當前\n所選的路徑哦</string>
+    <string name="remote_file_upload_dialog_button_text">好</string>
+    <string name="remote_file_file_list_sort_dialog_time_sort">按時間排序</string>
+    <string name="remote_file_file_list_sort_dialog_filename_sort">按名稱排序</string>
+    <string name="add_download_list_dialog_message">已添加到下載列表</string>
+    <string name="add_upload_list_dialog_message">已添加到上傳列表</string>
+    <string name="remote_file_upload_type_text">選擇上傳類型</string>
+    <string name="remote_file_upload_img">圖片</string>
+    <string name="remote_file_upload_file">文件</string>
+    <string name="remote_file_upload_music">音樂</string>
+    <string name="remote_file_upload_video">視頻</string>
+    <string name="remote_file_upload_newfile">新建文件夾</string>
+    <string name="remote_file_new_file_dialog_hint">文件夾名稱</string>
+    <string name="remote_file_new_file_dialog_message">確定要刪除已選的遠程文件？</string>
+    <string name="remote_file_upload_img_album">選擇相冊</string>
+    <string name="remote_file_upload_choose_video">選擇視頻</string>
+    <string name="remote_file_upload_img_choose_num">已選%d項</string>
+    <string name="check_all">全選</string>
+    <string name="remote_file_tabbar_transmission_list_text">傳輸列表</string>
+    <string name="allstop">全部暫停</string>
+    <string name="allstart">全部開始</string>
+    <string name="allclean">清除記錄</string>
+    <string name="remote_file_tran_notran_message">你還沒有傳輸記錄哦~</string>
+    <string name="remote_file_tabbar_mydownload_text">我的下載</string>
+    <string name="remote_file_mydownload_nodownload_message">你沒有下載文件哦~</string>
+    <string name="remote_file_tabbar_exit_text">退出</string>
+    <string name="remote_file_list_Search_directory">篩選當前列表</string>
+    <string name="remote_file_tran_list_upload_list">上傳列表</string>
+    <string name="remote_file_tran_list_download_list">下載列表</string>
+    <string name="remote_file_toast_text">刪除成功</string>
+    <string name="remote_file_exit_dialog_message">現在退出將暫停文件傳輸，確定要退出嗎？</string>
+    <string name="remote_file_uploading_text">正在上傳</string>
+    <string name="remote_file_uploadDone_text">上傳成功</string>
+    <string name="remote_file_downloading_text">正在下載</string>
+    <string name="remote_file_downloadDone_text">下載成功</string>
+    <string name="remote_file_download_history_message">確定要清除記錄？</string>
+    <string name="remote_file_delete_file_failed">刪除遠程文件失敗</string>
+    <string name="remote_file_create_directory_failed">創建文件夾失敗</string>
+    <string name="remote_file_speed">0KB</string>
+    <string name="remote_file_storage_space_lack">存儲空間不足</string>
+    <string name="remote_file_choose_file">請選擇文件</string>
+    <string name="remote_file_upload_no_insert_sdcard">沒有插入SD卡</string>
+    <string name="remote_filelist_transfer_dislog_message">當前已設置[僅wifi網絡上傳/下載]，將不允許2G/3G網絡傳輸文件，是否需要更改？</string>
+    <string name="remote_filelist_transfer_dislog_text1">允許所有網絡</string>
+    <string name="remote_filelist_transfer_dislog_text2">僅wifi傳輸</string>
+    <string name="delete">刪除</string>
+    <string name="download">下載</string>
+    <string name="remotefile_list_cannot_upload">請先選擇上傳目錄</string>
+    <string name="remotefile_list_cannot_openfile">文件不存在</string>
+    <string name="tabmore_mydownload_delete_file">確定要刪除文件？</string>
+    <string name="remote_file_exit_toast_message">再按一次退出遠程文件</string>
+    <string name="remote_file_enum_remote_file_failed">加載失敗，請下拉刷新重試~</string>
+    <string name="there_is_no_edited_file">沒有可編輯的文件</string>
+
+    <!-- 遠程CMD -->
+    <string name="remote_cmd_command_history">歷史命令</string>
+    <string name="remote_cmd_command_add">自定義添加</string>
+    <string name="remote_cmd_command">命令</string>
+    <string name="remote_cmd_command_common">常用命令</string>
+    <string name="remote_cmd_interrupt_command">中斷命令</string>
+    <string name="remote_cmd_complete">完成</string>
+    <string name="REMOTE_CMD_QUIT">結束CMD</string>
+    <string name="REMOTE_SSH_QUIT">結束SSH</string>
+    <string name="REMOTE_CMD_QUIT_DESCRIPTION">結束CMD,將返回功能列表界面</string>
+    <string name="REMOTE_SSH_QUIT_DESCRIPTION">結束SSH,將返回功能列表界面</string>
+    <string name="REMOTE_CMD_HOSTORY_COMMAND">用過的命令會在這裡出現</string>
+
+    <!-- 全局設置 -->
+    <string name="remote_file_setup_message1">僅WIFI網絡上傳/下載文件</string>
+    <string name="remote_file_setup_message2">移動網絡提醒</string>
+    <string name="remote_file_setup_message3">主機上線/下線提醒</string>
+
+    <!-- 主機搜索 -->
+    <string name="host_search_your">搜索你的設備</string>
+
+    <!-- 服務級別界面 -->
+    <string name="get_paylever_fail">獲取服務級別失敗</string>
+    <string name="get_payInfo_fail">獲取支付信息失敗</string>
+
+    <!-- 産品/服務購買, 預覽界面 -->
+    <string name="paypreview_title">服務購買</string>
+
+    <!-- 專業級服務購買界面 -->
+    <string name="jump">跳過</string>
+    <string name="cover">覆蓋</string>
+    <string name="not_ask_about">不再詢問</string>
+    <string name="exist">已存在</string>
+    <string name="remote_file_is_transmission">文件正在傳輸</string>
+
+    <!-- 激活攝像頭界面 -->
+
+    <!-- 購買前界面 -->
+
+    <!-- Google廣告ID -->
+    <string name="banner_ad_unit_id">ca-app-pub-9157494395610516/2435231982</string>
+    <string name="foldout_ad_unit_id">ca-app-pub-9157494395610516/9045558383</string>
+
+    <!-- 服務選擇界面 -->
+    <string name="desktop_control">桌面控制</string>
+    <string name="desktop_watch">桌面觀看</string>
+    <string name="cmd">CMD</string>
+    <string name="ssh">SSH</string>
+    <string name="camera">攝像頭</string>
+    <string name="remote_file">遠程文件</string>
+    <string name="shutdown_restart">關機/重啓</string>
+
+    <!-- 激活攝像頭界面 -->
+
+    <!-- 遠程桌面、遠程控制 -->
+    <string name="remote_prompt1">當前免費級較慢，升級精英級連接更快更穩定</string>
+    <string name="remotedesktop_tip_voice_open">聲音開啟</string>
+    <string name="remotedesktop_tip_voice_close">聲音關閉</string>
+    <string name="remotedesktop_tip_switchscreen">屏幕切換</string>
+    <string name="remotedesktop_tip_blackscreen_open">啟動黑屏模式</string>
+    <string name="remotedesktop_tip_blackscreen_close">取消黑屏模式</string>
+    <string name="remotedesktop_tip_lock">屏幕已鎖定</string>
+    <string name="remotedesktop_tip_unlock">屏幕鎖定已解除</string>
+    <string name="remotedesktop_tools_voice_open">開啟聲音</string>
+    <string name="remotedesktop_tools_voice_close">關閉聲音</string>
+    <string name="remotedesktop_tools_switchscreen">切換屏幕</string>
+    <string name="remotedesktop_tools_backscreen">開啟黑屏</string>
+    <string name="remotedesktop_tools_backscreen_close">關閉黑屏</string>
+    <string name="remotedesktop_tools_screen_recorder">開啟錄像</string>
+    <string name="remotedesktop_tools_stop_screen_recorder">停止錄像</string>
+    <string name="remotedesktop_tools_screenshot">截屏</string>
+    <string name="screenrecord_infos">你的手機內存空間不足，無法錄像</string>
+    <string name="screenshot_infos">你的手機內存空間不足，無法截屏</string>
+    <string name="screenrecord_sdk_limit">Android4.3及以上系統支持，請升級</string>
+    <string name="screenrecord_stop">已錄像120分鐘,為防止文件過大\n已停止錄像,請先保存視頻</string>
+    <string name="screenrecord_stop_nospace">手機存儲空間不夠,已停止錄像\n請先保存已錄視頻</string>
+
+    <!-- CMD SSH -->
+    <string name="cmd_connecting">正在連接遠程CMD</string>
+    <string name="ssh_connecting">正在連接遠程SSH</string>
+
+    <!-- 帳號管理 -->
+    <string name="add_success">添加成功</string>
+    <string name="account_or_pwd_error">用戶名/密碼錯誤</string>
+    <string name="account_custom_error">請輸入特定帳號</string>
+    <string name="username_is_already_in_account_management">用戶名已經在賬號管理中</string>
+    <string name="account_manager_exit">註銷</string>
+    <string name="account_manager_delete">左滑可刪除帳號</string>
+
+    <!-- 添加帳號 -->
+    <string name="account_name">帳號</string>
+    <string name="account_password">密碼</string>
+    <string name="account_add">添加</string>
+    <string name="account_addaccount">添加帳號</string>
+
+    <!-- 局域網添加 -->
+    <string name="greenClient">對方客戶端為綠色版,不可添加</string>
+    <string name="host_have_been_bind">該主機已經被綁定了！</string>
+    <string name="host_no_add">購買的主機已用完,是否繼續添加?</string>
+    <string name="host_continue_add">繼續添加</string>
+    <string name="host_lan_add_edit">設置主機</string>
+    <string name="host_code_adding">請求綁定中...</string>
+
+    <!-- 添加提示信息 -->
+    <string name="host_add_resend">重發</string>
+    <string name="host_add_refuse">對方拒絕了你的請求</string>
+    <string name="host_add_success">已成功添加至主機列表</string>
+    <string name="host_add_no_answer">對方無應答</string>
+    <string name="host_add_error">綁定失敗</string>
+    <string name="host_add_whether">是否添加此主機到主機列表？</string>
+    <string name="host_add_fast">立即添加</string>
+
+    <!-- 找回密碼 -->
+    <string name="forget_password_account">帳號 </string>
+    <string name="forget_password_get">找回密碼</string>
+    <string name="forget_password_time">秒後重試</string>
+    <string name="forget_password_phone_verification">手機驗證</string>
+    <string name="forget_password_email_verification">郵箱驗證</string>
+    <string name="forget_password_security_issues">安保問題</string>
+    <string name="forget_password_codes">驗證碼</string>
+    <string name="forget_password_get_codes">獲取驗證碼</string>
+    <string name="forget_password_answer">答案</string>
+    <string name="forget_password_enter_password">請輸入密碼</string>
+    <string name="forget_password_password_error">密碼為6—16位任意字符</string>
+    <string name="forget_password_password_success">重置密碼成功，正在返回登錄頁面</string>
+    <string name="forget_password_complete">完成</string>
+    <string name="forget_password_account_empty">請輸入帳號</string>
+    <string name="forget_password_account_error">此帳號為註冊</string>
+    <string name="forget_password_verification_code_send">驗證碼已發送</string>
+    <string name="forget_password_setting_new_password">設置新密碼</string>
+    <string name="forget_password_codes_empty">請輸入驗證碼</string>
+    <string name="forget_password_empty_answer">請輸入安保問題答案</string>
+
+    <!-- 找回密碼錯誤提示 -->
+    <string name="forget_password_phone_limie_exceeded">手機號當天的發送量超過了限制</string>
+    <string name="forget_password_phone_send_fast">發送過於頻繁</string>
+    <string name="forget_password_send_code_failure">發送驗證碼失敗</string>
+    <string name="forget_password_method_invalid">無效的驗證方式</string>
+    <string name="forget_password_safe_question_error">安全問題回答錯誤</string>
+    <string name="forget_password_safe_question_limie_exceeded">安全問題回答錯誤次數超過限制</string>
+    <string name="forget_password_code_invalid">無效的驗證碼</string>
+    <string name="forget_password_password_length_invalid">密碼長度無效</string>
+    <string name="forget_password_password_same_with_account">密碼與帳戶名相同</string>
+    <string name="forget_password_token_invalid">無效的token值</string>
+    <string name="fastcode_password_error">驗證碼已輸錯3次，請半小時後再試，或者直接發送請求?</string>
+
+    <!-- 老用戶驗證 -->
+    <string name="share_title_text">世界上沒有遠程協助解決不了的問題，如果有遠程兩次！點開拿紅包！</string>
+
+    <!-- 分享文本 -->
+    <string name="share_remote_desktop_control">小夥伴跪著看我用手機遠控電腦，驚呆了！你們也來玩一下吧！點此領紅包！</string>
+    <string name="share_remote_desktop_view">遠程觀看我的桌面，沒有東西能逃出我的雙眼！你們也來玩一下吧！點此領紅包！</string>
+    <string name="share_remote_camera">我又打開攝像頭看了許多小秘密，驚呆了小夥伴！你們也來玩一下吧！點此領紅包！</string>
+    <string name="share_remote_file">丟三落四怎麼了，做一個任性的girl/boy,因為我有遠程文件！你們也來玩一下吧！點此領紅包！</string>
+    <string name="share_remote_cmd">沒有遠程CMD解決不了的難題，如果有就多遠程幾分鐘！你們也來玩一下吧！點此領紅包！</string>
+    <string name="share_remote_ssh">我用手機遠程SSH，you can you up！你們也來玩一下吧！點此領紅包！</string>
+
+    <!-- 支付 -->
+    <string name="weixin_pay_way">微信支付</string>
+    <string name="alipay_way">支付寶支付</string>
+    <string name="weixin_pay_unsupprot">未安裝微信或者當前微信版本不支持微信支付</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_fail">支付失敗</string>
+    <string name="pay_enter_order">支付結果確認中</string>
+    <string name="pay_cancel">取消支付</string>
+
+    <!-- 打電話 -->
+    <string name="call">呼叫</string>
+
+    <!-- KVM設置 -->
+    <string name="binding_now">正在綁定...</string>
+    <string name="kvm_bind_fail_message">控控已被其他帳號綁定</string>
+    <string name="kvm_message">控控信息</string>
+    <string name="could_kvm">向日葵控控</string>
+    <string name="kvm_fast_message">通過該識別碼和驗證碼,可快速遠控此設備</string>
+    <string name="firmware_version">固件版本</string>
+    <string name="restart_kvm">重啟控控</string>
+    <string name="delete_kvm">刪除控控</string>
+    <string name="access_password">訪問密碼</string>
+    <string name="kvm_access_passwword_message">通過訪問密碼遠控控控</string>
+    <string name="kvm_access_password_setting">修改訪問密碼</string>
+    <string name="kvm_upgrade">發現控控新固件</string>
+    <string name="kvm_upgrade_now">立即升級</string>
+    <string name="kvm_unupgrade">暫不升級</string>
+    <string name="share">分享</string>
+    <string name="kvm_fastcode_share_text">通過該識別碼和驗證碼,可實現快速訪問控控</string>
+    <string name="host_edit_info_icon">主機頭像</string>
+    <string name="host_edit_info_icon_camera">拍照</string>
+    <string name="host_edit_info_icon_gallery">從相冊選取</string>
+    <string name="access_new_password">請輸入新訪問密碼</string>
+    <string name="access_old_password">請輸入原訪問密碼</string>
+    <string name="kvm_pwd_modify">立即修改</string>
+    <string name="kvm_pwd_modifying">正在保存新密碼...</string>
+    <string name="kvm_pic_setiing_light">亮度</string>
+    <string name="kvm_pic_setiing_contract">對比度</string>
+    <string name="kvm_pic_setiing_reset">復位</string>
+    <string name="modify_access_password_fail">修改訪問密碼失敗</string>
+    <string name="modify_access_password_success">修改訪問密碼成功</string>
+    <string name="modify_access_password_need_Parameter">參數錯誤</string>
+    <string name="modify_access_password_error">原始密碼錯誤</string>
+    <string name="delete_host_fail">刪除主機失敗，請稍後重試</string>
+    <string name="start_screen_recorder">屏幕錄製已開始...</string>
+    <string name="host_login">登錄</string>
+    <string name="host_logining">登錄中...</string>
+    <string name="get_fastcode_pwd_fail">獲取驗證碼失敗,請稍後重試</string>
+
+    <!-- 主機頭像風格 -->
+    <string name="kvm_icon_cartoon_style">卡通風格</string>
+    <string name="kvm_icon_default_style">系統默認</string>
+    <string name="kvm_icon_setting_fail">上傳頭像失敗</string>
+    <string name="kvm_info_saveing_fail">保存信息失敗</string>
+    <string name="kvm_icon_cannot_open_picture">無法打開照相機</string>
+    <string name="kvm_restart_fastcode_success">控控將在5秒後重啟</string>
+    <string name="kvm_restart_fastcode_fail">控控重啟失敗</string>
+    <string name="kvm_restart_fastcode_error">訪問密碼錯誤</string>
+    <string name="kvm_bind_set_password_fail">設置訪問密碼失敗可在主機詳情裏面重新設置訪問密碼</string>
+    <string name="camera_permission_infos">沒有相機權限,請打開權限設置介面,開啟相機權限</string>
+
+    <!-- 桌面鼠標點擊彈出菜單 -->
+
+    <string name="copy">複製</string>
+    <string name="paste">粘貼</string>
+    <string name="cut">剪切</string>
+    <string name="revoke">撤銷</string>
+    <string name="return_desktop">返回桌面</string>
+    <string name="switch_window">切換窗口</string>
+    <string name="close_window">關閉窗口</string>
+    <string name="start_menu">開始菜單</string>
+    <string name="run">運行</string>
+    <string name="lock_system">鎖定系統</string>
+    <string name="explorer">資源管理器</string>
+    <string name="task_manager">任務管理器</string>
+    <string name="save">保存</string>
+    <string name="screenshots">窗口截屏</string>
+    <string name="search">搜索</string>
+
+    <!-- IP設置 -->
+    <string name="ip_setting">IP設置</string>
+    <string name="ip_setting_fail">IP設置失敗</string>
+    <string name="ip_setting_suc">IP設置成功</string>
+    <string name="ip_address">IP地址</string>
+    <string name="ip_subnet_mask">子網掩碼</string>
+    <string name="ip_gateway">網関</string>
+    <string name="ip_dns">DNS</string>
+    <string name="ip_saving">保存...</string>
+    <string name="ip_dhcp">DHCP</string>
+    <string name="ip_static">靜態</string>
+    <string name="ip_warn_no_network">控控不能上網，請設置IP</string>
+
+    <!-- 固件升級 -->
+    <string name="firmware_update_tips">正在下載新固件，請勿拔掉控控電源！</string>
+    <string name="firmware_upate_content">升級內容</string>
+    <string name="firmware_update_title">固件升級</string>
+    <string name="firmware_update_suc">正在升級固件,大約需要2–3分鍾\n請勿拔掉電源</string>
+    <string name="firmware_upate_failed">請確保控控連接的網絡順暢後再試</string>
+    <string name="firmware_upate_failed_reason">可能原因:</string>
+    <string name="firmware_reupgrade">再次下載</string>
+
+    <!-- kvm功能列表 -->
+    <string name="kvm_host_turn_off">主機可能處於關機狀態</string>
+    <string name="kvm_host_offline">檢測到控控不能上網，請重新配置網絡</string>
+    <string name="kvm_host_offline_outlan">控控不在線，請檢查設備線路連接</string>
+
+    <!--通道限制提示  -->
+    <string name="host_channel_limit_message">您的遠程通道數已佔滿，請等待其他斷開後再試</string>
+
+    <!-- 檢查更新 界面-->
+    <string name="check_upgrade_immediately">立即升級</string>
+    <string name="check_upgrade_up_to_use">檢測到軟件有新版本%s\n需升級到最新版才能繼續使用</string>
+    <string name="check_upgrade_tip">升級提示</string>
+
+    <!-- 陽光小店 -->
+    <string name="tabmore_sun_store">陽光小店</string>
+    <string name="click_adver_limit_infos">親,點擊廣告太頻繁了喔,\n先去遠控一下再來吧!</string>
+    <!-- 錄屏截圖 -->
+    <string name="screenshot_place">截圖保存在/sdcard/oray/picture文件夾下</string>
+    <string name="screenshot_place_internal_storage">截圖保存在內部存儲/oray/picture文件夾下</string>
+    <string name="screenrecord_place">視頻保存在sdcard/oray/video文件夾下</string>
+    <string name="screenrecord_place_internal_storage">視頻保存在內部存儲/oray/video文件夾下</string>
+    <string name="loading">正在載入...</string>
+    <string name="choose_internet">選取網絡...</string>
+    <string name="about_kvm">關於控控</string>
+    <string name="wireless_message">無線上網</string>
+    <string name="wired">有線上網</string>
+    <string name="kvm_firmware_upgradeing">升級中...</string>
+    <string name="other_internet">其他網絡</string>
+    <string name="pls_input_wifiname">請輸入網絡名稱</string>
+    <string name="encryption">有密碼</string>
+    <string name="noencryption">無密碼</string>
+    <string name="pls_input_wifipwd">請輸入網絡密碼</string>
+    <string name="connecting">正在連接</string>
+    <string name="scan_fail">掃描失敗</string>
+    <string name="msg_kvm_connect_net">需控控插上網線，並跟手機連接同一局域網才能設置無線上網</string>
+    <string name="i_know">知道了</string>
+    <string name="kvm_connectnet">控控連接網絡</string>
+    <string name="wifi_not_connect">未連接網絡</string>
+    <string name="connect_fail">連接失敗</string>
+    <string name="connect_ok">連接成功</string>
+    <string name="ConfirmDelKVM">刪除後需要重置硬件\n控控才能被其他帳號綁定</string>
+    <string name="setting_now">立即設置</string>
+    <string name="setting_later">暫不設置</string>
+    <string name="kvm_setting_message">檢測到控控設備插入無線網卡\n是否現在設置無線上網?</string>
+    <string name="connect_send_ok">命令發送成功</string>
+    <string name="kvm_setting_ip_message">需控控插上網線，並跟手機在同一個網絡才能進行IP設置</string>
+    <string name="kvm_un_connected">未連接</string>
+    <string name="modify_password_tips">為了避免安全隱患，需控控插上網線並跟手機在同一網絡，才能修改訪問密碼</string>
+    <string name="ip_setting_fail_message">連接網絡失敗，請重設IP</string>
+    <string name="ip_setting_messgae_has_send">指令已發送</string>
+    <string name="wifi_pwd_empty_error">wifi密碼不能為空</string>
+    <string name="new_version">新固件版本</string>
+    <string name="kvm_usb_unable_msg">USB設備連接異常導致控控鍵盤和鼠標信號無法輸出</string>
+    <string name="never_show_tip">不再提示</string>
+    <string name="kvm_upgrade_message">檢測到其他控控硬件正在升級，待其結束後才能升級當前控控</string>
+    <string name="domain_access_title">域名訪問</string>
+    <string name="domain_access_open">已開啟</string>
+    <string name="domain_access_close">未開啟</string>
+    <string name="down_menu">下拉菜單</string>
+    <string name="up_menu">上拉菜單</string>
+    <string name="restart">重啟</string>
+    <string name="shutdown">關機</string>
+    <string name="end_remote">結束遠控</string>
+    <string name="black_screen">鎖屏</string>
+    <string name="recording">錄像</string>
+    <string name="screenshot">截屏</string>
+    <string name="hostloginservice_reboot_dialog_messag_android">如需重啟後再次遠控主機,請為遠程主機設置自啟動</string>
+    <string name="reboot_rightnow">立即重啟</string>
+    <string name="shutdown_rightnow">立即關機</string>
+    <string name="delte_kvm_message">是否刪除控控:</string>
+    <string name="restart_kvm_message">是否重啟控控:</string>
+    <string name="delete_kvming">正在刪除控控...</string>
+    <string name="restart_kvming">正在重啟控控...</string>
+    <string name="kvm_need_password">請輸入訪問密碼</string>
+    <string name="volume_plus">音量+</string>
+    <string name="volume_minus">音量-</string>
+    <string name="local_keyboard">本地鍵盤</string>
+    <string name="screen_switching">正在旋轉屏幕...</string>
+    <string name="current_host_can_not_control">不能控製本機</string>
+    <string name="remote_android_screen_rotation">旋轉屏幕</string>
+    <string name="fastcode_host_permission_denied">無權限訪問,可能被控端設置了不允許快速訪問</string>
+    <string name="remote_exit_control">結束</string>
+    <string name="current_host_can_support_turn_on">此設備不支持遠控開機</string>
+    <string name="tele_or_qq">你的電話/QQ/郵箱</string>
+    <string name="feedback_content">向日葵的每次進步，都離不開你的意見和建議</string>
+    <string name="feedback_commit">提交</string>
+    <string name="feedback_commiting">提交中...</string>
+    <string name="feedback">意見反饋</string>
+    <string name="share_text">共享</string>
+    <string name="defined_keycode_text">自定義鍵盤(可定義組合鍵)</string>
+    <string name="choose_keycode">請選擇鍵</string>
+    <string name="limit_defined_keycode">組合鍵不能超過3個</string>
+    <string name="first_download_tips">下載的文件,可在“我的-我的下載”查看</string>
+    <string name="share_friend">推薦 [向日葵] 給好友</string>
+    <string name="boot_stick_add">添加開機棒</string>
+    <string name="boot_stick_manager">開機棒管理</string>
+    <string name="deviceId_empty">設備ID為空</string>
+    <string name="desktop_control_more">...</string>
+    <string name="defind_key_board">自定義</string>
+    <string name="keyboard_normal">默認鍵盤</string>
+    <string name="edit_keyborad">編輯自定義鍵盤</string>
+    <string name="Devices">設備</string>
+    <string name="expireData">到期日:</string>
+    <string name="feedback_success">反饋成功，感謝你的建議</string>
+    <string name="feedback_fail">提交失敗</string>
+    <string name="exclusive">獨享版</string>
+    <string name="lan_version">局域網版</string>
+    <string name="clipboard_limit">內容過大,複製失敗</string>
+    <string name="intelligent_hardware">開機設備</string>
+    <string name="lan_version_ever">局域網永久版</string>
+
+    <!--新手引導頁創建-->
+    <string name="guide_remote_pc">遠控一臺電腦 ></string>
+    <string name="guide_remote_android">遠控一臺安卓設備 ></string>
+    <string name="guide_remote_kongkong">遠控一臺控控 ></string>
+    <string name="guide_install_done">完成安裝,繼續 ></string>
+    <string name="guide_pcinstall_tips1">在電腦端安裝向日葵</string>
+    <string name="guide_pcinstall_tips2">電腦端訪問</string>
+    <string name="guide_pcinstall_tips3">\ d.sunlogin.com</string>
+    <string name="guide_pcinstall_tips4">下載向日葵客戶端</string>
+    <string name="guide_pcbind_tip">在電腦端向日葵主界面上找到識別碼</string>
+    <string name="guide_bindedit_tip">輸入夥伴的識別碼</string>
+    <string name="guide_bind_btn">發送綁定請求</string>
+    <string name="guide_bind_success">綁定成功</string>
+    <string name="guide_system_account_pwd_hint">請輸入主機系統登錄密碼</string>
+    <string name="guide_remote_now">開啓遠控之旅</string>
+    <string name="guide_androidinstall_tips1">撩安卓的正確姿勢</string>
+    <string name="guide_androidinstall_tips2">受控設備訪問</string>
+    <string name="guide_androidinstall_tips3">下載向日葵客戶端\n或掃描下圖二維碼下載</string>
+    <string name="guide_androidinstall_tips4">使用當前帳號登錄</string>
+    <string name="guide_androidinstall_tips5">在受控設備上登錄當前帳號</string>
+    <string name="guide_login_done">完成登錄,繼續 ></string>
+    <string name="guide_host_usedup">主機已用完</string>
+
+    <string name="guide_kvm_remind_connect1">將控控連接到主機</string>
+    <string name="guide_kvm_remind_connect2">確認指示燈爲常亮或閃爍狀態後\n選擇下面綁定方式</string>
+    <string name="guide_kvm_remind_connect3">控控已連網線，綁定控控</string>
+    <string name="guide_kvm_scan">正在掃描局域網內的控控...</string>
+    <string name="guide_kvm_scan_less">局域網內未發現控控</string>
+    <string name="guide_kvm_scan_no1">可能的原因</string>
+    <string name="guide_kvm_scan_no2">1.控控連線異常,請排查電源線和網線\n2.控控與手機不在同一網絡\n3.網絡信號弱,也會影響掃描結果\n4.控控已被其它帳號綁定，嘗試重置控控後再試</string>
+    <string name="guide_kvm_scan_reset">重新掃描</string>
+    <string name="guide_kvm_select">請選擇\"控控\"</string>
+    <string name="guide_kvm_to_internet">讓控控先上網吧</string>
+    <string name="guide_kvm_set_password">設置訪問密碼</string>
+    <string name="guide_kvm_set_password_tip">通過訪問密碼才能進行遠控\n設置後控控將自動添加到本帳號下</string>
+    <string name="guide_novice">新手引導</string>
+    <string name="guide_kvm_ip_next">正在嘗試連接網絡...</string>
+    <string name="scroller">滾輪</string>
+    <string name="scroller_tips">按住小圓旋轉，滾動窗口</string>
+    <string name="mouse_move_tips">按住移動實現移動鼠標</string>
+    <string name="bigMouse_to_small_mouse_tips">雙擊可實現最小化鼠標</string>
+    <string name="defined_keycode_tips">這裏可快捷調用自定義鍵盤</string>
+    <string name="guide_kvm_network_less">檢測到目前路由器不能上網\n請排查原因，修複後再試</string>
+    <string name="guide_kvm_verfy_fail">獲取驗證密碼異常，請重試</string>
+    <string name="guide_kvm_bind_fail">綁定失敗，請重試</string>
+    <string name="guide_kvm_setting_pwd">正在設置密碼...</string>
+    <string name="kvm_image_setting_tips">畫面有偏移或點擊屏幕時出現錯位點擊可進行校准</string>
+    <string name="kvm_image_check_tips">可參考兩個指針位置或觀察畫面邊緣進行校准</string>
+    <string name="remote_desktop_kvm_image_check">畫面校准</string>
+    <string name="remote_desktop_kvm_color_setting">色彩設置</string>
+    <string name="more_copy_hostlog">拷貝主機日志</string>
+    <string name="contact_us">聯系我們</string>
+    <string name="more_about_help">關于向日葵與幫助</string>
+    <string name="send_error_message">發送報告</string>
+    <string name="error_message_tips">遇到問題?發送異常報告助力我們改善</string>
+    <string name="guide_pcbind_dialog_remind">發送請求,等待對方接受(</string>
+    <string name="guide_remote_android_btn">正在檢測設備登錄情況...</string>
+    <string name="control_android_add">控制安卓設備</string>
+    <string name="bind_kvm_add">綁定控控</string>
+    <string name="p2pService_user_message">當前向日葵服務器帶寬占用率高\n使用加速包,可提高遠程體驗\n(還剩%s次加速)</string>
+    <string name="p2pService_not_user">暫不使用</string>
+    <string name="get_speend_package">免費領取加速包</string>
+    <string name="my_welfare">我的福利</string>
+    <string name="choose_wifi_tips">如需重新選取網絡,\n請將控控插上網線並跟手機在同一局域網內</string>
+    <string name="product_model">産品型號</string>
+    <string name="speed_fail">加速失敗,如依然卡頓,請嘗試退出後重新連接主機</string>
+    <string name="upload_log_info_success">日志上傳成功</string>
+    <string name="upload_log_info_fail">上傳日志失敗</string>
+    <string name="getServiceInfo">正在獲取加速信息</string>
+    <string name="p2pService_user_hight">當前服務器帶寬占用率高可能影響體驗  加速包提速</string>
+    <string name="remain_time">正在加速中,還剩時間</string>
+    <string name="loading_p2p_service_tips">正在爲你分配%s服務器...</string>
+    <string name="speed_success">加速成功</string>
+    <string name="hours">小時</string>
+    <string name="minute">分鍾</string>
+    <string name="second">秒</string>
+    <string name="active_time">有效時間</string>
+    <string name="guide_android_not_found">未檢測到安卓設備</string>
+    <string name="hight_service">更高</string>
+    <string name="custome_login_tips">輸入訪問密碼,驗證後即可遠控</string>
+    <string name="system_name_tips">主機系統爲%$</string>
+    <string name="window_login_tips">輸入系統帳號名和密碼,驗證後即可遠控</string>
+    <string name="kvm_error_message">向日葵未登錄成功\n請重新掃描局域網內控控</string>
+    <string name="rescan">重新掃描</string>
+    <string name="delete_tips">刪除後將解除綁定關系</string>
+    <string name="guide_remote_back_list_dialog">如被控主機沒有系統帳戶名和密碼\n請返回設備列表，點擊主機即可直接遠控</string>
+    <string name="guide_no_user_pwd"><![CDATA[沒有系統帳戶名和密碼>>]]></string>
+    <string name="guide_back_list">返回設備列表</string>
+    <string name="no_speed_package_tips">當前沒有可用加速包\n前往我的福利頁面可免費領取\n(領取加速包將斷開本次遠控)</string>
+
+    <string name="NEWGUIDE_CONTROL_IMMADIATLY">立即遠控</string>
+    <string name="NEWGUIDE_CONTROL_TITLE_ONE">遠程辦公</string>
+    <string name="NEWGUIDE_CONTROL_TITLE_ONE_TWO">出差在外,一鍵遠程\n操作公司電腦處理急事</string>
+    <string name="NEWGUIDE_CONTROL_TITLE_TWO">遠程挂機</string>
+    <string name="NEWGUIDE_CONTROL_TITLE_TWO_ONE">遠程控制電腦挂機玩遊戲\n一切盡在掌握 </string>
+    <string name="NEWGUIDE_CONTROL_TITLE_THREE">攝像頭實時監控</string>
+    <string name="NEWGUIDE_CONTROL_TITLE_THREE_ONE">隨時隨地遠控看家\n撩寵物，關心爸媽</string>
+    <string name="lately">最近</string>
+    <string name="lately_empty">暫時沒有最近訪問記錄哦~</string>
+    <string name="service_expiring">服務于%s到期，請及時續費</string>
+    <string name="upgrade_service">升級服務</string>
+    <string name="upgrade_service_tips" formatted="false">你的服務已降爲免費級,請盡快于%s前完成購買續費或保留主機數不多于%d臺,</string>
+    <string name="delete_host_tips">逾期未處理系統將自動清空所有主機</string>
+    <string name="upgrade_service_title_text">當前主機已用完,如需更多</string>
+    <string name="upgrade_service_message_text"><![CDATA[1.升級服務,可按需購買主機數不受限\n2.<陽光小店> , <我的福利>免費獲取]]></string>
+    <string name="service_expire_message">服務過期，帳號被鎖定（期間不可遠控）\n5天後將降爲免費版，請在%s前續費</string>
+    <string name="pay_immediately">立即續費</string>
+    <string name="touch_tips">手勢指南</string>
+    <string name="virtual_mouse">虛擬鼠標</string>
+    <string name="draging">拖動</string>
+    <string name="cursor_right">鼠標右鍵</string>
+    <string name="cursor_double_swipe">滑動滾輪</string>
+    <string name="guide_kvm2_connect_wifi">手機連接控控的WiFi熱點</string>
+    <string name="input_turnon_password_tips">請輸入開機密碼</string>
+    <string name="scan_tips">手機投屏 添加開機棒</string>
+    <string name="scan">二維碼掃描</string>
+    <string name="open_camera_fail">相機連接失敗</string>
+    <string name="open_camera_tip">你的相機權限未開啓或者當前相機已經被占用，請檢查後再使用</string>
+    <string name="remote_android_client_no_support_request">客戶端爲Android系統，請輸入訪問密碼(作爲驗證碼)</string>
+    <string name="guide_kvm_set_wifi">去設置手機WiFi</string>
+    <string name="guide_kvm_wifi_name">當前手機WiFi：</string>
+    <string name="connecting_kvm2">正在連接控控...</string>
+    <string name="connect_kvm2_fail">連接控控失敗</string>
+    <string name="reagain">重新連接</string>
+    <string name="set_net_ip">設置有線網絡IP</string>
+    <string name="select_kvm2_wifi">選擇控控上網WiFi</string>
+    <string name="select_kvm2_wifi_remind">選取網絡...</string>
+    <string name="guide_kvm2_add_success">已成功添加到設備列表中</string>
+    <string name="kvm2">控控：</string>
+    <string name="guide_check_now">立即查看</string>
+    <string name="kvm2_connect_wifi_tip">* 如搜不到WiFi熱點，請重置控控後再試 *</string>
+    <string name="kvm2_no_set_wifi">當前手機沒有設置WiFi</string>
+    <string name="kvm2_other_net">其他網絡...</string>
+    <string name="space_sunlogin">打賞向日葵</string>
+    <string name="to_develop_tip">順便捎句話給程序員</string>
+    <string name="space" formatted="false">好,賞了</string>
+    <string name="external_storage_permission_no_grant">外置SD卡權限未開啓</string>
+    <string name="switch_account_loading">正在切換帳號...</string>
+    <string name="host">主機：</string>
+    <string name="my_exchange">我的兌換</string>
+    <string name="space_number">人已贊賞</string>
+    <string name="share_tips">推薦有獎</string>
+    <string name="space_tips">一次10毛,多給不收</string>
+    <string name="space_success">感謝你的贊賞，我們會更加努力的~</string>
+    <string name="help_title">新手幫助教程</string>
+    <string name="spare_number" formatted="false">¥1</string>
+    <string name="scan_guide">投屏指南</string>
+    <string name="web_login">網頁端登錄</string>
+    <string name="download_pc_tips">客戶端需9.6及以上版本,下載地址: </string>
+    <string name="download_pc_url">d.sunlogin.com</string>
+    <string name="add_boost_device">添加開機棒</string>
+    <string name="add_boost_device_tips"><![CDATA[在開機棒上找到二維碼>>掃碼即可添加]]></string>
+    <string name="no_find_tips">注:如未找到二維碼,請</string>
+    <string name="input_sn">手動輸入SN碼添加</string>
+    <string name="projection">手機投屏</string>
+    <string name="projection_tips"><![CDATA[PC客戶端:[設置]>>[高級設置]>>[手機投屏]]]></string>
+    <string name="switch_account_success">切換帳號成功</string>
+    <string name="call_permission_fail">請求撥打電話權限失敗</string>
+    <string name="vip_private_channel">VIP專屬通道</string>
+    <string name="vip_channel_tip">優化跨運營商鏈路連通，讓遠控更順暢</string>
+    <string name="click">點擊[</string>
+    <string name="open">]使用</string>
+    <string name="remotedesktop_tools_vip_channle_open">使用VIP專屬通道</string>
+    <string name="screen_projection">手機投屏</string>
+    <string name="screen_projectioning">正在進行投屏...</string>
+    <string name="screen_projection_prepare_success">已准備好，現可投屏</string>
+    <string name="switch_screen_projection_ways">投屏給電腦主機，可通過以下方式</string>
+    <string name="scan_screen_projection">掃碼投屏</string>
+    <string name="host_screen_projection">選擇主機</string>
+    <string name="invite_friend_screen">邀請夥伴觀看當前屏幕</string>
+    <string name="host_list_screen">帳號下主機</string>
+    <string name="discovery_screen_ways">局域網主機</string>
+    <string name="no_screen_host_reason">沒有可投屏主機，可能以下原因</string>
+    <string name="reason_empty_screen_host_one">① 帳號下還沒有添加主機，</string>
+    <string name="add_guide_tips"><![CDATA[添加主機引導 >>]]></string>
+    <string name="reason_empty_screen_host_two">② 客戶端主機處于離線狀態</string>
+    <string name="reason_empty_screen_host_three">③ 客戶端版本太低不支持（需9.6及以上版本）</string>
+    <string name="download_client_url_tips">下載地址：d.sunlogin.com</string>
+    <string name="reason_empty_screen_host_four">④ 客戶端未設置開啓允許手機投屏</string>
+    <string name="set_client_screen_projection_tips"><![CDATA[［設置］>> [高級設置] >> [手機投屏]]]></string>
+    <string name="reason_empty_screen_discovery_one">① 主機和當前設備不在同一局域網</string>
+    <string name="get_remote_address_fail">獲取主機地址失敗</string>
+    <string name="current_fastCode">當前設備識別碼</string>
+    <string name="current_fastCode_password">驗證碼：</string>
+    <string name="fastcode_screen_projection_tips">通過遠程協助，輸入識別碼和驗證碼即可觀看此屏幕</string>
+    <string name="casting_projection">正在連接...</string>
+    <string name="prepareing">正在准備...</string>
+    <string name="screen_projection_to_other">共享屏幕給他人</string>
+    <string name="stop">停止</string>
+    <string name="warning_screen_tips">單次投屏時間超過2小時，將自動停止</string>
+    <string name="guide_android_not_found_tips">請確認受控設備上安裝安卓客戶端並登錄了當前帳號</string>
+    <string name="auto_setting">自動適配</string>
+    <string name="use_ether">僅用有線上網</string>
+    <string name="use_wireless">僅用無線上網</string>
+    <string name="use_mobile_network">僅用4G上網</string>
+    <string name="network_ways_setting">上網方式設置</string>
+    <string name="checking">正在設置...</string>
+    <string name="web_login_confirm">向日葵網頁端登錄確認</string>
+    <string name="login_confirm">確認登錄</string>
+    <string name="qr_time_out">二維碼已過期</string>
+    <string name="qr_rescan">重新掃描二維碼</string>
+    <string name="login_web_success">授權登錄成功</string>
+    <string name="scan_result_illegal">掃描結果內容非向日葵提供</string>
+    <string name="open_link">使用瀏覽器打開</string>
+    <string name="open_link_fail">瀏覽器打開失敗</string>
+    <string name="is_vip_channel">當前已爲VIP專屬通道</string>
+    <string name="vip_channel_opening">VIP專屬通道使用中</string>
+    <string name="switching">正在切換...</string>
+    <string name="switch_fail">切換專屬轉發通道失敗</string>
+    <string name="switch_vip_channel_success">切換專屬轉發通道成功</string>
+    <string name="expire">到期</string>
+    <string name="vip_channel_private_owner">＊精英版及以上版本尊享＊</string>
+    <string name="no_supprot_screen_projection">不支持手機投屏</string>
+    <string name="no_supprot_screen_projection_tips">Android5.0及以上版本支持，請升級手機系統</string>
+    <string name="bind_confirm">確認綁定</string>
+    <string name="scan_login_remote_host">掃碼綁定遠程主機</string>
+    <string name="bind_remote_host">綁定主機</string>
+    <string name="screen_projection_fail">連接失敗，請稍候重試</string>
+    <string name="client_no_support_screen_projection">客戶端未設置開啓接受手機投屏</string>
+    <string name="mirror_img">鏡像翻轉畫面</string>
+    <string name="touch_tips_kvm">手指指南</string>
+    <string name="guide_understand_kvm">了解控控</string>
+    <string name="guide_bind_kvm2_btntext1">通過WiFi綁定</string>
+    <string name="guide_bind_kvm2_btntext2">（A1型號不支持）</string>
+    <string name="kvm2_wifi_name_pwd">WiFi名稱：_sunloginkk_xxxx\nWiFi密碼：12345678</string>
+    <string name="guide_connect_kvm2_fail_title">可嘗試以下建議：</string>
+    <string name="guide_connect_kvm2_fail_msg">1. 重新檢查手機是否連接控控熱點 \n2. 手機盡量靠近控控硬件 \n3. 如多次連接失敗，建議重置控控後再試</string>
+    <string name="projection_connected">正在投屏...</string>
+    <string name="current_ways_no_ether">當前不是有線上網方式，無法設置IP</string>
+    <string name="remote_ios_client_no_support_request">客戶端爲IOS系統，請輸入驗證碼</string>
+    <string name="exit">退出中...</string>
+    <string name="give_mark">爲 [向日葵] 評分</string>
+    <string name="noti_channel_second">Secondary Channel</string>
+    <string name="programmer_working">程序員日夜苦幹~</string>
+    <string name="programmer_work_reason">只爲給你更好的體驗</string>
+    <string name="make_complaints">我要吐槽</string>
+    <string name="encourage">鼓勵一下</string>
+    <string name="agree_register_privacy">我已閱讀並同意</string>
+    <string name="registering">注冊中...</string>
+    <string name="register_time_out">注冊超時</string>
+    <string name="register_new_account">注冊新帳號</string>
+    <string name="host_add_fail">添加主機失敗</string>
+    <string name="add_host_limit">主機已經用完</string>
+    <string name="scan_qr_code">掃一掃</string>
+    <string name="host_setting">主機設置</string>
+    <string name="click_change_head">點擊更換頭像</string>
+    <string name="remarks">備注</string>
+    <string name="setting_fail">設置失敗</string>
+    <string name="keyboard_defined">自定鍵盤</string>
+    <string name="remote_desktop_touch_mode">觸控模式</string>
+    <string name="remote_desktop_finger_mode">指針模式</string>
+    <string name="remote_desktop_exit_control">退出遠控</string>
+    <string name="remote_desktop_switch_session">切換會話</string>
+    <string name="remote_desktop_close_remote_host">關閉主機</string>
+    <string name="remote_desktop_scroller_middle">滾輪中鍵</string>
+    <string name="remote_desktop_vip_channel">專屬加速</string>
+    <string name="remote_desktop_vip_channel_open">正在加速</string>
+    <string name="remote_camera_switch_definition">切換清晰度</string>
+    <string name="remote_camera_image_rotate">圖像旋轉</string>
+    <string name="shortcuts">快捷鍵</string>
+    <string name="host_edit_email_send">郵件發送</string>
+    <string name="host_edit_message_send">短信發送</string>
+    <string name="kvm_name">控控名稱</string>
+    <string name="modify_keyboard">編輯鍵盤</string>
+    <string name="exit_keyboard">退出鍵盤</string>
+    <string name="input_custom_name">請輸入按鍵名稱</string>
+    <string name="please_input_keyboard_name">按鍵名稱不能爲空</string>
+    <string name="limit_keyboard_name">按鍵名稱最多6個字</string>
+    <string name="remote_desktop_screen_shot">屏幕截圖</string>
+    <string name="mirror_image">鏡像翻轉</string>
+    <string name="exit_editor">退出編輯</string>
+    <string name="splash_control_first_title">智能界面布局</string>
+    <string name="splash_control_first_content">卡片式VS列表式</string>
+    <string name="splash_control_second_title">遠控手機和電腦</string>
+    <string name="splash_control_second_content">隨時隨地發起遠控</string>
+    <string name="splash_control_third_title">遠程手機投屏</string>
+    <string name="splash_control_third_content">輕松共享手機屏幕</string>
+    <string name="register_service_policy">向日葵服務協議</string>
+    <string name="switch_p2p_fail">切換P2P通道失敗</string>
+    <string name="switch_p2p_channel_success">切換P2P通道成功</string>
+    <string name="fireware_download_success">下載固件成功!</string>
+    <string name="firmware_download_fail">下載固件失敗！</string>
+    <string name="firmware_upgrade_delay">暫不下載</string>
+    <string name="respected_user">尊敬的用戶</string>
+    <string name="current_service">你的服務已升級爲</string>
+    <string name="change_skin_tips">正在爲你切換到%s專屬界面</string>
+    <string name="upgrade_animator_tips">正在爲你升級到%s界面</string>
+    <string name="drag_menu_tips">長按功能圖標，可調整位置</string>
+    <string name="open_sound_tips">開啓聲音會占用帶寬,網速不好時建議關閉</string>
+    <string name="host_turnon_title_message">已成功開啓%s主機</string>
+    <string name="host_turnon_return_hostList">返回主機列表</string>
+    <string name="ip_kk_conflict">請將控控所連接的路由器局域網ip更改爲非(192.168.2.0)網段!</string>
+    <string name="connected_time_out">連接超時</string>
+    <string name="refresh_fail">刷新失敗</string>
+    <string name="user_policy_title">用戶許可協議及隱私政策</string>
+    <string name="user_policy_old_user_title">隱私保護提示</string>
+    <string name="policy_content">\u3000\u3000親愛的用戶，Oray重視用戶的隱私和個人信息保護，在您正常使用Oray産品服務時，您的身份信息、聯系方式等信息需依法收集、使用、儲存。</string>
+    <string name="policy_content_policy">\u3000\u3000Oray一直采取行業領先的安全防護措施嚴格保護您的信息安全，具體內容詳見《Oray隱私政策》。</string>
+    <string name="policy_agree_tips">\u3000\u3000您在點擊同意下列協議前，請您務必審慎閱讀，並充分理解協議條款內容。</string>
+    <string name="oray_policy">《Oray隱私政策》</string>
+    <string name="oray_user_policy">《Oray用戶許可協議》</string>
+    <string name="agree">同意</string>
+    <string name="reject_exit">不同意並退出</string>
+    <string name="not_agree">不同意</string>
+    <string name="register_policy">《用戶許可協議》</string>
+    <string name="private_policy">《隱私政策》</string>
+    <string name="error_net_work">網絡連接出錯</string>
+    <string name="error_invalid_argment">無效的參數</string>
+    <string name="error_invalid_ssl">SSL證書失效</string>
+    <string name="error_invalid_response">無效的應答</string>
+    <string name="error_close_connected">遠程主機關閉連接</string>
+    <string name="free_service_tips">當前免費版限速，最高300Kbps</string>
+    <string name="pay_service_tips">親愛的用戶，已爲您智能選擇最優網絡路線</string>
+    <string name="loading_time_out">加載超時</string>
+    <string name="heart_raiders">會心攻略</string>
+    <string name="apply_host_tips1">您已達到%s個主機</string>
+    <string name="apply_host_tips2">如需要更多主機可申請</string>
+    <string name="apply_host">立即申請</string>
+    <string name="apply_host_title">主機數升級申請</string>
+    <!--智能插座-->
+    <string name="smart_socket">智能插座</string>
+    <string name="smart_socket_close">已關閉</string>
+    <string name="smart_socket_offline">已離線</string>
+    <string name="count_down">倒計時</string>
+    <string name="timing">定時</string>
+    <string name="smart_socket_offline_hint_1">請檢查插座是否已連接電源</string>
+    <string name="smart_socket_offline_hint_2">及網絡是否異常</string>
+    <string name="set_count_down">設置倒計時時間</string>
+    <string name="smart_device">智能硬件</string>
+    <string name="kk">控控</string>
+    <string name="boot_stick">開機棒</string>
+    <string name="socket">插座</string>
+    <string name="timing_close">關閉</string>
+    <string name="socket_guide_tips1">請將插座接通電源\n確認設備處于待連接狀態</string>
+    <string name="socket_guide_tips2">指示燈藍燈閃爍中</string>
+    <string name="set_socket_tips">僅支持2.4G WIFI</string>
+    <string name="network">網絡</string>
+    <string name="current_version">當前版本</string>
+    <string name="socket_version_tips">可升級至</string>
+    <string name="socket_version_info">版本信息</string>
+    <string name="smart_device_add">添加智能硬件</string>
+    <string name="only_support_socket_wifi">插座僅支持2.4G WIFI</string>
+    <string name="wifi_disconnected_changed">WIFI未連接或者改變</string>
+    <string name="no_found_socket">未發現插座,請確認設備處于待連接狀態</string>
+    <string name="add_socket">添加插座</string>
+    <string name="set_network">設置網絡</string>
+    <string name="connected">正在連接...</string>
+    <string name="adding">正在添加...</string>
+    <string name="add_socket_time_out">添加超時</string>
+    <string name="modify_name_fail">名稱修改失敗</string>
+    <string name="socket_name_empty">插座名稱不能爲空</string>
+    <string name="bind_socket_fail">綁定插座失敗</string>
+    <string name="upgrading">正在升級...</string>
+    <string name="upgrade_later">稍後升級</string>
+    <string name="upgrade_success">升級成功</string>
+    <string name="upgrade_fail">升級失敗</string>
+    <string name="smart_socket_bind_tips">選擇綁定帳號下的主機，即可隨時隨地遠程開關</string>
+    <string name="bind_socket_tips">是否綁定 %s 主機?</string>
+    <string name="smart_socket_bind_title">綁定成功!\n還有2步，即可遠程開關主機</string>
+    <string name="socket_bind_tips_one">Step1.請將主機電源線接入插座</string>
+    <string name="socket_bind_tips_two">Step2.請爲主機開啓AC recovery</string>
+    <string name="bind">綁定</string>
+    <string name="ac_recovery_about">如何開啓設置?</string>
+    <string name="have_been_bind">已綁定</string>
+    <string name="never_close">從不關閉</string>
+    <string name="shutdown_close_power">關機後關閉插座電源</string>
+    <string name="shutdown_socket_tips">不關閉電源下次將無法開機</string>
+    <string name="cancel_bind">解除綁定</string>
+    <string name="minute_later">分鍾後</string>
+    <string name="later">後</string>
+    <string name="boot_strap_devices">開機設備</string>
+    <string name="count">臺</string>
+    <string name="request_time_out">請求超時</string>
+    <string name="get_upgrade_info_fail">獲取插座更新信息失敗</string>
+    <string name="unbinding">正在解綁...</string>
+    <string name="device_name">設備名稱</string>
+    <string name="check_network">檢查網絡</string>
+    <string name="about_socket">關于插座</string>
+    <string name="delete_socket">刪除插座</string>
+    <string name="smart_socket_wifi_connected">網絡狀態良好</string>
+    <string name="connected_wifi">已連接%s</string>
+    <string name="smart_socket_wifi_disconnected">無網絡連接</string>
+    <string name="disconnected_wifi_tips">如排除以上問題\n可長按插座電源鍵5s重置插座</string>
+    <string name="have_not_been_bind">未綁定</string>
+    <string name="bind_host_tips">請綁定需開關的主機</string>
+    <string name="timing_list_full">您添加的定時設置數量已達到上限20個，請刪除部分設置再試</string>
+    <string name="socket_init_fail">插座初始化失敗</string>
+    <string name="please">請</string>
+    <string name="abandon">放棄</string>
+    <string name="bind_host_immediately">馬上綁定</string>
+    <string name="bind_host_advantage">綁定帳號下主機\n即可隨時隨地遠程開關</string>
+    <string name="init_socket_time_out">初始化插座超時</string>
+    <string name="initializing">正在初始化</string>
+    <string name="no_find_host">未發現可綁定的主機，請先添加主機</string>
+    <string name="save_timing_tips">定時信息已存在，請重新添加</string>
+    <string name="current_version_socket_no_support_function">當前爲1.0版本，不支持該功能,請升級後使用</string>
+    <string name="init_request">正常請求...</string>
+    <string name="close_socket_fail">關閉插座失敗</string>
+    <string name="open_socket_fail">開啓插座失敗</string>
+    <string name="close_socket_success">關閉插座成功</string>
+    <string name="open_socket_success">開啓插座成功</string>
+    <string name="change_network">更換網絡</string>
+    <string name="retry_connected">重置插座後再試或了解詳情</string>
+    <string name="get_message">了解詳情</string>
+    <string name="socket_have_been_bind">該插座已經被其他帳號添加，請先去原帳號解綁之後，再重新添加</string>
+    <string name="saving">正在保存...</string>
+    <string name="unbind_fail">解綁失敗</string>
+    <string name="unbind_success">解綁成功</string>
+    <string name="deleting">正在刪除...</string>
+    <string name="delete_fail">刪除插座失敗</string>
+    <string name="delete_success">刪除插座成功</string>
+    <string name="host_bind_smart_socket">已綁定插座</string>
+    <string name="smart_socket_turn_on_tips">插座已開啓，使用插座開機，插座將斷電重開</string>
+    <string name="turning">指令已發送...</string>
+    <string name="turnon_message_fail">指令發送失敗</string>
+    <string name="repetition">重複</string>
+    <string name="timing_open">開啓</string>
+    <string name="timing_switch">開關</string>
+    <string name="morning">上午</string>
+    <string name="afternoon">下午</string>
+    <string name="only_one_time">僅限一次</string>
+    <string name="no_timing_hint1">未開啓定時功能</string>
+    <string name="no_timing_hint2">點擊右上角“+“添加第一條定時設置</string>
+    <string name="sunday">周日</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="every">每</string>
+    <string name="stop_count_down">取消倒計時</string>
+    <string name="firmware_upgrade_message">當前插座有新版本\n請升級之後使用</string>
+    <string name="firmware_upate_hint">注：升級成功後將重啓插座</string>
+    <string name="check_smart_socket">請檢查插座</string>
+    <string name="check_smart_socket_tips1">1. 是否已連接電源 \n2. 是否網絡異常</string>
+    <string name="smart_socket_add_success">添加成功！</string>
+    <string name="please_set_device_name">請設置設備名稱</string>
+    <string name="set_socket_name">設置名稱</string>
+    <string name="upgrade_fail_message">請檢查插座所在網絡是否異常\n連接電源是否異常</string>
+    <string name="retry">重試</string>
+    <string name="starting">開啓中...</string>
+    <string name="closing">關閉中...</string>
+    <string name="boot_strap_devices_tips">任性遠程開關機、定時開關</string>
+    <string name="domain_no_exit">插座未登錄成功，請檢查插座所連接網絡是否正常</string>
+    <string name="make_sure_wifi_info" formatted="false">請確認WIFI及密碼正確\nWIFI:%s\n密碼:%b</string>
+    <string name="requesting">請求中...</string>
+    <string name="no_password">無密碼</string>
+    <string name="boot_strap_devices_or_smart">開機插座、開機棒等</string>
+    <string name="smart_socket_bind_success">綁定成功\n可通過設備列表-主機開啓您的電腦</string>
+    <string name="save_fail">保存失敗</string>
+    <string name="have_connected">已連接</string>
+    <string name="delete_confirm">確認刪除</string>
+    <string name="make_sure_delete_socket">確認要刪除插座嗎？</string>
+    <string name="make_sure_unbind">確認解綁主機嗎?</string>
+    <string name="confirm_unbind">確認解綁</string>
+    <string name="shutdown_socket_tips2">通過向日葵app遠控時的關機按鈕\n可實現自定義關閉電源</string>
+    <string name="logout_account">徹底注銷帳號</string>
+    <string name="wakeup_service_fail">開機服務到期,請續費後使用</string>
+    <string name="self_check">自檢流程</string>
+    <string name="use_stick">使用開機棒</string>
+    <string name="use_smart_socket">使用開機插座</string>
+    <string name="wakeup_stick_or_plug_tips">檢測到當前主機綁定了開機插座和開機棒，請選擇開機方式</string>
+    <string name="limit_name_tips">超過長度限制</string>
+    <string name="smart_socket_shutdown_tips">部份主板需關機後2-5分鍾方完全斷電， 建議插座斷電後５分鍾再開機</string>
+    <string name="get_wifi_info_permission_error">獲取不到WIFi信息權限</string>
+    <string name="connecteding">正在連接...</string>
+    <string name="bind_host_popup_tips">您已綁定 %s</string>
+    <string name="bind_host_popup_tips2">在【設備】頁面進入主機即可隨開隨關</string>
+    <string name="host_function">主機功能頁</string>
+    <string name="not_found_boot_stick">當前未綁定開機設備</string>
+    <string name="bind_boot_stick_tips">僅支持定時關機功能\n如需定時開機請綁定開機設備\n如開機棒，開機插座等</string>
+    <string name="boot_stick_tips">可開啓局域網內所有主機</string>
+    <string name="get_more"><![CDATA[了解更多>]]></string>
+    <string name="smart_socket_tips">WiFi開啓一臺主機</string>
+    <string name="smart_socket_tips_2">關機後可徹底關閉電源</string>
+    <string name="timing_bind_host_tips">您已綁定 %s 主機</string>
+    <string name="timing_bind_host_tips2">(定時開關主機請前往主機定時設置)</string>
+    <string name="share_article">分享文章</string>
+    <string name="weixin">微信好友</string>
+    <string name="weixin_moments">微信朋友圈</string>
+    <string name="weixin_favorite">微信收藏</string>
+    <string name="sina_weibo">新浪微博</string>
+    <string name="qzone">QQ空間</string>
+    <string name="copy_link">複制鏈接</string>
+    <string name="install_weixin">請先安裝微信</string>
+    <string name="beginner_guide">新手指南</string>
+    <string name="open_socket">開啓插座</string>
+    <string name="open_socket_message">您當前已綁定%s\n開啓電源將開啓該主機</string>
+    <string name="close_socket_message">您當前已綁定%s\n關機請前往主機功能頁面\n關閉插座將強制關閉主機</string>
+    <string name="close_socket">關閉插座</string>
+    <string name="jump_function_page">前往主機功能頁關機</string>
+    <string name="timing_dialog_tips">您當前已綁定%s\n定時開關主機請前往主機定時設置</string>
+    <string name="timing_control_socket">定時開關插座</string>
+    <string name="jump_host_timing_pgae">前往主機定時設置</string>
+    <string name="continue_timming_socket">繼續定時開關插座</string>
+    <string name="host_turnon_fail_tips">未開機成功\n請重試或返回主機列表等待</string>
+    <string name="get_immediately">馬上了解</string>
+    <string name="verification_mode">驗證方式</string>
+    <string name="window_account">系統帳戶</string>
+    <string name="security_check">安全校驗</string>
+    <string name="window_account_password">系統帳戶密碼</string>
+    <string name="check_fail">校驗失敗</string>
+    <string name="shutdonwing">正在關機...</string>
+    <string name="restarting">正在重啓...</string>
+    <string name="shutdown_success_tips">關機指令已發送\n主機關機大約需要1–2分鍾，請耐心等待</string>
+    <string name="restart_success_tips">重啓指令已發送\n主機重啓大約需要1–2分鍾，請耐心等待</string>
+    <string name="timing_host">定時開關機</string>
+    <string name="host_offline_setting_timing">主機不在線無法進行定時開關機設置</string>
+    <string name="authing">校驗中...</string>
+    <string name="check_success">校驗成功</string>
+    <string name="start_time">開啓時間</string>
+    <string name="shutdown_time">關閉時間</string>
+    <string name="go_setting">去設置</string>
+    <string name="bind_boot_stick_device">需綁定開機設備</string>
+    <string name="get_more_info">了解詳情</string>
+    <string name="delete_timing">刪除定時</string>
+    <string name="have_devices">已有設備,綁定主機</string>
+    <string name="have_been_setting">已設置</string>
+    <string name="install_qq_client">請安裝QQ客戶端</string>
+    <string name="sketch_tips">在PC端登錄當前帳號即可</string>
+    <string name="enterprise_specific">企業專用</string>
+    <string name="current_power">當前功耗</string>
+    <string name="power_indicator_close">指示燈已關閉</string>
+    <string name="electric_quantity">電量</string>
+    <string name="breakpoint_memory">斷電記憶</string>
+    <string name="breakpoint_memory_tips">斷電後重新來電，將恢複斷電前的開關狀態</string>
+    <string name="indicator_switch">指示燈開關</string>
+    <string name="current_day_quantity">今日用電(度)</string>
+    <string name="electric_quantity_census">電量統計</string>
+    <string name="current_electric">當前電流(mA)</string>
+    <string name="current_power_waste">當前功耗(W)</string>
+    <string name="current_consumption_time">今日用電時長(min)</string>
+    <string name="current_switch_time">今日開關次數(次)</string>
+    <string name="electric_use_census">用電統計</string>
+    <string name="electric_use_log">用電日志</string>
+    <string name="log_info">日志</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="remotedesktop_close_mouse">關閉鼠標</string>
+    <string name="remotedesktop_show_mouse">顯示鼠標</string>
+    <string name="today">今天</string>
+    <string name="turn_on">已開啓</string>
+    <string name="turn_off">已關閉</string>
+    <string name="use_tips">使用須知</string>
+    <string name="smart_socket_policy">我已閱讀《開發插座使用須知》</string>
+    <string name="agree_and_continue">同意並繼續</string>
+    <string name="empty_log_tips">您還未有用電日志</string>
+    <string name="start_refresh">正在刷新...</string>
+    <string name="smart_plug_model">産品型號</string>
+    <string name="confirm_close_host">確認關閉主機</string>
+    <string name="close_host_tips">主機關機未成功，請確認強制關閉主機</string>
+    <string name="rotate_screening">正在旋轉屏幕...</string>
+    <string name="have_not_setting">未設置</string>
+    <string name="please_agree_privacy">您還未同意向日葵注冊協議</string>
+    <string name="please_check_wifi_connected">請檢查是否連接上控控WIFI</string>
+    <string name="page_not_exit">頁面不存在</string>
+    <string name="sunlogin_log_info_feedback">向日葵日誌反饋</string>
+    <string name="please_choose_email">請選擇郵件應用發送反饋</string>
+    <string name="ACCOUNT_REGISTER_FAILED_1015">郵箱已被注冊</string>
+    <string name="picture">張</string>
+    <string name="no_picture_scan">親，一張圖片沒掃描到哦</string>
+    <string name="no_sd_find">暫無外部存儲</string>
+    <string name="get_notice_fail">獲取主機上下線通知失敗</string>
+    <string name="please_enter_password">請輸入密碼: </string>
+    <string name="ssh_login_fail">SSH登錄失敗</string>
+    <string name="disconnected">斷開</string>
+    <string name="try_again">再試一次</string>
+    <string name="please_enter_account">請輸入用戶名:</string>
+    <string name="mouse_operation_direction">上下左右</string>
+    <string name="mouse_operation_left_down">左鍵</string>
+    <string name="mouse_operation_right_down">右鍵</string>
+    <string name="mouse_operation_center_down">中鍵</string>
+    <string name="mouse_operation_scroll_down">滾輪下</string>
+    <string name="mouse_operation_scroll_up">滾輪上</string>
+    <string name="spacebar">空格</string>
+    <string name="game_keyboard">遊戲鍵盤</string>
+    <string name="lol_keyboard">英雄聯盟鍵位</string>
+    <string name="fps_keyboard">FPS類鍵位</string>
+    <string name="dnf_keyboard">DNF鍵位</string>
+    <string name="over_watch_keyboard">守望先鋒鍵位</string>
+    <string name="defined_keyboard">自定義鍵位</string>
+    <string name="use">使用</string>
+    <string name="please_choose_keyboard">請選擇鍵盤類型</string>
+    <string name="car_keyboard">賽車類鍵位</string>
+    <string name="reset">恢複</string>
+    <string name="switch_keyboard">切換</string>
+    <string name="remote_android_home">HOME</string>
+    <string name="menu">菜單</string>
+    <string name="upgrade_speed">升級提速</string>
+    <string name="fd_game_connected">当前连接飞智Q1转换器,仅支持指针模式</string>
+    <string name="remote_desktop_model">桌面模式</string>
+    <string name="speed_mode">极速模式</string>
+    <string name="smooth_mode">流畅模式</string>
+    <string name="equilibrium_mode">均衡模式</string>
+    <string name="hd_mode">高清模式</string>
+    <string name="change_mode_tips">当前画面已切换为</string>
+    <string name="work_mode">工作模式</string>
+    <string name="ent_mode">娱乐模式</string>
+    <string name="switch_mode_fail">模式切换失败</string>
+</resources>
