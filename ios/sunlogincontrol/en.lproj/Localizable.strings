@@ -1,0 +1,2031 @@
+
+/* General */
+"UPDATE_REMINDER" = "Upgrade";
+"UPDATE_REMINDER_NEW_VERSION" = "New version detected";
+"UPDATE_REMINDER_NEED_UPDATE" = "An upgrade is needed to proceed";
+"UPDATE_REMINDER_RIGHTNOW" = "OK";
+"KINDLY_REMINDER" = "Tips";
+"REMEMBER_ME" = "Remember";
+"AUTO_LOGIN" = "Auto login";
+"CONNECT_SERVER" = "Connecting server...";
+"CONNECT_SERVER_SHORT" = "Connecting...";
+"CANCEL" = "Cancel";
+"OK" = "OK";
+"YES"="Yes";
+"NO"="No";
+"CHECKING_NETWORK" = "Checking network";
+"BACK" = "Back";
+"NET_UNAVAILABLE" = "Network unavailable";
+"LOGIN" = "Login";
+"WARNING" = "Warning";
+"CLICK" = "Click";
+"DONE" = "Done";
+"SEARCH" = "Search";
+"CONTINUE" = "Continue";
+"SAVE" = "Save";
+"SAVEING" = "Saving...";
+"CONTINUE_NO_MORE_WARNING" = "Continue with no more warning";
+"OPEN" = "Open";
+"ACTION" = "Action";
+"IS_CANCELLING" = "Cancelling";
+"YESTERDAY" = "Yesterday";
+"CLOSE" = "Close";
+"RESEND" = "Reload";
+"TO_SET_UP" = "Set up";
+"CONFIRM" = "confirm";
+"KNOW_DETAIL" = "Learn more";
+"CAN_NOT_OPEN_PHOTO_ALBUM_WARNING" = "Please allow access to photos in Settings - Privacy - Photos";
+"CAN_NOT_OPEN_CAMERA_WARNING" = "Please allow access to the camera in Settings - Privacy - Camera";
+"CAN_NOT_OPEN_PHOTO_ALBUM_WARNING_2" = "Please open access Photos";
+"SHARE_ESSAY" = "Share essay";
+"SHARE_ESSAY_COPY_SUCCESS" = "copy link successfully";
+"SHARE_ESSAY_SUCCESS" = "Share success";
+"SHARE_ESSAY_FAILED" = "Share failed";
+
+//
+"MESSAGE_AUTHORIZE_ERROR" = "Incorrect account or password";
+"MESSAGE_CONNECT_FAILED" = "Network connection failed!";
+"MESSAGE_HAD_LOGON" = "Account has been logged from another place";
+"MESSAGE_REFRESH_HOST_FAILED" = "Host refresh failed!";
+//
+"ERROR_UNKNOWN_ERROR" = "Unknown error";
+"ERROR_CONNECTION_FAILED" = "Network connection failed";
+"ERROR_CHECK_CONTROL_COOKIE_FAILED" = "Verify failed";
+"ERROR_COOKIE_INVALID" = "Cookie verify failed";
+"ERROR_BAD_REQUEST" = "Bad request";
+"ERROR_HOST_OFFLINE" = "Remote host offline";
+"ERROR_UNKNOWN_REMOTE" = "Unknown remote host";
+"ERROR_SERVER_ERROR" = "Server error";
+"ERROR_REQUEST_TIMEOUT" = "Request timeout";
+"ERROR_AUTH_FAILED" = "Incorrect username or password";
+"ERROR_CONNECT_COUNT_LIMIT" = "No channel is available.\nPlease retry later after channels are released";
+"UNCONTROLABLLE_ONLINE_HOST" = "Remote module of the host is diabled";
+"ONLINE_LINUX_HOST"="Linux clients can only be accessed by web browsers";
+"ERROR_PLUG_SETTING_FAILED" = "Plug setting failed";
+"ERROR_PLUG_SETTING_FAILED_BINDED" = "Plug has binded";
+"ERROR_PLUG_SETTING_FAILED_COUNTDOWN_EXIST" = "There are unfinished count down";
+"ERROR_PLUG_SETTING_FAILED_CLOCK_FULL" = "Clock is full";
+"ERROR_PLUG_SETTING_FAILED_DELETE_NOT_EXIST" = "Can not find the clock";
+/*UserAgreementManager*/
+"USER_AGREEMENT_TITLE" = "User license agreement&Privacy policy";
+"USER_AGREEMENT_CONTENT" = "Dear users, Oray attaches importance to the privacy and personal information protection of users.\nWhen you normally use Oray products and services, your identity information, contact information and other information should be collected, used and stored according to law.\nOray has been taking industry-leading security measures to strictly protect your information security. For details, please refer to the Oray privacy policy.\nPlease read carefully and fully understand the terms of the agreement before you click to agree to the following agreement.";
+"USER_AGREEMENT_LICENSE_AFGREEMENT" = "Oray user license agreement";
+"USER_AGREEMENT_PRIVACY_POLICY"="Oray privacy policy";
+"USER_AGREEMENT_PRIVACY_TITLE" = "Privacy tips";
+"USER_AGREEMENT_PRIVACY_CONTENT" = "Dear users, Oray attaches importance to the privacy and personal information protection of users.\nWhen you normally use Oray products and services, your identity information, contact information and other information should be collected, used and stored according to law.\nOray has been taking industry-leading security measures to strictly protect your information security.For details, please refer to the Oray privacy policy.\nPlease read carefully and fully understand the terms of the agreement before you click to agree to the following agreement.";
+"USER_AGREEMENT_CANCEL_QUIT"="Cancel and Quit";
+"USER_AGREEMENT_CANCEL"="Cancel";
+"USER_AGREEMENT_ACCEPT"="Accept";
+"REGISTER_SERVICE_AGREEMENT_BUTTON"="\"User agreement\"";
+"REGISTER_PRIVACY_POLICY_BUTTON"="\"Privacy policy\"";
+
+/*Error code*/
+"NETWORK_CONNECTION_FAILED" = "Connect network failed";
+"SMART_PLUG_TIME_OUT" = "Smart plug response timeout";
+"COMMON_ERROR_CODE_RESULT_FORMAT_ERROR"= "Result format error";
+"COMMON_ERROR_CODE_ACCOUNT_EMPTY" = "Empty account";
+"COMMON_ERROR_CODE_ACCOUNT_ILLEGAL" = "Invalid account format";
+"COMMON_ERROR_CODE_FAILED" = "Please fill all fields";
+"WEB_RESPONSE_ERROR_CODE_3002" = "Smart plug not exists";
+"WEB_RESPONSE_ERROR_CODE_3003" = "Smart plug has binded";
+"WEB_RESPONSE_ERROR_CODE_3004" = "Invalid SN";
+"WEB_RESPONSE_ERROR_CODE_3006" = "Smart plug offline";
+"WEB_RESPONSE_ERROR_CODE_6001" = "Verification code exceeds daily limit";
+"WEB_RESPONSE_ERROR_CODE_6002" = "Too frequent of verification";
+"WEB_RESPONSE_ERROR_CODE_6003" = "Get verification code fail";
+"WEB_RESPONSE_ERROR_CODE_6011" = "Non-existent account";
+"WEB_RESPONSE_ERROR_CODE_6012" = "Wrong security answer";
+"WEB_RESPONSE_ERROR_CODE_6013" = "Security answering exceeds limit";
+"WEB_RESPONSE_ERROR_CODE_6014" = "Invalid code";
+"WEB_RESPONSE_ERROR_CODE_6015" = "Invalid verification way";
+"WEB_RESPONSE_ERROR_CODE_6016" = "Verify fail";
+"WEB_RESPONSE_ERROR_CODE_6017" = "Password bytes should between 6-12";
+"WEB_RESPONSE_ERROR_CODE_6018" = "Password invalid";
+"TOUCH_ID_ERROR_ACCOUNT_NEVER_LOGGED_IN" = "TouchID feature is only available for logged-in users";
+"Touch_ID_ERROR_NO_FINGERS_ENROLLED" = "No fingers are enrolled with TouchID";
+"TOUCH_ID_ERROR_PWD_NOT_SET" = "Device password not set";
+"TOUCH_ID_ERROR_NONSUPPORT" = "TouchID/FaceID feature is not available";
+"TOUCH_ID_ERROR_LOCKED_OUT" = "Retry exceeded";
+
+/* LaunchGuide10thViewController */
+"LAUNCHGUIDE10TH_START" = "CLICK ENTER";
+
+/*Connect error*/
+"ERROR_DISCONNECT" = "Disconnected";
+"ERROR_PLUGIN_WHIHOUT_CAMERA" = "No camera available";
+
+/*MainTabBarController*/
+"TABBAR_TITLE_HISTORYLIST" = "History";
+"TABBAR_TITLE_HOSTLIST" = "Devices";
+"TABBAR_TITLE_DISCOVER" = "Discover";
+"TABBAR_TITLE_MINE" = "Profile";
+"ACCOUNT_HOST_DELETE_REMIND_1" = "Your service has been reduced to free level. Please complete the purchase renewal fee before ";
+"ACCOUNT_HOST_DELETE_REMIND_2" = ", or keep the number of hosts not more than ";
+"ACCOUNT_HOST_DELETE_REMIND_3" = ". After, system will automatically empty all the hosts";
+
+/*AccountLogonController*/
+"ACCOUNT_CONTROLLER_ACCOUNT_REGISTER" = "Register account";
+"ACCOUNT_CONTROLLER_FAST_CODE" = "Quick Remote";
+
+/*AccountManagerController */
+"HOMEPAGEACCOUNT" = "Homepage";
+"ENTER_ACCOUT" = "Account is required";
+"ENTER_PASSWORD" = "Password is required";
+"NEED_INFO" = "Need an account?";
+"REGIST_FREE" = "Register";
+"URL_GET_PASSWORD" = "http://url.oray.com/aYdGdc";
+"BUTTON_FORGET_PASSWORD_TITLE" = "I forget";
+"ACCOUNT_ACCOUNT_PLACEHOLDER" = "Account";
+"ACCOUNT_PASSWORD_PLACEHOLDER" = "Password";
+
+/*AccountRegisterViewController*/
+"ACCOUNT_REGISTER_RIGHT_BUTTON_TITLE" = "Switch";
+"ACCOUNT_REGISTER_PASSWORD_CONFIRM_PLACEHOLDER" = "Confirm password";
+"ACCOUNT_REGISTER_EMAIL_PLACEHOLDER" = "E-mail";
+"ACCOUNT_REGISTER_CAPTCHA_PLACEHOLDER" = "Tap to refresh CAPTCHA";
+"ACCOUNT_REGISTER_PROMPT" = "Click register implies accept ";
+"ACCOUNT_REGISTER_AGREEMENT" = "Sunlogin Terms & Privacy";
+"ACCOUNT_REGISTER_NAME_ACCOUNT_ONLY_NUMBER_FAILED" = "Account name with pure numbers is not allowed";
+"ACCOUNT_REGISTER_NAME_VALIDATE_FAILED" = "Account invalid, please try another one";
+"ACCOUNT_REGISTER_NAME_LOCAL_VALIDATE_FAILED" = "Account name is limited to letters and digits with 5-16 bytes, '-' is allowed.";
+"ACCOUNT_REGISTER_PASSWORD_LOCAL_VALIDATE_FAILED" = "Password is limited to 5-16 bytes.\nSame as account is not allowed";
+"ACCOUNT_REGISTER_PASSWORD_CONFIREM_LOCAL_VALIDATE_FAILED" = "Both passwords are not match";
+"ACCOUNT_REGISTER_EMAIL_LOCAL_VALIDATE_FAILED" = "Incorrect format of E-mail";
+
+"ACCOUNT_REGISTER_FAILED_1003" = "This account has been registered, try another one";
+"ACCOUNT_REGISTER_FAILED_1004" = "Please fill all fields";
+"ACCOUNT_REGISTER_FAILED_1005" = "Interface validation error";
+"ACCOUNT_REGISTER_FAILED_1006" = "Account name is invalid";
+"ACCOUNT_REGISTER_FAILED_1007" = "Account name length is invalid";
+"ACCOUNT_REGISTER_FAILED_1008" = "This account name is forbidden";
+"ACCOUNT_REGISTER_FAILED_1009" = "Password length is invalid";
+"ACCOUNT_REGISTER_FAILED_1010" = "Password shouldn't be same as your account";
+"ACCOUNT_REGISTER_FAILED_1011" = "Email is not in correct format";
+"ACCOUNT_REGISTER_FAILED_1012" = "Invalid SMS verification code";
+"ACCOUNT_REGISTER_FAILED_1013" = "The phone number is wrong";
+"ACCOUNT_REGISTER_FAILED_1014" = "Incorrect verification code";
+"ACCOUNT_REGISTER_FAILED_1015" = "E-Mail is resgister";
+"ACCOUNT_REGISTER_FAILED_1214" = "Register failed";
+"ACCOUNT_REGISTER_FAILED_1216" = "Verify failed";
+"ACCOUNT_REGISTER_FAILED" = "Register failed";
+"ACCOUNT_REGISTER_REMIND_USER" = "Registration failed, please check if the information is complete and correct";
+"ACCOUNT_REGISTER_SUCCEED" = "Account register successful";
+"URL_ACCOUNT_REGISTER_AGREEMENT" = "http://url.oray.com/bGHJHt";
+"ACCOUNT_REGISTERING" = "Registering ...";
+"CREATE" = "Create";
+"BACK_TO_LOGIN" = "Back to login";
+"PROTOCOL_SELECT_TITLE" = "I have agree to";
+"PROTOCOL_BUTTON_TITLE" = "<Terms & Privacy>";
+"PROTOCOL_VIEW_CONTROLLER_TITLE" = "Sunlogin Terms & Privacy";
+"REGISTER_BUTTON_TITLE" = "Agree & register";
+"LOGON_BUTTON_TITLE" = "Back to login";
+"ACCOUNT_REGISTER_TITLE" = "Account Register";
+"ACCOUNT_REGISTER_SUCCEED_TITLE" = "Registered successfully";
+"ACCOUNT_REGISTER_ACCOUNT_PLACEHOLDER_MODE_PHONE" = "Phone number (will be your account)";
+"ACCOUNT_REGISTER_PHONE_PLACEHOLDER" = "Phone number";
+"ACCOUNT_REGISTER_SMS_CODE" = "SMS verification code";
+"ACCOUNT_REGISTER_SEND_SMS_CODE" = "Send";
+"ACCOUNT_REGISTER_SEND_SMS_CODE_RETRY" = "Retry";
+"ACCOUNT_REGISTER_ERROR_STRING_ACCOUNT_EMPTY" = "Incorrect account or password";
+"ACCOUNT_REGISTER_ERROR_STRING_PASSWORD_EMPTY" = "Incorrect account or password";
+"ACCOUNT_REGISTER_ERROR_STRING_EMAIL_EMPTY" = "Incorrect E-mail";
+"ACCOUNT_REGISTER_ERROR_STRING_SMSCODE_EMPTY" = "SMS verification code is required";
+"ACCOUNT_REGISTER_ERROR_STRING_ACCOUNT_PHONE_NUMBER_FAILED" = "Incorrect format of mobile phone";
+"ACCOUNT_REGISTER_ERROR_STRING_SMSCODE_FAILED" = "SMS verification code is invalid";
+"ACCOUNT_REGISTER_ERROR_STRING_PHONENUMB_EMPTY" = "Mobile number is required";
+"ACCOUNT_REGISTER_ERROR_STRING_ACCOUNT_PHONE_NUMBER_EMPTY" = "Mobile number as your account is easy to remember";
+"ACCOUNT_REGISTER_ERROR_STRING_PHONENUMB_HAS_REGISTERED" = "This number has been registered, try another one.";
+"ACCOUNT_REGISTER_ERROR_STRING_SMSCODE_ERROR_6001" = "Each mobile is limited to fetch code 5 times per day";
+"ACCOUNT_REGISTER_ERROR_STRING_SMSCODE_ERROR_6002" = "SMS frequency limit triggered";
+"ACCOUNT_REGISTER_ERROR_STRING_SMSCODE_ERROR_6003" = "Retrieve SMS code failed";
+"ACCOUNT_REGISTER_ERROR_STRING_PHONE_NUMBER_WRONG_FORMAT" = "Incorrect format of mobile number";
+"ACCOUNT_REGISTER_ERROR_STRING_PHONE_NUMBER_USED" = "This number has been registered!";
+"ACCOUNT_REGISTER_SWITCH_EMAIL_VERIFY" = "Verify via Email";
+"ACCOUNT_REGISTER_SWITCH_PHONE_VERIFY" = "Verify via SMS";
+
+/*RegisterSucceedViewController*/
+"REGISTER_SUCCEED_TITLE" = "Successfully registered";
+"REGISTER_SUCCEED_DESC" = "Account: ";
+
+/*RegisterPurchaseSucceedViewController*/
+"REGISTER_PURCHASE_SUCCEED_TITLE" = "Purchase done";
+"REGISTER_PURCHASE_SUCCEED_DESC" = "Remote camera feature will be applied to first host.";
+"REGISTER_PURCHASE_SUCCEED_ADD_HOST" = "Login and add host";
+
+/*AccountHostListViewController*/
+"HOST_LIST_WITHOUT_HOST_TITLE" = "No computer available?";
+"HOST_LIST_WITHOUT_HOST_SUB_TITLE_1" = "1. Install Sunlogin Client on your computer";
+"HOST_LIST_WITHOUT_HOST_SUB_TITLE_1_1" = "Download with：http://d.sunlogin.com";
+"HOST_LIST_WITHOUT_HOST_SUB_TITLE_2" = "2. Login with the same account.";
+"HOST_LIST_UPGRADE_NOW" = "Upgrade";
+"HOST_LIST_ACCOUNT" = "Account:";
+"HOST_LIST_ERROR_EXPIRE_MESSAGE_1" = "Your service has expired, and Remote control function cannot be used temporarily\nPlease renewal before ";
+"HOST_LIST_ERROR_EXPIRE_MESSAGE_2" = "";
+//"HOST_LIST_WITHOUT_HOST_SUB_TITLE_1" = "Download and install Sunlogin Client on your computer \n（d.sunlogin.com）";
+//"HOST_LIST_WITHOUT_HOST_SUB_TITLE_2" = "login client with current account \n or click on the upper right corner Plus";
+"HOST_LIST_SEARCH_PLACE_HOLDER" = "Search";
+"HOST_LIST_EDIT_TOP" = "Pin";
+"HOST_LIST_EDIT_CANCEL_TOP" = "Unpin";
+"HOST_LIST_ADD_HOST" = "Add PC";
+"HOST_LIST_ADD_PHONE" = "Add Android";
+"HOST_LIST_ADD_SMARTDEVICE" = "Smart Device";
+"HOST_LIST_TITLE_WAKEUP_DEVICE" = "Wakeup Device";
+"HOST_LIST_TITLE_WAKEUP_DEVICE_PLUG" = "Wakeup Device";
+"HOST_LIST_ADD_KVM" = "Add KK";
+"HOST_LIST_ADD_WAKEUP_DEVICE" = "Add wakeup";
+"HOST_LIST_SCAN" = "QR Code";
+"HOST_LIST_TITLE_SMART_DEVICE" = "Smart Devices";
+"HOST_LIST_TITLE_HOST" = "Computers";
+"WAKEUP_DEVICE_EXCLUSIVE" = "Standalone";
+"WAKEUP_DEVICE_LAN_EXCLUSIVE" = "LAN";
+"WAKEUP_DEVICE_LAN_EVER" = "Persistant LAN";
+"WAKEUP_DEVICE_EXPIRE_DATE" = "Expire date";
+"HOST_LIST_ADDSMARTDEVICE_KK" = "KK";
+"HOST_LIST_ADDSMARTDEVICE_BATON" = "Wakeup";
+"HOST_LIST_ADDSMARTDEVICE_PLUG" = "Plug";
+"HOST_LIST_ADDSMARTDEVICE_TITLE" = "Smart Device";
+"HOST_LIST_DEVICE_UNIT" = " devices";
+"HOST_LIST_DEVICE_BIND" = "Bind";
+"HOST_LIST_DEVICE_UNBOUND" = "Unbound";
+"HOST_LIST_DEVICE_UNBOUND_TIP" = "Please bind hosts";
+
+/*smart device*/
+"WAKEUP_DEVICE_ADD_TITTLE" = "Add Wakeup device";
+"WAKEUP_DEVICE_EDIT_TITTLE" = "Host manage";
+"WAKEUP_DEVICE_EDIT" = "Edit";
+"WAKEUP_DEVICE_DONE" = "Done";
+
+/*AccountMobilePhoneVerifyViewController*/
+"ACCOUNT_COMPLETE_INFORMATION" = "Complete information";
+"ACCOUNT_COMPLETE_INFORMATION_FOUND_CODE" = "(find your password)";
+"ACCOUNT_COMPLETE_INFORMATION_PHONE_NUMBER" = "Mobile number";
+"ACCOUNT_COMPLETE_INFORMATION_VERIFY_CODE" = "SMS Code";
+"ACCOUNT_COMPLETE_INFORMATION_VERIFY_IMMEDIATELY" = "Verify now";
+"ACCOUNT_COMPLETE_INFORMATION_NOT_NULL_PHONENUMBER" = "Mobile number is required";
+"ACCOUNT_COMPLETE_INFORMATION_WRONG_FORMAT_PHONENUMBER" = "Mobile number is in bad format";
+"ACCOUNT_COMPLETE_INFORMATION_VERIFY_SUCCEED" = "Verify OK";
+"ACCOUNT_COMPLETE_INFORMATION_VERIFY_FAILED" = "Verify failed";
+"ACCOUNT_COMPLETE_INFORMATION_OVER_VERIFY_CODE" = "Skip";
+"ACCOUNT_COMPLETE_INFORMATION_AGAIN" = "s to retry";
+"ACCOUNT_COMPLETE_INFORMATION_GET_VERIFY_CODE_FAILED" = "Failed to get SMS code";
+"ACCOUNT_COMPLETE_INFORMATION_GET_VERIFY_CODE_NOW" = "Verifying...";
+"ACCOUNT_COMPLETE_INFORMATION_WRONG_VERIFY_CODE" = "Wrong SMS code";
+"ACCOUNT_COMPLETE_INFORMATION_NO_VALIDATION" = "Skip";
+"ACCOUNT_COMPLETE_INFORMATION_PAYING_ACCOUNT" = "Mobile phone verification is required forced by safety reasons.";
+/*HostListManagerViewController */
+"HOST_LIST" = "Computer list";
+"EDIT" = "Edit";
+"HISTORY" = "History";
+"HOST" = "Host";
+"MARK" = "Tag";
+"MORE" = "More";
+"LOGON_HISTORY" = "login history";
+"OFFLINE_LIST" = "Offline";
+"ONLINE_LIST" = "Online";
+"LAN_LIST" = "LAN";
+"REFRESH_HOST" = "Downloading hosts...";
+"HOST_LIST_NO_HOST" = "No remote client is available";
+"HOST_LIST_BUTTON_ADD_HOST" = "Add computer";
+"HOST_DELETE_FAILED" = "Delete computer failed";
+"HOST_DELETE_FAILED_HOST_ONLINE" = "Remove an online computer is forbidden";
+"HOST_DELETE_NOTICE" = "Remove computer";
+"HOST_DELETE" = "Remove computer";
+"HOST_DELETE_DESCRIPTION" = "After deleting a computer, attached service will also be removed, continue?";
+
+"HOST_LIST_SECTION_STAR_HOSTS" = "Star";
+"HOST_LIST_SECTION_UNTAGGED_HOSTS" = "Not tagged";
+"LAN_ADD" = "Via Discovery";
+"FASTCODE_ADD" = "Via HostID";
+"CREATE_HOST" = "Batch add";
+"BEGINNER_GUIDE_BUTTON" = "Beginner's guide";
+"ADDHOST_TITLE" = "Login the current account on the PC Sunlogin.";
+"ADDHOST_TITLE_KEYWORD" = "the current account";
+"ADDHOST_ENTERPRISE_EDITION" = "Enterprise Edition";
+
+/*Apply Host Amount*/
+"APPLY_HOST_AMOUNT_1" = "you have reached ";
+"APPLY_HOST_AMOUNT_2" = " hosts\nMore hosts available via applying";
+"APPLY_NOW" = "Apply";
+
+/*AddHostViewController*/
+"HOST_ADD_VIEW_TITLE" = "Add computer";
+"HOST_ADD_TEXTFIELD_HOST_NAME" = "Computer name";
+"HOST_ADD_TEXTFIELD_HOST_DESCRIBE" = "Description";
+"HOST_ADD_NEXT" = "Next";
+"HOST_ADD_ALERT_NAME_EMPTY" = "Computer name cannot be empty";
+"HOST_ADD_ALERT_ADD_FAILED" = "Add computer failed";
+"HOST_ADD_ALERT_ADDING" = "Adding computer";
+"HOST_ADD_SEGMENT_FIRST" = "Add computer";
+"HOST_ADD_SEGMENT_SECOND" = "Add camera";
+"HOST_ADD_NO_FLASH_LIGHT" = "Your device has no flash light, cannot add camera";
+"HOST_ADD_PLEASE_INPUT_WIFI_PASSWORD" = "Please enter WiFi password";
+"HOST_ADD_PLEASE_CONNECT_WIFI" = "Connect WiFi first";
+"HOST_ADD_TEXT_FIELD_WIFI_PASSWORD_PLACEHOLDER" = "Please enter the WIFI password";
+"HOST_ADD_HOST_NAME_DEFAULT" = "Computer name";
+"HOST_ADD_CAMERA_NAME_DEFAULT" = "My camera";
+"HOST_ADD_CAN_NOT_ADD_MESSAGE" = "Quota of computer count is reached. Visit sunlogin website to increase.";
+"HOST_ADD_CAN_NOT_ADD_MESSAGE_ALIPAY" = "Quota of computer count is reached. Visit sunlogin website to increase.";
+"HOST_ADD_DEFAULT_HOST_NAME" = "My Computer";
+
+/*HostAddDoneViewController*/
+"HOST_ADD_DONE_LABEL_SUCCEEDED_HEAD" = "Add computer";
+"HOST_ADD_DONE_LABEL_SUCCEEDED_TAIL" = "Successful";
+"HOST_ADD_DONE_LABEL_NOTICE" = "Install Sunlogin Client to your remote computer, after installation, login with the code showing below.\n Download from: d.sunlogin.com";
+"HOST_ADD_DONE_LABEL_KEY" = "Code";
+"HOST_ADD_DONE_BUTTON_SEND_EMAIL" = "Send E-mail";
+"HOST_ADD_DONE_EMAIL_TITLE" = "Notify: Add your computer to Sunlogin";
+"HOST_ADD_DONE_EMAIL_SEND_CANCEL" = "Send e-mail cancelled";
+"HOST_ADD_DONE_EMAIL_SEND_SUCCEED" = "E-mail sent";
+"HOST_ADD_DONE_EMAIL_SEND_FAILED" = "Fail to send E-mail";
+"HOST_ADD_DONE_EMAIL_SAVE_SUCCEED" = "E-mail saved";
+"HOST_ADD_DONE_LABEL_POSITION_FUNCTION" = "Device locating";
+"HOST_ADD_DONE_LABEL_IP" = "Ip";
+"HOST_ADD_DONE_LABEL_ADDRESS" = "Address";
+
+/* HostLogonWindowViewController */
+"ACCESS_PASSWORD" = "Access password";
+"WINDOW_ACCOUT" = "Windows account";
+"ENTER_CUSTOM_PASSWORD"="Enter access password";
+"ENTER_USERNAME" = "Enter username";
+"ENTER_WINDOWS_USERNAME" = "Windows account";
+"ENTER_WINDOWS_PASSWORD" = "Windows password";
+"CONNECT_REMOTE_HOST" = "Connecting remote computer...";
+"CONNECT_REMOTE_HOST_SUCCESSFULLY"="Remote computer connected.";
+"ENTER_ANY_VALUE" = "Enter anything";
+"REMIND_IPHONE4S" = "Hardware of current device is poor, which may affect the speed.";
+"REMIND_FREE" = "Upgrade your free account to Biz level may increase your speed to 180% of current.";
+
+"POWEROFF_SUCCESSFULLY" = "Shutdown delivered, switching to computer list";
+"RESTART_SUCCESSFULLY" = "Restart delivered, switching to computer list";
+
+/* host plugin */
+"HOST_PLUGIN_CAMERA" = "Remote camera";
+"HOST_PLUGIN_FILE" = "Remote file";
+"HOST_PLUGIN_PURCHASE_MESSAGE_CAMERA_PART_1" = "Remote camera is Sunlogin Pro exclusive function (";
+"HOST_PLUGIN_PURCHASE_MESSAGE_CAMERA_PART_2" = "yuan/year), now supports monthly purchase!";
+"HOST_PLUGIN_PURCHASE_MESSAGE_FILE_PART_1" = "Remote file is Sunlogin Pro exclusive function (";
+"HOST_PLUGIN_PURCHASE_MESSAGE_FILE_PART_2" = "yuan/year), now supports the monthly purchase!";
+"HOST_PLUGIN_PURCHASE_MESSAGE_CMD_PART_1" = "CMD is Sunlogin Biz exclusive function (";
+"HOST_PLUGIN_PURCHASE_MESSAGE_CMD_PART_2" = "yuan/year), now supports monthly purchase!";
+"HOST_PLUGIN_PURCHASE_MESSAGE_SSH_PART_1" = "SSH is Sunlogin Biz exclusive function (";
+"HOST_PLUGIN_PURCHASE_MESSAGE_SSH_PART_2" = "yuan/year), now supports monthly purchase!";
+"HOST_PLUGIN_UPGRADE_TO_PRO" = "Upgrade to Pro.";
+"HOST_PLUGIN_UPGRADE_TO_BIZ" = "Upgrade to Biz.";
+"HOST_PLUGIN_PURCHASE" = " yuan/month, pay";
+"HOST_PLUGIN_KVM_WARNING" = "KK is offline, please check the device network.";
+/* host plugin connect */
+"HOST_CONNECT_ACCOUNT_PASSWORD_WRONG" = "Account or password incorrect!";
+"HOST_CONNECT_VISIT_PASSWORD_WRONG" = "Invalid visit password!";
+"HOST_CONNECT_FAILED" = "Failed to connect host!";
+"HOST_CONNECT_WRONG_LOGON_TYPE" = "Login method mismatch!";
+"PLUGIN_CONNECTING_HOST" = "Connecting to remote host...";
+"PLUGIN_CONNECT_HOST_SUCCESS" = "Connected.";
+"PLUGIN_CONNECT_HOST_FAILED" = "Failed in remote module connection!";
+"PLUGIN_CONNECTING" = "Connecting ";
+"PLUGIN_WILL_DISPLAY" = "Transfering ";
+"PLUGIN_CONNECT_SUCCEED" = "Connected";
+"PLUGIN_CONNECT_FAILED" = "Connect failed";
+"PLUGIN_REMOTE_DESKTOP" = "Remote Desktop";
+"PLUGIN_REMOTE_CAMERA" = "Remote Camera";
+"PLUGIN_REMOTE_FILE" = "Remote File ";
+"PLUGIN_CMD" = "CMD";
+"PLUGIN_SSH" = "SSH";
+"PLUGIN_CONNECT_POWEROFF_SUCCESS" = "Shutdown command sent";
+"PLUGIN_CONNECT_POWEROFF_FAILED" = "Shutdown command send failed";
+"PLUGIN_CONNECT_POWEROFF_CANCEL" = "Cancel shutdown command";
+"PLUGIN_CONNECT_RESTART_SUCCESS" = "Restart command sent";
+"PLUGIN_CONNECT_RESTART_FAILED" = "Restart command send failed";
+"PLUGIN_CONNECT_RESTART_CANCEL" = "Cancel restart command";
+
+/* HostWelcomeViewController */
+"DETAIL" = "Info";
+"LABEL_DESKTOP" = "Control";
+"LABEL_PR_CAMERA" = "Advanced";
+"LABEL_CAMERA" = "Camera";
+"LABEL_TOUCHPAD" = "Touchpad";
+"LABEL_WATCH" = "View";
+"LABEL_FILES" = "Files";
+"LABEL_MULTISCREEN" = "Multiscreen";
+"LABEL_POWEROFF" = "PowerOff";
+
+"LABEL_RRIVILEGE" = "VIP";
+
+"REMOTE_SHUTDOWN" = "Shutdown";
+"REMOTE_RESTART" = "Restart";
+"CNTS_LOGIN" = "Connecting Remote Desktop";
+"CNTS_CONNECTED" = "Transfering";
+"CNTS_DISCONNECTED" = "Disconnected";
+"CNTS_LOGIN_CAMERA" = "Connecting Remote Camera";
+"CNTS_CONNECTED_CAMERA" = "Transfering ";
+"CONNECTING_REMOTE_CAMERA" = "Connecting Remote Camera...";
+"GET_ADDRESS_FAILED" = "Failed to get plugin address";
+"LOGON_FAILED" = "Login failed";
+
+"CONNECTING_REMOTE_DESKTOP" = "Connecting Remote Desktop...";
+"SHUT_DOWN_THE_REMOTE_HOST"="Are you sure to shutdown remote computer?";
+"RESTART_THE_REMOTE_HOST"="Are you sure to restart remote computer?";
+"UIALERT_TITLE_MESSAGE"="Message";
+"UIALERT_TITLE_ERROR"="Error";
+"UIALERT_MESSAGE_SHUTDOWN_HOST_COMMAND"="Shutdown command sent";
+"UIALERT_MESSAGE_RESTART_HOST_COMMAND"="Restart command sent";
+"BUTTON_DISABLED_TITLE" = "Available";
+"BUTTON_DISABLED_TITLE_BOTTOM" = "soon";
+"BUTTON_DISABLED_TITLE_CN" = "";
+"REMOTE_OPEN_HOST_PART_ONE" = "Wakeup delivered";
+"REMOTE_OPEN_HOST_PART_TWO" = "A computer booting will take serveral minutes, be patient";
+"REMOTE_OPEN_HOST_BACK_TO_HOSTLIST" = "Return";
+
+/* HostFunctionDetailViewController */
+"SEGMENT_CAMERA"="Remote Camera";
+"SEGMENT_REMOTEFILE"="Remote File";
+"FREE_EXPERIENCE"="Free trial";
+"CAMERA_EXPERIENCE"="Remote camera trial";
+"MESSAGE_EXP"="Remote camera offers a free trial for 24 hours, please make sure your camera is available";
+"MESSAGE_OUTDATE"="Remote camera trial has expired 24 hours, you can continue to use after purchase of service";
+"EXP_NOW"="Try now";
+"LOAD_PID_FAILED"="Failed to download product serial number";
+"LOAD_PID_TRY_AGAIN" = "Try again";
+"REFRESH" = "Refresh";
+
+/* WaitingFreePluginConnectViewController */
+"WAITINGFREEVC_DEAR" = "Loading in progress... ";
+"WAITINGFREEVC_INTO_CONTROL" = "s remain to our goal";
+"WAITING_FREE_LEVEL_IN_CONNECTING" = "Loading, please wait...";
+"WAITINGFREEVC_WANNA_SPEED" = "Speed-up";
+
+/* EGORefreshTableHeaderView */
+"LAST_UPDATED"="Last Updated";
+"RELEASE_TO_REFRESH"="Release to refresh...";
+"PULL_DOWN_TO_REFRESH"="Pull down to refresh...";
+"LOADING"="Loading...";
+"REFRESH_HOST_SUCCEED"="Refreshed";
+
+/*GestureGuideView */
+"GUIDE_ONE_FINGER_MOVE_MOUSE_CONTROL_DESCRIBE"="One finger slide";
+"GUIDE_ONE_FINGER_MOVE_MOUSE_CONTROL_RESULT"="Move remote window";
+"GUIDE_ONE_FINGER_MOVE_DESCRIBE"="One finger slide";
+"GUIDE_ONE_FINGER_MOVE_RESULT"="Move pointer or window";
+
+"GUIDE_ONE_FINGER_DOUBLE_CLICK_THEN_HOLD_DESCRIBE"="Double click then hold";
+"GUIDE_ONE_FINGER_DOUBLE_CLICK_TWICE_THEN_HOLD_RESULT"="Move window";
+"GUIDE_ONE_FINGER_CLICK_DESCRIBE"="Hold with one finger";
+"GUIDE_ONE_FINGER_CLICK_RESULT"="Right click";
+"GUIDE_TWO_FINGER_CLICK_DESCRIBE"="Click with two fingers";
+"GUIDE_TWO_FINGER_CLICK_RESULT"="Show/Hide tool bar";
+"GUIDE_TWO_FINGER_CLICK_TWICE_DESCRIBE"="Double click with two fingers";
+"GUIDE_TWO_FINGER_CLICK_TWICE_RESULT"="Zoom an area";
+"GUIDE_THREE_FINGER_MOVE_DESCRIBE"="Slide with two fingers";
+"GUIDE_THREE_FINGER_MOVE_RESULT"="Roll mouse wheel";
+
+
+"GUIDE_ONE_FINGER_CLICK_DESCRIBE"="Click with one finger";
+"GUIDE_ONE_FINGER_CLICK_RESULT"="Left click";
+"GUIDE_ONE_FINGER_HOLD_DESCRIBE"="Hold with one finger";
+"GUIDE_ONE_FINGER_HOLD_RESULT"="Right click";
+"GUIDE_ONE_FINGER_PRESS_MOVE_DESCRIBE"="One finger hold-slide";
+"GUIDE_ONE_FINGER_PRESS_MOVE_RESULT"="Move window/Multiselect";
+"GUIDE_ONE_FINGER_MOVE_HORIZON_DESCRIBE"="Move one finger L/R";
+"GUIDE_ONE_FINGER_MOVE_HORIZON_RESULT"="Move screen";
+"GUIDE_ONE_FINGER_MOVE_VERTICAL_DESCRIBE"="Move one finger U/D";
+"GUIDE_ONE_FINGER_MOVE_VERTICAL_RESULT"="Mouse wheel";
+"GUIDE_TWO_FINGER_MOVE_DESCRIBE"="Two fingers slide";
+"GUIDE_TWO_FINGER_MOVE_RESULT"="Mouse wheel";
+
+/*RemoteHostWakeUp */
+"INPUT_REMOTE_HOST_WAKE_UP_PASSWORD" = "Input wakeup password";
+"HOST_NOT_ALIVE" = "Computer does not exist";
+"PASSWORD_EMPTY" = "Wakeup password cannot be empty!";
+"PASSWORD_ERROR" = "Incorrect wakeup password!";
+"TURNON_FAILED" = "Wakeup failed!";
+"WAKE_UP_TIMEOUT" = "Wakeup time out";
+"UIALERT_MESSAGE_NO_SUITABLE_NETWORK_CARD"="A device that supports remote wakeup is needed.";
+"URL_GET_REMOTE_WAKEUP_DEVICE" = "http://url.oray.com/dWHbqq";
+"UNSUPPORT_REMOTE_WAKEUP" = "This computer does not support remote wakeup";
+"REMOTEHOSTWAKEUP_START" = "Sending instructions...";
+"REMOTE_HOST_WAKEUP_PLUG_NOTE" = "Plug is power on, need power off and re-opened";
+"REMOTE_HOST_WAKEUP_PLUG_SUCCEED" = "Plug has been turn on";
+"REMOTE_HOST_WAKEUP_PLUG_FAILED" = "Plug offline or turn on failed";
+"REMOTE_HOST_WAKEUP_CHOOSE_REMIND" = "Detected that the current host is support remote wakeup and smart plug wakeup. \nPlease select the way you want.";
+"REMOTE_HOST_WAKEUP_CHOOSE_1" = "Smart Plug";
+"REMOTE_HOST_WAKEUP_CHOOSE_2" = "Remote Wakeup";
+"REMOTE_HOST_WAKEUP_SUCCEED_DESC" = "Boot up successfully";
+"REMOTE_HOST_WAKEUP_FAILED_DESC" = "Failed to boot up, please try again or back to the host list and wait.";
+"REMOTE_HOST_WAKEUP_BACK" = "Back";
+"REMOTE_HOST_WAKEUP_OK" = "Ok";
+
+/* RemoteToolbarViewController */
+"QUIT_REMOTE_DESKTOP" = "Exit remote desktop";
+"QUIT_REMOTE_DESKTOPMSG" = "Exiting from remote desktop, click OK to confirm";
+
+/* RemoteDesktopViewController */
+"REMOTE_DESKTOP_HAS_BEEN_DISCONNECT" = "Remote desktop disconnected, click OK to return";
+"VERSION_BEFORE_5_4_NOTIFICATION" = "Touch interaction applies to Sunlogin 5.4 or later.";
+"COMPLAINT" = "Sucks! I want to complain.";
+"COMPLAINT_DONE" = "Complaints sent, the product manager will be spanked, Pia~";
+"SOUND_ON" = "Sound On";
+"SOUND_OFF" = "Sound Off";
+"MODEL_TOUCH" = "Touch mode";
+"MODEL_MOUSE" = "Mouse mode";
+"BLACK_SCREEN_ON" = "BlackScreen On";
+"BLACK_SCREEN_OFF" = "BlackScreen Off";
+//"SWITCH_SCREEN" = "Switch Screen";
+"SINGLE_ROLL" = "Move one finger to scroll";
+"CONNECT_MODE_TRANSPOND" = "Relay mode";
+"CONNECT_MODE_P2P" = "P2P mode";
+"CLIENT_SCREEN_IS_ROTATING" = "Please keep in same screen orientation of both side";
+"GESTURE_STATE_DRAG" = "Drag";
+"GESTURE_STATE_RIGHT_MOUSE" = "Click Right Button";
+"GESTURE_STATE_ROLL" = "Roll";
+"FREE_SERVICE_REMIND" = "Welcome to use Sunlogin for free.\nThe speed limit is 300Kbps";
+"PAY_SERVICE_REMIND" = "Relaying through BGP cloud servers";
+
+/* No comment provided by engineer. */
+"HOST_LOGON_SUCCEED" = "Computer login successful";
+"SETTINGS" = "Settings";
+
+
+/*远程桌面菜单 */
+"CHANGE_USER" = "Switch session";
+"SHOW_DESKTOP" = "Show desktop";
+"SHUT_DOWN_PC" = "Shutdown host";
+"RESTART_PC" = "Restart host";
+"CTRL_ALT_DELETE" = "Ctrl+Alt+Del";
+"GESTURE_GUIDE" = "Touch mode";
+"CHANGE_CONTROLMODE" = "Switch to controllable";
+"CHANGE_WATCHMODE" = "Switch to watch only";
+"SWITCH_SCREEN" = "Switch screen";
+"BLACK_SCREEN" = "Black Screen";
+"SCREEN"="Screen";
+"SWITCH_BEST_RESOLUTION" = "Switch to best resolution";
+"LOCK_SCREEN" = "Lock Screen";
+"UNLOCK_SCREEN" = "Unlock Screen";
+"LOCK_DESKTOP" = "Lock desktop";
+"UNINPUT" = "Disable computer input";
+"INPUT" = "Allow computer input";
+
+/*HostDetailViewController*/
+"SAVE" = "Save";
+"HOST_DETAIL_VIEW_TITLE" = "Host info";
+"HOST_DETAIL_VIEW_SAVING" = "Saving computer information";
+"HOST_DETAIL_VIEW_UPDATE_FAILED" = "Save computer information failed";
+"HOST_DETAIL_VIEW_REMOTE_CONTROL" = "Remote control";
+"HOST_DETAIL_VIEW_REMOTE_WAKEUP" = "Remote wakeup";
+"HOST_DETAIL_VIEW_DELETE_HOST" = "Delete computer";
+"AUTOMATICALLY_MATCHES_THE_BEST_RESOLUTION" = "Self-adaptive resolution";
+"KEEP_THE_ORIGINAL_RESOLUTION" = "Original resolution";
+"RESOLUTION" = "Resolution";
+"CANNOT_DO_THIS_ON_SHARED_HOST" = "Function is not available on a shared computer";
+"RESOLUTION_NOTE" = "Applies to Sunlogin 5.4 or later!";
+"HOST_DETAIL_DELETE" = "Delete";
+"HOST_DETAIL_IS_DELETING" = "Deleting computer...";
+"REMOTECAMERA_AVAILABLE" = "Available";
+"REMOTECAMERA_NOT_AVAILABLE" = "unavailable";
+"HOST_DETAIL_SETTING_HOST_NAME" = "Computer name";
+"HOST_DETAIL_SETTING_HOST_INFO" = "Computer description";
+"HOST_DETAIL_SETTING_HOST_REMARK" = "Memo";
+"HOST_DETAIL_SETTING_INPUT_HOST_NAME" = "Plesea input computer name";
+"HIGH_DEFINITION_RESOLUTION" = "1280*1024";
+"STANDARD_DEFINITION_RESOLUTION" = "800*600";
+"SELECT_FROM_PHOTO_ALBUM" = "Select from album";
+"TAKE_A_PICTURE" = "Take a picture";
+"HOST_ICON_DEFAULT_STYLE" = "Default style";
+"HOST_ICON_UPLOAD_FAILED" = "Upload failed";
+"HOST_ICON_UPLOAD_SUCCEED" = "Upload succeed";
+"HOST_DETAIL_DOMAIN_VISIT" = "Domain visit";
+"HOST_DETAIL_DOMAIN_CLOSE" = "off";
+"HOST_DETAIL_DOMAIN_OPEN" = "on";
+"HOST_DETTA_ICON_CHANGE" = "Replace picture";
+"HOST_DETAIL_BIND_PLUG" = "Binded plug";
+/*SettingOfMineViewController setting of mine*/
+"SETTING_OF_MINE" = "Settings";
+"CHECK_TO_UPDATE" = "Check new version";
+"MORE_ABOUT" = "About and help";
+"MORE_SHARE" = "Share Sunlogin";
+"RECOMMENDED_PRIZES" = "Recommended prizes";
+"VERSION_INFORMATION" = "Version information";
+"MORE_HELP" = "Touch instructions";
+"LOG_FEEDBACK" = "System log";
+"CONTACT_US" = "Contact us";
+"MORE_RECOMMEND" = "Recommendations";
+"LOADING_WEB" = "Loading...";
+"LOAD_WEB_SUCCEED" = "Load successful";
+"ACCOUNT_LOGOUT" = "Logout";
+"LOG_EMAIL_TITLE" = "Logs from Sunlogin";
+"ACCOUNT" = "Account";
+"ACCOUNT_MANAGE" = "Account manager";
+"ACCOUNT_OF_MINE" = "My account";
+"SERVICE_LEVEL" = "Service level";
+"HOST_LIST_SORTING" = "List sort";
+"SHOW_OFFLINE_HOST" = "Show offline computers";
+"SERVICE_LEVEL_UNKNOW" = "Unknown";
+"SERVICE_LEVEL_FREE" = "Free";
+"SERVICE_LEVEL_PROFESSION" = "Pro";
+"SERVICE_LEVEL_BUSINESS" = "Biz";
+"SERVICE_LEVEL_PREMIUM" = "Premium";
+"SERVICE_LEVEL_ENTERPRISE" = "Enterprise";
+"SERVICE_LEVEL_CUSTOM" = "Dedicated";
+"SERVICE_LEVEL_COM_PERPETUAL" = "Biz.(Perminant)";
+"SERVICE_LEVEL_PREMIUM_PERPETUAL" = "Premium(Perminant)";
+"SERVICE_LEVEL_ENTERPRISE_PERPETUAL" = "Enterprise(Perminant)";
+"HOST_AWAKE_SLEEP_NOTIFICATION" = "Computer status notification";
+"MESSAGE_NOTIFICATION" = "Message notification";
+"ACCORDING_TO_THE_ACCESS_TIME" = "By access time";
+"LOGOUT" = "Logout";
+"SETTINF_OF_MINE_LOGIN_NOT_AVAILABLE" = "Not Logged in";
+"ACCORDING_TO_THE_HOST_NAME" = "By name";
+"ACCORDING_TO_THE_HOST_STATE" = "By state";
+"ACCORDING_TO_THE_RECENT_ACCESS_TIME" = "By recent time";
+"MY_WELFARE"="Welfare";
+"MY_EXCHANGE"="Exchange";
+"SETTING_FAILED" = "Setting Failed";
+"HARDWARE_STORE" = "Hardware store";
+"URL_HARDWARE_STORE" = "https://weidian.com/item_classes.html?userid=820262052&c=63564888";
+"HOST_ICON_STYLE" = "Icon";
+"SUNSHINE_SHOP" = "Sunny store";
+"SUNSHINE_SHOP_AD_WARNING" = "Too frequent to click on the ads, please try again after accessing remote control.";
+"TOUCH_ID" = "Touch ID";
+"FACE_ID" = "Face ID";
+"TOUCH_ID_DESC" = "";
+"TOUCH_ID_OPEN_REMIND" = "You have not set Touch ID, please add a fingerprint in the system setting\"setting >Touch ID and password\"";
+"FACE_ID_OPEN_REMIND" = "You have not set Face ID, please config in the system setting\"setting >Face ID and password\"";
+"MY_DOWNLOAD" = "My Downloads";
+"SETTING_GT_MOUSE" = "Swiftpoint GT Bluetooth Mouse";
+"SETTING_GT_MOUSE_CONNECT" = "Connect";
+"SETTING_GT_MOUSE_NOT_CONNECT" = "Not Connect";
+"SETTING_GT_MOUSE_UNABLE" = "Unable";
+"SETTING_GT_MOUSE_DISCOVERY" = "Automatic connection";
+"SETTING_GT_MOUSE_BLUETOOTH_NOT_CONNECT" = "Need go Setting > bluetooth to connect GT mouse first";
+"SETTING_GT_MOUSE_SEARCHING" = "Searching for the GT mouse";
+"SETTING_GT_MOUSE_CONNECTED" = "Connect GT mouse successfully";
+"SETTING_GT_MOUSE_HEADER_TITLE" = "My GT mouse";
+"SETTING_GT_MOUSE_SHOW_GUIDE" = "The Connection Guide>>";
+"SETTING_GT_MOUSE_GUIDE" = "The Connection Guide";
+"SETTING_GT_MOUSE_GUIDE_TEXT" = "Once the mouse is fully charged, you can pair it to your device via Bluetooth 4.0.\nRemove the USB charger/receiver. Leave the mouse OFF for the first steps\n\n1 Go to Bluetooth device menu in your system settings\n2 Ensure Bluetooth is switched on\n3 Remove any existing \"Swiftpoint GT\" in the list by selecting it, then selecting \"Remove\"\n4 While holding down either mouse button, move the switch on the underside of the mouse to \"ON\". The LED will flash to indicate pairing mode\n5 When \"Swiftpoint GT\" appears in the list of searched devices, click on the device name to install and pair with the device";
+"SETTING_GT_MOUSE_GUIDE_NOTE" = "Note: if the connection fails, repeat the above steps";
+
+/*AboutSunloginViewController*/
+"ABOUT" = "About";
+"SOFTWARE_NAME" = "Sunlogin Remote Control";
+"VERSION" = "Version ";
+"HOMEPAGE" = "Homepage:";
+"HOMEPAGE_BUTTON" = "www.sunlogin.com";
+//"HOMEPAGE_URL" = "http://url.oray.com/qcYHrc";
+"HOMEPAGE_URL" = "http://sunlogin.oray.com/mobile/";
+"COPY_RIGHT" = "Copyright ©2006-2018. Oray. All Rights Reserved";
+"NO_LOG_DATA" = "No log data";
+
+/*FeedbackViewController*/
+"FEEDBACK_TITLE" = "Feedback";
+"FEEDBACK_PLACEHOLDER" = "Every step we made is based on your suggestions and comments";
+"FEEDBACK_USER_INFO" = "Your phone/mailbox";
+"FEEDBACK_COMMIT" = "Commit";
+"FEEDBACK_COMMITING" = "Commiting...";
+"FEEDBACK_CODER" = "Programmers work hard day and night~\nThe only goal is your better experience";
+"FEEDBACK_TUCAO" = "Comment";
+"FEEDBACK_ENCOURAGE" = "Encourage";
+"FEEDBACK_CONTENT" = "Opinions can not be empty";
+"FEEDBACK_CONTENT_LIMIT" = "You can only deliver a max of 150 words of feedback";
+"FEEDBACK_USERINFO_LIMIT" = "You can only deliver a max of 30 words of contact information";
+"FEEDBACK_USERINFO_CORRECT" = "Please input correct contact information";
+"FEEDBACK_COMMIT_SUCCESS" = "Thank you for your feedback";
+"FEEDBACK_COMMIT_FAILED" = "Feedback failed, please try again";
+/* rate sunlogin */
+"RATE_TITLE" = "Rate Sunlogin";
+"RATE_MESSAGE" = "Do you like Sunlogin? Give us your 5-star rating to make the app even better!";
+"RATE_BUTTON_NOW" = "OK";
+"RATE_BUTTON_LATER" = "Cancel";
+"RATE_BUTTON_NEVER" = "Never";
+
+/* camera messages */
+"CAMERA_INFORMATION_TIP" = "Tips -- Camera";
+"CAMERA_HAVE_DISCONNECTED" = "Disconnected";
+"CAMERA_QUIT_CONFIRM" = "Exiting from remote camera, click OK to confirm";
+"CAMERA_LOAD_ERROR_NOCAMERA" = "No cameras available";
+"CAMERA_LOADING" = "loading...";
+"CAMERA_OPEN_FAILED" = "Open camera failed.";
+"CAMERA_CLOSE_FAILED" = "Close camera failed.";
+
+"NOTWIFI_MESSAGE" = "Wifi is not connected, this will consume your cellular data, connect anyway?";
+"PUSH_MESSAGE_TITLE" = "Push Message";
+"SWITCH_USER" = "Switching session, please wait";
+
+/*ShareInfomationView*/
+"SHARE_SHORT_MESSAGE" = "SMS";
+"SHARE_COPY" = "Copy";
+"SHARE_EMAIL" = "Email";
+"SHARE_WEIXIN" = "Wechat";
+"SHARE_QQ" = "QQ";
+"SHARE_MEMO" = "Memo";
+
+/*UserSendMessage*/
+"SEND_MESSAGE_FAILED" = "Send SMS failed!";
+"SEND_MESSAGE_SUCCEED" = "Send SMS OK!";
+
+/*UserCopyLabel*/
+"COPY_LABEL_COPY" = "Copy";
+"COPY_LABEL_EMAIL" = "Email";
+"COPY_LABEL_SMS" = "SMS";
+"COPY_LABEL_CANCEL" = "Cancel";
+
+"USER_PERMISSION_NOT_ENOUGH" = "No enough permission";
+"SWITCH_USER_FAILED" = "Switch session failed";
+"SWITCH_USER_OK" = "Session switched";
+"DISPLAY_DESKTOP" = "Transfering first frame";
+
+/*NoviceGuideViewController*/
+"NOVICE_INTRO_TITLE" = "No computers available, what next?";
+"NOVICE_INTRO_LINUX_REMOTE" = "Linux computer";
+"NOVICE_INTRO_PC_REMOTE" = "Windows computer";
+"NOVICE_INTRO_FASTCODE_TITLE" = "Connect to a computer with Host ID.";
+"NOVICE_INTRO_FASTCODE_NOTE" = "Note: Host ID can be found in Sunlogin 7.0 and above.";
+"NOVICE_INTRO_CLIENT_TITLE" = "Login the same account in Sunlogin client installed on your destination computer.";
+"NOVICE_INTRO_CLIENT_NOTE" = "Access www.sunlogin.com to download Sunlogin client";
+"NOVICE_INTRO_FAST_CODE" = "Quick Remote";
+
+/* 快速访问码－登录界面 */
+"FASTCODE_LOGIN_TITLE" = "Quick Remote";
+"FASTCODE_LOGIN_LOCK" = "Login with verification Code";
+"FASTCODE_LOGIN_NOPASSWORD" = "Try this without verification code";
+"FASTCODE_LOGIN_SENDREQUEST" = "Send request and wait";
+"FASTCODE_LOGIN_PASSWORDERROR" = "Incorrect verification code, you have %d times to try";
+"FASTCODE_LOGIN_PASSWORDERROR_FIVE" = "Incorrect verification code, send request instead.";
+"FASTCODE_LOGIN_USEPASSWORD_LOGIN" = "Login with verification Code";
+"FASTCODE_LOGIN_SEND_ACCESSQUEST" = "Request sent, waiting acception";
+"FASTCODE_LOGIN_SEND_FORBIDDEN" = "The peer didn't response or rejected";
+
+/* 快速访问码－安全问题回答界面 */
+"FASTCODE_SECURITY_NOTICE" = "Security answer required";
+"FASTCODE_SECURITY_ANSWER_HINT" = "Please answer";
+"FASTCODE_SECURITY_SURE" = "OK";
+"FASTCODE_SECURITY_VERIFYING" = "Verifying";
+"FASTCODE_SECURITY_WRONG" = "Answer incorrect";
+"FASTCODE_SECURITY_WARNING" = "Incorrect attempts exceeded, please try again 30m later";
+
+/*FastCodeLogin*/
+"FAST_CODE_QUERY_HOST" = "Querying";
+"FAST_CODE_QUERY_HOST_FAILED" = "Computer is offline or not exist";
+"FAST_CODE_QUERY_HOST_NOTEXIST" = "Computer is not exist";
+"FAST_CODE_QUERY_HOST_OFFLINE" = "Computer is offline";
+"FAST_CODE_HOST_UNCONTROLLABLE" = "Request has been rejected";
+"FAST_CODE_NOT_SUPPORT_NO_PASSWORD" = "The host not support query without verification code";
+"FAST_CODE_EMPTY" = "Please enter Host ID";
+"FAST_CODE_9_DIGIT" = "Please enter 9 digits Host ID";
+"FAST_CODE_TITLE" = "Quick Remote";
+"FAST_CODE_ALERT_CONTENT" = "Are you sure to clear history?";
+"FAST_CODE_NOTE" = "Sunlogin 7.0 or later is required!";
+"FAST_CODE_CLEAR_HISTORY" = "Clear history";
+"FAST_CODE_NO_HISTORY" = "No history";
+"FAST_CODE_HOSTLIST_LABEL_TEXT" = "Quick Remote";
+"FAST_CODE_CONNECT" = "Connect";
+"FAST_CODE_LOGON_NOTE" = "With sunlogin client earlier than 8.0, use access password!";
+
+/*GuideBeforeLoginViewController*/
+"GUIDE_BEFORE_LOGIN_SHORTCUT" = "Quick";
+"GUIDE_BEFORE_LOGIN_SAFE" = "Reliable";
+"GUIDE_BEFORE_LOGIN_PARENT" = "Care";
+"GUIDE_BEFORE_LOGIN_OFFICE_ANYWHRER_ANYTIME" = "Access your office any time, anywhere";
+"GUIDE_BEFORE_LOGIN_REMOTE_CAMERA" = "Monitoring by remote camera any time, anywhere";
+"GUIDE_BEFORE_LOGIN_REMOTE_ASSIST" = "Help friend or parents to Solve computer problems";
+
+
+/*rpc_service_error | used by CHostLogonEvent*/
+//"std::exception" = "Unknown error";
+"Check the status of the remote control failed" = "Remote control status check failed";
+"Check the login period failed" = "Check the login period failed";
+"Check the login type failed" = "Check the login type failed";
+"Password can not be empty" = "Password cannot be empty!";
+"Create instance failed" = "Create instance failed";
+"Login the host failed" = "Incorrect username or password";
+"Remote control module has been closed" = "Remote control module has been closed";
+"Login failed with the way" = "Incorrect login method";
+"The remote host did not response" = "The remote computer did not response";
+"Check the harass status failed" = "Check anti-harass failed";
+"Rejected the connection request" = "Request has been rejected";
+"Verify strings can not be empty" = "Verify strings cannot be empty!";
+"Access denied,you can't access to the host in the following" = "Access rejected";
+"Wrong answer to anti-harassment" = "Wrong answer of anti-harassment!";
+"Check the anti-harassment answer failed" = "Check anti-harassment answer failed!";
+
+"input empty" = "Input cannot be empty";
+"input wrong" = "Input error";
+"vertify failed" = "Incorrect username or password";
+"pwd wrong" = "Incorrect password";
+"query empty" = "Query result is empty";
+"CONNECT_SOCKET_URLS_HPP connect_socket" = "Unable to connect to remote computer";
+"auth(2) failed" = "AUTH Configuration error";
+"auth(3) failed" = "Regular Expressions match failed";
+"rpc_digest not correct" = "Signature error";
+"change fast_code failed" = "Change Quick Code failed";
+"db query not found key" = "Bound sunlogin code doesn't exist";
+"Unknown exception" = "Host offline or unknown error";
+"REMOTEADDRESS_NOT_EXISTS" = "Host is offline or does not exist";
+
+
+/*CameraDetailViewController*/
+"REMOTE_CAMERA_IS_OFFLINE" = "Camera is offline";
+"STANDARD_QUALITY" = "SD";
+"HIGH_QULITY" = "HD";
+"SUPER_HIGH_QUALITY" = "UHD";
+"CAMERA_DETAIL" = "Camera info";
+"MOTION_DETECTION_DESCRIBER" = "(need SD card)";
+"GETTING_CAMERA_DETAIL" = "Getting camera info...";
+"SAVING_CAMERA_DETAIL_MESSAGE" = "Saving camera info...";
+"SAVE_CAMERA_DETAIL_SUCCEED" = "Save camera info successful";
+"SAVE_CAMERA_DETAIL_FAILED" = "Save camera info failed";
+"SAVE_CAMERA_NAME_DESC_FAILED" = "Save camera name and description failed";
+"IMAGE_QUALITY" = "Quality";
+"GET_CAMERA_DETAIL_SUCCEED" = "Get camera info successful";
+"GET_CAMERA_DETAIL_FAILED" = "Get camera info failed";
+"SCREEN_SHOT_SUCCEED" = "Screenshot saved";
+"CONNECT_CAMERA" = "Connect camera";
+"IMAGE_REVERSAL" = "Image flip";
+"MOTION_DETECTION" = "Motion detection";
+"FIRMWARE_VERSION" = "Firmware version";
+"CAMERA_DETAIL_WILL_DELETE_CAMERA" = "To delete device：";
+"CAMERA_DETAIL_IS_DELETING" = "Deleting ...";
+"CAMERA_DETAIL_DELETE_DEVICE" = "Delete device";
+"CAMERA_DETAIL_CHANGE_WIFI_TITLE" = "Change Wifi";
+"CAMERA_DETAIL_CONTROL_CAMERA" = "Camera monitor";
+"CAMERA_DETAIL_SURE_TO_UPGRADE" = "Upgrade version：";
+"CAMERA_DETAIL_SCREENSHOT" = "Snapshot";
+"CAMERA_DETAIL_CHANGE_CAMERA" = "Change camera";
+"CAMERA_DETAIL_CHANGE_CAMERA_SETTINGS" = "Image settings";
+
+/*NewbieGuideViewController*/
+"NEWBIE_GUIDE_NOHOST_TITLE" = "No computer available?";
+"NEWBIE_GUIDE_NOHOST_INTRO" = "Visit www.sunlogin.com to download & install";
+"NEWBIE_GUIDE_FASTCODE" = "Use Quick Code to connect directly";
+"NEWBIE_GUIDE_FASTCODE_LOGIN" = "Connect Now";
+"NEWBIE_GUIDE_ACCOUNT" = "Login sunlogin client with current account";
+
+
+/*ActivateCameraViewController*/
+"ACTIVATE_CAMERA_EMIT_NOW" = "Emit now";
+"ACTIVATE_CAMERA_DESCRIBE" = "Dear Master, aim the flash light at camera lens. The dancing light wave is waiting to send out...";
+
+/*FlashLightViewController*/
+"FLASH_LIGHT_CLICK_HERE" = "If flash, Click here!";
+"FLASH_LIGHT_I_KNOW" = "I know";
+"FLASH_LIGHT_DESCRIBE" = "Dear Master, please check whether the light is flashing…";
+"FLASH_LIGHT_HELPER_RED_LIGHT" = "Red light flashes means camera can be set";
+"FLASH_LIGHT_HELPER_GREEN_LIGHT" = "Green light flashes means camera is working";
+"FLASH_LIGHT_HELPER_DESCRIBE" = "When camera's red light flash, you can set camera's config";
+
+/*SetWIFIViewController*/
+"SET_WIFI_NO_WIFI" = "Dear Master, I cannot live without WiFi, please find a WiFi spot for me!";
+"SET_WIFI_PLEASE_INPUT_WIFI_PASSWORD" = "Please enter the WIFI password";
+
+/*SoundWaveViewController*/
+"SOUND_WAVE_DESCRIBE" = "Aim the speaker of phone at the MIC of camera, configs will be transmitted via sound wave";
+"SOUND_WAVE_FAILED_TRANSMIT" = "Failed to transmit,";
+"SOUND_WAVE_TRY_AGAIN" = "try again";
+"SOUND_WAVE_SENDING_WAIT_PLEASE" = "The sound wave is transmitting, just a moment please";
+"SOUND_WAVE_FINISH_SENDING" = "The sound wave's finished transmitting, please wait for the camera is connected";
+/*SoundDoneViewController*/
+"SOUND_DONE_DESCRIBE" = "Dear Master, I’m here waiting for your order and ready to perform";
+"SOUND_DONE_IS_READY" = "Is ready!";
+/*RemotefilesIndexViewController remotefile*/
+"REMOTEFILE_TITLE"="Remotefiles";
+"REMOTEFILE_HANDLEFILE_DOWNLOAD"=" Download";
+"REMOTEFILE_HANDLEFILE_DELETE"=" Delete";
+"REMOTEFILE_DELETEDIR_PROMPT"="Please enter the folder to select the file to download";
+"REMOTEFILE_UPLOAD_FINISH_PROMPT"=" - upload successful";
+"REMOTEFILE_DOWNLOAD_FINISH_PROMPT"=" - download successful";
+"UPLOAD" = "Upload";
+"LOAD_LIST" = "Transfers";
+"UPLOAD_LIST" = "Upload";
+"DOWNLOAD_LIST" = "Download";
+"PAUSE_ALL" = "Pause all";
+"CLEAR_RECORD" = "Clear record";
+"UPLOADING" =  "Uploading";
+"LOADED"  =  "Load successful";
+"DOWNLOADING"="Downloading";
+"DOWNLOADED"="Load successful";
+"JUST_WIFI_LOAD" = "Transfer files via WiFi only";
+"MINE_DOWNLOAD"="My download";
+"NOT_WIFI_REMIND" = "No-WiFi notification";
+"MYLOADED" = "My downloads";
+"MY_DOWNLOAD_UPLOAD"=" Upload";
+"REMIND" = "Tips";
+"REMIND_WORDS" = "Sure to empty selected records?";
+"REMIND_DEL_FILE" = "Sure to delete the file?";
+"REMIND_QUIT_REMOTE_FILE_TITLE" = "Quit Remote File";
+"REMIND_QUIT_REMOTE_FILE_MESSAGE" = "Quit remote file，click OK to confirm";
+"REMIND_FILE_NO"="Files not exist";
+"REMIND_NO_PERMISSION_ALBUM"="You do not have permission to access the album";
+"REMIND_LIST_NO_DATA"="You have not download records";
+"REMIND_UPLOADED_FILE_ALBUM"="Already uploaded file open photo album, please preview";
+"REMOTEFILE_REMIND_UPLOAD_TMP_NULL"="No temporary files found, please upload again";
+"REMOTEFILE_REMIND_ADD_FILE_UPDATA_HANDLE_FAIL"="File processing failed";
+"REMOTEFILE_REMIND_ADD_TRANSMISSION_QUEUE"="Files have been added to transfer list";
+
+"REMOTEFILE_REMIND_DOWNLOAD_FILE"="You can go into \"Profile-My Downloads\" and see the downloaded files for yourself.";
+"REMOTEFILE_REMIND_I_SEE"="I see";
+"REMOTEFILE_REMIND_NO_FREE_SPACE_TITLE"="Out of storage";
+"REMOTEFILE_REMIND_NO_FREE_SPACE_MESSAGE"="Out of storage, download aborted";
+"REMOTEFILE_REMIND_FILE_EXISTS"="File exists";
+"FILE_EXISTS"="Exists";
+"REMOTEFILE_REMIND_FILE_EXISTS_SKIP"="Skip";
+"REMOTEFILE_REMIND_FILE_EXISTS_COVER"="Overwrite";
+"REMOTEFILE_HANDLE_UPLOADFILE" = "Processing, please wait";
+
+"MY_DownLOAD_SURE_DELETE_SELECTED_FILE"="Are you sure to delete selected files?";
+
+"MY_DOWNLOAD_OTHER_FILE_OTHER_DESCRIPTION"="This file does not support the local view";
+"MY_DOWNLOAD_OTHER_FILE_OPEN_FILE"="Open by another app";
+
+"MY_DOWNLOAD_DELETE_FILE_SUCCESS"="Delete successful";
+"MY_DOWNLOAD_DELETE_FILE_FAIL"="Delete failed";
+"MY_DOWNLOAD_SAVE"="  Save to photos library";
+"MY_DOWNLOAD_SHARE"="  Share";
+"MY_DOWNLOAD_DELETE"="  Delete";
+"MY_DOWNLOAD_SAVE_SUCCESS"="Save Failed";
+"MY_DOWNLOAD_SAVE_FAIL"="Save Failed";
+
+
+/*add*/
+/* HostWelcomeViewController */
+"CNTS_LOGIN_REMOTE_FILE" = "Connecting remote file";
+"REMIND_QUITE_REMOTE_FILE" = "File transfering\n Are you sure to abort and exit?";
+/*RemotefilesIndexViewController*/
+"UPLOAD_PATH_REMIND" = "Files will be stored\ninto current path";
+"NEW_FOLDER" = "New folder";
+"VIDEO" = "Video";
+"MUSIC" = "Music";
+"PHOTO" = "Photo";
+"GO_MY_DOWNLOAD"="My Download";
+"CHOOSE_UPLOAD_TYPE" = "Select type of files";
+"CHOOSE_PATH_REMIND" = "Select a path";
+"SORT_BY_NAME" = "Sort by name";
+"SORT_BY_TIME" = "Sort by time";
+"EXIT" = "Exit";
+"DELETE_REMOTE_FILE" = "Are you sure to delete remote files?";
+"REMOTE_FILE_DISCONNECTED" = "Connect failed";
+"REMOTE_FILE_DISCONNECTED_REMAIND" = "Network timeout or remote host is offline, please exit and try again";
+"REMOTE_FILE_WIFI_REMAIND" = "Current setting is enabled(transfer files only with WIFI), files transfer through 2G/3G/4G is disabled, do you want change?";
+"ONLY_WIFI" = "Only WiFi";
+"ALLOW_ALL_NET" = "Allow all network";
+"LOAD_FAILED" = "Load failed, please try again";
+"CREATA_FOLDER_FAILED" = "Create folder failed!";
+"DElETE_FILE_FAILED" = "Delete File Failed!";
+"ADD_UPLOAD_REMIND" = "Added to upload list";
+"NULL_VIEW_REMIND" = "You haven't transferred records yet";
+
+/*FilesloadedListViewController*/
+"RESUME_ALL" = "Start all";
+"DELETE" = "Delete";
+"COMPILING" = "Compressing";
+"CANCELE_ALL" = "Cancel all";
+"LOADING" = "Loading";
+"LIST_NONE" = "No item";
+
+/*HostPluginsViewController*/
+"REMIND_NETWORK_STATE" = "Wifi is not connected, this will consume your cellular data, connect anyway?";
+"HOSTPLUGINS_KVM_WIRELESS_TIP" = "A WiFi adapter is detected on you KK device\nSetup it now？";
+"HOSTPLUGINS_KVM_WIRELESS_LATER" = "NO";
+"HOSTPLUGINS_KVM_WIRELESS_NOW" = "YES";
+"KVM_UPDATE_TITLE" = "Firmware update";
+
+/*ServiceLevelViewController*/
+"UPGRADE_NOW" = "Upgrade";
+"AMOUNT" = "Amount";
+"USED" = "Used";
+"SERVICE_EXPIRED_DATE" = "Expiration date";
+"SERVICE_UPGRADE_RENEWALS" = "Renewals";
+"SERVICE_UPGRADE_RENEWALS_MESSAGE" = "iOS client does support upgrade/renew, please goto our website to continue.";
+"SERVICE_UPGRADE_RENEWALS_URL" = "http://url.oray.com/cqGrIb";
+"SERVICE_LEVEL_PRO_TO_BIZ" = "Upgrade";
+"SERVICE_EXPIRED_NOTIFY_1" = "Your service will expire at ";
+"SERVICE_EXPIRED_NOTIFY_2" = ", please renew in time.";
+
+/*ServicePurchaseDescViewController*/
+"SERVICES_PURCHASED" = "Buy service";
+"BUY_PROFRESSIONAL" = "Buy Sunlogin Pro.";
+"SERVERS_NORMAL" = "Standard";
+"SERVERS_PROFESSION" = "Professional";
+"SERVICE_FREE" = "Free";
+"SERVICE_PRICE_PREFIX" = "￥";
+"SERVICE_PRICE_CNY" = "/host/year";
+"SERVICE_PRICE_ELSE" = "/year";
+"SERVICE_PRICE_NUMB_PROFESSIONAL" = "8.99";
+"SERVICE_PRICE_NUMB_BUSINESS" = "14.99";
+"SERVICE" = "Service";
+"PRICE" = "Price";
+"STABILITY" = "Stability";
+"SERVERS" = "Servers";
+"ROMOTE_DESKTOP" = "Romote Desktop";
+"ROMOTE_CAMERA" = "Romote Camera";
+"ROMOTE_FILE" = "Romote File";
+"ROMOTE_MANAGE" = "Remotely Management";
+"ONE_DAY_TRIAL" = "One-day trial";
+"PC_SIDE_FUNCTIONALITY" = "(Functions of PC Remote)";
+"ACTIVATION_FAILED" = "Activate Failed";
+"ACTIVATION_FAILED_MSG" = "24 hours free trial is expired, you need to buy our Pro service to continue";
+"BUSINESS_LEVEL_DESCRIPTION" = "For business and professional use";
+"PROFESSIONAL_LEVEL_DESCRIPTION" = "For personal use";
+"SERVICE_LEVEL_FUNCTION_TITLE_1" = "Overall performance:";
+"SERVICE_LEVEL_FUNCTION_DESCRIPTION_1_BUSINESS" = "Boost 50% up over Free Sunlogin";
+"SERVICE_LEVEL_FUNCTION_DESCRIPTION_1_PROFESSIONAL" = "Boost 20% up over Free Sunlogin";
+"SERVICE_LEVEL_FUNCTION_TITLE_2" = "Features:";
+"SERVICE_LEVEL_FUNCTION_DESCRIPTION_2_BUSINESS" = "Remote desktop/Remote Camera/Remote power on(with wakeup stick)\nRemote file/CMD/Remote management*/User defined installer*";
+"SERVICE_LEVEL_FUNCTION_DESCRIPTION_2_PROFESSIONAL" = "Remote desktop/Remote Camera/Remote file/CMD";
+"SERVICE_PURCHASE_BOTTOM_DESCRIPTION" = "Features with (*) is only available in our PC remote client.";
+
+/*PurchaseWebViewController*/
+"WEB_PURCHASE_PAY_WECHAT" = "WePay";
+"WEB_PURCHASE_PAY_ALIPAY" = "Alipay";
+"WEB_PURCHASE_PAY_READY_PURCHASE" = "Purchasing...";
+"WEB_PURCHASE_PAY_PURCHASE_SUCCEED" = "Purchase succeed!";
+"WEB_PURCHASE_PAY_PURCHASE_COMPLETE" = "Purchased";
+"WEB_PURCHASE_PAY_CANCEL" = "Purchase cancelled!";
+"WEB_PURCHASE_PAY_GET_ORDER_INFO_FAIL" = "Failure to obtain payment information";
+"WEB_PURCHASE_PAY_WECHAT_NOT_INSTALLED" = "WeChat is not installed";
+
+/*ConfirmPaymentViewController*/
+"CONFIRM_PAYMENT" = "Confirm the payment";
+"PAYMENT_NOW" = "Pay now";
+"TOTAL_PRICE" = "Total:";
+"PRICE_UNIT" = "dollar";
+"PURCHASE_NUMBER_DESCRIPTION" = "No less than current host numbers:";
+"PURCHASE_LEVEL_DESCRIPTION" = "You are using paid services,visit sunlogin.oray.com/console/service/ to upgrade";
+"YEAR" = "year";
+"PLEASE_SELECT_NUMBER_OF_YEARS" = "Select number of years";
+"PLEAES_SELECT_NUMBER_OF_HOSTS" = "Select number of hosts";
+"LOAD_WEB_FAILED" = "Load failed";
+"PURCHASEING" = "Paying...";
+"PURCHASE_FAILED" = "Pay dailed";
+"VERIFICATION_IS_SUCCESSFUL" = "Verify successful";
+"VERIFICATION_FAILS" = "Verify failed";
+"VERIFICATION_BREAK" = "Connection is interupted! reconnecting...";
+"PURCHASE_NUMBER_OVER_MAXIMUM_MESSAGE_1" = "maximium of 10 hosts is supported by iOS";
+"PURCHASE_NUMBER_OVER_MAXIMUM_MESSAGE_2" = "for more discounts";
+"PURCHASE_NUMBER_OVER_MAXIMUM_MESSAGE_URL_KEYWORD" = "click here";
+"PURCHASE_NUMBER_OVER_MAXIMUM_MESSAGE_URL" = "http://url.oray.com/cqGrIb";
+"CONNECTION_APPLE_SERVICE_FAILED" = "Connect Apple server failed";
+"CONFIRM_PAYMENT_PRODUCT_DESC_ONE_YEAR_PREFIX"   = "One-year  ";
+"CONFIRM_PAYMENT_PRODUCT_DESC_TWO_YEAR_PREFIX"   = "Two-year  ";
+"CONFIRM_PAYMENT_PRODUCT_DESC_THREE_YEAR_PREFIX" = "Three-year";
+"CONFIRM_PAYMENT_PRODUCT_DESC_FIVE_YEAR_PREFIX"  = "Five-year ";
+"CONFIRM_PAYMENT_PRODUCT_DESC_ONE_YEAR_POSTFIX"   = "";
+"CONFIRM_PAYMENT_PRODUCT_DESC_TWO_YEAR_POSTFIX"   = " (10%off)";
+"CONFIRM_PAYMENT_PRODUCT_DESC_THREE_YEAR_POSTFIX" = " (20%off)";
+"CONFIRM_PAYMENT_PRODUCT_DESC_FIVE_YEAR_POSTFIX"  = " (30%off)";
+
+/*AlipayConfirmPaymentViewController*/
+"CURRENT" = "Current:";
+"HOSTS_AMOUNT_PREFIX" = "";
+"HOSTS_AMOUNT_SUFFIX" = "hosts";
+"DUE_DATE" = "";
+"ALIPAY_PRODUCT_DESC_BUSINESS" = "Sunlogin Biz.";
+"ALIPAY_PRODUCT_DESC_PROFESSIONAL" = "Sunlogin Pro.";
+"ALIPAY_PRICE_PREFIX" = "￥";
+"ALIPAY_YUAN_HOST_YEAR" = "/host/year";
+"ALIPAY_YEAR" = "Years";
+"ALIPAY_HOSTS" = "Host amount";
+"ALIPAY_TOTAL_PRICE" = "Total";
+"ALIPAY_APP_TITLE" = "Alipay App";
+"ALIPAY_APP_DESC" = "For users with Alipay installed";
+"ALIPAY_WEB_TITLE" = "Alipay web page";
+"ALIPAY_WEB_DESC" = "Any user with Alipay account";
+"ALIPAY_PAYMENT_NOW" = "Pay Now";
+"ALIPAY_PRICE_UNIT" = "";
+"ALIPAY_PURCHASEING" = "Paying...";
+"ALIPAY_PAYMENT_FAILED" = "Pay failed";
+"ALIPAY_PAYMENT_NETWORK_CONNECTION_FAILED" = "Network connection failed";
+"ALIPAY_PAYMENT_EXPIRE_DATE_BECOMES" = "Expiry date is extended to ";
+"ALIPAY_PAYMENT_HOST_NUMB_BECOMES" = "Increase host quota to ";
+"ALIPAY_PAYMENT_PURCHASE_NUMBER_DESCRIPTION" = "Must greater than existing host quota.";
+
+
+/*CameraTrialViewController*/
+"CAMERA_TRIAL_TITLE" = "Activate Remote Camera";
+"CAMERA_TRIAL_LABEL" = "Click AD or buy.";
+"TAP_AD" = "Activate camera by clicking % times Ads";
+"ACTIVATE_SUCCEED" = "Activate successful";
+"ACTIVATE_SUCCEED_REMIND" = "Activate successful,current host can use remote camera for 7 days. It can be re-activated if expired.";
+"BUY_BUTTON" = "Buy";
+"ACTIVATE_BUTTON" = "Click AD";
+"ACTIVATE_BUTTON_LOADING" = "Loading ads";
+"IMMEDIATE_EXPERIENCE" = "Experience now";
+
+/*AccountLogonViewController login logon*/
+"ACCOUNT_LOGON_TITLE" = "Login";
+"ACCOUNT_LOGON_LODING" = "Loading...";
+"ACCOUNT_LOGON_REGISTER" = "Sign up";
+"SWITCH_TOUCH_ID_LOGIN" = "Switch Touch ID Login";
+"SWITCH_FACE_ID_LOGIN" = "Switch Face ID Login";
+"SWITCH_ACCOUNT_LOGIN" = "Switch Account Login";
+"USE_TOUCH_ID_LOGIN" = "Use Touch ID";
+"USE_FACE_ID_LOGIN" = "Use Face ID";
+"ACCOUNT_IS" = "Account:";
+"USE_TOUCH_ID_LOGIN_DESC" = "Use Touch ID login";
+"USE_TOUCH_ID_AUTH_DESC" = "Use Touch ID login";
+"USE_FACE_ID_AUTH_DESC" = "Use Face ID login";
+
+/*AccountManageViewController*/
+"ADD_ACCOUNT" = "Add";
+"LOGOUT_CURRENT_ACCOUNT" = "Logout current account";
+"DELETE_ACCOUNT_MESSAGE" = "Left slide to remove an account ";
+"CLOSE_ACCOUNT_BUTTON" = "logout account";
+
+/*AccountAddViewController*/
+"ACCOUNT_ADD_ACCOUNT" = "Account";
+"ACCOUNT_ADD_PASSWORD" = "Password";
+"REGISTER_NEW_ACCOUNT" = "Register a new account";
+"ACCOUNT_ADD_VC_ADD" = "Add";
+"ACCOUNT_ADD_VC_ADDING" = "Adding...";
+
+/*PushNotificationManager*/
+"PUSH_NOTIFICATION_MANAGER_FIRST_SETTING_MESSAGE" = "Turn on the host online/offline notification, real-time understanding host dynamic";
+"PUSH_NOTIFICATION_MANAGER_TURN_ON_NOW" = "turn on";
+"PUSH_NOTIFICATION_MANAGER_FIRST_SETTING_SUCCEED_MESSAGE" = "Turned on success, for close go to [more] in change settings.";
+"PUSH_NOTIFICATION_MANAGER_LOCAL_NOTIFICATION_TITLE_1" = "Receive bth online & offline real-time status of all hosts through message.";
+"PUSH_NOTIFICATION_MANAGER_LOCAL_NOTIFICATION_TITLE_2" = "Weekly & monthly report of remote access record will be delivered to you through email.";
+"PUSH_NOTIFICATION_MANAGER_LOCAL_NOTIFICATION_TITLE_3" = "Access and manage desktop in the office anywhere. ";
+"PUSH_NOTIFICATION_MANAGER_LOCAL_NOTIFICATION_TITLE_4" = "Real-tme CCTV covering every inch you care.";
+"PUSH_NOTIFICATION_MANAGER_LOCAL_NOTIFICATION_TITLE_5" = "Transferring files in between home and office, and kiss goodbye to ‘Package Lost’.";
+"PUSH_NOTIFICATION_MANAGER_LOCAL_NOTIFICATION_TITLE_6" = "Turn mobile device into remote control in a glimpse and turn off your computer anywhere.";
+
+"PUSH_NOTIFICATION_READY_SCREEN_RECORDING" = "Screen recording is ready. Open the Sunlogin app to continue.";
+
+/*CMDViewController*/
+"CMD_CONNECTING" = "Connecting...";
+"CMD_CONNECT_SUCCEED" = "Ready to display CMD";
+"CMD_HAS_BEEN_DISCONNECT" = "CMD has been disconnect";
+"CMD_QUIT_MESSAGE" = "Exiting from CMD, click OK to confirm";
+"CMD_FREQUENTLY_COMMAND" = "frequently";
+"CMD_HISTORY_COMMAND" = "History";
+"CMD_COMMON_COMMAND" = "Common";
+"CMD_STOP_COMMAND" = "Stop";
+"CMD_HISTORY_EMPTY_PLACEHOLDER" = "Used commands will display here";
+"CMD_COMMANDS" = "Commands";
+"CMD_CUSTOMADD" = "Add";
+"CMD_CONFIRM" = "Confirm";
+
+/*SSHViewController*/
+"SSH_CONNECTING" = "Connecting...";
+"SSH_CONNECT_SUCCEED" = "Ready to show SSH";
+"SSH_HAS_BEEN_DISCONNECT" = "SSH disconnected";
+"SSH_QUIT_MESSAGE" = "Exiting from SSH, click OK to confirm";
+"SSH_FREQUENTLY_COMMAND" = "frequently";
+"SSH_HISTORY_COMMAND" = "History";
+"SSH_STOP_COMMAND" = "Stop";
+"SSH_HISTORY_EMPTY_PLACEHOLDER" = "Commands history";
+"SSH_CONNECTE_FAILED_POSSIBLE_REASON" = "SSH connect failed, SSHd is missing from client side?";
+
+/*remote desktop*/
+/*RemoteDesktopInputView*/
+"REMOTEDESKTOPINPUTVIEW_CUSTOM" = "Def";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_UNDEFINED" = "Undefined";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_DEFAULT" = "Default";
+"RD_INPUT_BACK_DEFAULT_LANDSCAPE" = "Default";
+"RD_INPUT_BACK_DEFAULT_PORTRAIT" = "Def";
+"REMOTE_DESKTOP_INPUT_VIEW_COMBO_COMMANDS" = "Combo";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_EDIT" = "Edit";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_SELECTED_NOTICE" = "Click to select key to be displayed";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_COMBINATION" = "User defined key combinations";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_FINISH" = "Done";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_SELECTED_BUTTON" = "Undefined";
+"REMOTEDESKTOPINPUTVIEW_CUSTOM_ONLY_THREE_COMMANDS" = "maximum 3 keys";
+"RDIV_CLEAN_COMMAND_REMIND" = "Clear custom keys?";
+"REMOTE_DESKTOP_FINISH" = "Finish";
+"REMOTE_DESKTOP_FINISH_HORIZON" = "F\ni\nn\ni\ns\nh";
+//"REMOTE_DESKTOP_GAME_CUSTOM_KEYBOARD_EDIT" = "Edit";
+//"REMOTE_DESKTOP_GAME_CUSTOM_KEYBOARD_BACK" = "Back";
+//"REMOTE_DESKTOP_GAME_CUSTOM_KEYBOARD_PICK_UP" = "Quit";
+/*RemoteDesktopMenuButton*/
+"REMOTE_DESKTOP_MENU_QUIT" = "Quit";
+"REMOTE_DESKTOP_MENU_KEYBOARD" = "Keyboard";
+"REMOTE_DESKTOP_MENU_CUSTOMKEYBOARD" = "Custom";
+"REMOTE_DESKTOP_MENU_TOUCH_MODE" = "Touch";
+"REMOTE_DESKTOP_MENU_CURSOR_MODE" = "Corsor";
+"REMOTE_DESKTOP_MENU_SOUND_ON" = "Sound on";
+"REMOTE_DESKTOP_MENU_SOUND_OFF" = "Sound off";
+"REMOTE_DESKTOP_MENU_CHANGE_SCREEN" = "Screen";
+"REMOTE_DESKTOP_MENU_BLACK_SCREEN_ON" = "Black on";
+"REMOTE_DESKTOP_MENU_BLACK_SCREEN_OFF" = "Black off";
+"REMOTE_DESKTOP_MENU_LIST_BLACK_SCREEN_ON" = "Black on";
+"REMOTE_DESKTOP_MENU_LIST_BLACK_SCREEN_OFF" = "Black off";
+"REMOTE_DESKTOP_MENU_ResolutionSD" = "SD";
+"REMOTE_DESKTOP_MENU_ResolutionHD" = "HD";
+"REMOTE_DESKTOP_MENU_ResolutionSHD" = "SHD";
+"REMOTE_DESKTOP_MENU_MORE" = "More";
+"REMOTE_DESKTOP_MENU_VIDEO_ON" = "Record";
+"REMOTE_DESKTOP_MENU_VIDEO_OFF" = "Stop";
+
+"REMOTE_DESKTOP_MENU_CHANGE_USER" = "Switch session";
+"REMOTE_DESKTOP_MENU_ROTATE_SCREEN_LOCK" = "Lock screen";
+"REMOTE_DESKTOP_MENU_ROTATE_SCREEN_LOCK_TOOLBAR" = "Lock orientation";
+"REMOTE_DESKTOP_MENU_ROTATE_SCREEN_UNLOCK" = "Unlock orientation";
+"REMOTE_DESKTOP_MENU_ROTATE_SCREEN_UNLOCK_TOOLBAR" = "Unlock screen";
+"REMOTE_DESKTOP_MENU_CURSOR_HIDE_FULL" = "Hide virtual mouse";
+"REMOTE_DESKTOP_MENU_CURSOR_SHOW_FULL" = "Show virtual mouse";
+"REMOTE_DESKTOP_MENU_CURSOR_HIDE" = "Hide";
+"REMOTE_DESKTOP_MENU_CURSOR_SHOW" = "Show";
+"REMOTE_DESKTOP_MENU_CTRL_ALT_DELETE" = "Ctrl+Alt+Del";
+"REMOTE_DESKTOP_MENU_DESKTOP_DISPLAY" = "Show desktop";
+"REMOTE_DESKTOP_MENU_DESKTOP_LOCK" = "Lock workstation";
+"REMOTE_DESKTOP_MENU_RESTART" = "Restart computer";
+"REMOTE_DESKTOP_MENU_RESTART_SHORT" = "Restart";
+"REMOTE_DESKTOP_MENU_SHUTDOWN" = "Shutdown computer";
+"REMOTE_DESKTOP_MENU_SHUTDOWN_SHORT" = "Shutdown";
+"REMOTE_DESKTOP_MENU_GESTURE_GUIDE" = "Guide";
+"REMOTE_DESKTOP_MENU_VIP_SPEED_UP" = "VIP speed up";
+"REMOTE_DESKTOP_MENU_VIP_SPEED_UP_ACCELERATING" = "is VIP accelerating";
+"REMOTE_DESKTOP_MENU_VIP_SPEED_UP_SHORT" = "SpeedUp";
+"REMOTE_DESKTOP_MENU_VIP_SPEED_UP_ACCELERATING_SHORT" = "Speed..";
+"REMOTE_DESKTOP_MENU_KVM_DISPLAY_CONFIG" = "Align";
+"REMOTE_DESKTOP_MENU_KVM_DISPLAY_COLOR" = "Color";
+"REMOTE_DESKTOP_MENU_SCREEN_ROTATE" = "Rotate";
+
+"REMOTE_DESKTOP_MENU_ANDROID_HOME" = "Home";
+"REMOTE_DESKTOP_MENU_ANDROID_BACK" = "Back";
+"REMOTE_DESKTOP_MENU_ANDROID_MENU" = "Menu";
+"REMOTE_DESKTOP_MENU_ANDROID_DROP_DOWN" = "Down";
+"REMOTE_DESKTOP_MENU_ANDROID_PULL_UP" = "Up";
+"REMOTE_DESKTOP_MENU_ANDROID_VOICE_UP" = "Voice+";
+"REMOTE_DESKTOP_MENU_ANDROID_VOICE_DOWN" = "Voice-";
+"REMOTE_DESKTOP_MENU_ANDROID_SCREEN_LOCK" = "Lock";
+"REMOTE_DESKTOP_MENU_ANDROID_LANDSCAPE" = "Landscape";
+"REMOTE_DESKTOP_MENU_ANDROID_VERTICAL" = "Vertical";
+"REMOTE_DESKTOP_MENU_ANDROID_LOCAL_KEYBOARD" = "Keyboard";
+
+"REMOTE_DESKTOP_MENU_GAME_TITLE" = "Game Keyboard";
+"REMOTE_DESKTOP_MENU_GAME_KB_LOL" = "LOL KeyBoard";
+"REMOTE_DESKTOP_MENU_GAME_KB_FPS" = "FPS KeyBoard";
+"REMOTE_DESKTOP_MENU_GAME_KB_DNF" = "DNF KeyBoard";
+"REMOTE_DESKTOP_MENU_GAME_KB_ACTION" = "Action Keyboard";
+"REMOTE_DESKTOP_MENU_GAME_KB_OW" = "OW Keyboard";
+"REMOTE_DESKTOP_MENU_GAME_KB_RACE" = "Race Keyboard";
+"REMOTE_DESKTOP_MENU_GAME_KB_ROLE_PLAY" = "Role-Playing";
+"REMOTE_DESKTOP_MENU_GAME_KB_SPORTS" = "Sports Keyboard";
+"REMOTE_DESKTOP_MENU_GAME_KB_CUSTOM_1" = "Custom KeyBoard";
+"REMOTE_DESKTOP_MENU_GAME_EDIT" = "Edit";
+"REMOTE_DESKTOP_MENU_GAME_USE" = "Use";
+"REMOTE_DESKTOP_MENU_GAME_REMIND_NEED_SELECT" = "Select a keyboard please";
+"REMOTE_DESKTOP_MENU_GAME_REMIND_HORIZON" = "Game keyboard support landscape only";
+
+"REMOTE_DESKTOP_GAME_KB_MENU_SWITCH" = "Back";
+"REMOTE_DESKTOP_GAME_KB_MENU_EDIT" = "Edit";
+"REMOTE_DESKTOP_GAME_KB_MENU_QUIT" = "Quit";
+"REMOTE_DESKTOP_GAME_KB_MENU_RESET" = "Reset";
+"REMOTE_DESKTOP_GAME_KB_MENU_FINISH" = "Finish";
+
+"REMOTE_DESKTOP_KEYBOARD_SPACE" = "Space";
+"REMOTE_DESKTOP_KEYBOARD_CURSOR_LEFT" = "Left";
+"REMOTE_DESKTOP_KEYBOARD_CURSOR_RIGHT" = "Right";
+"RDMOTE_DESKTOP_KEYBOARD_CURSOR_MID" = "Mid";
+
+"REMOTE_DESKTOP_KEYBOARD_ORIENT_SXZY" = "UDLR";
+"REMOTE_DESKTOP_KEYBOARD_ORIENT_WASD" = "WASD";
+
+"REMOTE_DESKTOP_REMIND_SOUND_ON" = "Sound on";
+"REMOTE_DESKTOP_REMIND_SOUND_OFF" = "Sound off";
+"REMOTE_DESKTOP_REMIND_CHANGE_SCREEN" = "Switch screen";
+"REMOTE_DESKTOP_REMIND_BLACK_SCREEN_ON" = "BlackScreen on";
+"REMOTE_DESKTOP_REMIND_BLACK_SCREEN_OFF" = "BlackScreen off";
+"REMOTE_DESKTOP_REMIND_UNSUPPORT_BLACK_SCREEN" = "BlackScreen failed";
+"REMOTE_DESKTOP_REMIND_ROTATE_SCREEN_LOCK" = "Screen rotate off";
+"REMOTE_DESKTOP_REMIND_ROTATE_SCREEN_UNLOCK" = "Screen rotate on";
+"REMOTE_DESKTOP_REMIND_CURSOR_HIDE" = "Hide virtual mouse";
+"REMOTE_DESKTOP_REMIND_CURSOR_SHOW" = "Show virtual mouse";
+
+"REMOTE_DESKTOP_REMIND_SOUND_CONNECTING" = "Connecting sound...";
+"REMOTE_DESKTOP_REMIND_ERROR_SOUND_UNABLE_CONNECT" = "Unable to connect sound";
+"REMOTE_DESKTOP_REMIND_ERROR_SOUND_DISCONNECT" = "Sound connect failed";
+"REMOTE_DESKTOP_REMIND_ERROR_SOUND_ON_FAILED" = "Sound on failed";
+"REMOTE_DESKTOP_REMIND_ERROR_SOUND_OFF_FAILED" = "Sound off failed";
+
+"REMOTE_DESKTOP_SPEED_UP_REMIND" = "Current relay speed is slow";
+"REMOTE_DESKTOP_SPEED_UP" = "Speed up";
+"REMOTE_DESKTOP_SPEED_UP_ALERT_REMIND_1_1" = "Current relay speed is slow\nUsing a speed-up package may increase your experience\n(you have";
+"REMOTE_DESKTOP_SPEED_UP_ALERT_REMIND_1_2" = " times left)";
+"REMOTE_DESKTOP_SPEED_UP_ALERT_REMIND_2" = "No speed-up package now\nit is available free in <Special offers>\nAfter you get it will be able to use it next time";
+"REMOTE_DESKTOP_SPEED_UP_USE_RIGHT_NOW" = "Apply now";
+"REMOTE_DESKTOP_SPEED_UP_NOT_USE" = "Ignore";
+"REMOTE_DESKTOP_SPEED_UP_GET" = "Get a free one";
+"REMOTE_DESKTOP_SPEED_UP_ALERT_REMIND_2_1" = "Got one speed-up package\nCheck it in Profile->Offers";
+"REMOTE_DESKTOP_SPEED_UP_CONNECTING_REMIND_1" = "Allocating ";
+"REMOTE_DESKTOP_SPEED_UP_CONNECTING_REMIND_2" = "idle server";
+"REMOTE_DESKTOP_SPEED_UP_CONNECTING_REMIND_3" = ", Please wait";
+"REMOTE_DESKTOP_SPEED_UP_CONNECT_SUCCEED_REMIND_1" = "Speed-up done, valid for ";
+"REMOTE_DESKTOP_SPEED_UP_CONNECT_SUCCEED_REMIND_2" = "hours";
+"REMOTE_DESKTOP_SPEED_UP_CONNECT_FAILED_REMIND" = "Speed-up failed, try again later";
+"REMOTE_DESKTOP_SPEED_UP_REMAIN_TIME" = "Speeding-up, time left ";
+//BGP加速
+"REMOTE_DESKTOP_REMIND_BGP_SPEED_UP_RECONNECTING" = "Switching to BGP server...";
+"REMOTE_DESKTOP_REMIND_BGP_SPEED_UP_SUCCEED" = "Switch success";
+"REMOTE_DESKTOP_REMIND_BGP_SPEED_UP_YET" = "Already connect VIP server";
+//kvm
+"REMOTE_DESKTOP_KVM_DIAPLAY_CONFIG_RED" = "Red";
+"REMOTE_DESKTOP_KVM_DIAPLAY_CONFIG_GREEN" = "Green";
+"REMOTE_DESKTOP_KVM_DIAPLAY_CONFIG_BLUE" = "Blue";
+"REMOTE_DESKTOP_KVM_DIAPLAY_CONFIG_OFFSET" = "Offset";
+"REMOTE_DESKTOP_KVM_DIAPLAY_CONFIG_OFFSET_AUTO" = "Auto";
+"REMOTE_DESKTOP_KVM_DIAPLAY_CONFIG_COLOR" = "Color";
+"REMOTE_DESKTOP_KVM_DIAPLAY_CONFIG_COLOR_RESET" = "Reset";
+"REMOTE_DESKTOP_KVM_ERROR_MESSAGE_QUERY_FAILED" = "loading KK info, please wait";
+"REMOTE_DESKTOP_KVM_USB_UNABLE" = "USB input unable";
+"REMOTE_DESKTOP_KVM_VGA_UNABLE" = "VGA signal not found";
+"REMOTE_DESKTOP_KVM_HDMI_UNABLE" = "HDMI signal not found";
+//GT Mouse
+"REMOTE_DESKTOP_GT_MOUSE_CONNECT" = "GT Mouse connected";
+"REMOTE_DESKTOP_FD_GAMEPOD_CONNECT" = "FeiZhiQ1 connected";
+"REMOTE_DESKTOP_GT_MOUSE_DISCONNECT_REMIND" = "The Swiftpoint GT bluetooth mouse has disconnected"; //\nplease go to the Settings to confirm
+"REMOTE_DESKTOP_FD_GAMEPOD_DISCONNECT_REMIND" = "The FeiZhiQ1 has disconnected";
+"REMOTE_DESKTOP_GT_MOUSE_SWITCH_MODE" = "Connect to bluetooth GT mouse, please switch to cursor mode.";
+"REMOTE_DESKTOP_FD_GAMEPAD_MOUSE_SWITCH_MODE" = "Connect to bluetooth Game pad, please switch to cursor mode if you want to use mouse";
+"RD_GTMOUSE_GUIDE_MESSAGE_1_1" = "";
+"RD_GTMOUSE_GUIDE_MESSAGE_1_2" = "";
+"RD_GTMOUSE_GUIDE_MESSAGE_1_3" = "Bring physical pointer into your remote desktop";
+"RD_GTMOUSE_GUIDE_MESSAGE_2" = "Goto [Profile] to enable";
+
+/*RemoteDesktopShortCutMenuDataModel*/
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_C" = "COPY";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_V" = "PASTE";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__DELETE" = "DELETE";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_X" = "CUT";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_A" = "SELECT ALL";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_Z" = "UNDO";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__WIN_D" = "CTRL+D";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__WIN_TAB" = "ALT+TAB";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__ALT_F4" = "CLOSE WINDOW";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__WIN" = "START";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__WIN_R" = "RUN";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__WIN_L" = "LOCK";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__WIN_E" = "EXPLORER";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_SHIFT_ESC" = "TASKS";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_ALT_DELETE" = "Ctrl+Alt+Del";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__CTRL_S" = "SAVE";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__ALT_PRTSCR" = "SCREEN SHOT";
+"REMOTE_DESKTOP_SHORT_CUT_MENU_TYPE__WIN_Q" = "SEARCH";
+"RD_COMBO_KEYBOARD__CTRL_C" = "Ctrl+C\nCOPY";
+"RD_COMBO_KEYBOARD__CTRL_V" = "Ctrl+V\nPASTE";
+"RD_COMBO_KEYBOARD__CTRL_X" = "Ctrl+X\nCUT";
+"RD_COMBO_KEYBOARD__CTRL_A" = "Ctrl+A\nSELECT ALL";
+"RD_COMBO_KEYBOARD__CTRL_Z" = "Ctrl+Z\nUNDO";
+"RD_COMBO_KEYBOARD__CTRL_S" = "Ctrl+S\nSAVE";
+"RD_COMBO_KEYBOARD__WIN_D" = "Win+D";
+"RD_COMBO_KEYBOARD__WIN_TAB" = "Win+Tab";
+"RD_COMBO_KEYBOARD__ALT_F4" = "Alt+F4\nCLOSE WINDOW";
+"RD_COMBO_KEYBOARD__WIN_R" = "Win+R\nRUN";
+"RD_COMBO_KEYBOARD__WIN_L" = "Win+L";
+"RD_COMBO_KEYBOARD__WIN_E" = "Win+E\nEXPLORER";
+"RD_COMBO_KEYBOARD__CTRL_SHIFT_ESC" = "Ctrl+Shift+Esc\nTASKS";
+"RD_COMBO_KEYBOARD__CTRL_ALT_DEL" = "Ctrl+Alt+Del";
+"RD_COMBO_KEYBOARD__ALT_PRTSCR" = "Alt+PrtScr\nSCREEN SHOT";
+"RD_COMBO_KEYBOARD__WIN_Q" = "Win+Q\nSEARCH";
+
+/*RemoteDesktopMouseGuideViewController*/
+"REMOTE_DESKTOP_MOUSE_GUIDE_TITLE" = "Virtual Mouse";
+
+/*RemoteDesktopGesutreGuideViewController*/
+"REMOTE_DESKTOP_GESTURE_GUIDE_TITLE" = "Touch Gesture";
+
+/*FastCodeLoginViewController*/
+"FAST_CODE_LOGIN_PASSWORD_PLACEHOLD" = "verification Code";
+
+/*RemoteCameraViewController*/
+"REMOTE_CAMERA_SWITCH" = "Switch camera";
+"REMOTE_CAMERA_ROTATE" = "Flip";
+"REMOTE_CAMERA_CONTRAST" = "Contrast:";
+"REMOTE_CAMERA_BRIGHTNESS" = "Brightness:";
+"REMOTE_CAMERA_BACKSETTINGS" = "Reset";
+"REMOTE_CAMERA_SAVE_IMAGE_IN_PHOTOALBUM_SUCCESSFUL" = "Saved in photo album";
+"REMOTE_CAMERA_SAVE_IMAGE_IN_PHOTOALBUM_FAILED" = "Saved failed";
+"REMOTE_CAMERA_SWICTH_SD" = "Switched to SD";
+"REMOTE_CAMERA_SWICTH_HD" = "Switched to HD";
+"REMOTE_CAMERA_SWICTH_UHD" = "Switched to UHD";
+"REMOTE_CAMERA_VIDEO_AUTHORIZATIONSTATUSDENIED" = "Save video failed, access to your video library is rejected.";
+"REMOTE_CAMERA_PICTURE_AUTHORIZATIONSTATUSDENIED" = "Save screen shot failed, access to your photo library is rejected.";
+"REMOTE_CAMERA_PICTURE_AUTHORIZATIONSTATUSDENIED_SETTING" = "Enable in your settings";
+"REMOTE_CAMERA_VIDEO_ON_SUCCESSFUL" = "Enabled screen record";
+"REMOTE_CAMERA_VIDEO_ON_FAILED" = "Failed to enable screen record";
+"REMOTE_CAMERA_VIDEO_OFF_SUCCESSFUL" = "Screen record stopped";
+"REMOTE_CAMERA_VIDEO_OFF_FAILED" = "Failed while stopping record";
+"REMOTE_CAMERA_VIDEO_OFF_AND_SAVED" = "Screen record has been saved";
+"REMOTE_CAMERA_VIDEO_OFF_AND_SAVED_FAILED" = "Save video failed";
+"REMOTE_CAMERA_VIDEO_TWO_HOURS_TIMEUP" = "We've recorded 120 minutes, screen record has been stopped due to size limitation.";
+"REMOTE_CAMERA_VIDEO_FILESYSTEM_WARNING" = "Screen record has been stopped due to the lack of your device storage, please save it first.";
+"REMOTE_CAMERA_VIDEO_FILESYSTEM_WARNING_BEGIN_RECORD_VIDEO" = "Your device storage is not enough to start the recording.";
+/* LaunchADViewController */
+"LAUNCH_AD_NEXT_STEP_TITLE" = "Skip";
+
+/* Discover */
+"DISCOVER_LAN_ERROR" = "Discover failed";
+"DISCOVER_LAN_ERROR_NOT_WIFI" = "Please use this feature under a Wifi";
+"DISCOVER_REMOTE_ASSISTANT" = "Remote Access";
+"DISCOVER_REMOTE_ASSISTANT_DETAIL" = "With Host ID";
+"DISCOVER_LAN_NOTIFICATION_WIFI" = "Please use this feature under a Wifi";
+"DISCOVER_LANVIEWER_DETAIL" = "Discover Lan Host";
+"DISCOVER_LANVIEWER" = "LAN Discovery";
+"DISCOVER_NEW_MESSAGE" = "Special Offers";
+"DISCOVER_LAN_NOTIFICATION_WIFI_SURE" = "OK";
+"DISCOVER_LAN_VC_NOHOST" = "Nothing found.";
+"DISCOVER_LAN_VC_TIMEOUT" = "Timeout";
+"DISCOVER_LAN_VC_WIFI_SAMWLAN" = "(Please ensure the device and computers are in a same LAN.)";
+"DISCOVER_LAN_VC_LOGINTOADDHOST" = "The computer will be listed after an account is logined";
+"DISCOVER_LAN_VC_LOGINNOW" = "Login now";
+"DISCOVER_LAN_VC_CANCEL" = "Cancel";
+"DISCOVER_REMOTE_VC_INPUT_FASTCODE" = "Enter Host ID";
+"DISCOVER_REMOTE_VC_SECURITYCODE" = "Verification code(can be empty)";
+"DISCOVER_LOGIN_PASSWORDERROR_THREE" = "A maximum of wrong verification code inputs have exceeded, please try again later, or skip";
+"DISCOVER_LOGIN_PASSWORDERROR_LOGIN_ERROR_TEXT" = "A maximum of wrong verification code inputs have exceeded 3 times, please try again ";
+"DISCOVER_LOGIN_PASSWORDERROR_LOGIN_ERROR_TIME" = "minutes later, or skip";
+"DISCOVER_NO_ANSWER" = "No response";
+"DISCOVER_REJECT_REQUEST" = "Your request has been rejected.";
+"DISCOVER_PERMISSION_DENIED_REQUEST" = "Not permitted, the remote computer has remote assitance disabled";
+"DISCOVER_INPUT_FASTCODE" = "Enter a Host ID";
+"DISCOVER_REQUEST_ADD" = "Request to add";
+"DISCOVER_REQUEST_CONNECTION" = "Send a remote request directly?";
+"DISCOVER_NO_SECUERITY" = "No verification code, request a reply?";
+"DISCOVER_CANNOT_ADD" = "Unable to add due to the computer is not running a installed version";
+"DISCOVER_RUNOUTOF_HOST" = "Your quota of computers is out, continue to add?";
+"DISCOVER_RUNOUTOF_HOST_2" = "Your quota of computers runs out";
+"DISCOVER_CONTINUE_ADD" = "Add";
+"DISCOVER_ADDSUCCESS_TO_HOSTLIST" = "Has been successfully added to computer list";
+"DISCOVER_CONFIG_HOST" = "Computer setting";
+"DISCOVER_REMOTEASSISTANCE_REQUEST" = "Send request";
+"DISCOVER_CREATEHOST_SAVING" = "Saving...";
+"DISCOVER_FASTCODEADDHOST_REQUESTING" = "Requesting...";
+"DISCOVER_LAN_ADDHOST_FAILED" = "Add computer failed, please retry ";
+"DISCOVER_LAN_CANNOT_BIND" = "This computer has been bound by another account";
+"DISCOVER_CREATEHOST_SUCCESS_TIP" = "Visit d.sunlogin.com to download and install Sunlogin Client on computer and use the following Sunlogin code to login";
+"DISCOVER_SCREEN_RECORD" = "Screen Recording";
+"DISCOVER_SCREEN_RECORD_DESC" = "Share The Screen";
+"DISCOVER_TIPS_TITLE" = "Sincerely Recommends";
+"DISCOVER_EVENT_TITLE" = "Latest Events";
+
+/* screen record RecordViewController*/
+"RECORD_READY" = "Ready to screen recording";
+"RECORD_NOT_READY" = "Not ready to screen recording，please click the following operation to setting";
+"RECORD_RECORD_GUIDE_1" = "[Control Center]>> \n3D Touch[Screen Recording]";
+"RECORD_RECORD_GUIDE_2" = "Choose[Sunlogin]start record";
+"RECORD_UNFOUND_GUIDE" = "Can not find screen recording>>";
+"RECORD_DISCONNECT" = "Stop";
+"RECORD_CHOOSE_WAY_YOU_LIKE" = "Choose the way you like";
+"RECORD_SHOW_FASTCODE" = "Display Verification Code";
+"RECORD_SCAN_QR_CODE" = "Scan";
+"RECORD_SELECT_HOST" = "Select Host";
+"RECORD_HOSTLIST" = "Host List";
+"RECORD_LAN_HOST" = "Lan Host";
+"RECORD_FASTCODE_TITLE" = "Verification Code";
+"RECORD_PASSWORD_TITLE" = "visit password:";
+"RECORD_FASTCODE_DESC" = "By remote assistance, enter the verification code to view this screen";
+"RECORD_QRCODE_NEED_OPEN_RECORD" = "Please open screen recording and try again";
+"RECORD_UNSUPPORT_RECORD" = "Not support recording before iOS11";
+"RECORD_CLIENT_LOGOUT" = "Please keep the network open and try again";
+"RECORD_PREPARE_RECORDING" = "Prepare to open the screen recording...";
+"RECORD_RECORDING" = "screen recording";
+"RECORD_RECORDING_SHORT" = "screen recording";
+"RECORD_REQUEST_SENDED" = "The screen record request is sent successfully";
+"RECORD_ERROR_MESSAGE_NOT_ALLOW" = "Invites be rejected or unsupported";
+"RECORD_ERROR_MESSAGE_QR_TIMEOUT" = "QR code timeout";
+"RECORD_ERROR_MESSAGE_FAILED" = "Invite failed";
+"RECORD_WITHOUT_HOST_DESC_TITLE" = "No host available, may caused by";
+"RECORD_WITHOUT_HOST_DESC_1_HOSTLIST" = "① You have no host";
+"RECORD_WITHOUT_HOST_DESC_1_LANHOST" = "① No host in the LAN";
+"RECORD_WITHOUT_HOST_DESC_2" = "② All hosts are offline";
+"RECORD_WITHOUT_HOST_DESC_3" = "③ Client version too low, upgrade to 9.6 or above";
+"RECORD_WITHOUT_HOST_DESC_3_2" = "Download: d.sunlogin.com";
+"RECORD_WITHOUT_HOST_DESC_4" = "④ Screen mirroring option is not enabled";
+"RECORD_WITHOUT_HOST_DESC_4_2" = "[Setting]>>[Advance]>>[Screen mirroring]";
+"RECORD_CONTROL_CENTER_GUIDE_1" = "① [Settings] >> [Control Center]";
+"RECORD_CONTROL_CENTER_GUIDE_2" = "② [Customize Controls] >> Add[Screen Recording]";
+
+/* RetrievePasswordViewController */
+"RETRIEVE_PASSWORD" = "Forget password";
+"RETRIEVE_PASSWORD_ACCOUNT_NAME" = "Account name";
+"RETRIEVE_PASSWORD_INPUT_ACCOUNT_NAME" = "Enter account name";
+"RETRIEVE_PASSWORD_NOREGISTER_ACCOUNT" = "This account is not registered";
+"RETRIEVE_PASSWORD_SECURITYCODE_SEND_SUCCEED" = "Verification code has been sent";
+"RETRIEVE_PASSWORD_RESET_SUCCEED" = "Password reset succeed";
+
+/* VerificationCodeViewController */
+"VERIFICATION_CODE_MOBILE_VERIFY"   = "Phone verification";
+"VERIFICATION_CODE_EMAIL_VERIFY"    = "Email verification";
+"VERIFICATION_CODE_QUETION_VERIFY"  = "The security question";
+"VERIFICATION_CODE_PLEASE_QUETION_VERIFY" = "Please input security question";
+"VERIFICATION_CODE_SECURITY_NOT_EMPTY" = "Security question cannot be empty";
+"VERIFICATION_CODE_VERIFICATION_CODE_NOT_EMPTY" = "Verification code cannot be empty";
+"VERIFICATION_CODE_VERIFICATION_LOGIN_AGAIN" = "Operating time is too long, please login again";
+
+/* ResetPasswordViewController */
+"RESET_PASSWORD_VIEW_CONTROLLER_RESET_NEW_PASSWORD" = "Reset password";
+"RESET_PASSWORD_VIEW_CONTROLLER_VERIFICATION_CODE_NOT_EMPTY" = "The verification code can't be empty";
+"RESET_PASSWORD_VIEW_CONTROLLER_ANSWER_NOT_EMPTY" = "The answer can't be empty";
+
+/*ShareSocialPlatform*/
+"SHARE_SOCIAL_WECHAT_SESSION" = "Wechat";
+"SHARE_SOCIAL_WECHAT_TIMELINE" = "Moments";
+"SHARE_SOCIAL_WECHAT_FAVORITES" = "Favorites";
+"SHARE_SOCIAL_QQ" = "QQ";
+"SHARE_SOCIAL_Qzone" = "Qzone";
+"SHARE_SOCIAL_SINA_WEIBO" = "Sina";
+"SHARE_SOCIAL_COPY" = "Copy URL";
+
+/*WeChatPurchaseManager wechat payment purchase*/
+"WECHAT_PAYMENT_ERROR_COMMON" = "Pay Failed";
+"WECHAT_PAYMENT_ERROR_SENT_FAILED" = "Payment request send failed!";
+"WECHAT_PAYMENT_ERROR_AUTH_DENY" = "Auth denied!";
+"WECHAT_PAYMENT_ERROR_UNSUPPORT" = "WeChat does not support!";
+
+/* KVMCommon */
+"KVMINPUT_PASS_WORD_INPUT_PASSWORD" = "Please enter password";
+
+/* KVMDetailViewController */
+"KVMDETAIL_DELETE" = "Remove KK?";
+"KVMDETAIL_DELETE_SUCCESSFUL" = "KK is removed";
+"KVMDETAIL_DELETE_TIP" = "After removal KK will be remove from account";
+"KVMDETAIL_DELETE_OFFLINE" = "A reset of KK hardware is needed after removal\n Before bind to another account";
+"KVMDETAIL_FAST_CODE" = "Host ID";
+"KVMDETAIL_IP_SETTING" = "Network setting";
+"KVMDETAIL_FIRMWARE_VERSION" = "Firmware";
+"KVMDETAIL_INFO" = "KK information";
+"KVMDETAIL_RESTART" = "Reboot KK";
+"KVMDETAIL_DELETE" = "Remove KK";
+"KVMDETAIL_FIRMWARE_UPDATE" = "Upgrade";
+"KVMDETAIL_CHANGE_VISIT_CODE" = "Modify pass-code";
+"KVMDETAIL_FASTCODEVC_VERIFYCODE" = "Verification Code";
+"KVMDETAIL_FASTCODEVC_NOTICE" = "Connect KK using Host ID";
+"KVMDETAIL_FASTCODEVC_COPY" = "Copied to clipboard";
+"KVMDETAIL_FASTCODEVC_COPY_SUCCESSFUL" = "Copied";
+"KVMDETAIL_VERIFYCODEVC_NOTICE"  = "Connect KK with Host ID and access password";
+"KVMDETAIL_NETWORKTYPE_SETTING"  = "Connection Settings";
+
+"KVMDETAIL_NETWORKTYPE_SETTING_DETAIL_4G"  = "Only 4G first";
+"KVMDETAIL_NETWORKTYPE_SETTING_4G"  = "4G";
+"KVMNETWORKTYPE_SETTING_DETAIL_MESSAGE"  = "Are you sure?";
+"KVMNETWORKTYPE_SETTING_DETAIL_FAILED"  = "Switch failed";
+"KVMNETWORKTYPE_SETTING_DETAIL_SUCCEED"  = "Switch successfully";
+/* KVMNetworkTypeViewController */
+"KVMNETWORKTYPE_SETTING_DEFAULT"  = "Auto fit(Default Ether first)";
+"KVMNETWORKTYPE_SETTING_DETAIL_ETHER"  = "Ether";
+"KVMNETWORKTYPE_SETTING_DETAIL_WIFI"  = "WiFi";
+"KVMNETWORKTYPE_SETTING_DETAIL_4G"  = "4G";
+//"KVMDETAIL_INFOVC_KVM_CopyRight" = "Copyright(c) 2017 Oray. All Rights Reserved.";
+"KVMDETAIL_STATIC_IP" = "Static IP";
+"KVMDETAIL_SHARE" = "Share";
+"KVMDETAIL_INPUT_OLD_VISIT_CODE" = "Input old access password";
+"KVMDETAIL_INPUT_NEW_VISIT_CODE" = "Input new access password";
+"KVMDETAIL_VISIT_CODE_UPDATE" = "Submit";
+"KVMDETAIL_FASTCODE_VERIFY_CODE_UPDATE_SUCCEED" = "Reset pass-code succeed";
+"KVMDETAIL_FASTCODE_VERIFY_CODE_UPDATE_FAILED" = "Reset pass-code failed";
+"KVMDETAIL_VISIT_CODE_UPDATE_SUCCEED" = "Reset password succeed";
+"KVMDETAIL_VISIT_CODE_UPDATE_FAILED" = "Reset password failed";
+"KVMDETAIL_VISIT_CODE_SETTING_FAILED" = "Set password failed";
+"KVMDETAIL_VISIT_CODE_VERIFY_FAILED" = "Verify password failed";
+"KVMDETAIL_RESTART_THE_REMOTE_HOST" = "Reboot KK";
+"KVMDETAIL_RESTARTING_THE_REMOTE_HOST" = "Rebooting KK...";
+"KVMDETAIL_DELETING_THE_REMOTE_HOST" = "Removing KK...";
+"KVMDETAIL_RESTART_THE_REMOTE_HOST_SUCCESSFUL" = "Reboot KK successful";
+"KVMDETAIL_RESTART_THE_REMOTE_HOST_FAILED" = "Reboot KK failed";
+"KVMDETAIL_NOTSAME_NETWORK_WITH_PHONE" = "IP setting can only be accessed with-in same LAN, and KK is connected by cable.";
+"KVMDETAIL_NOTSAME_NETWORK_WITHOUT_ETHER" = "KK disconnected with ether，Can't set IP";
+"KVMDETAIL_DISCONNECTION" = "No network access";
+"KVMDETAIL_DELETE_SOON" = "Remove";
+"KVMDETAIL_CHANGE_VISITCODE_ERROR" = "To avoid potential safety regards, password can only be modified with-in same LAN, and KK is connected by cable.";
+"KVMDETAIL_ERROR_WIFI_MODEL" = "request network status failed";
+"KVMDETAIL_WIRED_CANNONT_SET_ETHER" = "The current is not wired Internet connection\n Can't set the IP";
+/* KVMVerifyVisitCodeViewController */
+"KVM_VERIFYVISITCODE_VISITCODE_ERROR" = "Old password is incorrect";
+
+/* KVMUpdateViewController */
+"KVM_UPDATE_REUPDATE" = "Upgrade";
+"KVM_UPDATE_FAILED" = "Firmware version upgrade failure";
+"KVM_UPDATE_FAILED_DETAIL" = "please keep network connected before trying again";
+"KVM_UPDATE_REASON" = "Possible reasons: ";
+"KVMDETAIL_UPDATEVC_FIRMWAREUPDATE" = "Firmware Update";
+"KVMDETAIL_UPDATEVC_FIRMWAREUPDATING" = "KK is upgrading, please keep device connected";
+"KVMDETAIL_UPDATEVC_UPDATECONTENT" = "Update detail";
+"KVMDETAIL_UPDATEVC_UPDATESUCCESS" = "Update successful";
+"KVMDETAIL_UPDATEVC_UPDATESUCCESS_DETAIL" = "rebooting KK about 1~2mins\nplease hold on";
+"KVMDETAIL_UPDATEVC_UPDATE_NOW" = "Upgrade";
+"KVMDETAIL_UPDATEVC_UPDATE_LATTER" = "Cancel";
+"KVMDETAIL_UPDATEVC_UPDATE_FAILED_FILE_ERROR" = "Wrong format in KK version description";
+"KVMDETAIL_UPDATEVC_UPDATE_FAILED_SN_ERROR" = "Serial number not match";
+"KVMDETAIL_UPDATEVC_UPDATE_NOT_NEED" = "Updated";
+"KVMDETAIL_UPDATEVC_UPDATE_NEWEST_VERSION" = "Latest version:";
+"KVMDETAIL_UPDATEVC_UPDATING" = "Updating";
+"KVMDETAIL_WIFI" = "Wireless Internet";
+"KVMDETAIL_WIRED" = "Wired Internet";
+"KVMDETAIL_PROXY" = "Proxy";
+"KVMDETAIL_ABOUT" = "About KK";
+"KVMDETAIL_UPDATEVC_TIP" = "make sure network smoothly try again later";
+/* KVMIPSettingViewController */
+"KVMIPSETTING_ENTER_INVALUE_IN_SCOPE" = "Please enter a value between 0 and 255";
+"KVMIPSETTING_KVM_HAS_BEEN_BINDED"    = "KK has been bound by another account";
+"KVMIPSETTING_KVM_CAN_NOT_INTENET"    = "An IP setting is needed to take KK online";
+"KVMIPSETTING_KVM_BINDING_SUCCESS"    = "Bind KK ok";
+"KVMIPSETTING_KVM_BINDING_FAILED"     = "Network connect failed, please reset IP";
+"KVMIPSETTING_KVM_SURF_SUCCEED"       = "Network connected";
+
+"KVMIPSETTING_NEXT_STEP"              = "Next...";
+"KVMIPSETTING_DHCP"                   = "DHCP";
+"KVMIPSETTING_STATIC"                 = "Static";
+"KVMIPSETTING_IP_ADDRESS"             = "IP address";
+"KVMIPSETTING_IP_SETTING"             = "IP settings";
+"KVMIPSETTING_SUBNET_MASK"            = "Subnet mask";
+"KVMIPSETTING_GATEWAY"                = "Gateway";
+"KVMIPSETTING_DNS"                    = "DNS";
+"KVMIPSETTING_NO_CHANGE"              = "The network setting is incorrect";
+"KVMIPSETTING_ORDER_SEND_SUCCESSFULLY"= "IP settings have been sent, waiting for KK to come up";
+
+/* KVMNetworkSuccessViewController */
+"KVMNETWORK_SUCCESS_AFTER_BINDED" = "Bind KK device to account";
+"KVMNETWORK_SUCCESS_SETTING_PASS_WORD" = "Set access password";
+"KVMNETWORK_SUCCESS_SETTING_PASS_WORD_HASPASSWORD" = "Through Host ID pass-code (remote control your KK device via Host ID)";
+"KVMNETWORK_SUCCESS_IMMEDIATELY_BINDING" = "Bind";
+"KVMNETWORK_SUCCESS_IS_BINDING" = "Binding...";
+"KVMNETWORK_SUCCESS_BINDING_KVM" = "Bind KK done";
+"KVMNETWORK_SUCCESS_BINDING_FAILURE" = "Binding failure";
+"KVMNETWORK_SUCCESS_HAS_BINDED" = "KK has been bound by another account";
+"KVMNETWORK_SUCCESS_PASS_WORD_NOT_NULL" = "Password cannot be empty";
+"KVMNETWORK_SUCCESS_KVM_NAME_NOT_NULL" = "KK cannot be empty";
+"KVMNETWORK_SUCCESS_MY_KVM" = "My KK";
+"KVMNETWORK_SUCCESS_TITLE" = "Add KK devices";
+"KVMNETWORK_SUCCESS_KVM_NAME_INPUT" = "Please assign a name";
+
+/* KVMAboutViewController */
+"KVMAbout_GUIDER" = "Instructions to setup KK";
+
+/* KVMInformationViewController */
+"KVMINFO_SUNLOGINCOULDKVM" = "Sunlogin KK";
+"KVMINFO_CAMPANY" = "Shanghai Best Oray Information Technology Co., Ltd.";
+"KVMINFO_MAC" = "MAC";
+"KVMINFO_SN" = "SN";
+"KVMINFO_PRODUCT" = "Product model";
+"KVMINFO_SOURCE" = "Power supply";
+
+/* KVMWirelessViewController */
+"KVMWIRELESS_SURF" = "Wireless Internet access";
+"KVMWIRELESS_NETWORK_NAME" = "Wifi name:";
+"KVMWIRELESS_TITLE" = "Wireless Internet Setting";
+"KVMWIRELESS_TIP_MESSAGE" = "WiFi setting can only be changed with-in same LAN, and KK is connected by cable.";
+/* KVMPickWifiViewController */
+"KVM_PICKWIFI_TITLE" = "KK WiFi";
+"KVM_PICKWIFI_CHOOSE" = "Choose wifi...";
+"KVM_PICKWIFI_WIFI_OTHERS" = "Other...";
+"KVM_PICKWIFI_WIFI_INPUT_WIFI_PASSWORD" = " Network Password";
+"KVM_PICKWIFI_WIFI_INPUT_WIFI_NAME" = " Network Name";
+"KVM_PICKWIFI_WIFI_ENABLE_PASSWORD" = " encrypted";
+"KVM_PICKWIFI_WIFI_DISABLE_PASSWORD" = " public";
+
+"KVM_PICKWIFI_WIFI_CONNECTING" = "Connecting";
+"KVM_PICKWIFI_WIFI_NAME_EMPTY" = "Network name is required";
+"KVM_PICKWIFI_WIFI_NOTFOUND" = "Can't find wifi";
+"KVM_PICKWIFI_WIFI_INPUT_PASSWORD_ERROR" = "Incorrect password";
+"KVM_PICKWIFI_WIFI_CANNOT_CONNECT" = "WiFi connect failed";
+"KVM_PICKWIFI_WIFI_CONNECT_SUCCESS" = "WiFi Connected";
+"KVM_PICKWIFI_WIFI_INPUT_AGAIN" = "Retry";
+"KVM_PICKWIFI_WIFI_INPUT_PLEASE" = "Please input";
+"KVM_PICKWIFI_WIFI_INPUT_EMPTY" = "Password can't be empty";
+/*HostIconStyleViewController host icon style*/
+"HostIconStyleCartoon" = "Cartoon";
+"HostIconStyleAnimal" = "Animal";
+"HostIconStyleFlora" = "Plants";
+"HostIconStyleScenery" = "Scenery";
+"HostIconStyleSlant" = "Slant";
+"HostIconStyleSystem" = "Default";
+
+/*NewGuideViewController */
+"NEWGUIDE_CONTROL_IMMADIATLY" = "Go";
+"NEWGUIDE_CONTROL_TITLE_ONE" = "Remote Office";
+"NEWGUIDE_CONTROL_TITLE_ONE_ONE" = "Remote access instantly while traveling";
+"NEWGUIDE_CONTROL_TITLE_ONE_TWO" = "Access your office computer without rushing";
+
+"NEWGUIDE_CONTROL_TITLE_TWO" = "Remote gaming";
+"NEWGUIDE_CONTROL_TITLE_TWO_ONE" = "Keep your game online";
+"NEWGUIDE_CONTROL_TITLE_TWO_TWO" = "Everything is under control";
+
+"NEWGUIDE_CONTROL_TITLE_THREE" = "Camera real-time monitoring";
+"NEWGUIDE_CONTROL_TITLE_THREE_ONE" = "Remote guarding anytime and anywhere";
+"NEWGUIDE_CONTROL_TITLE_THREE_TWO" = "Watch pet and concerned about my parents";
+
+/* BeginnerGuideModule */
+"BEGINNER_GUIDE"="Beginner's Guide";
+"BG_GUIDE_SELECT_TYPE_PC"="Remote control computer  >";
+"BG_GUIDE_SELECT_TYPE_PHONE"="Remote control phone  >";
+"BG_GUIDE_SELECT_TYPE_KVM"="Remote control KongKong  >";
+
+"BG_GUIDE_PC_INSTALL_TITLE"="You can install Sunlogin on the computer";
+"BG_GUIDE_PC_INSTALL_DETAILS"="You can download the client for PC on d.sunlogin.com";
+"BG_GUIDE_PC_INSTALL_FINISH_BUTTON"="Install complete, continue >";
+"BG_GUIDE_PC_INSTALL_HOST_FULL"="The host is full"; 
+
+"BG_GUIDE_PC_IDENTIFIER_TITLE"="You can see the code at the client for PC ";
+"BG_GUIDE_PC_IDENTIFIER_TEXTFIELD_PLACEHOLDER"="Enter the identification code";
+"BG_GUIDE_PC_IDENIIFIER_SEND_BUTTON"="Send binding request";
+"BG_GUIDE_PC_CODE_9_DIGIT"="Input 9 digits of ID";
+
+"BG_GUIDE_PC_BIND_SUCCEED_TITLE"="Bind succeess";
+"BG_GUIDE_PC_BIND_SUCCEED_TIP"="Enter the system account name and password, you can remotely control after verification";
+"BG_GUIDE_PC_BIND_SUCCEED_NO_KEY_BUTTON"="There is no system account name and password>>";
+"BG_GUIDE_PC_BIND_SUCCEED_NO_KEY_ALERT"="If the host don't have a system account name and password, Please return to the device list, click on the host can be directly remote control";
+
+"BG_GUIDE_PHONE_INSTALL_TITLE"="Install Sunlogin to phone";
+"BG_GUIDE_PHONE_INSTALL_DETAILS"="Download client app via d.sunlogin.com or scan QR code to download it.";
+
+"BG_GUIDE_PHONE_LOGIN_TITLE"="Login client with same account";
+"BG_GUIDE_PHONE_LOGIN_DETAILS"="Login your installed client using the same account here";
+"BG_GUIDE_PHONE_LOGIN_FINISH_BUTTON"="Account logined, continue >";
+"BG_GUIDE_PHONE_LOGIN_LOADING"="Searching...";
+"BG_GUIDE_PHONE_LOGIN_NO_DETECTED"="No device detected";
+"BG_GUIDE_PHONE_LOGIN_NO_DETECTED_D"="Please confirm that the Android device is installed on the controlled device and log in to the current account";
+
+/* GuideKVMInfoViewController */
+"GUIDEKVM_BUY_KVM" = "Know more";
+
+/* GuideKVMTipViewController */
+"GUIDEKVM_TIP_TITLE" = "Power up your KK";
+"GUIDEKVM_TIP_SUBTITLE" = "Confirm the indicator light is normally on or flashing state\nChoose follows binding method";
+"GUIDEKVM_TIP_SURE" = "Network cable, binding KK";
+"GUIDEKVM_TIP_WIFI_BIND" = "WiFi binding(A1 not support)";
+/* GuideKVMScanViewController */
+//1代KVM扫描
+"GUIDEKVM_SCAN_SCANNING_FIRST" = "Scanning...";
+"GUIDEKVM_SCAN_SCANED_NOTHING_FIRST" = "Not found KK";
+"GUIDEKVM_SCAN_SCANED_NOTHING_REASON_ETHER_FIRST" = "Reasons";
+"GUIDEKVM_SCAN_RETRY_FIRST" = "Try again";
+"GUIDEKVM_SCAN_SCANED_NOTHING_REASONDETAIL_ETHER_FIRST" = "1、Screening power cords and cables\n2、Under the control with the mobile phone is not in the same network\n3、Network signal strength also affect the scan results\n4、Accounts have been bound, try try again after reset";
+"GUIDEKVM_SCAN_TIMEOUT"="Scan timeout";
+//2代KVM扫描
+"GUIDEKVM_SCAN_CHOOSE" = "Please choose KK";
+"GUIDEKVM_SCAN_SCANNING" = "Connecting...";
+"GUIDEKVM_SCAN_SCANED_NOTHING" = "Connect KK failed";
+"GUIDEKVM_SCAN_SCANED_NOTHING_REASON_WIFI" = "Try tips as follows";
+"GUIDEKVM_SCAN_SCANED_NOTHING_REASONDETAIL_WIFI" = "1、Make sure Mobile phone connected to KK's WiFi\n2、Closer to KK with your Mobile phone\n3、Reset KK after much failure";
+"GUIDEKVM_SCAN_SCANED_NOTHING_REASON_ETHER" = "Not found KK，reasons:";
+"GUIDEKVM_SCAN_SCANED_NOTHING_REASONDETAIL_ETHER" = "1、Attachment is unusual, please screen the power cord and cable connection\n2、KK is not in mobile phone network\n3、Network signal is also affect the scan results, please try again later";
+"GUIDEKVM_SCAN_RETRY" = "Try again";
+"GUIDEKVM_SCAN_GET_INFO" = "Reading information of KK";
+
+/* GuideKVMIPViewController */
+"GUIDEKVM_IP_TITLE" = "Connect KK to Internet first";
+"GUIDEKVM_IP_CONNECTION_FAILED" = "Connect failed, maybe an incorrect IP setting?";
+"GUIDEKVM_IP_ROUTER_FAILED" = "Unable to reach the Internet from the cable or WiFi you connected\nPlease fix your connection and try again.";
+"GUIDEKVM_IP_KNOWN" = "OK";
+/* GuideKVMPwdSetViewController */
+"GUIDEKVM_PWD_UNKNOWN"="Unknown";
+"GUIDEKVM_PWD_SET" = "Set access password";
+"GUIDEKVM_PWD_TIP" = "KK can only be controlled through the access password.\nAfter password is set, KK will be automatically listed under your account";
+"GUIDEKVM_PWD_PASSWORD" = "Access password";
+"GUIDEKVM_PWD_ERROR" = "Logon Sunlogin network failed\nPlease rescan KK via LAN discovery";
+"GUIDEKVM_PWD_SCAN_AGAIN" = "Scan again";
+"GUIDEKVM_BIND_FAILED" = "Set failed";
+"GUIDEKVM_PWD_FAILED" = "Set failed\nTry again";
+/* GuideKVMBindViewController */
+"GUIDEKVM_BIND_OFFLINE" = "KK is offline, coming up";
+/* GuideKVMWifiBindViewController */
+"GUIDEKVM_WIFI_BIND_TITLE" = "Make your phone connect KK's WiFi hotspots";
+"GUIDEKVM_WIFI_BIND_DETAIL" = "Back to App after connected WiFi \"_sunloginkk_xxx\"，\nPlease reSet KK if you can't find it";
+"GUIDEKVM_WIFI_BIND_CURRENT_WIFI" = "Current WiFi:";
+"GUIDEKVM_WIFI_BIND_SET_WIFI" = "Go to connect WiFi";
+"GUIDEKVM_WIFI_BIND_UNSET_WIFI" = "WiFi disconnected";
+"GUIDEKVM_WIFI_BIND_READING_WIFI" = "Reading Wifi information...";
+/* GuideKVMWiFiSetViewController */
+"GUIDEKVM_WIFISET_IPSET" = "Set the cable network IP";
+"GUIDEKVM_WIFISET_IPSET_BACK" = "WiFi connecting error，please reSet it";
+/* GuideKVMBindSucceedViewController */
+"GUIDEKVM_BIND_SUCCEED_KK" = "KK";
+"GUIDEKVM_BIND_SUCCEED_DETAIL" = "Added successfully to the list";
+"GUIDEKVM_BIND_SUCCEED_COMMIT" = "OK";
+
+/* HistroyListViewController */
+"HISTROYLIST_NULL_TEXT" = "There is no recent visit to the record!";
+
+/* ScanQRCodeViewController */
+"SCAN_CAMERA_PERMISSONS_TITLE" = "Camera permissions are disenable";
+"SCAN_CAMERA_PERMISSONS" = "Application camera permissions are limited, please enable in settings";
+"SCAN_TITlE" = "Scan QR Code";
+"SCAN_PROMPT" = "screen recording, add wakeup device";
+"SCAN_GUIDE_BUTTON" = "Scanning Guide";
+"SCAN_RESULT" = "The following is the result of the scan:";
+"SCAN_TIP" = "This content is not provided by Sunlogin";
+"SCAN_OPRN_URL" = "Open URL";
+"SCAN_GUIDE_TITLE_1" = "Login our website";
+"SCAN_GUIDE_FIRSTLINE_1" = "Visit website>>Click login>>selet QRcode";
+"SCAN_GUIDE_TITLE_2" = "Add hosts";
+"SCAN_GUIDE_FIRSTLINE_2" = "PC client>>[Bind hosts]>>[Login by QRcode]";
+"SCAN_GUIDE_SECONDLINE_2" = "PC client 9.6 and above download: d.sunlogin.com";
+"SCAN_GUIDE_TITLE_3" = "Add wakeup device";
+"SCAN_GUIDE_FIRSTLINE_3" = "Scan QR code on the device";
+"SCAN_GUIDE_SECONDLINE_3" = "If you can't find the QRcode, please enter the SNcode";
+"SCAN_GUIDE_TITLE_4" = "Screencast";
+"SCAN_GUIDE_FIRSTLINE_4" = "PC client>>[Settings]>>[Adv settings]>>[Screen Recording]";
+"SCAN_BIND_HOST_TITLE" = "Bind hosts";
+"SCAN_BIND_HOST_TEXT" = "HostName: ";
+"SCAN_WEBLOGIN_TITLE" = "Website Login";
+"SCAN_WEBLOGIN_TEXT" = "Sunlogin web login confirmation";
+"SCAN_QR_CODE_INVALID_TITLE" = "QR Code Invalid";
+"SCAN_QR_CODE_INVALID_TEXT" = "QR Code Invalid";
+"SCAN_CONFIRM_LOGIN_BUTTON_TITLE" = "Confirm login";
+"SCAN_CONFIRM_ADD_BUTTON_TITLE"="Confirm bind";
+"SCAN_INVALId_BUTTON_TITLE"="Rescan the QR code";
+
+
+/* MineViewController.h */
+"SETOFMINE_HOST_NUMBER" = "Hosts";
+"SETOFMINE_EXPIREDATE_FRONT" = "By ";
+"SETOFMINE_EXPIREDATE_BEHIND" = "";
+"SETOFMIN_LOADING" = "Loading...";
+
+/* GameStyleUpgradeViewController game upgrade */
+"GAME_STYLE_UPGRADE_REMIND1" = "Is upgrading to the ";
+"GAME_STYLE_UPGRADE_REMIND2" = " page for you.";
+"GAME_STYLE_UPGRADE_REMIND_DEFAULT" = "new skin style";
+
+/* SmartPowerPlugViewController */
+"PLUG_TITLE"="Smart PowerPlug";
+"PLUG_AD"="Remote switch, time switch";
+"PLUG_STATUSLABEL_TURNON"="Turned on";
+"PLUG_STATUSLABEL_TURNOFF"="Turned off";
+"PLUG_STATUSLABEL_TURNINGON"="Opening...";
+"PLUG_STATUSLABEL_TURNINGOFF"="Closing...";
+"PLUG_STATUSLABEL_OFFLINE"="Offline";
+"PLUG_COUNTDOWN_LABEL"="Countdown";
+"PLUG_COUNTINGDOWN_LABEL"="Cancel";
+"PLUG_COUNTDOWN_FAIL"="Set countdown fail";
+"PLUG_COUNTINGDOWN_FAIL"="Cancel countdown fail";
+"PLUG_BINDHOST_LABEL"="Bind Host";
+"PLUG_TIMING_LABEL"="Timing";
+"PLUG_OFFLINE_TIP"="Please check if the socket is connected to the power supply and the network is abnormal.";
+"PLUG_QUERY_FAIL"="Query status failed";
+"PLUG_COUNTDOWN_STATUS_PREFIX_ON"="Open after ";
+"PLUG_COUNTDOWN_STATUS_PREFIX_OFF"="Closed after ";
+"PLUG_COUNTDOWN_STATUS_HOURS"="hours";
+"PLUG_COUNTDOWN_STATUS_MINUTES"="minutes";
+"PLUG_COUNTDOWN_STATUS_SUFFIX_ON"="";
+"PLUG_COUNTDOWN_STATUS_SUFFIX_OFF"="";
+"PLUG_FIRSTTIME_TIP_TITLE"="Please bind the host";
+"PLUG_FIRSTTIME_TIP_DESC"="Bind the host under this account to remotely switch anywhere, anytime";
+"PLUG_FIRSTTIME_TIP_CANCEL"="Cancel";
+"PLUG_FIRSTTIME_TIP_BIND"="Bind";
+"PLUG_1_0_TIP"="Currently version 1.0, this feature is not supported, please use after upgrading";
+"PLUG_1_0_TIP_UPDATE"="Upgrade";
+"PLUG_BINDED_TIP_DEAILS_1"="Bind";
+"PLUG_BINDED_TIP_DEAILS_2"="From the \"device\" page to enter the host can be switched at any time";
+"PLUG_BINDED_TIP_DEAILS_HOST"="Visit this page";
+"PLUG_SWITCH_TIP_ON_TITLE"="Turn on the plug";
+"PLUG_SWITCH_TIP_DEAILS_1"="bind ";
+"PLUG_SWITCH_TIP_ON_DEAILS_2"="Turning on the power will turn on the host.";
+"PLUG_SWITCH_TIP_OFF_TITLE"="Turn off the plug";
+"PLUG_SWITCH_TIP_OFF_DEAILS_2"="Shut down, please go to the host function page, close the socket will force the host to shut down";
+"PLUG_SWITCH_TIP_OFF_OPTION_HOST"="Go to the host page to close";
+"PLUG_SWITCH_TIP_OFF_OPTION_CLOSE"="Turn off";
+"PLUG_SWITCH_PROTOCOL_TITLE"="Usage notice";
+"PLUG_SWITCH_PROTOCOL_READ"="I have read ";
+"PLUG_SWITCH_PROTOCOL"="\"Boot socket usage notice\"";
+"PLUG_SWITCH_PROTOCOL_OK"="Accept";
+"PLUG_SWITCH_LED_TIP_OFF"="LED light is off";
+"PLUG_SWITCH_HOSTON_OFF_TIP_TITLE"="You are sure to shut down the host?";
+"PLUG_SWITCH_HOSTON_OFF_TIP_DESC"="The host has not been closed, please confirm the forced shutdown of the host.";
+
+"PLUG_COUNTDOWN_TITLE"="Set countdown time";
+
+"PLUG_BIND_HOST_FIRSTTIME_TIP"="Bind the host under this account to remotely switch anywhere, anytime";
+"PLUG_BIND_HOST_TITLE"="";
+"PLUG_BIND_HOST_TIP_1"="Whether to bind ";
+"PLUG_BIND_HOST_TIP_2"=" host?";
+"PLUG_BIND_HOST_TITLE_1"="Bind ";
+"PLUG_BIND_HOST_TITLE_2"="";
+"PLUG_BIND_HOST_SUCCESS"="Binding success!";
+"PLUG_BIND_HOST_SUCCESS_DESC"="Open your host via device list - host";
+"PLUG_BIND_HOST_TOP"="Binding success\nThere are 2 more steps";
+"PLUG_BIND_HOST_STEP_1"="Step1.Please connect the host power cord to the socket";
+"PLUG_BIND_HOST_STEP_2"="Step2.Please enable AC recovery for the host";
+"PLUG_BIND_HOST_GUIDE_BUTTON"="How to enable?";
+"PLUG_BIND_HOST_CONFIRM_BUTTON"="I see";
+"PLUG_BIND_HOST_CLOSE_PLUG"="Turn off the plug after shutting down";
+"PLUG_BIND_HOST_UNBIND"="Unbind";
+"PLUG_BIND_HOST_UNBIN_ITP"="Confirm unbinding?";
+"PLUG_BIND_FINISHED"="Bind Finished";
+"PLUG_BINDDESC_NEVER"="Never";
+"PLUG_BINDDESC_NEVER_TIP"="Do not turn off the power next time";
+"PLUG_BINDDESC_NEVER_GUIDE"="Customize the power off by the shutdown button when remote control is applied";
+
+"PLUG_SETTING_TITLE"="Settings";
+"PLUG_SETTING_DELETE"="Delete Plug";
+"PLUG_SETTING_DELETE_TIP"="Are you sure you want to delete the plug?";
+"PLUG_SETTING_PLUGNAME"="Device name";
+"PLUG_SETTING_PLUGMARK"="Mark";
+"PLUG_SETTING_UPDATE"="Firmware update";
+"PLUG_SETTING_NETWORK"="Check the network";
+"PLUG_SETTING_ABOUT"="About plug";
+"PLUG_SETTING_REM_SW"="Power failure memory";
+"PLUG_SETTING_REM_SW_DESC"="Can restore the power state after reconnecting";
+"PLUG_SETTING_LED_SW"="LED switch";
+"PLUG_SETTING_MODEL"="model";
+
+"PLUG_UPDATE_NEW_VERSION"="Upgradeable to";
+
+"PLUG_WIFI_CONNECTED"="Good network";
+"PLUG_WIFI_CONNECTED_DESC"="";
+"PLUG_WIFI_NOT_CONNECTED"="No network connection";
+"PLUG_WIFI_NOT_CONNECTED_DESC"="Please check if the outlet is connected to the power supply, And whether the network is abnormal, Or long press the socket power button 5s reset socket";
+"PLUG_WIFI_CANCEL"="Unconfigure the network";
+
+/* AddPlugDescViewController */
+"ADDPLUGDESC_TITLE" = "Add Plug";
+"ADDPLUGDESC_TIP" = "Please turn on the power, confirm the device is connected";
+"ADDPLUGDESC_LIGHT" = "The indicator light flashes blue";
+"ADDPLUG_SETWIFI_LOADING" = "connecting...";
+"ADDPLUG_SETWIFI_FAIL" = "Setup failed\nReset Plug and retry or learn more";
+"ADDPLUG_SETWIFI_TIMEOUT" = "Set timeout";
+"ADDPLUG_SETWIFI_TITLE" = "Network Configure";
+"ADDPLUG_SETWIFI_SSID" = "SSID";
+"ADDPLUG_SETWIFI_PASSWORD" = "Password";
+"ADDPLUG_SETWIFI_NO_PASSWORD" = "No password";
+"ADDPLUG_SETWIFI_2_4G" = "Please connect your phone to 2.4G WiFi";
+"ADDPLUG_SETWIFI_TIP"="Please confirm that the network is 2.4GWiFi and the password is correct.";
+"ADDPLUG_SETWIFI_SELFTEST_BUTTON"="Self-test";
+"ADDPLUG_NO_SSID" = "Please switch your phone to the WiFi environment you want to set.";
+"ADDPLUG_NO_PASSWORD" = "Please enter the WiFi password";
+"ADDPLUG_CONNECT_FAIL"="Connect Fail";
+"ADDPLUG_CONNECT_LEARNMORE"="Learn more";
+"ADDPLUG_SET_MARK" = "Set Mark";
+"ADDPLUG_DEFAULT_MARK" = "Smart Plug";
+"ADDPLUG_NAME_NONULL" = "The name cannot be empty";
+"ADDPLUG_ADD_SUCCESS" = "Add success";
+"ADDPLUG_ADD_FIRMWARE_TITLE" = "Firmware Version";
+"ADDPLUG_ADD_FIRMWARE_VERSION" = "Current version";
+"ADDPLUG_ADD_FIRMWARE_BUTTON" = "Firmware Upgrade";
+"PLUG_UPDATEING" = "During upgrade...";
+"PLUG_UPDATE_SUCCESS" = "Firmware upgrade succeeded";
+"PLUG_UPDATE_FAIL" = "Firmware upgrade failed";
+
+/*PlugClockSettingViewController Plug Clock PlugClock */
+"PLUG_CLOCK_TITLE" = "Host timing";
+"PLUG_CLOCK_SETTING_BINDED_TIP" = "Please jump to the host page";
+"PLUG_CLOCK_SETTING_ALERT_TITLE" = "Timing setting";
+"PLUG_CLOCK_SETTING_ALERT_1" = "Go to host timing settings";
+"PLUG_CLOCK_SETTING_ALERT_2" = "Stay in this setting";
+"PLUG_CLOCK_SETTING_REPEAT" = "Repeat";
+"PLUG_CLOCK_SETTING_REPEAT_ONCE" = "Once Only";
+"PLUG_CLOCK_SETTING_REPEAT_EVERYDAY" = "Every Day";
+"PLUG_CLOCK_SETTING_REPEAT_WORKDAY" = "Workday";
+"PLUG_CLOCK_SETTING_ACTION" = "Action";
+"PLUG_CLOCK_SETTING_ACTION_ON" = "ON";
+"PLUG_CLOCK_SETTING_ACTION_OFF" = "OFF";
+"PLUG_CLOCK_SETTING_NOT_MODIFY" = "There is no change";
+"PLUG_CLOCK_SETTING_SAVE_SUCCEED" = "Save success";
+"PLUG_CLOCK_SETTING_SAVE_FAILED" = "Save failed";
+"PLUG_CLOCK_SETTING_SAVE_EXIST_REMIND" = "The current time clock already exists, confirm  add will replace the old clock. \nDo you want to continue?";
+"PLUG_CLOCK_SETTING_DELETE_SUCCEED" = "Delete success";
+"PLUG_CLOCK_SETTING_DELETE_FAILED" = "Delete failed";
+"PLUG_CLOCK_WEEK_SUNDAY" = "Sunday";
+"PLUG_CLOCK_WEEK_MONDAY" = "Monday";
+"PLUG_CLOCK_WEEK_TUESDAY" = "Tuesday";
+"PLUG_CLOCK_WEEK_WEDNESDAY" = "Wednesday";
+"PLUG_CLOCK_WEEK_THURSDAY" = "Thursday";
+"PLUG_CLOCK_WEEK_FRIDAY" = "Friday";
+"PLUG_CLOCK_WEEK_SATURDAY" = "Saturday";
+"PLUG_CLOCK_FORENOON" = "AM";
+"PLUG_CLOCK_AFTERNOON" = "PM";
+"PLUG_CLOCK_WEEK_PREFIX" = "";
+"PLUG_CLOCK_WEEK_SHOT_SUNDAY" = "SUN";
+"PLUG_CLOCK_WEEK_SHOT_MONDAY" = "MON";
+"PLUG_CLOCK_WEEK_SHOT_TUESDAY" = "TUE";
+"PLUG_CLOCK_WEEK_SHOT_WEDNESDAY" = "WED";
+"PLUG_CLOCK_WEEK_SHOT_THURSDAY" = "THU";
+"PLUG_CLOCK_WEEK_SHOT_FRIDAY" = "FRI";
+"PLUG_CLOCK_WEEK_SHOT_SATURDAY" = "SAT";
+"PLUG_CLOCK_WEEK_SEPARATOR" = ", ";
+
+"HOST_CLOCK_CELL_TILTE_TURNON" = "ON";
+"HOST_CLOCK_CELL_TILTE_TURNOFF" = "OFF";
+"HOST_CLOCK_CELL_NOSET" = "Set time";
+"HOST_CLOCK_CELL_NODEVICE_TIP_1" = "Need to bind the boot device";
+"HOST_CLOCK_CELL_NODEVICE_TIP_2" = "Learn more";
+"HOST_CLOCK_GET_FAILED" = "Get host timing info failed";
+"HOST_CLOCK_DELETE" = "Delete timing";
+"HOST_CLOCK_UNBIND_TIPS_TITLE" = "Unbind wakeup device";
+"HOST_CLOCK_UNBIND_TIPS_DESC" = "Only support the timed shutdown function.If you need to boot regularly, please bind the boot device.such as boot stick, boot socket, etc.";
+"HOST_CLOCK_UNBIND_DEVICE_DESC" = "Can open all hosts in the LAN";
+"HOST_CLOCK_UNBIND_PLUG_DESC" = "Can be turned off The WiFi completely after turning off a host";
+"HOST_CLOCK_UNBIND_MORE" = "Learn more >";
+"HOST_CLOCK_BIND_BUTTON" = "bind host";
+"HOST_CLOCK_VER_TITLE" = "Verification";
+"HOST_CLOCK_VER_TYPE" = "Type";
+"HOST_CLOCK_VER_USERNAME" = "Username";
+"HOST_CLOCK_VER_SWITH_LOGINTYPE" = "Switch login type";
+
+/* 电量统计 */
+"ELECTRICITY_STATISTICS"="Electricity";
+"ELECTRICITY_STATISTICS_POWER"="Power ";
+"ELECTRICITY_STATISTICS_TILE"="Electricity statistics";
+"ELECTRICITY_STATISTICS_CHART_TILE"="Electricity statistics";
+"ELECTRICITY_STATISTICS_LOG"="Electricity log";
+"ELECTRICITY_STATISTICS_ELECTRICITY_CONSUMPTION"="Electricity today(degree)";
+"ELECTRICITY_STATISTICS_CURRENT"="Current(mA)";
+"ELECTRICITY_STATISTICS_POWER_CONSUMPTION"="Power(W)";
+"ELECTRICITY_STATISTICS_DURATION"="Duration today";
+"ELECTRICITY_STATISTICS_COUNT"="Switching frequency today";
+
+"ELECTRICITY_LOG_ON" = "On";
+"ELECTRICITY_LOG_OFF" = "Off";
+"ELECTRICITY_LOG_TODAY" = "Today";
+"ELECTRICITY_LOG_YESTERDAY" = "Yesterday";
+"ELECTRICITY_LOG_MONTH" = "";
+"ELECTRICITY_LOG_YEAR" = "";
+"ELECTRICITY_LOG_NULL" = "No logs found";
